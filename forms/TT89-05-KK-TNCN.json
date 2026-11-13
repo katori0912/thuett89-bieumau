@@ -1,0 +1,393 @@
+{
+  "id": "TT89-05-KK-TNCN",
+  "mau_so": "05/KK-TNCN",
+  "title": "Khai thuế TNCN của đơn vị trả lương — 05/KK-TNCN",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là tờ khai lần đầu cho kỳ này?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị trả lương, tiền công?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị trả lương?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Địa chỉ — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Địa chỉ đơn vị (số nhà, đường)?"
+    },
+    {
+      "code": "07",
+      "label": "Xã/Phường/Đặc khu — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xã, phường hoặc đặc khu của đơn vị?"
+    },
+    {
+      "code": "08",
+      "label": "Tỉnh/thành phố — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tỉnh hoặc thành phố của đơn vị?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Số điện thoại liên hệ?"
+    },
+    {
+      "code": "10",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Email liên hệ?"
+    },
+    {
+      "code": "11",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị trả lương?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "12",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị dịch vụ thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "13",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký hợp đồng dịch vụ thuế?"
+    },
+    {
+      "code": "14",
+      "label": "Phân bổ thuế do có đơn vị hạch toán phụ thuộc tại địa bàn cấp tỉnh khác nơi có trụ sở chính: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đơn vị có phân bổ thuế cho đơn vị hạch toán phụ thuộc ở tỉnh khác không?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Bạn khai cho quý mấy?",
+      "role": "ky"
+    },
+    {
+      "code": "15",
+      "label": "Tổng số người lao động: — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Danh sách người lao động của quý, đếm từng người, không cộng lặp số người qua các tháng.",
+      "hoi": "Tổng cộng có bao nhiêu người lao động trong quý?"
+    },
+    {
+      "code": "16",
+      "label": "Trong đó: Cá nhân cư trú có hợp đồng lao động — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Danh sách người lao động và hợp đồng lao động, nhóm cá nhân cư trú.",
+      "hoi": "Trong đó có bao nhiêu người cư trú có hợp đồng lao động?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng số cá nhân đã khấu trừ thuế [17]=[18]+[19] — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[18]+[19]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Số cá nhân đã khấu trừ thuế — cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Danh sách cá nhân cư trú đã khấu trừ thuế trong quý, mỗi người đếm một lần.",
+      "hoi": "Có bao nhiêu người cư trú đã bị khấu trừ thuế?"
+    },
+    {
+      "code": "19",
+      "label": "Số cá nhân đã khấu trừ thuế — không cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Danh sách cá nhân không cư trú đã khấu trừ thuế trong quý, mỗi người đếm một lần.",
+      "hoi": "Có bao nhiêu người không cư trú đã bị khấu trừ thuế?"
+    },
+    {
+      "code": "20",
+      "label": "Tổng thu nhập chịu thuế trả cho cá nhân [20]=[21]+[22] — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[21]+[22]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Thu nhập chịu thuế trả cho cá nhân cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng lương và bảng tính thuế của quý, cột thu nhập chịu thuế nhóm cư trú.",
+      "hoi": "Tổng thu nhập chịu thuế trả cho nhóm cư trú, trước khi trừ các khoản giảm trừ?"
+    },
+    {
+      "code": "22",
+      "label": "Thu nhập chịu thuế trả cho cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng lương và bảng tính thuế của quý, cột thu nhập chịu thuế nhóm không cư trú.",
+      "hoi": "Tổng thu nhập chịu thuế trả cho nhóm không cư trú?"
+    },
+    {
+      "code": "23",
+      "label": "Trong đó: Tổng thu nhập chịu thuế từ tiền phí mua bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác của doanh nghiệp bảo hiểm không thành lập tại Việt Nam cho người lao động — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thuế và các khoản đặc biệt",
+      "lay_o_dau": "Bảng theo dõi phí bảo hiểm nước ngoài và bảng tính thuế của quý; đây là phần nằm trong tổng thu nhập chịu thuế.",
+      "hoi": "Phần thu nhập chịu thuế từ tiền phí bảo hiểm đó là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Tổng thu nhập được miễn trong kỳ [24]=[25]+[26]+[27]+[28] — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[25]+[26]+[27]+[28]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "25",
+      "label": "Theo quy định của Hợp đồng dầu khí — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thu nhập được miễn",
+      "lay_o_dau": "Bảng lương, bảng tổng hợp thu nhập được miễn và hồ sơ xác định khoản miễn tương ứng.",
+      "hoi": "Thu nhập được miễn theo hợp đồng dầu khí là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo. — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thu nhập được miễn",
+      "lay_o_dau": "Bảng lương, bảng tổng hợp thu nhập được miễn và hồ sơ xác định khoản miễn tương ứng.",
+      "hoi": "Thu nhập được miễn từ nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Thu nhập của chuyên gia hỗ trợ khởi nghiệp sáng tạo theo quy định — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thu nhập được miễn",
+      "lay_o_dau": "Bảng lương, bảng tổng hợp thu nhập được miễn và hồ sơ xác định khoản miễn tương ứng.",
+      "hoi": "Thu nhập được miễn của chuyên gia hỗ trợ khởi nghiệp sáng tạo là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Thu nhập được miễn khác — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thu nhập được miễn",
+      "lay_o_dau": "Bảng lương, bảng tổng hợp thu nhập được miễn và hồ sơ xác định khoản miễn tương ứng.",
+      "hoi": "Các khoản thu nhập được miễn khác là bao nhiêu?"
+    },
+    {
+      "code": "29",
+      "label": "Tổng thu nhập chịu thuế trả cho cá nhân thuộc diện phải khấu trừ thuế [29]=[30]+[31] — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[30]+[31]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "30",
+      "label": "Thu nhập chịu thuế thuộc diện khấu trừ — cá nhân cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng tính thuế của quý, cột thu nhập chịu thuế, chỉ cộng những người thuộc diện khấu trừ.",
+      "hoi": "Tổng thu nhập chịu thuế của người cư trú thuộc diện phải khấu trừ?"
+    },
+    {
+      "code": "31",
+      "label": "Thu nhập chịu thuế thuộc diện khấu trừ — cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng tính thuế của quý, cột thu nhập chịu thuế của nhóm không cư trú thuộc diện khấu trừ.",
+      "hoi": "Tổng thu nhập chịu thuế của người không cư trú thuộc diện phải khấu trừ?"
+    },
+    {
+      "code": "32",
+      "label": "Thu nhập tính thuế [32]=[33]+[34] — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[33]+[34]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "33",
+      "label": "Thu nhập tính thuế — cá nhân cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng tính thuế TNCN của quý, cột thu nhập tính thuế của cá nhân cư trú.",
+      "hoi": "Tổng thu nhập còn lại dùng để tính thuế của nhóm cư trú sau các khoản giảm trừ?"
+    },
+    {
+      "code": "34",
+      "label": "Thu nhập tính thuế — cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng tính thuế TNCN của quý, cột thu nhập tính thuế của nhóm không cư trú.",
+      "hoi": "Tổng thu nhập dùng để tính thuế của nhóm không cư trú?"
+    },
+    {
+      "code": "35",
+      "label": "Số thuế thu nhập cá nhân phải khấu trừ trong kỳ — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thuế và các khoản đặc biệt",
+      "lay_o_dau": "Bảng tính thuế TNCN của toàn đơn vị, cột số thuế phải khấu trừ; lấy tổng của các nhóm, không chỉ riêng thuế trên phí bảo hiểm.",
+      "hoi": "Tổng tiền thuế TNCN đơn vị phải khấu trừ trong quý?"
+    },
+    {
+      "code": "36",
+      "label": "Số thuế được miễn trong kỳ — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "cot": "Số người/ Số tiền",
+      "formula": "[38]+[40]+[41]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Tổng thu nhập của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao thuộc trường hợp được miễn thuế — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Số thuế được miễn",
+      "lay_o_dau": "Bảng tính thuế và bảng tổng hợp miễn thuế theo từng nhóm; không dùng số thu nhập thay cho số thuế.",
+      "hoi": "Thu nhập của nhân lực công nghiệp công nghệ số chất lượng cao thuộc diện miễn là bao nhiêu?"
+    },
+    {
+      "code": "38",
+      "label": "Số thuế được miễn của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Số thuế được miễn",
+      "lay_o_dau": "Bảng tính thuế và bảng tổng hợp miễn thuế theo từng nhóm; không dùng số thu nhập thay cho số thuế.",
+      "hoi": "Số thuế được miễn của nhóm nhân lực công nghiệp công nghệ số đó?"
+    },
+    {
+      "code": "39",
+      "label": "Tổng thu nhập của cá nhân là nhân lực công nghệ cao thuộc trường hợp được miễn thuế — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Số thuế được miễn",
+      "lay_o_dau": "Bảng tính thuế và bảng tổng hợp miễn thuế theo từng nhóm; không dùng số thu nhập thay cho số thuế.",
+      "hoi": "Thu nhập của nhân lực công nghệ cao thuộc diện miễn là bao nhiêu?"
+    },
+    {
+      "code": "40",
+      "label": "Số thuế được miễn của cá nhân là nhân lực công nghệ cao thực hiện hoạt động nghiên cứu và phát triển công nghệ cao hoặc công nghệ chiến lược — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Số thuế được miễn",
+      "lay_o_dau": "Bảng tính thuế và bảng tổng hợp miễn thuế theo từng nhóm; không dùng số thu nhập thay cho số thuế.",
+      "hoi": "Số thuế được miễn của nhóm nhân lực công nghệ cao nghiên cứu, phát triển công nghệ cao hoặc công nghệ chiến lược?"
+    },
+    {
+      "code": "41",
+      "label": "Số thuế được miễn khác theo quy định — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Số thuế được miễn",
+      "lay_o_dau": "Bảng tính thuế và bảng tổng hợp miễn thuế theo từng nhóm; không dùng số thu nhập thay cho số thuế.",
+      "hoi": "Số thuế được miễn theo các trường hợp khác là bao nhiêu?"
+    },
+    {
+      "code": "42",
+      "label": "Tổng số thuế thu nhập cá nhân đã khấu trừ [42]=[43]+[44] — Số người/ Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[43]+[44]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "43",
+      "label": "Thuế đã khấu trừ — cá nhân cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng thanh toán lương và sổ theo dõi thuế TNCN đã khấu trừ của nhóm cư trú.",
+      "hoi": "Đơn vị đã khấu trừ bao nhiêu tiền thuế của nhóm cư trú?"
+    },
+    {
+      "code": "44",
+      "label": "Thuế đã khấu trừ — cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Lương và người nhận",
+      "lay_o_dau": "Bảng thanh toán lương và sổ theo dõi thuế TNCN đã khấu trừ của nhóm không cư trú.",
+      "hoi": "Đơn vị đã khấu trừ bao nhiêu tiền thuế của nhóm không cư trú?"
+    },
+    {
+      "code": "45",
+      "label": "Trong đó: Tổng số thuế thu nhập cá nhân đã khấu trừ trên tiền phí mua bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác của doanh nghiệp bảo hiểm không thành lập tại Việt Nam cho người lao động — Số người/ Số tiền",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Thuế và các khoản đặc biệt",
+      "lay_o_dau": "Bảng tính thuế và sổ thuế đã khấu trừ trên phí bảo hiểm; đây là phần nằm trong tổng thuế đã khấu trừ.",
+      "hoi": "Đã khấu trừ bao nhiêu tiền thuế trên khoản phí bảo hiểm đó?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-05-1-PBT-KK-TNCN",
+      "label": "Bạn có số thuế TNCN cần phân bổ cho đơn vị phụ thuộc ở tỉnh khác không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

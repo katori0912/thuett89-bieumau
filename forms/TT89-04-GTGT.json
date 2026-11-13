@@ -1,0 +1,341 @@
+{
+  "id": "TT89-04-GTGT",
+  "mau_so": "04/GTGT",
+  "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với người nộp thuế tính thuế theo phương pháp trực tiếp trên doanh thu) — 04/GTGT",
+  "fields": [
+    {
+      "code": "01a",
+      "label": "Tên hoạt động kê khai riêng",
+      "kind": "chu",
+      "note": "1. Chỉ tiêu [01a]: Người nộp thuế lựa chọn một trong các hoạt động sau:\n- Khai riêng đối với khoản thu hộ do cơ quan nhà nước có thẩm quyền giao\n- Khai riêng đối với hoạt động bán tài sản bảo đảm để xử lý nợ của Bên nhận bảo đảm (không bao gồm Ngân hàng Nhà nước)\n- Khai riêng đối với hoạt động chuyển nhượng, cho thuê bất động sản, tài sản khác đã được thế chấp để thu hồi nợ của tổ chức mà Nhà nước sở hữu 100% vốn điều lệ do Chính phủ thành lập\n- Khai riêng đối với hoạt động bán tài sản bảo đảm của Tổ chức bán đấu giá\n- Khai thuế đối với hoạt động bán tài sản bảo đảm thi hành án của Cơ quan thi hành án thuộc trường hợp đề nghị cơ quan thuế cấp hóa đơn điện tử theo từng lần phát sinh theo quy định của pháp luật về hóa đơn điện tử\n- Khai thuế đối với trường hợp đề nghị cơ quan thuế cấp hóa đơn điện tử theo từng lần phát sinh theo quy định của pháp luật về hóa đơn điện tử",
+      "section": "Thông tin chung",
+      "giai_thich": "Chọn nội dung đúng theo Ghi chú 1 của mẫu; không phát sinh khai riêng thì bỏ qua.",
+      "lay_o_dau": "Quyết định giao thu hộ, hồ sơ xử lý tài sản hoặc hồ sơ xin cấp hóa đơn.",
+      "hoi": "Nếu khai riêng cho thu hộ, xử lý tài sản bảo đảm hoặc xin cấp hóa đơn từng lần, bạn khai hoạt động nào?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm /Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người nộp thuế trên hồ sơ đăng ký là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "09",
+      "label": "Tên đơn vị phụ thuộc/địa điểm kinh doanh của hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính",
+      "kind": "chu",
+      "note": "2. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh đóng tại địa phương khác tỉnh nơi đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế tỉnh,thành phố quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho xã/ phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 2: chọn đại diện phù hợp địa bàn do cơ quan thuế quản lý nếu có nhiều địa điểm.",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Tên đơn vị hoặc địa điểm kinh doanh khác tỉnh là gì?"
+    },
+    {
+      "code": "10",
+      "label": "Mã số thuế đơn vị phụ thuộc/Mã số địa điểm kinh doanh",
+      "kind": "chu",
+      "note": "2. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh đóng tại địa phương khác tỉnh nơi đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế tỉnh,thành phố quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho xã/ phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 2: chọn đại diện phù hợp địa bàn do cơ quan thuế quản lý nếu có nhiều địa điểm.",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Mã số thuế hoặc mã địa điểm kinh doanh đó là gì?"
+    },
+    {
+      "code": "11",
+      "label": "Địa chỉ nơi có hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính",
+      "kind": "chu",
+      "note": "2. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh đóng tại địa phương khác tỉnh nơi đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế tỉnh,thành phố quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho xã/ phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 2: chọn đại diện phù hợp địa bàn do cơ quan thuế quản lý nếu có nhiều địa điểm.",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Địa chỉ nơi kinh doanh đó là gì?"
+    },
+    {
+      "code": "11a",
+      "label": "Xã/ phường/đặc khu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 2: chọn đại diện phù hợp địa bàn do cơ quan thuế quản lý nếu có nhiều địa điểm.",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Xã, phường hoặc đặc khu nơi kinh doanh đó là gì?"
+    },
+    {
+      "code": "11c",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 2: chọn đại diện phù hợp địa bàn do cơ quan thuế quản lý nếu có nhiều địa điểm.",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Tỉnh hoặc thành phố nơi kinh doanh đó là gì?"
+    },
+    {
+      "code": "21a",
+      "label": "Tổng doanh thu không chịu thuế",
+      "kind": "so",
+      "section": "Thuế tính trực tiếp trên doanh thu",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra, sổ doanh thu đã phân theo nhóm hoạt động của mục A.",
+      "hoi": "Doanh thu không chịu thuế GTGT trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "21b",
+      "label": "Tổng doanh thu chịu thuế suất 0%",
+      "kind": "so",
+      "section": "Thuế tính trực tiếp trên doanh thu",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra, sổ doanh thu đã phân theo nhóm hoạt động của mục A.",
+      "hoi": "Doanh thu thuộc thuế suất 0% trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "30a",
+      "label": "Tổng doanh thu chịu thuế ([30a]=[21b]+[30])",
+      "kind": "cong_thuc",
+      "formula": "[21b]+[30]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "32",
+      "label": "Tổng doanh thu ([32]=[21a]+[30a])",
+      "kind": "cong_thuc",
+      "formula": "[21a]+[30a]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "22",
+      "label": "Phân phối, cung cấp hàng hoá ([23]=[22]x1%), cột Doanh thu chịu thuế giá trị gia tăng",
+      "cot": "Doanh thu chịu thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Thuế tính trực tiếp trên doanh thu",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra, sổ doanh thu đã phân theo nhóm hoạt động của mục A.",
+      "hoi": "Doanh thu phân phối, cung cấp hàng hóa là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Phân phối, cung cấp hàng hoá ([23]=[22]x1%), cột Thuế giá trị gia tăng phải nộp",
+      "cot": "Thuế giá trị gia tăng phải nộp",
+      "kind": "cong_thuc",
+      "formula": "ROUND([22]*0.01,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "24",
+      "label": "Dịch vụ, xây dựng không bao thầu nguyên vật liệu ([25]=[24]x5%), cột Doanh thu chịu thuế giá trị gia tăng",
+      "cot": "Doanh thu chịu thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Thuế tính trực tiếp trên doanh thu",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra, sổ doanh thu đã phân theo nhóm hoạt động của mục A.",
+      "hoi": "Doanh thu dịch vụ, xây dựng không bao nguyên vật liệu là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Dịch vụ, xây dựng không bao thầu nguyên vật liệu ([25]=[24]x5%), cột Thuế giá trị gia tăng phải nộp",
+      "cot": "Thuế giá trị gia tăng phải nộp",
+      "kind": "cong_thuc",
+      "formula": "ROUND([24]*0.05,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "26",
+      "label": "Sản xuất, vận tải, dịch vụ có gắn với hàng hoá, xây dựng có bao thầu nguyên vật liệu ([27]=[26]x3%), cột Doanh thu chịu thuế giá trị gia tăng",
+      "cot": "Doanh thu chịu thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Thuế tính trực tiếp trên doanh thu",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra, sổ doanh thu đã phân theo nhóm hoạt động của mục A.",
+      "hoi": "Doanh thu sản xuất, vận tải, dịch vụ gắn hàng hóa và xây dựng có bao nguyên vật liệu là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Sản xuất, vận tải, dịch vụ có gắn với hàng hoá, xây dựng có bao thầu nguyên vật liệu ([27]=[26]x3%), cột Thuế giá trị gia tăng phải nộp",
+      "cot": "Thuế giá trị gia tăng phải nộp",
+      "kind": "cong_thuc",
+      "formula": "ROUND([26]*0.03,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "28",
+      "label": "Hoạt động kinh doanh khác ([29]=[28]x2%), cột Doanh thu chịu thuế giá trị gia tăng",
+      "cot": "Doanh thu chịu thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Thuế tính trực tiếp trên doanh thu",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra, sổ doanh thu đã phân theo nhóm hoạt động của mục A.",
+      "hoi": "Doanh thu các hoạt động kinh doanh khác là bao nhiêu?"
+    },
+    {
+      "code": "29",
+      "label": "Hoạt động kinh doanh khác ([29]=[28]x2%), cột Thuế giá trị gia tăng phải nộp",
+      "cot": "Thuế giá trị gia tăng phải nộp",
+      "kind": "cong_thuc",
+      "formula": "ROUND([28]*0.02,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "30",
+      "label": "Doanh thu và số thuế phải nộp ([30]=[22]+[24]+[26]+[28]; [31]=[23]+[25]+[27]+[29]), cột Doanh thu chịu thuế giá trị gia tăng",
+      "cot": "Doanh thu chịu thuế giá trị gia tăng",
+      "kind": "cong_thuc",
+      "formula": "[22]+[24]+[26]+[28]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "31",
+      "label": "Doanh thu và số thuế phải nộp ([30]=[22]+[24]+[26]+[28]; [31]=[23]+[25]+[27]+[29]), cột Thuế giá trị gia tăng phải nộp",
+      "cot": "Thuế giá trị gia tăng phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[23]+[25]+[27]+[29]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "36",
+      "label": "Tổng doanh thu chưa có thuế GTGT các khoản thu, cột Doanh thu chưa có thuế giá trị gia tăng",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu chưa có thuế giá trị gia tăng",
+      "formula": "[BK1.33]",
+      "note": "= tổng cột [33] BK1",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Tổng thuế GTGT phải nộp các khoản thu, cột Thuế giá trị gia tăng phải nộp",
+      "cot": "Thuế giá trị gia tăng phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.35]",
+      "note": "= tổng cột [35] BK1",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Mục B - Chi tiết khoản thu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Khoản thu",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "33",
+          "ten": "Doanh thu chưa có thuế GTGT",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "34",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "35",
+          "ten": "Thuế GTGT phải nộp",
+          "c": 4,
+          "kieu": "cong_thuc",
+          "cong_thuc": "ROUND([33]*[34]/100,0)"
+        }
+      ],
+      "tong": [
+        "33",
+        "35"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Địa chỉ bất động sản (chỉ có trên HTKK)",
+      "cot": [
+        {
+          "ma": "STT",
+          "ten": "STT",
+          "c": -1,
+          "kieu": "stt"
+        },
+        {
+          "ma": "DIACHI",
+          "ten": "Địa chỉ bất động sản",
+          "c": -1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "TINH",
+          "ten": "Tỉnh/Thành phố",
+          "c": -1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "XA",
+          "ten": "Xã/phường/đặc khu",
+          "c": -1,
+          "kieu": "chu"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

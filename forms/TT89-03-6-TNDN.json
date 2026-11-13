@@ -1,0 +1,239 @@
+{
+  "id": "TT89-03-6-TNDN",
+  "mau_so": "03-6/TNDN",
+  "title": "Phụ lục báo cáo trích lập, sử dụng quỹ khoa học và công nghệ — 03-6/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "04",
+      "label": "Mức trích lập",
+      "kind": "so",
+      "note": "Nhập mức trích lập; bản xem không ghi đơn vị %, không tự xác lập công thức số tiền trích lập.",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "Nhập mức trích lập; bản xem không ghi đơn vị %, không tự xác lập công thức số tiền trích lập.",
+      "lay_o_dau": "Quyết định trích lập quỹ, sổ theo dõi quỹ khoa học công nghệ và bảng xử lý quỹ chưa sử dụng hoặc dùng sai mục đích.",
+      "hoi": "Mức trích lập ghi trong quyết định của doanh nghiệp là bao nhiêu?"
+    },
+    {
+      "code": "05",
+      "label": "Số tiền trích lập: Đồng Việt Nam",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Quyết định trích lập quỹ, sổ theo dõi quỹ khoa học công nghệ và bảng xử lý quỹ chưa sử dụng hoặc dùng sai mục đích.",
+      "hoi": "Doanh nghiệp trích vào quỹ bao nhiêu đồng trong kỳ?"
+    },
+    {
+      "code": "06",
+      "label": "Tổng số tiền phải nộp do xử lý Quỹ phát triển khoa học và công nghệ",
+      "kind": "cong_thuc",
+      "cot": "Tổng số tiền phải nộp",
+      "note": "= tổng cột (15) bảng III Tổng hợp vào E6 tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.15]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "II. Điều chuyển và sử dụng quỹ",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Năm trích lập",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mức trích lập",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Số tiền trích lập",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Số nhận điều chuyển",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Số điều chuyển",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Đã sử dụng kỳ trước",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Đã sử dụng kỳ này",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Chuyển sang kỳ sau",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[4]+[5]-[6]-[7]-[8]"
+        }
+      ],
+      "tong": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "III. Xử lý quỹ",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Năm trích lập",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mức trích lập",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Số tiền trích lập",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Số nhận điều chuyển",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Số điều chuyển",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Số tiền đã sử dụng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Đã nộp về Quỹ phát triển KHCN",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Quỹ còn lại do sử dụng không hết 70%",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Quỹ sử dụng không đúng mục đích",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế suất TNDN (%)",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế TNDN phải nộp",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "([9]+[10])*[11]/100"
+        },
+        {
+          "ma": "13",
+          "ten": "Lãi do sử dụng không hết 70%",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Lãi do sử dụng không đúng mục đích",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Tổng số tiền phải nộp",
+          "c": 14,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

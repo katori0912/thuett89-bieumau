@@ -1,0 +1,162 @@
+{
+  "id": "TT89-03-NTNN",
+  "mau_so": "03/NTNN",
+  "title": "Tờ khai thuế nhà thầu nước ngoài — 03/NTNN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Lần phát sinh ngày tháng . năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế (nhà thầu nước ngoài)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên nhà thầu nước ngoài trực tiếp nộp thuế là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Tờ khai thuế TNDN nhà thầu nước ngoài theo tỷ lệ % trên doanh thu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Nội dung công việc",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên nhà thầu phụ (nếu có)",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã số thuế của nhà thầu phụ (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số hợp đồng",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Ngày hợp đồng",
+          "c": 4,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "6",
+          "ten": "Số tiền thanh toán kỳ này",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Ngày thanh toán",
+          "c": 6,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "8",
+          "ten": "Doanh thu tính thuế",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Tỷ lệ % thuế TNDN (nhập 5 cho 5%)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế được miễn giảm theo Hiệp định",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế TNDN phải nộp",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX(ROUND([8]*[9]/100-[10],0),0)"
+        },
+        {
+          "ma": "NGANH",
+          "ten": "Ngành nghề kinh doanh (chỉ HTKK)",
+          "c": -1,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "8",
+        "10",
+        "11"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

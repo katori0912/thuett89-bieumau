@@ -1,0 +1,108 @@
+{
+  "id": "TT89-01-1-TBH",
+  "mau_so": "01-1/TBH",
+  "title": "Phụ lục hợp đồng tái bảo hiểm, chứng từ tái bảo hiểm theo tổ chức tái bảo hiểm nước ngoài — 01-1/TBH",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Quý năm ..",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu ◻",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Hợp đồng, chứng từ tái bảo hiểm",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên tổ chức tái bảo hiểm nước ngoài",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Nước cư trú",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Địa chỉ trụ sở/chi nhánh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Loại hợp đồng",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Số hợp đồng/chứng từ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Ngày hợp đồng/chứng từ",
+          "c": 6,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "8",
+          "ten": "Thực hiện từ ngày",
+          "c": 7,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "9",
+          "ten": "Thực hiện đến ngày",
+          "c": 8,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "10",
+          "ten": "Phí bảo hiểm",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Doanh thu tái bảo hiểm",
+          "c": 10,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "11"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

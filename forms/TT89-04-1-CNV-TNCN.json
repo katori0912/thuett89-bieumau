@@ -1,0 +1,389 @@
+{
+  "id": "TT89-04-1-CNV-TNCN",
+  "mau_so": "04-1/CNV-TNCN",
+  "title": "Phụ lục bảng kê chi tiết cá nhân chuyển nhượng vốn (Kèm theo tờ khai 04/CNV-TNCN áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04-1/CNV-TNCN",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tổ chức khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky_lps"
+    },
+    {
+      "code": "01b",
+      "label": "Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky_tq"
+    },
+    {
+      "code": "22",
+      "label": "Tổng cộng — Giá chuyển nhượng",
+      "kind": "so",
+      "cot": "Giá chuyển nhượng",
+      "note": "= tổng cột [15] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [15] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, giá chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Tổng cộng — Giá vốn của phần vốn góp",
+      "kind": "so",
+      "cot": "Giá vốn của phần vốn góp",
+      "note": "= tổng cột [16] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [16] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, giá vốn của phần vốn góp là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Tổng cộng — Chi phí chuyển nhượng",
+      "kind": "so",
+      "cot": "Chi phí chuyển nhượng",
+      "note": "= tổng cột [17] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [17] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, chi phí chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Tổng cộng — Thu nhập tính thuế từ chuyển nhượng vốn góp",
+      "kind": "so",
+      "cot": "Thu nhập tính thuế từ chuyển nhượng vốn góp",
+      "note": "= tổng cột [18] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [18] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, thu nhập tính thuế từ chuyển nhượng vốn góp là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Tổng cộng — Số thuế TNCN phải nộp",
+      "kind": "so",
+      "cot": "Số thuế TNCN phải nộp",
+      "note": "= tổng cột [19] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [19] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, số thuế TNCN phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Tổng cộng — Số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần",
+      "kind": "so",
+      "cot": "Số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [20] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [20] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Tổng cộng — Số thuế còn phải nộp",
+      "kind": "so",
+      "cot": "Số thuế còn phải nộp",
+      "note": "= tổng cột [21] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [21] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng vốn góp, số thuế còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "43",
+      "label": "TỔNG CỘNG — Giá chuyển nhượng",
+      "kind": "so",
+      "cot": "Giá chuyển nhượng",
+      "note": "= tổng cột [39] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [39] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng chứng khoán, giá chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "44",
+      "label": "TỔNG CỘNG — Số thuế TNCN phải nộp",
+      "kind": "so",
+      "cot": "Số thuế TNCN phải nộp",
+      "note": "= tổng cột [40] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [40] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng chứng khoán, số thuế TNCN phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "45",
+      "label": "TỔNG CỘNG — Số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần",
+      "kind": "so",
+      "cot": "Số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [41] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [41] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng chứng khoán, số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần là bao nhiêu?"
+    },
+    {
+      "code": "46",
+      "label": "TỔNG CỘNG — Số thuế còn phải nộp",
+      "kind": "so",
+      "cot": "Số thuế còn phải nộp",
+      "note": "= tổng cột [42] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [42] của bảng kê chuyển nhượng chứng khoán; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, hợp đồng chuyển nhượng, chứng từ giá vốn/chi phí và bảng tính thuế từng người.",
+      "hoi": "Riêng chuyển nhượng chứng khoán, số thuế còn phải nộp là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê chuyển nhượng vốn góp",
+      "cot": [
+        {
+          "ma": "6",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Họ tên NNT",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Tên bên nhận chuyển nhượng",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Mã số thuế bên nhận",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Số định danh/Hộ chiếu bên nhận",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Số hợp đồng",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "14",
+          "ten": "Ngày hợp đồng",
+          "c": 8,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "15",
+          "ten": "Giá chuyển nhượng",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Giá vốn",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Chi phí",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "18",
+          "ten": "Thu nhập tính thuế",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "19",
+          "ten": "Thuế phải nộp",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "20",
+          "ten": "Thuế miễn giảm theo Hiệp định",
+          "c": 14,
+          "kieu": "so"
+        },
+        {
+          "ma": "21",
+          "ten": "Thuế còn phải nộp",
+          "c": 15,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Bảng kê chuyển nhượng chứng khoán",
+      "cot": [
+        {
+          "ma": "29",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "30",
+          "ten": "Họ tên NNT",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "31",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "32",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "33",
+          "ten": "Tên bên nhận",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "34",
+          "ten": "Mã số thuế bên nhận",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "35",
+          "ten": "Số định danh bên nhận",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "36",
+          "ten": "Số hợp đồng",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "37",
+          "ten": "Ngày hợp đồng",
+          "c": 8,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "38",
+          "ten": "Số lượng chứng khoán",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "39",
+          "ten": "Giá chuyển nhượng",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "40",
+          "ten": "Thuế phải nộp",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "41",
+          "ten": "Thuế miễn giảm theo Hiệp định",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "42",
+          "ten": "Thuế còn phải nộp",
+          "c": 13,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

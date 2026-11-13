@@ -1,0 +1,439 @@
+{
+  "id": "TT89-04-NNG-TNCN",
+  "mau_so": "04/NNG-TNCN",
+  "title": "Tờ khai thuế (Áp dụng đối với cá nhân trực tiếp khai thuế đối với thu nhập từ: kinh doanh của cá nhân không cư trú, đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng, chuyển nhượng tên miền quốc gia Việt Nam “.vn”, chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, chuyển nhượng tài sản số) — 04/NNG-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp mã số thuế — người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Số định danh cá nhân/Hộ chiếu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp số định danh cá nhân/Hộ chiếu?"
+    },
+    {
+      "code": "07",
+      "label": "Ngày, tháng, năm sinh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp ngày, tháng, năm sinh?"
+    },
+    {
+      "code": "08",
+      "label": "Quốc tịch",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp quốc tịch?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp điện thoại — người nộp thuế?"
+    },
+    {
+      "code": "10",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp email — người nộp thuế?"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "13",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày?"
+    },
+    {
+      "code": "14",
+      "label": "Tên tổ chức tại Việt Nam nơi cá nhân phát sinh hoạt động có thu nhập",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Tên tổ chức tại Việt Nam nơi phát sinh hoạt động có thu nhập là gì?"
+    },
+    {
+      "code": "15",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Mã số thuế của tổ chức tại Việt Nam đó là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "16",
+      "label": "Địa chỉ — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Địa chỉ của tổ chức tại Việt Nam đó là gì?"
+    },
+    {
+      "code": "17",
+      "label": "Xã/Phường/Đặc khu — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Tổ chức đó ở xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "18",
+      "label": "Tỉnh/Thành phố — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Tổ chức đó thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "19",
+      "label": "Điện thoại — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Số điện thoại của tổ chức đó là gì?"
+    },
+    {
+      "code": "20",
+      "label": "Email — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Email của tổ chức đó là gì?"
+    },
+    {
+      "code": "21",
+      "label": "Tổng thu nhập tính thuế thu nhập cá nhân — Số tiền — Thu nhập từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng kinh doanh của cá nhân không cư trú, tổng thu nhập tính thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Thuế suất thuế thu nhập cá nhân — Số tiền — Thu nhập từ kinh doanh của cá nhân không cư trú (nhập 20 cho 20%)",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng kinh doanh của cá nhân không cư trú, thuế suất thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp [23]=[21]*[22] — Số tiền — Thu nhập từ kinh doanh của cá nhân không cư trú",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "ROUND([21]*([22]/100),0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "24",
+      "label": "Tổng doanh thu chịu thuế giá trị gia tăng — Số tiền — Thu nhập từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng kinh doanh của cá nhân không cư trú, tổng doanh thu chịu thuế giá trị gia tăng là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Thuế suất thuế giá trị gia tăng — Số tiền — Thu nhập từ kinh doanh của cá nhân không cư trú (nhập 20 cho 20%)",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng kinh doanh của cá nhân không cư trú, thuế suất thuế giá trị gia tăng là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp [26]=[24]*[25] — Số tiền — Thu nhập từ kinh doanh của cá nhân không cư trú",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "ROUND([24]*([25]/100),0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "27",
+      "label": "Tổng thu nhập chịu thuế thu nhập cá nhân — Số tiền — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng đầu tư vốn, tổng thu nhập chịu thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số tiền — Thu nhập từ đầu tư vốn",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "ROUND([27]*0.05,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "29",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài — Số tiền — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng đầu tư vốn, tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "30",
+      "label": "Số thuế còn phải nộp [30]=[28]-[29] — Số tiền — Thu nhập từ đầu tư vốn",
+      "kind": "cong_thuc",
+      "formula": "MAX([28]-[29],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "31",
+      "label": "Tổng thu nhập chịu thuế thu nhập cá nhân — Số tiền — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng bản quyền hoặc nhượng quyền thương mại, tổng thu nhập chịu thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "32",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số tiền — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng bản quyền hoặc nhượng quyền thương mại, tổng số thuế thu nhập cá nhân phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "33",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài — Số tiền — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng bản quyền hoặc nhượng quyền thương mại, tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "34",
+      "label": "Số thuế còn phải nộp [34]=[32]-[33] — Số tiền — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "cong_thuc",
+      "formula": "MAX([32]-[33],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "35",
+      "label": "Tổng thu nhập chịu thuế thu nhập cá nhân — Số tiền — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng trúng thưởng, tổng thu nhập chịu thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "36",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số tiền — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng trúng thưởng, tổng số thuế thu nhập cá nhân phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "37",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài — Số tiền — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng trúng thưởng, tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "38",
+      "label": "Số thuế còn phải nộp [38]=[36]-[37] — Số tiền — Thu nhập từ trúng thưởng",
+      "kind": "cong_thuc",
+      "formula": "MAX([36]-[37],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "39",
+      "label": "Tổng thu nhập chịu thuế thu nhập cá nhân — Số tiền — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng tên miền .vn, tổng thu nhập chịu thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "40",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số tiền — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng tên miền .vn, tổng số thuế thu nhập cá nhân phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "41",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài — Số tiền — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng tên miền .vn, tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "42",
+      "label": "Số thuế còn phải nộp [42]=[40]-[41] — Số tiền — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "cong_thuc",
+      "formula": "MAX([40]-[41],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "43",
+      "label": "Tổng thu nhập chịu thuế thu nhập cá nhân — Số tiền — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon, tổng thu nhập chịu thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "44",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số tiền — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon, tổng số thuế thu nhập cá nhân phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "45",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài — Số tiền — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon, tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "46",
+      "label": "Số thuế còn phải nộp [46]=[44]-[45]",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([44]-[45],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "47",
+      "label": "Tổng thu nhập chịu thuế thu nhập cá nhân — Số tiền — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng tài sản số, tổng thu nhập chịu thuế thu nhập cá nhân là bao nhiêu?"
+    },
+    {
+      "code": "48",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số tiền — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "ROUND([47]*0.001,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "49",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài — Số tiền — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng và chứng từ nhận từng khoản thu nhập, bảng tính thuế, giấy tờ định danh và chứng từ thuế đã nộp ở nước ngoài.",
+      "hoi": "Riêng chuyển nhượng tài sản số, tổng số thuế thu nhập cá nhân đã nộp ở nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "50",
+      "label": "Số thuế còn phải nộp [50]=[48]-[49] — Số tiền — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "cong_thuc",
+      "formula": "MAX([48]-[49],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

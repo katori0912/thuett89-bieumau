@@ -1,0 +1,609 @@
+{
+  "id": "TT89-02-CNKD-TNCN-QTT",
+  "mau_so": "02/CNKD-TNCN-QTT",
+  "title": "Quyết toán thuế TNCN kinh doanh theo thu nhập — 02/CNKD-TNCN-QTT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Bạn quyết toán cho năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là tờ khai lần đầu cho kỳ này?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên hộ kinh doanh hoặc người nộp thuế?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Địa chỉ trụ sở kinh doanh",
+      "kind": "tieu_de",
+      "section": "Địa chỉ trụ sở kinh doanh"
+    },
+    {
+      "code": "06.1",
+      "label": "Số nhà, đường phố/xóm/ấp/thôn — Địa chỉ trụ sở kinh doanh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Số nhà, đường, thôn hoặc ấp của trụ sở kinh doanh?"
+    },
+    {
+      "code": "06.2",
+      "label": "Xã/phường/đặc khu — người nộp thuế — Địa chỉ trụ sở kinh doanh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xã, phường hoặc đặc khu của trụ sở?"
+    },
+    {
+      "code": "06.3",
+      "label": "Tỉnh/TP — Địa chỉ trụ sở kinh doanh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tỉnh hoặc thành phố của trụ sở?"
+    },
+    {
+      "code": "07",
+      "label": "Tổ chức/cá nhân khai, nộp thuế thay theo ủy quyền (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người hoặc tổ chức khai thay?"
+    },
+    {
+      "code": "07.1",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người hoặc tổ chức khai thay?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "07.2",
+      "label": "Văn bản ủy quyền (nếu có): Số ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký văn bản ủy quyền?"
+    },
+    {
+      "code": "08",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị dịch vụ thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "08.1",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08.2",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký hợp đồng dịch vụ thuế?"
+    },
+    {
+      "code": "45",
+      "label": "Thông tin hoàn trả",
+      "kind": "tieu_de",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "45.1",
+      "label": "Tên chủ tài khoản",
+      "kind": "chu",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Tên chủ tài khoản nhận hoàn?"
+    },
+    {
+      "code": "45.2",
+      "label": "Số tài khoản",
+      "kind": "chu",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Số tài khoản nhận hoàn?"
+    },
+    {
+      "code": "45.3",
+      "label": "Tại Ngân hàng/KBNN",
+      "kind": "chu",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Tên ngân hàng hoặc Kho bạc Nhà nước nơi mở tài khoản?"
+    },
+    {
+      "code": "09",
+      "label": "Doanh thu bán hàng hoá và cung cấp dịch vụ [09]= [09a]+[09b]+[09c] — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[09a]+[09b]+[09c]",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "09a",
+      "label": "Doanh thu từ hoạt động sản xuất kinh doanh không bao gồm các hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Doanh thu",
+      "lay_o_dau": "Sổ doanh thu bán hàng, cung cấp dịch vụ ngoài sàn và nền tảng số.",
+      "hoi": "Doanh thu kinh doanh ngoài sàn và nền tảng số trong năm?"
+    },
+    {
+      "code": "09b",
+      "label": "Doanh thu từ hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số đã được khấu trừ, nộp thay — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Doanh thu",
+      "lay_o_dau": "Báo cáo doanh thu và xác nhận khấu trừ, nộp thay của sàn hoặc nền tảng; lấy doanh thu trước khi trừ khoản thuế đã giữ lại.",
+      "hoi": "Doanh thu trên sàn, nền tảng đã được khấu trừ, nộp thay là bao nhiêu?"
+    },
+    {
+      "code": "09c",
+      "label": "Doanh thu từ hoạt động kinh doanh trên nền tảng TMĐT, nền tảng số không có chức năng thanh toán trực tiếp — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Doanh thu",
+      "lay_o_dau": "Sổ doanh thu và báo cáo bán hàng trên sàn, nền tảng không có chức năng thanh toán trực tiếp; tách khỏi hai nhóm trước.",
+      "hoi": "Doanh thu trên sàn, nền tảng không có thanh toán trực tiếp là bao nhiêu?"
+    },
+    {
+      "code": "10",
+      "label": "Các khoản chi được trừ [10]= [10a]+ [10b]+ [10c]+ [10d]+ [10đ]+ [10e] — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[10a]+[10b]+[10c]+[10d]+[10đ]+[10e]",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "10a",
+      "label": "Chi phí nguyên liệu, vật liệu, nhiên liệu, năng lượng, hàng hóa sử dụng vào sản xuất, kinh doanh. — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Chi phí được trừ",
+      "lay_o_dau": "Sổ mua hàng, phiếu xuất kho và hóa đơn vật tư, hàng hóa dùng cho kinh doanh.",
+      "hoi": "Chi phí nguyên liệu, vật liệu, nhiên liệu, năng lượng và hàng hóa được trừ là bao nhiêu?"
+    },
+    {
+      "code": "10b",
+      "label": "Chi phí tiền lương, tiền công, các khoản phụ cấp, bảo hiểm bắt buộc và các khoản chi trả cho người lao động có đóng bảo hiểm bắt buộc theo quy định; chi phí tiền lương, tiền công, các khoản phụ cấp và các khoản chi trả cho người lao động dưới 01 tháng. — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Chi phí được trừ",
+      "lay_o_dau": "Bảng lương, chứng từ trả lương và hồ sơ bảo hiểm; lấy phần đáp ứng mô tả chi phí lao động tại dòng chi tiền lương của mẫu.",
+      "hoi": "Chi phí lương, tiền công, phụ cấp và bảo hiểm được trừ là bao nhiêu?"
+    },
+    {
+      "code": "10c",
+      "label": "Chi phí khấu hao tài sản cố định phục vụ cho hoạt động sản xuất, kinh doanh theo chế độ quản lý, sử dụng và trích khấu hao tài sản cố định (nếu có). — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Chi phí được trừ",
+      "lay_o_dau": "Bảng tính và phân bổ khấu hao tài sản cố định phục vụ kinh doanh.",
+      "hoi": "Chi phí khấu hao tài sản cố định dùng cho kinh doanh được trừ là bao nhiêu?"
+    },
+    {
+      "code": "10d",
+      "label": "Chi phí dịch vụ mua ngoài như điện, nước, điện thoại, internet, vận chuyển, thuê tài sản, sửa chữa, bảo dưỡng. — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Chi phí được trừ",
+      "lay_o_dau": "Sổ chi dịch vụ mua ngoài, hóa đơn và chứng từ thanh toán.",
+      "hoi": "Chi phí điện, nước, điện thoại, thuê tài sản, vận chuyển và dịch vụ khác được trừ là bao nhiêu?"
+    },
+    {
+      "code": "10đ",
+      "label": "Chi phí trả lãi tiền vay vốn sản xuất, kinh doanh của tổ chức tín dụng theo lãi suất thực tế. Chi phí trả lãi tiền vay vốn sản xuất, kinh doanh của đối tượng không phải là tổ chức tín dụng không vượt quá mức quy định tại Bộ luật Dân sự. — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Chi phí được trừ",
+      "giai_thich": "Mẫu nêu lãi vay tổ chức tín dụng theo lãi suất thực tế; lãi vay đối tượng khác không vượt mức quy định tại Bộ luật Dân sự. Bot không tự đặt mức giới hạn.",
+      "lay_o_dau": "Hợp đồng vay, bảng tính lãi và chứng từ trả lãi; lấy phần được trừ theo mô tả chi lãi vay trên mẫu.",
+      "hoi": "Chi phí lãi vay vốn kinh doanh được trừ là bao nhiêu?"
+    },
+    {
+      "code": "10e",
+      "label": "Các khoản chi khác phục vụ trực tiếp hoạt động sản xuất, kinh doanh... — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Chi phí được trừ",
+      "lay_o_dau": "Sổ chi phí khác và chứng từ tương ứng; không cộng lại khoản đã nhập ở các nhóm trên.",
+      "hoi": "Các chi phí khác trực tiếp phục vụ kinh doanh được trừ là bao nhiêu?"
+    },
+    {
+      "code": "11",
+      "label": "Thu nhập tính thuế [11]=[09]-[10] — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[09]-[10]",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "12",
+      "label": "Thuế suất — Số tiền (nhập 20 cho 20%)",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Thuế đã khấu trừ, tạm nộp và giảm",
+      "lay_o_dau": "Bảng xác định thuế suất áp dụng cho hộ, cá nhân kinh doanh; mẫu yêu cầu nhập thuế suất, không in sẵn một mức chung.",
+      "hoi": "Thuế suất TNCN áp dụng cho thu nhập kinh doanh của bạn là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "13",
+      "label": "Số thuế TNCN phát sinh trong kỳ [13] = [11]x[12] — Số tiền",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "[11]*[12]/100",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "14",
+      "label": "Số thuế TNCN đã khấu trừ — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Thuế đã khấu trừ, tạm nộp và giảm",
+      "lay_o_dau": "Chứng từ khấu trừ và xác nhận thuế đã khấu trừ, nộp thay của sàn hoặc tổ chức.",
+      "hoi": "Tổng thuế TNCN đã được khấu trừ trong năm?"
+    },
+    {
+      "code": "15",
+      "label": "Số thuế TNCN đã tạm nộp trong năm — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Thuế đã khấu trừ, tạm nộp và giảm",
+      "lay_o_dau": "Chứng từ nộp ngân sách và sổ theo dõi thuế tạm nộp; không cộng lại thuế tổ chức đã khấu trừ.",
+      "hoi": "Số thuế TNCN đã tự tạm nộp trong năm là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Số thuế TNCN được giảm do thiên tai, dịch bệnh, hỏa hoạn, tai nạn và bệnh hiểm nghèo theo Quyết định giảm thuế của cơ quan thuế — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Thuế đã khấu trừ, tạm nộp và giảm",
+      "lay_o_dau": "Quyết định giảm thuế của cơ quan thuế cho kỳ quyết toán này.",
+      "hoi": "Số thuế TNCN được giảm theo quyết định là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng số thuế TNCN còn phải nộp [17]=[13]-[14]-[15]-[16]>=0 — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "MAX([13]-[14]-[15]-[16],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "18",
+      "label": "Số thuế TNCN được miễn từ 50.000 đồng trở xuống [18] = [17]<=50.000 — Số tiền",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "IF([17]<=50000,[17],0)",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "19",
+      "label": "Số thuế TNCN còn phải nộp sau miễn số thuế từ 50.000 đồng trở xuống [19]=[17]-[18] — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[17]-[18]",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "20",
+      "label": "Tổng số thuế TNCN nộp thừa [20] = [13]-[14]-[15]-[16]<0 — Số tiền",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "MAX([14]+[15]+[16]-[13],0)",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "21",
+      "label": "Tổng số thuế đề nghị hoàn trả cho người nộp thuế [21] = [22]+[23] — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[22]+[23]",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "22",
+      "label": "Số thuế đề nghị hoàn trả cho người người nộp thuế — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Xử lý số thuế nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa; phần nhận lại cộng phần bù nghĩa vụ khác không vượt tổng nộp thừa.",
+      "hoi": "Số tiền thuế nộp thừa bạn muốn nhận lại?"
+    },
+    {
+      "code": "23",
+      "label": "Số thuế đề nghị bù trừ cho khoản phải nộp ngân sách nhà nước khác — Số tiền",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Xử lý số thuế nộp thừa",
+      "giai_thich": "Cộng phần bù trừ này với tiền nhận lại ở câu trước không vượt số nộp thừa. Phần còn lại tự tính để bù phát sinh kỳ sau.",
+      "lay_o_dau": "Bảng chi tiết khoản nợ hoặc khoản thu phát sinh đề nghị bù trừ; phần này cần kê khai bảng bù trừ riêng.",
+      "hoi": "Số tiền muốn bù vào khoản phải nộp ngân sách khác?"
+    },
+    {
+      "code": "24",
+      "label": "Tổng số thuế bù trừ cho các phát sinh của kỳ sau [24] = [20]-[21] — Số tiền",
+      "kind": "cong_thuc",
+      "formula": "[20]-[21]",
+      "cot": "Số tiền",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "31",
+      "label": "Tổng cộng — Số dư đầu kỳ",
+      "kind": "cong_thuc",
+      "cot": "Số dư đầu kỳ",
+      "note": "= tổng cột [27] của bảng kê BK1",
+      "formula": "[BK1.27]",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "32",
+      "label": "Tổng cộng — Nhập trong kỳ",
+      "kind": "cong_thuc",
+      "cot": "Nhập trong kỳ",
+      "note": "= tổng cột [28] của bảng kê BK1",
+      "formula": "[BK1.28]",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "33",
+      "label": "Tổng cộng — Xuất trong kỳ",
+      "kind": "cong_thuc",
+      "cot": "Xuất trong kỳ",
+      "note": "= tổng cột [29] của bảng kê BK1",
+      "formula": "[BK1.29]",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "34",
+      "label": "Tổng cộng — Tồn cuối kỳ",
+      "kind": "cong_thuc",
+      "cot": "Tồn cuối kỳ",
+      "note": "= tổng cột [30] của bảng kê BK1",
+      "formula": "[BK1.30]",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "44",
+      "label": "Tổng số tiền hỗ trợ thông tin nộp thuế",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "note": "= tổng cột [37] của bảng kê BK2",
+      "formula": "[BK2.37]",
+      "section": "Thông tin hoàn trả"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK3",
+      "ten": "Bù trừ khoản nộp thừa với khoản nợ, khoản thu phát sinh",
+      "cot": [
+        {
+          "ma": "46",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "47",
+          "ten": "Mã số thuế",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "48",
+          "ten": "Tên NNT",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "49",
+          "ten": "Mã định danh khoản phải nộp (ID) (nếu có)",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "50",
+          "ten": "Nội dung khoản nợ/ phát sinh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "51",
+          "ten": "Chương",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "52",
+          "ten": "Tiểu mục",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "53",
+          "ten": "Cơ quan thu",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "54",
+          "ten": "Địa bàn hành chính",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "Hạn nộp",
+          "c": 9,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "56",
+          "ten": "Số tiền còn phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "57",
+          "ten": "Số tiền còn phải nộp đề nghị bù trừ với số tiền nộp thừa",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Số tiền còn phải nộp sau bù trừ",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[56]-[57]"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK2",
+      "ten": "Hỗ trợ thông tin nộp thuế",
+      "cot": [
+        {
+          "ma": "35",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "36",
+          "ten": "Nội dung các khoản nộp NSNN",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "37",
+          "ten": "Số tiền",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "38",
+          "ten": "Chương",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "39",
+          "ten": "Tiểu mục",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "40",
+          "ten": "Địa bàn hành chính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "41",
+          "ten": "Cơ quan thu",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "42",
+          "ten": "Cơ quan thuế",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "43",
+          "ten": "Hạn nộp thuế",
+          "c": 8,
+          "kieu": "ngay"
+        }
+      ],
+      "tong": [
+        "37"
+      ]
+    },
+    {
+      "id": "BK1",
+      "ten": "Vật liệu, dụng cụ, sản phẩm, hàng hóa",
+      "cot": [
+        {
+          "ma": "25",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "26",
+          "ten": "Nội dung",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "27",
+          "ten": "Số dư đầu kỳ",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "28",
+          "ten": "Nhập trong kỳ",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "29",
+          "ten": "Xuất trong kỳ",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "30",
+          "ten": "Tồn cuối kỳ",
+          "c": 5,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

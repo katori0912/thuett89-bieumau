@@ -1,0 +1,790 @@
+{
+  "id": "TT89-01-TTĐB",
+  "mau_so": "01/TTĐB",
+  "title": "Tờ khai thuế tiêu thụ đặc biệt — 01/TTĐB",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Bạn xác nhận đánh dấu lần đầu bằng chữ X?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người nộp thuế trên hồ sơ đăng ký là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "09",
+      "label": "Tên đơn vị phụ thuộc/địa điểm kinh doanh của hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính",
+      "kind": "chu",
+      "note": "1. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh có hoạt động sản xuất, gia công hàng hoá chịu thuế TTĐB hoặc cung ứng dịch vụ chịu thuế TTĐB (trừ hoạt động kinh doanh xổ số điện toán) tại địa phương khác tỉnh nơi đóng trụ sở chính theo quy định tại Thông tư số /20 /TT-BTC ngày tháng năm của Bộ trưởng Bộ Tài chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều phường/xã/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều phường/xã/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho phường/xã/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Nơi kinh doanh",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Tên đơn vị hoặc địa điểm kinh doanh đó là gì?"
+    },
+    {
+      "code": "10",
+      "label": "Mã số thuế đơn vị phụ thuộc/Mã số địa điểm kinh doanh",
+      "kind": "chu",
+      "note": "1. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh có hoạt động sản xuất, gia công hàng hoá chịu thuế TTĐB hoặc cung ứng dịch vụ chịu thuế TTĐB (trừ hoạt động kinh doanh xổ số điện toán) tại địa phương khác tỉnh nơi đóng trụ sở chính theo quy định tại Thông tư số /20 /TT-BTC ngày tháng năm của Bộ trưởng Bộ Tài chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều phường/xã/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều phường/xã/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho phường/xã/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Nơi kinh doanh",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Mã số thuế hoặc mã địa điểm kinh doanh đó là gì?"
+    },
+    {
+      "code": "11",
+      "label": "Địa chỉ nơi có hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính",
+      "kind": "chu",
+      "note": "1. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh có hoạt động sản xuất, gia công hàng hoá chịu thuế TTĐB hoặc cung ứng dịch vụ chịu thuế TTĐB (trừ hoạt động kinh doanh xổ số điện toán) tại địa phương khác tỉnh nơi đóng trụ sở chính theo quy định tại Thông tư số /20 /TT-BTC ngày tháng năm của Bộ trưởng Bộ Tài chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều phường/xã/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều phường/xã/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho phường/xã/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Nơi kinh doanh",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Địa chỉ nơi kinh doanh đó là gì?"
+    },
+    {
+      "code": "11a",
+      "label": "Xã/phường/đặc khu",
+      "kind": "chu",
+      "section": "Nơi kinh doanh",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Nơi đó thuộc xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "11b",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Nơi kinh doanh",
+      "lay_o_dau": "Hồ sơ đăng ký đơn vị phụ thuộc hoặc địa điểm kinh doanh.",
+      "hoi": "Nơi đó thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "I_5",
+      "label": "Hàng hóa chịu thuế — Doanh thu chưa GTGT",
+      "kind": "cong_thuc",
+      "formula": "[BK1.5]+[BK2.5]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "I_6",
+      "label": "Hàng hóa chịu thuế — Giá tính thuế",
+      "kind": "cong_thuc",
+      "formula": "[BK1.6]+[BK2.6]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "I_8",
+      "label": "Hàng hóa chịu thuế — Thuế khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[BK1.8]+[BK2.8]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "I_10",
+      "label": "Hàng hóa chịu thuế — Thuế phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.10]+[BK2.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "I_11",
+      "label": "Hàng hóa chịu thuế — Bù trừ",
+      "kind": "cong_thuc",
+      "formula": "[BK1.11]+[BK2.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "I_12",
+      "label": "Hàng hóa chịu thuế — Thuế còn phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.12]+[BK2.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "II_5",
+      "label": "Dịch vụ chịu thuế — Doanh thu chưa GTGT",
+      "kind": "cong_thuc",
+      "formula": "[BK3.5]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "II_6",
+      "label": "Dịch vụ chịu thuế — Giá tính thuế",
+      "kind": "cong_thuc",
+      "formula": "[BK3.6]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "II_8",
+      "label": "Dịch vụ chịu thuế — Thuế khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[BK3.8]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "II_10",
+      "label": "Dịch vụ chịu thuế — Thuế phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK3.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "II_11",
+      "label": "Dịch vụ chịu thuế — Bù trừ",
+      "kind": "cong_thuc",
+      "formula": "[BK3.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "II_12",
+      "label": "Dịch vụ chịu thuế — Thuế còn phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK3.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "III_5",
+      "label": "Hàng không chịu thuế — Doanh thu chưa GTGT",
+      "kind": "cong_thuc",
+      "formula": "[BK4.5]+[BK5.5]+[BK6.5]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TONG_5",
+      "label": "Tổng cộng — Doanh thu chưa GTGT",
+      "kind": "cong_thuc",
+      "formula": "[BK1.5]+[BK2.5]+[BK3.5]+[BK4.5]+[BK5.5]+[BK6.5]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TONG_6",
+      "label": "Tổng cộng — Giá tính thuế",
+      "kind": "cong_thuc",
+      "formula": "[BK1.6]+[BK2.6]+[BK3.6]+[BK4.6]+[BK5.6]+[BK6.6]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TONG_8",
+      "label": "Tổng cộng — Thuế khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[BK1.8]+[BK2.8]+[BK3.8]+[BK4.8]+[BK5.8]+[BK6.8]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TONG_10",
+      "label": "Tổng cộng — Thuế phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.10]+[BK2.10]+[BK3.10]+[BK4.10]+[BK5.10]+[BK6.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TONG_11",
+      "label": "Tổng cộng — Bù trừ",
+      "kind": "cong_thuc",
+      "formula": "[BK1.11]+[BK2.11]+[BK3.11]+[BK4.11]+[BK5.11]+[BK6.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TONG_12",
+      "label": "Tổng cộng — Thuế còn phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.12]+[BK2.12]+[BK3.12]+[BK4.12]+[BK5.12]+[BK6.12]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Hàng sản xuất trong nước",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hàng hóa dịch vụ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đơn vị tính",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số lượng",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu chưa GTGT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Giá tính thuế TTĐB",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế được khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Mức thuế tuyệt đối (TT89)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TTĐB phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX(ROUND([6]*[7]/100,0)-[8]+[4]*[9],0)"
+        },
+        {
+          "ma": "11",
+          "ten": "Bù trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX([10]-[11],0)"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "8",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Hàng nhập khẩu bán trong nước",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hàng hóa dịch vụ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đơn vị tính",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số lượng",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu chưa GTGT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Giá tính thuế TTĐB",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế được khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Mức thuế tuyệt đối (TT89)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TTĐB phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX(ROUND([6]*[7]/100,0)-[8]+[4]*[9],0)"
+        },
+        {
+          "ma": "11",
+          "ten": "Bù trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX([10]-[11],0)"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "8",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "BK3",
+      "ten": "Dịch vụ chịu thuế",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hàng hóa dịch vụ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đơn vị tính",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số lượng",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu chưa GTGT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Giá tính thuế TTĐB",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế được khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Mức thuế tuyệt đối (TT89)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TTĐB phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX(ROUND([6]*[7]/100,0)-[8]+[4]*[9],0)"
+        },
+        {
+          "ma": "11",
+          "ten": "Bù trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX([10]-[11],0)"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "8",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "BK4",
+      "ten": "Hàng xuất khẩu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hàng hóa dịch vụ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đơn vị tính",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số lượng",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu chưa GTGT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Giá tính thuế TTĐB",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế được khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Mức thuế tuyệt đối (TT89)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TTĐB phải nộp",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Bù trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp",
+          "c": 11,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "8",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "BK5",
+      "ten": "Hàng bán để xuất khẩu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hàng hóa dịch vụ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đơn vị tính",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số lượng",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu chưa GTGT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Giá tính thuế TTĐB",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế được khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Mức thuế tuyệt đối (TT89)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TTĐB phải nộp",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Bù trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp",
+          "c": 11,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "8",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "BK6",
+      "ten": "Hàng gia công xuất khẩu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hàng hóa dịch vụ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đơn vị tính",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số lượng",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu chưa GTGT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Giá tính thuế TTĐB",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế được khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Mức thuế tuyệt đối (TT89)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TTĐB phải nộp",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Bù trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp",
+          "c": 11,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "8",
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-01-2-TTĐB",
+      "label": "Bạn có thuế TTĐB của nguyên liệu mua vào hoặc hàng nhập khẩu được khấu trừ không? Hiện bot chưa nhập được hai bảng của phụ lục này; bạn cần lập chúng ngoài bot."
+    },
+    {
+      "id": "TT89-01-3-TTĐB",
+      "label": "Bạn có kinh doanh xổ số điện toán cần phân bổ thuế TTĐB theo tỉnh không?"
+    },
+    {
+      "id": "TT89-01-4-TTĐB",
+      "label": "Bạn có hồ sơ đề nghị hoàn thuế TTĐB đối với xăng sinh học không? Hiện phần này cần lập ngoài bot vì schema chưa có các ô chi tiết."
+    }
+  ],
+  "phu_luc_kem": []
+}

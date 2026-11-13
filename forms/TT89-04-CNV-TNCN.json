@@ -1,0 +1,423 @@
+{
+  "id": "TT89-04-CNV-TNCN",
+  "mau_so": "04/CNV-TNCN",
+  "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân có thu nhập từ chuyển nhượng vốn góp, cá nhân chuyển nhượng chứng khoán khai trực tiếp với cơ quan thuế và tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04/CNV-TNCN",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: ☐ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Số định danh cá nhân/Hộ chiếu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp số định danh cá nhân/Hộ chiếu?"
+    },
+    {
+      "code": "07",
+      "label": "Ngày, tháng, năm sinh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp ngày, tháng, năm sinh?"
+    },
+    {
+      "code": "08",
+      "label": "Quốc tịch",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp quốc tịch?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp điện thoại — người nộp thuế?"
+    },
+    {
+      "code": "10",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp email — người nộp thuế?"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức khai thay (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tên tổ chức khai thay (nếu có)?",
+      "role": "ten_kt"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — tổ chức/cá nhân khai thay?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "13",
+      "label": "Địa chỉ — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp địa chỉ — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "14",
+      "label": "Xã/Phường/Đặc khu — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "15",
+      "label": "Tỉnh/Thành phố — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tỉnh/Thành phố — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "16",
+      "label": "Điện thoại — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp điện thoại — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "17",
+      "label": "Email — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp email — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "18",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "19",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "20",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "27",
+      "label": "Tên tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Tên tổ chức phát hành chứng khoán hoặc doanh nghiệp có vốn góp là gì?"
+    },
+    {
+      "code": "28",
+      "label": "Mã số thuế — tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — tổ chức phát hành?"
+    },
+    {
+      "code": "29",
+      "label": "Địa chỉ — tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp địa chỉ — tổ chức phát hành?"
+    },
+    {
+      "code": "30",
+      "label": "Xã/Phường/Đặc khu — tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — tổ chức phát hành?"
+    },
+    {
+      "code": "31",
+      "label": "Tỉnh/Thành phố — tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tỉnh/Thành phố — tổ chức phát hành?"
+    },
+    {
+      "code": "32",
+      "label": "Điện thoại — tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp điện thoại — tổ chức phát hành?"
+    },
+    {
+      "code": "33",
+      "label": "Email — tổ chức phát hành",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp email — tổ chức phát hành?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn khai cho tháng hoặc quý nào?",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Lần chuyển nhượng phát sinh ngày nào (dd/mm/yyyy)?",
+      "role": "ky_lps"
+    },
+    {
+      "code": "01b",
+      "label": "Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn khai cho tháng hoặc quý nào?",
+      "role": "ky_tq"
+    },
+    {
+      "code": "34",
+      "label": "Giá chuyển nhượng — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Giá bán phần vốn góp chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "35",
+      "label": "Giá vốn của phần vốn góp chuyển nhượng — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Giá mua hoặc giá vốn của phần vốn góp đó là bao nhiêu?"
+    },
+    {
+      "code": "36",
+      "label": "Chi phí chuyển nhượng — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Chi phí chuyển nhượng có chứng từ là bao nhiêu?"
+    },
+    {
+      "code": "37",
+      "label": "Thu nhập tính thuế từ chuyển nhượng vốn góp [37]=[34]-[35]-[36] — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "cong_thuc",
+      "formula": "MAX([34]-[35]-[36],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "38",
+      "label": "Số thuế phải nộp — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Theo bảng tính thuế của phần vốn góp, số thuế trước miễn giảm là bao nhiêu?"
+    },
+    {
+      "code": "39",
+      "label": "Số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Phần thuế chuyển nhượng vốn góp được miễn giảm theo hiệp định là bao nhiêu?"
+    },
+    {
+      "code": "40",
+      "label": "Số thuế còn phải nộp [40]=[38]-[39] — Số tiền — Thu nhập từ chuyển nhượng vốn góp",
+      "kind": "cong_thuc",
+      "formula": "MAX([38]-[39],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "41",
+      "label": "Giá chuyển nhượng — Số tiền — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Tổng giá chuyển nhượng chứng khoán là bao nhiêu?"
+    },
+    {
+      "code": "42",
+      "label": "Số thuế phải nộp — Số tiền — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Theo bảng tính thuế chứng khoán, số thuế trước miễn giảm là bao nhiêu?"
+    },
+    {
+      "code": "43",
+      "label": "Số thuế được miễn giảm theo Hiệp định tránh đánh thuế hai lần — Số tiền — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Phần thuế chứng khoán được miễn giảm theo hiệp định là bao nhiêu?"
+    },
+    {
+      "code": "44",
+      "label": "Số thuế còn phải nộp [44]=[42]-[43] — Số tiền — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "cong_thuc",
+      "formula": "MAX([42]-[43],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "HIEPDINH",
+      "label": "Cá nhân được miễn giảm theo hiệp định",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Cá nhân có hồ sơ miễn giảm theo hiệp định tránh đánh thuế hai lần không?"
+    },
+    {
+      "code": "KHAI_VON",
+      "label": "Khai thay chuyển nhượng vốn góp",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn có khai thay cho cá nhân chuyển nhượng vốn góp không?"
+    },
+    {
+      "code": "KHAI_CK",
+      "label": "Khai thay chuyển nhượng chứng khoán",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn/chứng khoán, chứng từ giá mua và chi phí, hồ sơ bên nhận, tổ chức phát hành và bảng tính thuế.",
+      "hoi": "Bạn có khai thay cho cá nhân chuyển nhượng chứng khoán không?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê hợp đồng chuyển nhượng",
+      "cot": [
+        {
+          "ma": "21",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "22",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "23",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "24",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "25",
+          "ten": "Số hợp đồng",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "26",
+          "ten": "Ngày hợp đồng",
+          "c": 5,
+          "kieu": "ngay"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-04-1-CNV-TNCN",
+      "label": "Bạn có danh sách nhiều cá nhân chuyển nhượng cần kê để khai thay không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

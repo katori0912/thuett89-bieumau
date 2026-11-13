@@ -1,0 +1,161 @@
+{
+  "id": "TT89-03-8A-TNDN",
+  "mau_so": "03-8A/TNDN",
+  "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với hoạt động chuyển nhượng bất động sản — 03-8A/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "04",
+      "label": "Tổng thuế TNDN đã nộp các kỳ trước cho từng tỉnh của hoạt động BĐS đã quyết toán",
+      "kind": "cong_thuc",
+      "cot": "Số thuế đã nộp các kỳ trước cho từng tỉnh",
+      "note": "= tổng cột (9) của bảng kê Tổng hợp vào G3 tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.9]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "05",
+      "label": "Tổng thuế TNDN đã nộp kỳ này cho từng tỉnh của hoạt động BĐS đã quyết toán",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNDN đã nộp kỳ này cho từng tỉnh",
+      "note": "= tổng cột (10) của bảng kê Tổng hợp vào G4 tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.10]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Phân bổ theo từng tỉnh",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên đơn vị hoặc địa bàn",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "MST/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Xã/phường/đặc khu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Tỉnh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Cơ quan thuế nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Doanh thu tính thuế theo tỉnh",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế phải nộp theo tỉnh",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế đã nộp các kỳ trước",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế đã nộp kỳ này",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Chênh lệch phải nộp và tạm nộp",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[8]-[10]"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế còn phải nộp đã quyết toán",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[8]-[9]-[10]"
+        },
+        {
+          "ma": "13",
+          "ten": "Tiền thu theo tiến độ",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế phải nộp theo tiến độ",
+          "c": 14,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[13]*0.01"
+        },
+        {
+          "ma": "15",
+          "ten": "Thuế đã nộp theo tiến độ",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Thuế còn nộp theo tiến độ",
+          "c": 16,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[14]-[15]"
+        }
+      ],
+      "tong": [
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

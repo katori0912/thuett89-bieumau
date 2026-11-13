@@ -1,0 +1,306 @@
+{
+  "id": "TT89-01-TBH",
+  "mau_so": "01/TBH",
+  "title": "Tờ khai thuế thu nhập doanh nghiệp đối với tổ chức tái bảo hiểm nước ngoài — 01/TBH",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Quý năm ..",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho quý nào, năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Bên Việt Nam khấu trừ và nộp thuế thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên bên Việt Nam khấu trừ và nộp thay thuế tái bảo hiểm là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế nộp thay của bên Việt Nam",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_vn"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "kind": "chu",
+      "label": "Mã số thuế của tổ chức, cá nhân làm thủ tục về thuế",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "09",
+      "kind": "cong_thuc",
+      "formula": "[10]+[11]",
+      "cot": "Số phát sinh quý này",
+      "label": "Tổng doanh thu [09]=[10]+[11] — Số phát sinh quý này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09@LK",
+      "kind": "cong_thuc",
+      "formula": "[10@LK]+[11@LK]",
+      "cot": "Số luỹ kế năm",
+      "label": "Tổng doanh thu [09@LK]=[10@LK]+[11@LK] — Số luỹ kế năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Doanh thu từ hoạt động tái bảo hiểm — Số phát sinh quý này",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Bảng đối soát phí, hợp đồng và chứng từ tái bảo hiểm.",
+      "hoi": "Số doanh thu tái bảo hiểm phát sinh riêng trong quý này là bao nhiêu?"
+    },
+    {
+      "code": "10@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Doanh thu từ hoạt động tái bảo hiểm — Số luỹ kế năm",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Bảng đối soát phí, hợp đồng và chứng từ tái bảo hiểm.",
+      "hoi": "Số doanh thu tái bảo hiểm cộng từ đầu năm đến hết quý này là bao nhiêu?"
+    },
+    {
+      "code": "11",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Doanh thu khác — Số phát sinh quý này",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Sổ doanh thu khác và chứng từ liên quan.",
+      "hoi": "Số doanh thu khác phát sinh riêng trong quý này là bao nhiêu?"
+    },
+    {
+      "code": "11@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Doanh thu khác — Số luỹ kế năm",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Sổ doanh thu khác và chứng từ liên quan.",
+      "hoi": "Số doanh thu khác cộng từ đầu năm đến hết quý này là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "kind": "cong_thuc",
+      "formula": "[13]+[14]",
+      "cot": "Số phát sinh quý này",
+      "label": "Các khoản giảm trừ doanh thu [12]=[13]+[14] — Số phát sinh quý này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12@LK",
+      "kind": "cong_thuc",
+      "formula": "[13@LK]+[14@LK]",
+      "cot": "Số luỹ kế năm",
+      "label": "Các khoản giảm trừ doanh thu [12@LK]=[13@LK]+[14@LK] — Số luỹ kế năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Các khoản thu hộ — Số phát sinh quý này",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Bảng đối soát thu hộ và chứng từ thu hộ.",
+      "hoi": "Số khoản thu hộ được trừ phát sinh riêng trong quý này là bao nhiêu?"
+    },
+    {
+      "code": "13@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Các khoản thu hộ — Số luỹ kế năm",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Bảng đối soát thu hộ và chứng từ thu hộ.",
+      "hoi": "Số khoản thu hộ được trừ cộng từ đầu năm đến hết quý này là bao nhiêu?"
+    },
+    {
+      "code": "14",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Các khoản chi khác — Số phát sinh quý này",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Bảng tổng hợp khoản chi được trừ và chứng từ chi.",
+      "hoi": "Số khoản chi khác được trừ khỏi doanh thu phát sinh riêng trong quý này là bao nhiêu?"
+    },
+    {
+      "code": "14@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Các khoản chi khác — Số luỹ kế năm",
+      "section": "Doanh thu và giảm trừ",
+      "lay_o_dau": "Bảng tổng hợp khoản chi được trừ và chứng từ chi.",
+      "hoi": "Số khoản chi khác được trừ khỏi doanh thu cộng từ đầu năm đến hết quý này là bao nhiêu?"
+    },
+    {
+      "code": "15",
+      "kind": "cong_thuc",
+      "formula": "MAX([09]-[12],0)",
+      "cot": "Số phát sinh quý này",
+      "label": "Doanh thu chịu thuế thu nhập doanh nghiệp [15]=[09]-[12] — Số phát sinh quý này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "15@LK",
+      "kind": "cong_thuc",
+      "formula": "[09@LK]-[12@LK]",
+      "cot": "Số luỹ kế năm",
+      "label": "Doanh thu chịu thuế thu nhập doanh nghiệp [15@LK]=[09@LK]-[12@LK] — Số luỹ kế năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Tỷ lệ (%) thuế thu nhập doanh nghiệp trên doanh thu chịu thuế (nhập 20 cho 20%) — Số phát sinh quý này",
+      "section": "Miễn giảm thuế",
+      "giai_thich": "Lấy tỷ lệ từ hồ sơ tính thuế, không cộng tỷ lệ các quý.",
+      "lay_o_dau": "Bảng xác định thuế TNDN của hoạt động tái bảo hiểm.",
+      "hoi": "Tỷ lệ thuế TNDN áp dụng cho cột phát sinh quý này là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "16@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Tỷ lệ (%) thuế thu nhập doanh nghiệp trên doanh thu chịu thuế (nhập 20 cho 20%) — Số luỹ kế năm",
+      "section": "Miễn giảm thuế",
+      "giai_thich": "Lấy tỷ lệ từ hồ sơ tính thuế, không cộng tỷ lệ các quý.",
+      "lay_o_dau": "Bảng xác định thuế TNDN của hoạt động tái bảo hiểm.",
+      "hoi": "Tỷ lệ thuế TNDN áp dụng cho cột lũy kế năm là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "17",
+      "kind": "cong_thuc",
+      "formula": "ROUND([15]*[16]/100,0)",
+      "cot": "Số phát sinh quý này",
+      "label": "Thuế TNDN phát sinh trong kỳ ([17]=[15]x[16]/100) — Số phát sinh quý này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "17@LK",
+      "kind": "cong_thuc",
+      "formula": "[15@LK]*[16@LK]/100",
+      "cot": "Số luỹ kế năm",
+      "label": "Thuế TNDN phát sinh trong kỳ ([17@LK]=[15@LK]x[16@LK]/100) — Số luỹ kế năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "kind": "cong_thuc",
+      "formula": "[19]+[20]",
+      "cot": "Số phát sinh quý này",
+      "label": "Số thuế miễn, giảm trong kỳ [18]=[19]+[20] — Số phát sinh quý này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18@LK",
+      "kind": "cong_thuc",
+      "formula": "[19@LK]+[20@LK]",
+      "cot": "Số luỹ kế năm",
+      "label": "Số thuế miễn, giảm trong kỳ [18@LK]=[19@LK]+[20@LK] — Số luỹ kế năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "19",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Số thuế miễn, giảm theo Hiệp định tránh đánh thuế hai lần — Số phát sinh quý này",
+      "section": "Miễn giảm thuế",
+      "lay_o_dau": "Hồ sơ áp dụng Hiệp định và bảng tính miễn giảm.",
+      "hoi": "Số thuế miễn giảm theo Hiệp định tránh đánh thuế hai lần phát sinh riêng trong quý này là bao nhiêu?"
+    },
+    {
+      "code": "19@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Số thuế miễn, giảm theo Hiệp định tránh đánh thuế hai lần — Số luỹ kế năm",
+      "section": "Miễn giảm thuế",
+      "lay_o_dau": "Hồ sơ áp dụng Hiệp định và bảng tính miễn giảm.",
+      "hoi": "Số thuế miễn giảm theo Hiệp định tránh đánh thuế hai lần cộng từ đầu năm đến hết quý này là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "kind": "so",
+      "cot": "Số phát sinh quý này",
+      "label": "Số thuế miễn, giảm khác — Số phát sinh quý này",
+      "section": "Miễn giảm thuế",
+      "lay_o_dau": "Hồ sơ miễn giảm và bảng tính số thuế được miễn giảm.",
+      "hoi": "Số thuế được miễn giảm khác phát sinh riêng trong quý này là bao nhiêu?"
+    },
+    {
+      "code": "20@LK",
+      "kind": "so",
+      "cot": "Số luỹ kế năm",
+      "label": "Số thuế miễn, giảm khác — Số luỹ kế năm",
+      "section": "Miễn giảm thuế",
+      "lay_o_dau": "Hồ sơ miễn giảm và bảng tính số thuế được miễn giảm.",
+      "hoi": "Số thuế được miễn giảm khác cộng từ đầu năm đến hết quý này là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "kind": "cong_thuc",
+      "formula": "MAX([17]-[18],0)",
+      "cot": "Số phát sinh quý này",
+      "label": "Số thuế phải nộp trong kỳ [21]=[17]-[18] — Số phát sinh quý này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21@LK",
+      "kind": "cong_thuc",
+      "formula": "[17@LK]-[18@LK]",
+      "cot": "Số luỹ kế năm",
+      "label": "Số thuế phải nộp trong kỳ [21@LK]=[17@LK]-[18@LK] — Số luỹ kế năm",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-01-1-TBH",
+      "label": "Bạn có hợp đồng hoặc chứng từ tái bảo hiểm với tổ chức nước ngoài cần kê chi tiết không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

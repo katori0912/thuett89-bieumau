@@ -1,0 +1,223 @@
+{
+  "id": "TT89-06-2-BK-TNCN",
+  "mau_so": "06-2/BK-TNCN",
+  "title": "Phụ lục bảng kê chi tiết cá nhân có thu nhập từ cổ phiếu thưởng, cổ phiếu ESOP trong năm tính thuế (Kèm theo Tờ khai mẫu số 06/TNCN kê khai vào hồ sơ khai thuế của tháng/quý cuối cùng trong năm tính thuế hoặc tháng/quý phát sinh việc chia, tách, hợp nhất, sáp nhập, giải thể, phá sản, chấm dứt hoạt động). — 06-2/BK-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "20",
+      "label": "Tổng cộng — Số lượng chứng khoán",
+      "kind": "so",
+      "cot": "Số lượng chứng khoán",
+      "note": "= tổng cột [13] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [13] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng số cổ phiếu hoặc chứng khoán trong bảng là bao nhiêu đơn vị?"
+    },
+    {
+      "code": "21",
+      "label": "Tổng cộng — Mệnh giá chứng khoán",
+      "kind": "so",
+      "cot": "Mệnh giá chứng khoán",
+      "note": "= tổng cột [14] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [14] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng số tiền tại cột mệnh giá trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Tổng cộng — Số tiền chi ghi trên sổ sách kế toán",
+      "kind": "so",
+      "cot": "Số tiền chi ghi trên sổ sách kế toán",
+      "note": "= tổng cột [15] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [15] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng khoản chi ghi trên sổ kế toán cho các cổ phiếu này là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Tổng cộng — Tổng giá trị chuyển nhượng/giá thị trường tại thời điểm chuyển nhượng",
+      "kind": "so",
+      "cot": "Tổng giá trị chuyển nhượng/giá thị trường tại thời điểm chuyển nhượng",
+      "note": "= tổng cột [16] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [16] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng giá trị chuyển nhượng hoặc giá thị trường theo hồ sơ là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Tổng cộng — Giá trị mua cổ phiếu ưu đãi",
+      "kind": "so",
+      "cot": "Giá trị mua cổ phiếu ưu đãi",
+      "note": "= tổng cột [17] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [17] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng giá trị mua cổ phiếu ưu đãi là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Tổng cộng — Thu nhập chịu thuế TNCN",
+      "kind": "so",
+      "cot": "Thu nhập chịu thuế TNCN",
+      "note": "= tổng cột [18] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [18] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng thu nhập chịu thuế từ cổ phiếu thưởng/ESOP theo bảng tính là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [19] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [19] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách nhận cổ phiếu thưởng/ESOP, sổ kế toán khoản chi, hồ sơ phát hành và chuyển nhượng, chứng từ khấu trừ.",
+      "hoi": "Tổng thuế TNCN đã khấu trừ cho các khoản đó là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê cổ phiếu thưởng/ESOP",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "MST tổ chức trả thu nhập",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Tên tổ chức trả thu nhập",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Mã chứng khoán",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Số lượng",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Mệnh giá",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Chi ghi trên sổ sách",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Giá trị chuyển nhượng/giá thị trường",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Giá mua cổ phiếu ưu đãi",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "18",
+          "ten": "Thu nhập chịu thuế TNCN",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "19",
+          "ten": "Thuế TNCN đã khấu trừ",
+          "c": 13,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

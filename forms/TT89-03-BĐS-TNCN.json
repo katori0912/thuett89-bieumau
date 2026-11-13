@@ -1,0 +1,853 @@
+{
+  "id": "TT89-03-BĐS-TNCN",
+  "mau_so": "03/BĐS-TNCN",
+  "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân có thu nhập từ chuyển nhượng bất động sản; thu nhập từ nhận thừa kế và nhận quà tặng là bất động sản) — 03/BĐS-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Lần phát sinh: Ngày tháng năm",
+      "kind": "chu",
+      "section": "Loại giao dịch",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: 🗆",
+      "kind": "danh_dau",
+      "section": "Loại giao dịch",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: 🗆 không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03.1",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Loại giao dịch",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "03.2",
+      "label": "Số Thông báo lần trước liền kề",
+      "kind": "chu",
+      "section": "Loại giao dịch",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Số thông báo thuế lần trước liền kề là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Tổ chức, cá nhân khai, nộp thuế thay (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tổ chức, cá nhân khai, nộp thuế thay (nếu có)?"
+    },
+    {
+      "code": "06",
+      "label": "Mã số thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế (nếu có)?"
+    },
+    {
+      "code": "07",
+      "label": "Văn bản ủy quyền (nếu có): Số ngày tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp văn bản ủy quyền (nếu có): Số ngày tháng năm?"
+    },
+    {
+      "code": "08",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "09",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "10",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "12",
+      "label": "Quyền sử dụng đất và tài sản gắn liền trên đất ☐",
+      "kind": "danh_dau",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giao dịch có quyền sử dụng đất và tài sản gắn liền với đất không?"
+    },
+    {
+      "code": "13",
+      "label": "Quyền sở hữu hoặc sử dụng nhà ở ☐",
+      "kind": "danh_dau",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giao dịch có quyền sở hữu hoặc sử dụng nhà ở không?"
+    },
+    {
+      "code": "14",
+      "label": "Quyền thuê đất, thuê mặt nước ☐",
+      "kind": "danh_dau",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giao dịch có quyền thuê đất hoặc mặt nước không?"
+    },
+    {
+      "code": "15",
+      "label": "Bất động sản khác ☐",
+      "kind": "danh_dau",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giao dịch có bất động sản khác không?"
+    },
+    {
+      "code": "16",
+      "label": "Giấy tờ về quyền sử dụng đất",
+      "kind": "tieu_de",
+      "section": "Giấy tờ về quyền sử dụng đất"
+    },
+    {
+      "code": "16.1",
+      "label": "Loại giấy tờ",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Loại giấy tờ quyền sử dụng đất bạn có là gì?"
+    },
+    {
+      "code": "16.2",
+      "label": "Số — Giấy tờ về quyền sử dụng đất",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Số của giấy tờ đất đó là gì?"
+    },
+    {
+      "code": "16.3",
+      "label": "Nơi cấp — Giấy tờ về quyền sử dụng đất",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Cơ quan cấp giấy tờ đất đó là cơ quan nào?"
+    },
+    {
+      "code": "16.4",
+      "label": "Ngày cấp — Giấy tờ về quyền sử dụng đất",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giấy tờ đất đó được cấp ngày nào?"
+    },
+    {
+      "code": "17",
+      "label": "Hợp đồng mua bán nhà ở, công trình xây dựng hình thành trong tương lai ký với chủ dự án cấp 1, cấp 2 hoặc Sàn giao dịch của chủ dự án",
+      "kind": "tieu_de",
+      "section": "Hợp đồng mua bán nhà ở, công trình xây dựng hình thành trong tương lai ký với chủ dự án cấp 1, cấp 2 hoặc Sàn giao dịch của chủ dự án"
+    },
+    {
+      "code": "17.1",
+      "label": "Số — Hợp đồng mua bán nhà ở, công trình xây dựng hình thành trong tương lai ký với chủ dự án cấp 1, cấp 2 hoặc Sàn giao dịch của chủ dự án",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Số hợp đồng mua nhà hoặc công trình hình thành trong tương lai là gì?"
+    },
+    {
+      "code": "17.2",
+      "label": "Ngày — Hợp đồng mua bán nhà ở, công trình xây dựng hình thành trong tương lai ký với chủ dự án cấp 1, cấp 2 hoặc Sàn giao dịch của chủ dự án",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Hợp đồng mua tài sản hình thành trong tương lai được ký ngày nào?"
+    },
+    {
+      "code": "17.3",
+      "label": "Tỷ lệ góp vốn (nhập 20 cho 20%)",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Tỷ lệ góp vốn theo hợp đồng là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "18",
+      "label": "Hợp đồng chuyển nhượng trao đổi bất động sản",
+      "kind": "tieu_de",
+      "section": "Hợp đồng chuyển nhượng trao đổi bất động sản"
+    },
+    {
+      "code": "18.1",
+      "label": "Số — Hợp đồng chuyển nhượng trao đổi bất động sản",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Số hợp đồng chuyển nhượng hoặc trao đổi là gì?"
+    },
+    {
+      "code": "18.2",
+      "label": "Nơi lập — Hợp đồng chuyển nhượng trao đổi bất động sản",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Hợp đồng chuyển nhượng được lập ở đâu?"
+    },
+    {
+      "code": "18.3",
+      "label": "Ngày lập",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Hợp đồng chuyển nhượng được lập ngày nào?"
+    },
+    {
+      "code": "18.4",
+      "label": "Cơ quan chứng thực",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Cơ quan chứng thực hợp đồng chuyển nhượng là cơ quan nào?"
+    },
+    {
+      "code": "18.5",
+      "label": "Ngày chứng thực",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Hợp đồng chuyển nhượng được chứng thực ngày nào?"
+    },
+    {
+      "code": "19",
+      "label": "Văn bản phân chia di sản thừa kế, quà tặng là bất động sản",
+      "kind": "tieu_de",
+      "section": "Văn bản phân chia di sản thừa kế, quà tặng là bất động sản"
+    },
+    {
+      "code": "19.1",
+      "label": "Nơi lập hồ sơ nhận thừa kế, quà tặng — Văn bản phân chia di sản thừa kế, quà tặng là bất động sản",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Văn bản thừa kế hoặc quà tặng được lập ở đâu?"
+    },
+    {
+      "code": "19.2",
+      "label": "Ngày lập",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Văn bản thừa kế hoặc quà tặng được lập ngày nào?"
+    },
+    {
+      "code": "19.3",
+      "label": "Cơ quan chứng thực",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Cơ quan chứng thực văn bản thừa kế hoặc quà tặng là cơ quan nào?"
+    },
+    {
+      "code": "19.4",
+      "label": "Ngày chứng thực",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Văn bản thừa kế hoặc quà tặng được chứng thực ngày nào?"
+    },
+    {
+      "code": "20",
+      "label": "Thông tin về đất",
+      "kind": "tieu_de",
+      "section": "Thông tin về đất"
+    },
+    {
+      "code": "20.1",
+      "label": "Thửa đất số: ;",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp thửa đất số: ;?"
+    },
+    {
+      "code": "20.2",
+      "label": "Tờ bản đồ số",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tờ bản đồ số?"
+    },
+    {
+      "code": "20.3",
+      "label": "Địa chỉ — Thông tin về đất",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp địa chỉ — Thông tin về đất?"
+    },
+    {
+      "code": "20.4",
+      "label": "Xã/Phường/Đặc khu — đơn vị cung cấp dịch vụ thuế — Thông tin về đất",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Thửa đất nằm ở xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "20.5",
+      "label": "Tỉnh/thành phố — đơn vị cung cấp dịch vụ thuế — Thông tin về đất",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Thửa đất thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "20.6",
+      "label": "Loại đất, vị trí thửa đất (1, 2, 3, 4 )",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp loại đất, vị trí thửa đất (1, 2, 3, 4 )?"
+    },
+    {
+      "code": "20.7",
+      "label": "Nguồn gốc đất: (Đất được nhà nước giao, cho thuê; Đất nhận chuyển nhượng; nhận thừa kế, hoặc nhận tặng, cho )",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp nguồn gốc đất: (Đất được nhà nước giao, cho thuê; Đất nhận chuyển nhượng; nhận thừa kế, hoặc nhận tặng, cho )?"
+    },
+    {
+      "code": "20.8",
+      "label": "Thời hạn sử dụng đất",
+      "kind": "chu",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp thời hạn sử dụng đất?"
+    },
+    {
+      "code": "20.9",
+      "label": "Giá trị đất thực tế chuyển giao (nếu có): đồng",
+      "kind": "so",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giá trị phần đất thực tế chuyển giao là bao nhiêu đồng?"
+    },
+    {
+      "code": "21",
+      "label": "Thông tin về nhà ở, công trình xây dựng",
+      "kind": "tieu_de",
+      "section": "Thông tin về nhà ở, công trình xây dựng"
+    },
+    {
+      "code": "21.1",
+      "label": "Nhà ở riêng lẻ",
+      "kind": "tieu_de",
+      "section": "Nhà ở riêng lẻ"
+    },
+    {
+      "code": "21.2",
+      "label": "Loại 1: Cấp nhà ở Diện tích sàn xây dựng: m2",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Với nhà riêng loại thứ nhất, cấp nhà và diện tích sàn xây dựng là gì?"
+    },
+    {
+      "code": "21.3",
+      "label": "Loại 2: Cấp nhà ở Diện tích sàn xây dựng: m2",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Với nhà riêng loại thứ hai nếu có, cấp nhà và diện tích sàn xây dựng là gì?"
+    },
+    {
+      "code": "21.4",
+      "label": "Năm hoàn thành xây dựng nhà ở riêng lẻ",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp năm hoàn thành xây dựng nhà ở riêng lẻ?"
+    },
+    {
+      "code": "21.5",
+      "label": "Nhà ở chung cư",
+      "kind": "tieu_de",
+      "section": "Nhà ở chung cư"
+    },
+    {
+      "code": "21.6",
+      "label": "Chủ dự án nhà chung cư",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp chủ dự án nhà chung cư?"
+    },
+    {
+      "code": "21.7",
+      "label": "Địa chỉ dự án nhà chung cư",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp địa chỉ dự án nhà chung cư?"
+    },
+    {
+      "code": "21.8",
+      "label": "Diện tích xây dựng",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Diện tích xây dựng là bao nhiêu?"
+    },
+    {
+      "code": "21.9",
+      "label": "Diện tích sàn xây dựng: m2",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Diện tích sàn xây dựng: m2 là bao nhiêu?"
+    },
+    {
+      "code": "21.10",
+      "label": "Diện tích sở hữu chung:. m2",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Diện tích sở hữu chung:. m2 là bao nhiêu?"
+    },
+    {
+      "code": "21.11",
+      "label": "Diện tích sở hữu riêng: m2",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Diện tích sở hữu riêng: m2 là bao nhiêu?"
+    },
+    {
+      "code": "21.12",
+      "label": "Kết cấu",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp kết cấu?"
+    },
+    {
+      "code": "21.13",
+      "label": "Số tầng nổi",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Số tầng nổi là bao nhiêu?"
+    },
+    {
+      "code": "21.14",
+      "label": "Số tầng hầm",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Số tầng hầm là bao nhiêu?"
+    },
+    {
+      "code": "21.15",
+      "label": "Năm hoàn thành xây dựng nhà chung cư",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp năm hoàn thành xây dựng nhà chung cư?"
+    },
+    {
+      "code": "21.16",
+      "label": "Nguồn gốc nhà",
+      "kind": "tieu_de",
+      "section": "Nguồn gốc nhà"
+    },
+    {
+      "code": "21.17",
+      "label": "Năm hoàn thành (hoặc năm bắt đầu sử dụng nhà)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp năm hoàn thành (hoặc năm bắt đầu sử dụng nhà)?"
+    },
+    {
+      "code": "21.18",
+      "label": "Thời điểm làm giấy tờ chuyển giao nhà",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp thời điểm làm giấy tờ chuyển giao nhà?"
+    },
+    {
+      "code": "21.19",
+      "label": "Giá trị nhà thực tế chuyển giao (nếu có): đồng",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giá trị phần nhà thực tế chuyển giao là bao nhiêu đồng?"
+    },
+    {
+      "code": "21.20",
+      "label": "Công trình xây dựng (trừ nhà ở)",
+      "kind": "tieu_de",
+      "section": "Công trình xây dựng (trừ nhà ở)"
+    },
+    {
+      "code": "21.21",
+      "label": "Chủ dự án công trình xây dựng (trừ nhà ở)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp chủ dự án công trình xây dựng (trừ nhà ở)?"
+    },
+    {
+      "code": "21.22",
+      "label": "Địa chỉ dự án công trình xây dựng (trừ nhà ở)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp địa chỉ dự án công trình xây dựng (trừ nhà ở)?"
+    },
+    {
+      "code": "21.23",
+      "label": "Loại công trình: Hạng mục công trình: Cấp công trình",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp loại công trình: Hạng mục công trình: Cấp công trình?"
+    },
+    {
+      "code": "21.24",
+      "label": "Diện tích xây dựng",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Diện tích xây dựng là bao nhiêu?"
+    },
+    {
+      "code": "21.25",
+      "label": "Diện tích sàn xây dựng: m2;",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Diện tích sàn xây dựng: m2; là bao nhiêu?"
+    },
+    {
+      "code": "21.26",
+      "label": "Hệ số (nếu có)",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Hệ số (nếu có) là bao nhiêu?"
+    },
+    {
+      "code": "21.27",
+      "label": "Đơn giá",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Đơn giá là bao nhiêu?"
+    },
+    {
+      "code": "21.28",
+      "label": "Giá trị công trình thực tế chuyển giao (nếu có): đồng",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giá trị công trình khác nhà ở thực tế chuyển giao là bao nhiêu đồng?"
+    },
+    {
+      "code": "22",
+      "label": "Tài sản gắn liền với đất",
+      "kind": "tieu_de",
+      "section": "Tài sản gắn liền với đất"
+    },
+    {
+      "code": "22.1",
+      "label": "Loại tài sản gắn liền với đất",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp loại tài sản gắn liền với đất?"
+    },
+    {
+      "code": "22.2",
+      "label": "Giá trị tài sản gắn liền với đất thực tế chuyển giao (nếu có):. đồng",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy chứng nhận và hồ sơ địa chính, hợp đồng chuyển nhượng hoặc văn bản thừa kế/quà tặng, hồ sơ nhà/công trình và căn cứ miễn thuế nếu có.",
+      "hoi": "Giá trị tài sản khác gắn liền với đất thực tế chuyển giao là bao nhiêu đồng?"
+    },
+    {
+      "code": "23",
+      "label": "Loại thu nhập",
+      "kind": "tieu_de",
+      "section": "Loại thu nhập"
+    },
+    {
+      "code": "23.1",
+      "label": "Thu nhập từ chuyển nhượng bất động sản ☐",
+      "kind": "danh_dau",
+      "note": "Ô đánh dấu: 1 = tích, 0 = không tích để tính [24].",
+      "section": "Loại giao dịch",
+      "hoi": "Bạn khai chuyển nhượng hay nhận thừa kế, quà tặng bất động sản?"
+    },
+    {
+      "code": "23.2",
+      "label": "Thu nhập từ nhận thừa kế, quà tặng ☐",
+      "kind": "danh_dau",
+      "note": "Ô đánh dấu: 1 = tích, 0 = không tích để tính [25].",
+      "section": "Loại giao dịch",
+      "hoi": "Bạn khai chuyển nhượng hay nhận thừa kế, quà tặng bất động sản?"
+    },
+    {
+      "code": "24",
+      "label": "Giá trị chuyển nhượng bất động sản và tài sản khác gắn liền với đất: đồng",
+      "kind": "cong_thuc",
+      "formula": "IF([23.1]=1,[20.9]+[21.19]+[21.28]+[22.2],0)",
+      "section": "Loại thu nhập"
+    },
+    {
+      "code": "25",
+      "label": "Giá trị bất động sản nhận thừa kế, quà tặng: đồng",
+      "kind": "cong_thuc",
+      "formula": "IF([23.2]=1,[20.9]+[21.19]+[21.28]+[22.2],0)",
+      "section": "Loại thu nhập"
+    },
+    {
+      "code": "26",
+      "label": "Miễn thuế thu nhập từ chuyển nhượng bất động sản, thu nhập từ nhận thừa kế, quà tặng là bất động sản (chỉ khai trong trường hợp chủ sở hữu, đồng sở hữu được miễn thuế theo quy định)",
+      "kind": "tieu_de",
+      "section": "Miễn thuế thu nhập từ chuyển nhượng bất động sản, thu nhập từ nhận thừa kế, quà tặng là bất động sản (chỉ khai trong trường hợp chủ sở hữu, đồng sở hữu được miễn thuế theo quy định)"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Danh sách người đồng sở hữu/chuyển nhượng",
+      "cot": [
+        {
+          "ma": "04.1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.2",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.3",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.4",
+          "ten": "Ngày sinh",
+          "c": 3,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "04.5",
+          "ten": "Số hộ chiếu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.6",
+          "ten": "Ngày cấp hộ chiếu",
+          "c": 5,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "04.7",
+          "ten": "Nơi cấp hộ chiếu",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.8",
+          "ten": "Điện thoại",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.9",
+          "ten": "Email",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04.10",
+          "ten": "Diện tích sử dụng/Tỷ lệ sở hữu (%)",
+          "c": 9,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK2",
+      "ten": "Danh sách cá nhân chuyển nhượng",
+      "cot": [
+        {
+          "ma": "11.1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11.2",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11.3",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11.4",
+          "ten": "Ngày sinh",
+          "c": 3,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "11.5",
+          "ten": "Số hộ chiếu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11.6",
+          "ten": "Ngày cấp hộ chiếu",
+          "c": 5,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "11.7",
+          "ten": "Nơi cấp hộ chiếu",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11.8",
+          "ten": "Tỷ lệ sở hữu (%)",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK3",
+      "ten": "Thông tin thửa đất",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Đường",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Đoạn đường",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Vị trí",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Loại đất",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Hệ số",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Diện tích",
+          "c": 6,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK4",
+      "ten": "Danh sách cá nhân được miễn thuế",
+      "cot": [
+        {
+          "ma": "26.1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "26.2",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "26.3",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "26.4",
+          "ten": "Lý do miễn nhà/đất ở duy nhất",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "26.5",
+          "ten": "Lý do miễn khác",
+          "c": 4,
+          "kieu": "chu"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

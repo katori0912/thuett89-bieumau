@@ -1,0 +1,197 @@
+{
+  "id": "TT89-05-TNDN",
+  "mau_so": "05/TNDN",
+  "title": "Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với hoạt động chuyển nhượng vốn của doanh nghiệp nước ngoài) — 05/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từng lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Đây là lần khai đầu tiên của kỳ này phải không?"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên tổ chức có vốn chuyển nhượng",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Tên tổ chức chuyển nhượng vốn là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Quốc tịch bên chuyển nhượng vốn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Bên chuyển nhượng mang quốc tịch nào?"
+    },
+    {
+      "code": "06",
+      "label": "Địa chỉ trụ sở chính bên chuyển nhượng vốn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Trụ sở chính của bên chuyển nhượng ở đâu?"
+    },
+    {
+      "code": "07",
+      "label": "Tên tổ chức/cá nhân nhận vốn chuyển nhượng",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Tên tổ chức hoặc cá nhân nhận phần vốn là gì?"
+    },
+    {
+      "code": "08",
+      "label": "Quốc tịch bên nhận chuyển nhượng vốn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Bên nhận phần vốn mang quốc tịch nào?"
+    },
+    {
+      "code": "09",
+      "label": "Địa chỉ trụ sở chính bên nhận chuyển nhượng vốn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Trụ sở hoặc địa chỉ bên nhận phần vốn ở đâu?"
+    },
+    {
+      "code": "10",
+      "label": "Mã số thuế bên nhận chuyển nhượng vốn (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Mã số thuế bên nhận phần vốn, nếu có, là gì?"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "13",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "14",
+      "label": "Tên doanh nghiệp có vốn được chuyển nhượng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Tên doanh nghiệp có phần vốn được chuyển nhượng là gì?"
+    },
+    {
+      "code": "15",
+      "label": "Mã số thuế doanh nghiệp có vốn được chuyển nhượng (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Mã số thuế của doanh nghiệp đó là gì?"
+    },
+    {
+      "code": "16",
+      "label": "Hợp đồng chuyển nhượng: Số: ngày tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Số và ngày ký hợp đồng chuyển nhượng vốn là gì?"
+    },
+    {
+      "code": "17",
+      "label": "Không phát sinh thu nhập (đánh dấu \"X\")",
+      "cot": "",
+      "kind": "danh_dau",
+      "note": "2. Chỉ tiêu [17]: áp dụng đối với trường hợp giao dịch tái cơ cấu sở hữu của các công ty trong nội bộ tập đoàn không làm thay đổi công ty mẹ tối cao của các bên tham gia có sở hữu trực tiếp, gián tiếp doanh nghiệp tại Việt Nam sau tái cơ cấu và không phát sinh thu nhập theo quy định tại điểm i khoản 3 Điều 12 Nghị định số 320/2025/NĐ-CP ngày 15 tháng 12 năm 2025 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp.",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "2. Chỉ tiêu [17]: áp dụng đối với trường hợp giao dịch tái cơ cấu sở hữu của các công ty trong nội bộ tập đoàn không làm thay đổi công ty mẹ tối cao của các bên tham gia có sở hữu trực tiếp, gián tiếp doanh nghiệp tại Việt Nam sau tái cơ cấu và không phát sinh thu nhập theo quy định tại điểm i khoản 3 Điều 12 Nghị định số 320/2025/NĐ-CP ngày 15 tháng 12 năm 2025 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp.",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Hồ sơ giao dịch có xác định đây là tái cơ cấu nội bộ tập đoàn không phát sinh thu nhập, giữ nguyên công ty mẹ tối cao không?"
+    },
+    {
+      "code": "18",
+      "label": "Doanh thu tính thuế thu nhập doanh nghiệp từ hoạt động chuyển nhượng vốn phát sinh tại Việt Nam",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Doanh thu dùng tính thuế của phần vốn chuyển nhượng tại Việt Nam là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "Tỷ lệ tính thuế TNDN (%) (nhập 20 cho 20%)",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Tỷ lệ tính thuế trong hồ sơ của giao dịch này là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "20",
+      "label": "Số thuế thu nhập doanh nghiệp phải nộp [20]=[18]x[19]",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[18]*[19]/100",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Số thuế thu nhập doanh nghiệp miễn, giảm theo Hiệp định",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng vốn, hồ sơ hai bên và doanh nghiệp có vốn chuyển nhượng, hồ sơ tính thuế/hiệp định và hồ sơ tái cơ cấu nếu có.",
+      "hoi": "Theo hồ sơ hiệp định, số thuế được miễn hoặc giảm là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Số thuế thu nhập doanh nghiệp phải nộp sau miễn, giảm [22]=[20]-[21]",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([20]-[21],0)",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

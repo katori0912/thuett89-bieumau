@@ -1,0 +1,178 @@
+{
+  "id": "TT89-07-TNDN",
+  "mau_so": "07/TNDN",
+  "title": "Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với hoạt động chia lợi tức cho tổ chức đầu tư của Quỹ đầu tư chứng khoán) — 07/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từng lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Đây là lần khai đầu tiên của kỳ này phải không?"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "09",
+      "label": "Tên quỹ đầu tư",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Tên quỹ đầu tư chia lợi tức là gì?"
+    },
+    {
+      "code": "10",
+      "label": "Chia lợi tức cho nhà đầu tư theo văn bản số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Số và ngày văn bản quyết định chia lợi tức là gì?"
+    },
+    {
+      "code": "11",
+      "label": "Tổng số lợi tức được chia",
+      "kind": "so",
+      "cot": "Số lợi tức được chia",
+      "note": "= tổng cột (7) của bảng kê; nhập tay.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột (7) của bảng kê; nhập tay.",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Tổng tiền lợi tức chia cho các tổ chức trong danh sách là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "label": "Tổng số thuế TNDN khấu trừ",
+      "kind": "so",
+      "cot": "Số thuế TNDN khấu trừ",
+      "note": "= tổng cột (8) của bảng kê; nhập tay.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột (8) của bảng kê; nhập tay.",
+      "lay_o_dau": "Văn bản chia lợi tức của quỹ đầu tư chứng khoán, danh sách tổ chức nhận lợi tức và bảng khấu trừ thuế.",
+      "hoi": "Tổng tiền thuế TNDN đã khấu trừ khi chia lợi tức là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Chi tiết chia lợi tức cho tổ chức đầu tư",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Ngày chia lợi tức",
+          "c": 1,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã số thuế tổ chức (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên tổ chức được chia lợi tức",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Quốc tịch - Tên",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Số lợi tức được chia",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Số thuế TNDN khấu trừ",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Ghi chú",
+          "c": 7,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

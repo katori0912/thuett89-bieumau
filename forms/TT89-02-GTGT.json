@@ -1,0 +1,337 @@
+{
+  "id": "TT89-02-GTGT",
+  "mau_so": "02/GTGT",
+  "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với người nộp thuế tính thuế theo phương pháp khấu trừ có dự án đầu tư thuộc diện được hoàn thuế) — 02/GTGT",
+  "fields": [
+    {
+      "code": "01a",
+      "label": "Mã hồ sơ khai dự án đầu tư",
+      "kind": "chu",
+      "note": "1. Chỉ tiêu [01a]: Người nộp thuế tự xác định mã hồ sơ khai dự án đầu tư đảm bảo phải duy nhất theo mã số thuế của người nộp thuế cho từng dự án đầu tư với các thông tin từ chỉ tiêu [06] đến [13]. Trường hợp dự án đầu tư thực hiện trên nhiều địa bàn cấp tỉnh thì kê khai theo địa chỉ dự án tại nhiều tỉnh vào chỉ tiêu từ [7] đến [10].",
+      "section": "Thông tin dự án",
+      "giai_thich": "Ghi chú 1: mã phải duy nhất theo mã số thuế người nộp thuế cho từng dự án. Nếu dự án ở nhiều tỉnh, khai đủ các địa chỉ trong phần địa bàn.",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Mã hồ sơ khai của dự án này là gì?"
+    },
+    {
+      "code": "01b",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người nộp thuế trên hồ sơ đăng ký là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Tên dự án đầu tư là gì?"
+    },
+    {
+      "code": "07",
+      "label": "Địa chỉ thực hiện dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Địa chỉ thực hiện dự án là gì?"
+    },
+    {
+      "code": "08",
+      "label": "Xã/phường/đặc khu",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Dự án ở xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "10",
+      "label": "Tỉnh/thành phố",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Dự án ở tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "11",
+      "label": "Số văn bản phê duyệt dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Số văn bản phê duyệt dự án là gì?"
+    },
+    {
+      "code": "12",
+      "label": "Tên chủ dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Tên chủ dự án đầu tư là gì?"
+    },
+    {
+      "code": "13",
+      "label": "Mã số thuế chủ dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Mã số thuế của chủ dự án là gì?"
+    },
+    {
+      "code": "14",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "15",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "16",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "21",
+      "label": "Thuế giá trị gia tăng chưa được hoàn kỳ trước chuyển sang",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đầu vào",
+      "lay_o_dau": "Tờ khai 02/GTGT kỳ trước, số chuyển kỳ sau.",
+      "hoi": "Số thuế đầu vào dự án chưa được hoàn từ kỳ trước chuyển sang là bao nhiêu?"
+    },
+    {
+      "code": "21a",
+      "label": "Thuế giá trị gia tăng đầu vào của dự án đầu tư nhận bàn giao",
+      "cot": "",
+      "kind": "so",
+      "note": "2. Chỉ tiêu [21a]: Khai số thuế giá trị gia tăng đầu vào của dự án đầu tư thuộc trường hợp được hoàn thuế GTGT do chủ dự án giao quản lý dự án hoặc từ các đơn vị khác do chủ dự án phân công quản lý.",
+      "section": "Thuế đầu vào",
+      "lay_o_dau": "Biên bản bàn giao thuế dự án thuộc trường hợp hoàn theo Ghi chú 2.",
+      "hoi": "Số thuế đầu vào dự án nhận bàn giao là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Hàng hoá, dịch vụ mua vào trong kỳ",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Thuế đầu vào",
+      "lay_o_dau": "Bảng kê hóa đơn mua vào và tờ khai hải quan của dự án.",
+      "hoi": "Tổng tiền mua vào của dự án chưa có thuế GTGT là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Hàng hoá, dịch vụ mua vào trong kỳ",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Thuế đầu vào",
+      "lay_o_dau": "Bảng kê hóa đơn, chứng từ nộp thuế nhập khẩu của dự án.",
+      "hoi": "Tổng thuế GTGT đầu vào của dự án trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "22a",
+      "label": "Trong đó: hàng hóa nhập khẩu",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Thuế đầu vào",
+      "lay_o_dau": "Tờ khai hải quan, bảng kê mua vào.",
+      "hoi": "Giá trị hàng nhập khẩu chưa thuế, đã nằm trong tổng mua vào, là bao nhiêu?"
+    },
+    {
+      "code": "23a",
+      "label": "Trong đó: hàng hóa nhập khẩu",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Thuế đầu vào",
+      "lay_o_dau": "Chứng từ nộp thuế GTGT nhập khẩu.",
+      "hoi": "Thuế GTGT nhập khẩu, đã nằm trong tổng thuế đầu vào, là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Điều chỉnh tăng giá trị và thuế GTGT hàng hóa, dịch vụ mua vào các kỳ trước",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "note": "3. Chỉ tiêu từ [24] đến [27]:\n- Trường hợp hàng hóa, dịch vụ mua trả chậm, trả góp có giá trị hàng hóa, dịch vụ mua từ 05 triệu đồng trở lên, cơ sở kinh doanh kê khai, điều chỉnh giảm số thuế giá trị gia tăng đầu vào được khấu trừ đối với phần giá trị hàng hóa, dịch vụ không có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [26], [27] kỳ tính thuế phát sinh nghĩa vụ thanh toán theo hợp đồng, phụ lục hợp đồng (không phải khai bổ sung hồ sơ khai thuế). Trường hợp sau khi điều chỉnh, cơ sở kinh doanh có chứng từ thanh toán không dùng tiền mặt thì cơ sở kinh doanh được kê khai, khấu trừ số thuế giá trị gia tăng đầu vào đối với phần giá trị hàng hóa, dịch vụ có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [24], [25] kỳ tính thuế có chứng từ thanh toán không dùng tiền mặt.\n- Trường hợp người nộp thuế phát hiện số thuế giá trị gia tăng đầu vào khi kê khai, khấu trừ bị sai, sót thực hiện khai vào chỉ tiêu [24], [25] hoặc [26], [27] tháng, quý phát hiện sai, sót nếu việc khai thuế được thực hiện vào tháng, quý phát sinh thuế giá trị gia tăng đầu vào bị sai, sót làm giảm số tiền thuế phải nộp hoặc chỉ làm tăng hoặc giảm số thuế giá trị gia tăng còn được khấu trừ chuyển kỳ sau (không phải khai bổ sung hồ sơ khai thuế).\n- Trường hợp người mua nhận được hóa đơn điều chỉnh, hóa đơn thay thế thuộc các trường hợp theo quy định tại khoản 5 Điều 10 Thông tư số 91/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính thì kê khai vào chỉ tiêu [24], [25], [26], [27] của kỳ tính thuế nhận được hóa đơn điều chỉnh, hóa đơn thay thế (không phải khai bổ sung hồ sơ khai thuế).\n- Các trường hợp khác thực hiện theo quy định tại Điều 12 Nghị định số 252/2026/NĐ-CP ngày 30/6/2026 của Chính phủ và Phụ lục II Thông tư này.",
+      "section": "Điều chỉnh",
+      "lay_o_dau": "Bảng tổng hợp điều chỉnh, hóa đơn điều chỉnh hoặc thay thế và chứng từ thanh toán theo Ghi chú 3.",
+      "hoi": "Giá trị mua vào của kỳ trước cần điều chỉnh tăng là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Điều chỉnh tăng giá trị và thuế GTGT hàng hóa, dịch vụ mua vào các kỳ trước",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Điều chỉnh",
+      "lay_o_dau": "Bảng tổng hợp điều chỉnh, hóa đơn điều chỉnh hoặc thay thế và chứng từ thanh toán theo Ghi chú 3.",
+      "hoi": "Thuế đầu vào của kỳ trước cần điều chỉnh tăng là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Điều chỉnh giảm giá trị và thuế GTGT hàng hóa, dịch vụ mua vào các kỳ trước",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Điều chỉnh",
+      "lay_o_dau": "Bảng tổng hợp điều chỉnh, hóa đơn điều chỉnh hoặc thay thế và chứng từ thanh toán theo Ghi chú 3.",
+      "hoi": "Giá trị mua vào của kỳ trước cần điều chỉnh giảm là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Điều chỉnh giảm giá trị và thuế GTGT hàng hóa, dịch vụ mua vào các kỳ trước",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "note": "3. Chỉ tiêu từ [24] đến [27]:\n- Trường hợp hàng hóa, dịch vụ mua trả chậm, trả góp có giá trị hàng hóa, dịch vụ mua từ 05 triệu đồng trở lên, cơ sở kinh doanh kê khai, điều chỉnh giảm số thuế giá trị gia tăng đầu vào được khấu trừ đối với phần giá trị hàng hóa, dịch vụ không có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [26], [27] kỳ tính thuế phát sinh nghĩa vụ thanh toán theo hợp đồng, phụ lục hợp đồng (không phải khai bổ sung hồ sơ khai thuế). Trường hợp sau khi điều chỉnh, cơ sở kinh doanh có chứng từ thanh toán không dùng tiền mặt thì cơ sở kinh doanh được kê khai, khấu trừ số thuế giá trị gia tăng đầu vào đối với phần giá trị hàng hóa, dịch vụ có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [24], [25] kỳ tính thuế có chứng từ thanh toán không dùng tiền mặt.\n- Trường hợp người nộp thuế phát hiện số thuế giá trị gia tăng đầu vào khi kê khai, khấu trừ bị sai, sót thực hiện khai vào chỉ tiêu [24], [25] hoặc [26], [27] tháng, quý phát hiện sai, sót nếu việc khai thuế được thực hiện vào tháng, quý phát sinh thuế giá trị gia tăng đầu vào bị sai, sót làm giảm số tiền thuế phải nộp hoặc chỉ làm tăng hoặc giảm số thuế giá trị gia tăng còn được khấu trừ chuyển kỳ sau (không phải khai bổ sung hồ sơ khai thuế).\n- Trường hợp người mua nhận được hóa đơn điều chỉnh, hóa đơn thay thế thuộc các trường hợp theo quy định tại khoản 5 Điều 10 Thông tư số 91/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính thì kê khai vào chỉ tiêu [24], [25], [26], [27] của kỳ tính thuế nhận được hóa đơn điều chỉnh, hóa đơn thay thế (không phải khai bổ sung hồ sơ khai thuế).\n- Các trường hợp khác thực hiện theo quy định tại Điều 12 Nghị định số 252/2026/NĐ-CP ngày 30/6/2026 của Chính phủ và Phụ lục II Thông tư này.",
+      "section": "Điều chỉnh",
+      "lay_o_dau": "Bảng tổng hợp điều chỉnh, hóa đơn điều chỉnh hoặc thay thế và chứng từ thanh toán theo Ghi chú 3.",
+      "hoi": "Thuế đầu vào của kỳ trước cần điều chỉnh giảm là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Tổng số thuế giá trị gia tăng đầu vào của hàng hóa, dịch vụ mua vào ([28]=[21]+[21a]+[23]+[25]-[27])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[21]+[21a]+[23]+[25]-[27]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "28a",
+      "label": "Thuế giá trị gia tăng mua vào của dự án đầu tư bù trừ với thuế giá trị gia tăng phải nộp của hoạt động sản xuất kinh doanh cùng kỳ tính thuế ([28a]≤[28])",
+      "cot": "",
+      "kind": "so",
+      "note": "4. Chỉ tiêu [28a] và [28b]: Khai bù trừ tương ứng tại chỉ tiêu [40b] tại Tờ khai thuế mẫu số 01/GTGT của cùng kỳ tính thuế./.",
+      "section": "Bù trừ và hoàn thuế",
+      "lay_o_dau": "Tờ khai 01/GTGT cùng kỳ, phần bù trừ dự án tại chỉ tiêu [40b].",
+      "hoi": "Số thuế dự án bù trừ với thuế kinh doanh của bạn là bao nhiêu?"
+    },
+    {
+      "code": "28b",
+      "label": "Thuế giá trị gia tăng mua vào của dự án đầu tư bù trừ với thuế giá trị gia tăng phải nộp của hoạt động sản xuất kinh doanh cùng kỳ tính thuế của chủ đầu tư (trường hợp người nộp thuế được chủ đầu tư giao quản lý dự án đầu tư; ([28b]≤[28]-[28a])",
+      "cot": "",
+      "kind": "so",
+      "note": "4. Chỉ tiêu [28a] và [28b]: Khai bù trừ tương ứng tại chỉ tiêu [40b] tại Tờ khai thuế mẫu số 01/GTGT của cùng kỳ tính thuế./.",
+      "section": "Bù trừ và hoàn thuế",
+      "lay_o_dau": "Tờ khai 01/GTGT cùng kỳ của chủ đầu tư và bảng đối chiếu bù trừ.",
+      "hoi": "Số thuế dự án bù trừ với thuế kinh doanh của chủ đầu tư là bao nhiêu?"
+    },
+    {
+      "code": "29",
+      "label": "Thuế giá trị gia tăng đầu vào chưa được hoàn đến kỳ tính thuế của dự án đầu tư ([29]=[28]-[28a]-[28b])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[28]-[28a]-[28b]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "30",
+      "label": "Thuế giá trị gia tăng đề nghị hoàn ([30]≤[29])",
+      "cot": "",
+      "kind": "so",
+      "section": "Bù trừ và hoàn thuế",
+      "lay_o_dau": "Hồ sơ đề nghị hoàn, không vượt số thuế dự án còn lại.",
+      "hoi": "Số thuế dự án bạn đề nghị hoàn là bao nhiêu?"
+    },
+    {
+      "code": "31",
+      "label": "Thuế giá trị gia tăng đầu vào của dự án đầu tư chưa được hoàn bàn giao trong kỳ ([31]≤[29]-[30])",
+      "cot": "",
+      "kind": "so",
+      "section": "Bù trừ và hoàn thuế",
+      "lay_o_dau": "Biên bản bàn giao, sau khi trừ số đề nghị hoàn.",
+      "hoi": "Số thuế dự án chưa được hoàn bàn giao trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "32",
+      "label": "Thuế giá trị gia tăng đầu vào của dự án đầu tư chưa được hoàn chuyển kỳ sau ([32]=[29]-[30]-[31])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[29]-[30]-[31]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11_NGAY",
+      "label": "Ngày văn bản phê duyệt dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Văn bản phê duyệt dự án ghi ngày nào?"
+    },
+    {
+      "code": "11_CUA",
+      "label": "Cơ quan phê duyệt dự án đầu tư",
+      "kind": "chu",
+      "section": "Thông tin dự án",
+      "lay_o_dau": "Văn bản phê duyệt dự án và hồ sơ quản lý dự án.",
+      "hoi": "Cơ quan nào phê duyệt dự án?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [
+    {
+      "expr": "[28a]<=[28]",
+      "text": "[28a]<=[28])"
+    },
+    {
+      "expr": "[28b]<=[28]-[28a]",
+      "text": "[28b]<=[28]-[28a])"
+    },
+    {
+      "expr": "[30]<=[29]",
+      "text": "[30]<=[29])"
+    },
+    {
+      "expr": "[31]<=[29]-[30]",
+      "text": "[31]<=[29]-[30])"
+    }
+  ],
+  "phu_luc": [
+    {
+      "id": "TT89-01-8-GTGT",
+      "label": "Bạn có kê thông tin chi tiết cho hồ sơ hoàn thuế dự án không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

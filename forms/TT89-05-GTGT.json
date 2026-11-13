@@ -1,0 +1,231 @@
+{
+  "id": "TT89-05-GTGT",
+  "mau_so": "05/GTGT",
+  "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với khai thuế đối với hoạt động xây dựng, hoạt động chuyển nhượng bất động sản ngoại tỉnh theo từng lần phát sinh hoặc theo tháng/quý theo kỳ tính thuế của người nộp thuế đang áp dụng). — 05/GTGT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người nộp thuế trên hồ sơ đăng ký là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "09",
+      "label": "Địa chỉ nơi có hoạt động xây dựng, chuyển nhượng BĐS",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú của mẫu: nếu có nhiều địa điểm do cùng cơ quan thuế quản lý, chọn một xã/phường/đặc khu để kê khai.",
+      "lay_o_dau": "Hợp đồng xây dựng hoặc hồ sơ bất động sản.",
+      "hoi": "Địa chỉ nơi xây dựng hoặc chuyển nhượng bất động sản là gì?"
+    },
+    {
+      "code": "09a",
+      "label": "Xã/phường/đặc khu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú của mẫu: nếu có nhiều địa điểm do cùng cơ quan thuế quản lý, chọn một xã/phường/đặc khu để kê khai.",
+      "lay_o_dau": "Hợp đồng xây dựng hoặc hồ sơ bất động sản.",
+      "hoi": "Nơi đó thuộc xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "09c",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú của mẫu: nếu có nhiều địa điểm do cùng cơ quan thuế quản lý, chọn một xã/phường/đặc khu để kê khai.",
+      "lay_o_dau": "Hợp đồng xây dựng hoặc hồ sơ bất động sản.",
+      "hoi": "Nơi đó thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "24",
+      "label": "Tổng doanh thu chưa có thuế GTGT",
+      "kind": "cong_thuc",
+      "formula": "[21]+[21@BDS]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "25",
+      "label": "Tổng thuế GTGT phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[23]+[23@BDS]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Hoạt động xây dựng — Doanh thu chưa có thuế GTGT",
+      "kind": "so",
+      "cot": "Doanh thu chưa có thuế GTGT",
+      "section": "Hoạt động xây dựng",
+      "lay_o_dau": "Hóa đơn xây dựng và bảng doanh thu công trình ngoại tỉnh.",
+      "hoi": "Doanh thu xây dựng chưa thuế GTGT cần khai kỳ này là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Hoạt động xây dựng — Tỷ lệ thuế GTGT (nhập 20 cho 20%)",
+      "kind": "cong_thuc",
+      "cot": "Tỷ lệ (%)",
+      "formula": "IF([21]>0,1,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "23",
+      "label": "Hoạt động xây dựng — Thuế GTGT phải nộp",
+      "kind": "cong_thuc",
+      "formula": "ROUND([21]*[22]/100,0)",
+      "cot": "Thuế GTGT phải nộp",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21@BDS",
+      "label": "Hoạt động chuyển nhượng bất động sản — Doanh thu chưa có thuế GTGT",
+      "kind": "so",
+      "cot": "Doanh thu chưa có thuế GTGT",
+      "section": "Chuyển nhượng bất động sản",
+      "lay_o_dau": "Hóa đơn, hợp đồng và bảng doanh thu chuyển nhượng bất động sản ngoại tỉnh.",
+      "hoi": "Doanh thu chuyển nhượng bất động sản chưa thuế GTGT cần khai là bao nhiêu?"
+    },
+    {
+      "code": "22@BDS",
+      "label": "Hoạt động chuyển nhượng bất động sản — Tỷ lệ thuế GTGT (nhập 20 cho 20%)",
+      "kind": "cong_thuc",
+      "cot": "Tỷ lệ (%)",
+      "formula": "IF([21@BDS]>0,1,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "23@BDS",
+      "label": "Hoạt động chuyển nhượng bất động sản — Thuế GTGT phải nộp",
+      "kind": "cong_thuc",
+      "formula": "ROUND([21@BDS]*[22@BDS]/100,0)",
+      "cot": "Thuế GTGT phải nộp",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Hợp đồng xây dựng: khai lần đầu hoặc khi thay đổi",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Số hợp đồng",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Ngày hợp đồng",
+          "c": 2,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên chủ đầu tư",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã số thuế chủ đầu tư (nếu có)",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Địa chỉ công trình: số nhà, đường phố",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Địa chỉ công trình: xã/phường/đặc khu",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Địa chỉ công trình: tỉnh/thành phố",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Tổng giá trị hợp đồng chưa có thuế GTGT",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

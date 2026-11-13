@@ -1,0 +1,132 @@
+{
+  "id": "TT89-02-1-BK-QTT-TNCN",
+  "mau_so": "02-1/BK-QTT-TNCN",
+  "title": "Phụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc — 02-1/BK-QTT-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm (Từ tháng / đến tháng / )",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Họ và tên vợ (chồng) nếu có",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy tờ của vợ/chồng nếu khai, hồ sơ đăng ký người phụ thuộc, giấy khai sinh/định danh và thời gian đủ điều kiện giảm trừ.",
+      "hoi": "Bạn ghi tên vợ hoặc chồng vào phụ lục này là gì?"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế vợ (chồng)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy tờ của vợ/chồng nếu khai, hồ sơ đăng ký người phụ thuộc, giấy khai sinh/định danh và thời gian đủ điều kiện giảm trừ.",
+      "hoi": "Mã số thuế của vợ hoặc chồng là gì?"
+    },
+    {
+      "code": "08",
+      "label": "Số CMND/CCCD/Định danh cá nhân/Số hộ chiếu vợ (chồng)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Giấy tờ của vợ/chồng nếu khai, hồ sơ đăng ký người phụ thuộc, giấy khai sinh/định danh và thời gian đủ điều kiện giảm trừ.",
+      "hoi": "Số giấy tờ định danh của vợ hoặc chồng là gì?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Người phụ thuộc và thời gian giảm trừ",
+      "cot": [
+        {
+          "ma": "09",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "10",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Loại giấy tờ (Số CMND/CCCD/ĐDCN/Hộ chiếu/GKS)",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Số giấy tờ",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "14",
+          "ten": "Ngày sinh",
+          "c": 5,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "15",
+          "ten": "Quan hệ với người nộp thuế",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "16",
+          "ten": "Từ tháng",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "17",
+          "ten": "Đến tháng",
+          "c": 8,
+          "kieu": "chu"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

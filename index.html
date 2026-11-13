@@ -1,7 +1,26 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Biểu mẫu thuế TT89</title>
-<style>:root{color-scheme:light dark}body{font-family:system-ui,sans-serif;margin:0;padding:24px 16px;background:#fff;color:#1a1a1a}
-@media (prefers-color-scheme:dark){body{background:#17212b;color:#e8e8e8}}</style></head>
-<body><h1 style="font-size:20px;font-weight:500">Biểu mẫu tờ khai thuế (TT89/2026)</h1>
-<p>Trang đang được xây dựng. Mở từ bot Telegram bằng lệnh /bieumau.</p></body></html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://telegram.org; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <title>Biểu mẫu thuế</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script defer src="./congthuc.js"></script>
+  <script defer src="./lz-base64.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header><p class="eyebrow">BIỂU MẪU THUẾ</p><h1>Nhập số liệu tờ khai</h1>
+    <label for="form-select">Chọn mẫu</label><select id="form-select"><option>Đang tải danh mục…</option></select>
+    <p class="hint">Ô vàng: nhập số liệu · Ô xám: tự tính. Thông tin chỉ được gửi khi bạn bấm Gửi.</p>
+  </header>
+  <nav id="tabs" aria-label="Tờ khai và phụ lục"></nav>
+  <main id="form" aria-busy="true"></main>
+  <aside id="status" role="status" aria-live="polite"></aside>
+  <footer><button id="download" type="button">Tải file JSON</button><button id="send" class="primary" type="button" disabled>Gửi số liệu</button></footer>
+  <noscript>Cần bật JavaScript để nhập và tính số liệu.</noscript>
+</body>
+</html>

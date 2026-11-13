@@ -1,0 +1,113 @@
+{
+  "id": "TT89-01-BK-KTHTKD",
+  "mau_so": "01/BK-KTHTKD",
+  "title": "Phụ lục Bảng kê chi tiết hộ kinh doanh, cá nhân kinh doanh (Kèm theo Tờ khai 01/TCKT áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân hợp tác kinh doanh với tổ chức) — 01/BK-KTHTKD",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Tổ chức khai thuế thay, nộp thuế thay theo pháp luật quản lý thuế",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "02",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_kt"
+    },
+    {
+      "code": "10",
+      "label": "Tổng cộng — Nhóm ngành nghề (để trống; mã nhóm ngành không cộng)",
+      "kind": "chu",
+      "cot": "Nhóm ngành nghề",
+      "note": "Cột chứa mã nhóm ngành (dữ liệu phân loại), dòng tổng không có số để cộng. Để trống, chỉ ghi nếu cơ quan thuế yêu cầu.",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11",
+      "label": "Tổng cộng — Doanh thu trả trong kỳ",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trả trong kỳ",
+      "note": "= tổng cột [07] của bảng kê BK1",
+      "formula": "[BK1.07]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12",
+      "label": "Tổng cộng — Doanh thu tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TNCN",
+      "note": "= tổng cột [08] của bảng kê BK1",
+      "formula": "[BK1.08]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13",
+      "label": "Tổng cộng — Số thuế TNCN phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN phải nộp",
+      "note": "= tổng cột [09] của bảng kê BK1",
+      "formula": "[BK1.09]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Cá nhân hợp tác kinh doanh",
+      "cot": [
+        {
+          "ma": "03",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "04",
+          "ten": "Họ và tên hộ kinh doanh, cá nhân kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "05",
+          "ten": "Mã số thuế/Số định danh cá nhân của hộ kinh doanh, cá nhân kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "06",
+          "ten": "Nhóm ngành nghề",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Doanh thu trả trong kỳ",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "08",
+          "ten": "Doanh thu tính thuế TNCN",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "09",
+          "ten": "Số thuế TNCN phải nộp",
+          "c": 6,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "07",
+        "08",
+        "09"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

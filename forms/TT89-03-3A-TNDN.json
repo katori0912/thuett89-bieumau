@@ -1,0 +1,365 @@
+{
+  "id": "TT89-03-3A-TNDN",
+  "mau_so": "03-3A/TNDN",
+  "title": "Phụ lục thuế thu nhập doanh nghiệp được ưu đãi đối với thu nhập từ dự án đầu tư, thu nhập của doanh nghiệp được hưởng ưu đãi thuế thu nhập doanh nghiệp — 03-3A/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từ / / đến / /",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09",
+      "label": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính",
+      "kind": "tieu_de",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "09a",
+      "label": "Xã/phường/đặc khu",
+      "kind": "chu",
+      "note": "9. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "9. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "lay_o_dau": "Bảng ưu đãi thuế theo từng dự án, từng tỉnh; hồ sơ đầu tư, quyết định ưu đãi và chứng từ nộp thuế.",
+      "hoi": "Đơn vị được ưu đãi ở xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "09b",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "note": "9. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "9. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "lay_o_dau": "Bảng ưu đãi thuế theo từng dự án, từng tỉnh; hồ sơ đầu tư, quyết định ưu đãi và chứng từ nộp thuế.",
+      "hoi": "Đơn vị đó thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "10",
+      "label": "Tổng Thu nhập tính thuế được hưởng ưu đãi",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập tính thuế được hưởng ưu đãi",
+      "note": "= tổng cột (19) của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.19]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "11",
+      "label": "Tổng Thuế TNDN phải nộp theo thuế suất phổ thông",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNDN phải nộp theo thuế suất phổ thông",
+      "note": "= tổng cột (21) của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.21]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "12",
+      "label": "Tổng Số thuế chênh lệch do áp dụng thuế suất ưu đãi",
+      "kind": "cong_thuc",
+      "cot": "Số thuế chênh lệch do áp dụng thuế suất ưu đãi",
+      "note": "= tổng cột (23) của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.23]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "13",
+      "label": "Tổng Số thuế được miễn",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được miễn",
+      "note": "= tổng cột (25) của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.25]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "14",
+      "label": "Tổng Số thuế được giảm",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm",
+      "note": "= tổng cột (26) của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.26]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "15",
+      "label": "Tổng Tổng số thuế được ưu đãi",
+      "kind": "cong_thuc",
+      "cot": "Tổng số thuế được ưu đãi",
+      "note": "= tổng cột (27) của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.27]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "16",
+      "label": "Thuế TNDN phải nộp của hoạt động được hưởng ưu đãi thuế TNDN ([16]=[11]-[15])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[11]-[15]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "17",
+      "label": "Thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng ưu đãi thuế theo từng dự án, từng tỉnh; hồ sơ đầu tư, quyết định ưu đãi và chứng từ nộp thuế.",
+      "hoi": "Phần hoạt động ưu đãi khác tỉnh có bao nhiêu thuế nộp thừa kỳ trước chuyển sang?"
+    },
+    {
+      "code": "18",
+      "label": "Thuế TNDN đã tạm nộp trong năm",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng ưu đãi thuế theo từng dự án, từng tỉnh; hồ sơ đầu tư, quyết định ưu đãi và chứng từ nộp thuế.",
+      "hoi": "Bạn đã tạm nộp bao nhiêu thuế cho phần hoạt động ưu đãi khác tỉnh?"
+    },
+    {
+      "code": "19",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp trong năm ([19]=[16]-[18])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[16]-[18]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "20",
+      "label": "Thuế TNDN còn phải nộp ([20]=[16]-[17]-[18])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[16]-[17]-[18]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "A. Dự án và thu nhập được ưu đãi",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "TT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Loại ưu đãi",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Tên NNT/đơn vị/địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "MST/Mã địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Cơ quan thuế quản lý",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Điều kiện hưởng ưu đãi",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Tên dự án",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Mã dự án",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Lĩnh vực hoạt động",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Tiêu chí đầu tư mở rộng",
+          "c": 9,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Số năm ưu đãi thuế suất",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Từ năm ưu đãi thuế suất",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số năm miễn giảm",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Từ năm miễn giảm",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Doanh thu tính thuế",
+          "c": 14,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Chi phí tính thuế",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Thu nhập miễn thuế",
+          "c": 16,
+          "kieu": "so"
+        },
+        {
+          "ma": "18",
+          "ten": "Chuyển lỗ và bù trừ",
+          "c": 17,
+          "kieu": "so"
+        },
+        {
+          "ma": "19",
+          "ten": "Thu nhập tính thuế được ưu đãi",
+          "c": 18,
+          "kieu": "so"
+        },
+        {
+          "ma": "20",
+          "ten": "Thuế suất ưu đãi (%)",
+          "c": 19,
+          "kieu": "so"
+        },
+        {
+          "ma": "21",
+          "ten": "Thuế theo thuế suất phổ thông",
+          "c": 20,
+          "kieu": "so"
+        },
+        {
+          "ma": "22",
+          "ten": "Thuế theo thuế suất ưu đãi",
+          "c": 21,
+          "kieu": "so"
+        },
+        {
+          "ma": "23",
+          "ten": "Chênh lệch do thuế suất ưu đãi",
+          "c": 22,
+          "kieu": "so"
+        },
+        {
+          "ma": "24",
+          "ten": "Tỷ lệ giảm thuế (%)",
+          "c": 23,
+          "kieu": "so"
+        },
+        {
+          "ma": "25",
+          "ten": "Thuế được miễn",
+          "c": 24,
+          "kieu": "so"
+        },
+        {
+          "ma": "26",
+          "ten": "Thuế được giảm",
+          "c": 25,
+          "kieu": "so"
+        },
+        {
+          "ma": "27",
+          "ten": "Tổng thuế được ưu đãi",
+          "c": 26,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[23]+[25]+[26]"
+        }
+      ],
+      "tong": [
+        "19",
+        "21",
+        "23",
+        "25",
+        "26",
+        "27"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

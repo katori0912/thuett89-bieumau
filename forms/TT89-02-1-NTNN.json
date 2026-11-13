@@ -1,0 +1,96 @@
+{
+  "id": "TT89-02-1-NTNN",
+  "mau_so": "02-1/NTNN",
+  "title": "Phụ lục Bảng kê các nhà thầu nước ngoài — 02-1/NTNN",
+  "fields": [
+    {
+      "code": "KY_THUE",
+      "label": "Kỳ tính thuế: quyết toán hợp đồng số, ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "BEN_VN",
+      "label": "Bên Việt Nam khấu trừ và nộp thuế thay",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "MST_VN",
+      "label": "Mã số thuế nộp thay của bên Việt Nam",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_vn"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Phụ lục Bảng kê các nhà thầu nước ngoài",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên nhà thầu nước ngoài",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Nước cư trú",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Mã số thuế nhà thầu tại Việt Nam (nếu có)",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Loại hàng hóa, dịch vụ",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Hợp đồng: số và ngày",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Thời điểm kết thúc hợp đồng",
+          "c": 6,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá trị hợp đồng",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Doanh thu tính thuế",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "8",
+        "9"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,749 @@
+{
+  "id": "TT89-05-1-BK-QTT-TNCN",
+  "mau_so": "05-1/BK-QTT-TNCN",
+  "title": "Phụ lục bảng kê chi tiết cá nhân thuộc diện tính thuế theo biểu lũy tiến từng phần — 05-1/BK-QTT-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "26",
+      "label": "Tổng — Thu nhập chịu thuế (TNCT) — Tổng thu nhập chịu thuế phát sinh trong kỳ",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập chịu thuế (TNCT) — Tổng thu nhập chịu thuế phát sinh trong kỳ",
+      "note": "T16: = tổng cột [12] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "27",
+      "label": "Tổng — Thu nhập chịu thuế (TNCT) — Trong đó: thu nhập chịu thuế được miễn theo Hiệp định",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập chịu thuế (TNCT) — Trong đó: thu nhập chịu thuế được miễn theo Hiệp định",
+      "note": "T16: = tổng cột [13] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "28",
+      "label": "Tổng — Thu nhập chịu thuế (TNCT) — Trong đó: thu nhập chịu thuế được miễn theo quy định của Hợp đồng dầu khí",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập chịu thuế (TNCT) — Trong đó: thu nhập chịu thuế được miễn theo quy định của Hợp đồng dầu khí",
+      "note": "T16: = tổng cột [14] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.14]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "29",
+      "label": "Tổng — Các khoản giảm trừ — Số lượng NPT tính giảm trừ",
+      "kind": "cong_thuc",
+      "cot": "Các khoản giảm trừ — Số lượng NPT tính giảm trừ",
+      "note": "T16: = tổng cột [15] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.15]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "30",
+      "label": "Tổng — Các khoản giảm trừ — Tổng số tiền giảm trừ gia cảnh",
+      "kind": "cong_thuc",
+      "cot": "Các khoản giảm trừ — Tổng số tiền giảm trừ gia cảnh",
+      "note": "T16: = tổng cột [16] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.16]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "31",
+      "label": "Tổng — Các khoản giảm trừ — Từ thiện, nhân đạo, khuyến học",
+      "kind": "cong_thuc",
+      "cot": "Các khoản giảm trừ — Từ thiện, nhân đạo, khuyến học",
+      "note": "T16: = tổng cột [17] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.17]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "32",
+      "label": "Tổng — Các khoản giảm trừ — Bảo hiểm được trừ",
+      "kind": "cong_thuc",
+      "cot": "Các khoản giảm trừ — Bảo hiểm được trừ",
+      "note": "T16: = tổng cột [18] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.18]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "33",
+      "label": "Tổng — Các khoản giảm trừ — Quĩ hưu trí tự nguyện được trừ",
+      "kind": "cong_thuc",
+      "cot": "Các khoản giảm trừ — Quĩ hưu trí tự nguyện được trừ",
+      "note": "T16: = tổng cột [19] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.19]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "34",
+      "label": "Tổng — Thu nhập tính thuế",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập tính thuế",
+      "note": "T16: = tổng cột [20] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.20]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "35",
+      "label": "Tổng — Tổng số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Tổng số thuế TNCN đã khấu trừ",
+      "note": "T16: = tổng cột [21] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.21]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "36",
+      "label": "Tổng — Chi tiết kết quả quyết toán thay cho cá nhân nộp thuế — Tổng số thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Chi tiết kết quả quyết toán thay cho cá nhân nộp thuế — Tổng số thuế phải nộp",
+      "note": "T16: = tổng cột [22] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.22]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Tổng — Chi tiết kết quả quyết toán thay cho cá nhân nộp thuế — Số thuế đã nộp thừa",
+      "kind": "cong_thuc",
+      "cot": "Chi tiết kết quả quyết toán thay cho cá nhân nộp thuế — Số thuế đã nộp thừa",
+      "note": "T16: = tổng cột [23] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.23]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "38",
+      "label": "Tổng — Chi tiết kết quả quyết toán thay cho cá nhân nộp thuế — Số thuế còn phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Chi tiết kết quả quyết toán thay cho cá nhân nộp thuế — Số thuế còn phải nộp",
+      "note": "T16: = tổng cột [24] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.24]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "39",
+      "label": "Tổng — Cá nhân có số thuế được miễn do có số thuế còn phải nộp từ 50.000 đồng trở xuống",
+      "kind": "cong_thuc",
+      "cot": "Cá nhân có số thuế được miễn do có số thuế còn phải nộp từ 50.000 đồng trở xuống",
+      "note": "T16: tổng số dòng đánh dấu [25], qua cờ số MIEN50; không cộng trực tiếp chuỗi X.",
+      "formula": "[BK1.N25]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "SO_THANG",
+      "label": "Số tháng tính bình quân (để trống = 12 như HTKK)",
+      "kind": "so",
+      "note": "T16: tham số cố định $BH$20; không suy ra số tháng từ kỳ tính thuế dạng chữ.",
+      "section": "Thông tin chung",
+      "giai_thich": "Nhập số tháng dùng tính bình quân theo hồ sơ quyết toán; không lấy số tháng từ dòng kỳ tính thuế dạng chữ.",
+      "lay_o_dau": "Bảng lương quyết toán từng người, chứng từ khấu trừ, giấy ủy quyền, hồ sơ điều chuyển và hồ sơ miễn thuế.",
+      "hoi": "Bảng này tính bình quân thu nhập theo bao nhiêu tháng?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê cá nhân thuế lũy tiến",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Ủy quyền quyết toán",
+          "c": 4,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "11",
+          "ten": "Người nước ngoài ủy quyền dưới 12 tháng",
+          "c": 5,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "12",
+          "ten": "Tổng TNCT",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "TNCT miễn theo Hiệp định",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "TNCT miễn theo hợp đồng dầu khí",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số NPT",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Giảm trừ gia cảnh",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Từ thiện/nhân đạo",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "18",
+          "ten": "Bảo hiểm được trừ",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "19",
+          "ten": "Quỹ hưu trí được trừ",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "20",
+          "ten": "Thu nhập tính thuế",
+          "c": 14,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX(ROUND([12]-[13]-[14]-[16]-[17]-[18]-[19],0),0)"
+        },
+        {
+          "ma": "21",
+          "ten": "Thuế đã khấu trừ",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "22",
+          "ten": "Thuế phải nộp (cá nhân ủy quyền: thuế theo biểu lũy tiến của thu nhập tính thuế [20], = HTKK BL44 'công thức cột 22')",
+          "c": 16,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,[BL],0)"
+        },
+        {
+          "ma": "23",
+          "ten": "Thuế nộp thừa = [21] - [22] nếu dương (cá nhân ủy quyền)",
+          "c": 17,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,MAX([21]-[22],0),0)"
+        },
+        {
+          "ma": "24",
+          "ten": "Số thuế còn phải nộp = [22] - [21] nếu dương (cá nhân ủy quyền)",
+          "c": 18,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,MAX([22]-[21],0),0)"
+        },
+        {
+          "ma": "25",
+          "ten": "Cá nhân có số thuế được miễn do còn phải nộp từ 50.000 đồng trở xuống",
+          "c": 19,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "08a",
+          "ten": "Người nước ngoài hoặc người Việt Nam sống ở nước ngoài chưa có mã định danh",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "09a",
+          "ten": "Loại giấy tờ (Số ĐDCN/Hộ chiếu)",
+          "c": -1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "DC",
+          "ten": "Có điều chỉnh số liệu (HTKK)",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "CO_TEN",
+          "ten": "Đếm cá nhân (mỗi dòng 1 người)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "1"
+        },
+        {
+          "ma": "UQ",
+          "ten": "Cờ ủy quyền quyết toán = có đánh dấu [10] hoặc [11]",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([10]+[11]>0,1,0)"
+        },
+        {
+          "ma": "MIEN50",
+          "ten": "Cờ miễn thuế ≤ 50.000 đồng = có đánh dấu [25]",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([25]>0,1,0)"
+        },
+        {
+          "ma": "BH",
+          "ten": "Thu nhập tính thuế bình quân tháng (HTKK BH44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[20]/IF([SO_THANG]=0,12,[SO_THANG])"
+        },
+        {
+          "ma": "BI",
+          "ten": "Thuế 1 tháng theo biểu lũy tiến 5 bậc (HTKK BI44): ≤10tr 5%; 10–30tr 10%; 30–60tr 20%; 60–100tr 30%; >100tr 35%",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([BH]>100000000,([BH]-100000000)*0.35+20500000,IF([BH]>60000000,([BH]-60000000)*0.3+8500000,IF([BH]>30000000,([BH]-30000000)*0.2+2500000,IF([BH]>10000000,([BH]-10000000)*0.1+500000,[BH]*0.05))))"
+        },
+        {
+          "ma": "BL",
+          "ten": "Thuế cả năm trước xử lý ủy quyền (HTKK BL44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "ROUND([BI]*IF([SO_THANG]=0,12,[SO_THANG]),0)"
+        },
+        {
+          "ma": "BJ",
+          "ten": "Thuế miễn [60] tại BK3 của cùng MST (thay VLOOKUP BJ44, nhập sau đối chiếu)",
+          "c": -1,
+          "kieu": "so"
+        },
+        {
+          "ma": "BK",
+          "ten": "Thuế miễn [61] tại BK3 của cùng MST (thay VLOOKUP BK44, nhập sau đối chiếu)",
+          "c": -1,
+          "kieu": "so"
+        },
+        {
+          "ma": "BN",
+          "ten": "Số cá nhân có họ tên (HTKK BN44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([CO_TEN]=1,1,0)"
+        },
+        {
+          "ma": "BO",
+          "ten": "Số cá nhân đã khấu trừ (HTKK BO44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([21]>0,1,0)"
+        },
+        {
+          "ma": "BP",
+          "ten": "Số cá nhân miễn Hiệp định (HTKK BP44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([13]>0,1,0)"
+        },
+        {
+          "ma": "BQ",
+          "ten": "TNCT có thuế khấu trừ (HTKK BQ44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([21]>0,[12],0)"
+        },
+        {
+          "ma": "BR",
+          "ten": "Số cá nhân ủy quyền (HTKK BR44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,1,0)"
+        },
+        {
+          "ma": "BS",
+          "ten": "Thuế đã khấu trừ cá nhân ủy quyền (HTKK BS44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,[21],0)"
+        },
+        {
+          "ma": "BT",
+          "ten": "Thuế còn phải nộp được miễn theo đánh dấu [25] (HTKK BT44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([MIEN50]=1,[24],0)"
+        },
+        {
+          "ma": "BU",
+          "ten": "Thuế miễn công nghệ số của cá nhân ủy quyền (HTKK BU44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,[BJ],0)"
+        },
+        {
+          "ma": "BV",
+          "ten": "Thuế miễn công nghệ cao của cá nhân ủy quyền (HTKK BV44)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=1,[BK],0)"
+        },
+        {
+          "ma": "N25",
+          "ten": "Số cá nhân đánh dấu [25] (HTKK AW46 COUNTIF)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([MIEN50]=1,1,0)"
+        },
+        {
+          "ma": "K25A",
+          "ten": "Kiểm [25] khi đã đánh dấu",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([25]>0,IF([24]<=50000,1,0),1)",
+          "kiem": "đánh dấu miễn ≤ 50.000đ [25] nhưng số còn phải nộp [24] lớn hơn 50.000đ"
+        },
+        {
+          "ma": "K25B",
+          "ten": "Kiểm [25] khi chưa đánh dấu",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([25]>0,1,IF([24]>0,IF([24]<=50000,0,1),1))",
+          "kiem": "số còn phải nộp [24] từ 50.000đ trở xuống — có thể được miễn, cân nhắc đánh dấu [25]"
+        },
+        {
+          "ma": "K20",
+          "ten": "Kiểm giảm trừ không vượt thu nhập",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([12]-[13]-[14]-[16]-[17]-[18]-[19]<0,0,1)",
+          "kiem": "các khoản giảm trừ lớn hơn thu nhập chịu thuế — thu nhập tính thuế [20] bị chặn về 0, kiểm lại [16]–[19]"
+        },
+        {
+          "ma": "K21",
+          "ten": "Kiểm thuế đã khấu trừ khi không ủy quyền",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([UQ]=0,IF([22]+[23]+[24]>0,0,1),1)",
+          "kiem": "không đánh dấu ủy quyền [10]/[11] nhưng có kết quả quyết toán [22]–[24]"
+        },
+        {
+          "ma": "K13",
+          "kieu": "cong_thuc",
+          "c": -1,
+          "ten": "Kiểm [13]<=[12]",
+          "cong_thuc": "IF([13]<=[12],1,0)",
+          "kiem": "[13] (TNCT làm việc ở khu kinh tế/hiệp định...) lớn hơn tổng TNCT [12] (luật HTKK)"
+        },
+        {
+          "ma": "K14",
+          "kieu": "cong_thuc",
+          "c": -1,
+          "ten": "Kiểm [14]<=[12]",
+          "cong_thuc": "IF([14]<=[12],1,0)",
+          "kiem": "[14] lớn hơn tổng TNCT [12] (luật HTKK)"
+        },
+        {
+          "ma": "K19",
+          "kieu": "cong_thuc",
+          "c": -1,
+          "ten": "Kiểm quỹ hưu trí tự nguyện",
+          "cong_thuc": "IF([19]<=36000000,1,0)",
+          "kiem": "bảo hiểm hưu trí bổ sung/hưu trí tự nguyện/nhân thọ được trừ [19] vượt 36 triệu/năm (tối đa 03 triệu/tháng — điểm a khoản 2 Điều 46 NĐ 253/2026/NĐ-CP)"
+        },
+        {
+          "ma": "K16",
+          "kieu": "cong_thuc",
+          "c": -1,
+          "ten": "Kiểm giảm trừ gia cảnh tối đa",
+          "cong_thuc": "IF([16]<=(15500000+6200000*[15])*12,1,0)",
+          "kiem": "giảm trừ gia cảnh [16] vượt mức tối đa cả năm (15,5tr/tháng bản thân + 6,2tr/tháng × số NPT [15], 12 tháng — khoản 1 Điều 10 Luật 109/2025/QH15, Điều 1 NQ 110/2025/UBTVQH15, áp dụng từ kỳ tính thuế 2026) — kiểm lại số tháng/NPT"
+        }
+      ],
+      "tong": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "BN",
+        "BO",
+        "BP",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BU",
+        "BV",
+        "N25"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Bảng kê cá nhân điều chuyển",
+      "cot": [
+        {
+          "ma": "40",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "41",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "42",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "43",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "44",
+          "ten": "Tổng TNCT",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "45",
+          "ten": "TNCT miễn Hiệp định",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "46",
+          "ten": "TNCT miễn hợp đồng dầu khí",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "47",
+          "ten": "Từ thiện",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "48",
+          "ten": "Bảo hiểm",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "49",
+          "ten": "Quỹ hưu trí",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "50",
+          "ten": "Thuế đã khấu trừ",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "42a",
+          "ten": "Người nước ngoài hoặc người Việt Nam sống ở nước ngoài không có mã định danh",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "DC",
+          "ten": "Có điều chỉnh số liệu (HTKK)",
+          "c": -1,
+          "kieu": "danh_dau"
+        }
+      ],
+      "tong": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ]
+    },
+    {
+      "id": "BK3",
+      "ten": "Bảng kê thu nhập/thuế miễn",
+      "cot": [
+        {
+          "ma": "51",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "52",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "53",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "54",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "Miễn nhiệm vụ khoa học/công nghệ",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "56",
+          "ten": "Miễn chuyên gia khởi nghiệp",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "57",
+          "ten": "Thu nhập miễn khác",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "TN nhân lực công nghệ số",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "TN nhân lực công nghệ cao",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế miễn nhân lực công nghệ số",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([TN_GOC]=0,0,ROUND(([THUE_THANG]*[SO_THANG])*([58]/[TN_GOC]),0))"
+        },
+        {
+          "ma": "61",
+          "ten": "Thuế miễn nhân lực công nghệ cao",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([TN_GOC]=0,0,ROUND(([THUE_THANG]*[SO_THANG])*([59]/[TN_GOC]),0))"
+        },
+        {
+          "ma": "DC",
+          "ten": "Có điều chỉnh số liệu (HTKK)",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "TN_GOC",
+          "ten": "TNCT [12] BK1 của cùng MST (thay VLOOKUP BH76, nhập sau đối chiếu)",
+          "c": -1,
+          "kieu": "so"
+        },
+        {
+          "ma": "THUE_THANG",
+          "ten": "Thuế tháng BI của BK1 cùng MST (thay VLOOKUP BJ76, nhập sau đối chiếu)",
+          "c": -1,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "expr": "[SO_THANG]>0",
+      "text": "[SO_THANG] phải lớn hơn 0 để tính bình quân tháng.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[SO_THANG]<=12",
+      "text": "[SO_THANG] không được vượt quá 12 tháng trong năm.",
+      "muc": "loi"
+    }
+  ],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

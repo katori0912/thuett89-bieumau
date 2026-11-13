@@ -1,0 +1,155 @@
+{
+  "id": "TT89-01-3-GTGT",
+  "mau_so": "01-3/GTGT",
+  "title": "Phụ lục bảng phân bổ số thuế giá trị gia tăng phải nộp đối với hoạt động kinh doanh xổ số điện toán — 01-3/GTGT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu ",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tổng doanh thu thực tế",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo doanh thu bán vé của tất cả địa phương trong kỳ.",
+      "hoi": "Tổng doanh thu bán vé xổ số điện toán thực tế trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "40",
+      "label": "Số thuế GTGT phải nộp trên tờ khai 01/GTGT",
+      "kind": "so",
+      "note": "Nguồn: chỉ tiêu [40] trên Tờ khai 01/GTGT; người dùng nhập, không phải ô điền riêng của phụ lục.",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 4: lấy từ tờ khai chính; không tự tính lại từ doanh thu bán vé.",
+      "lay_o_dau": "Tờ khai 01/GTGT cùng kỳ, dòng số thuế còn phải nộp.",
+      "hoi": "Số thuế GTGT còn phải nộp trên tờ khai chính là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Tổng số thuế GTGT phải nộp theo từng tỉnh",
+      "cot": "",
+      "kind": "so",
+      "note": "= tổng cột [15] riêng tỉnh tại dòng Cộng theo từng tỉnh, nhập tay do chưa hỗ trợ nhóm.",
+      "section": "Thông tin chung",
+      "giai_thich": "Schema chưa tự cộng theo nhóm tỉnh, cần nhập số của dòng này; không nhập tổng toàn bảng thay cho một nhóm tỉnh.",
+      "lay_o_dau": "Bảng phân bổ đã tổng hợp theo tỉnh, dòng Cộng theo từng tỉnh.",
+      "hoi": "Số thuế tại dòng Cộng theo từng tỉnh của bảng phân bổ là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng số thuế GTGT phân bổ cho các tỉnh khác nơi đóng trụ sở chính",
+      "kind": "cong_thuc",
+      "formula": "[BK1.15]",
+      "note": "= tổng cột [15] toàn BK1 (các tỉnh khác trụ sở).",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Số thuế GTGT phải nộp cho nơi đóng trụ sở chính",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[40]-[17]",
+      "note": "Nguồn [40] nhập từ tờ khai 01/GTGT; có nguồn thì tính [40]-[17].",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Địa bàn bán vé khác tỉnh trụ sở chính",
+      "cot": [
+        {
+          "ma": "07",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "08",
+          "ten": "Tên đơn vị phụ thuộc/địa điểm kinh doanh/nơi phát sinh doanh thu bán vé",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Xã/phường/đặc khu nơi hoạt động",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Tỉnh/thành phố nơi hoạt động",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Doanh thu bán vé thực tế theo từng tỉnh",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Tỷ lệ doanh thu bán vé thực tế theo từng tỉnh (nhập 20 cho 20%); tự tính doanh thu [13]/tổng [06]*100 khi tổng khác 0",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế GTGT phải nộp cho từng tỉnh; tự tính nguồn [40] mẫu 01/GTGT nhân tỷ lệ [14]/100",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "15"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

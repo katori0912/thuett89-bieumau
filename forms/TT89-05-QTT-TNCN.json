@@ -1,0 +1,597 @@
+{
+  "id": "TT89-05-QTT-TNCN",
+  "mau_so": "05/QTT-TNCN",
+  "title": "Tờ khai quyết toán thuế TNCN (Áp dụng đối với tổ chức, cá nhân trả thu nhập chịu thuế từ tiền lương, tiền công) — 05/QTT-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú mẫu: kỳ quyết toán của tổ chức trả thu nhập là năm dương lịch.",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn quyết toán tiền lương cho năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: ☐ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tổ chức có quyết toán thuế theo uỷ quyền của cá nhân được điều chuyển từ tổ chức cũ đến tổ chức mới do tổ chức cũ thực hiện sáp nhập, hợp nhất, chia, tách, chuyển đổi loại hình doanh nghiệp hoặc điều chuyển trong cùng hệ thống",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn có quyết toán thay cho người lao động được điều chuyển do sáp nhập, chia tách hoặc trong cùng hệ thống không?"
+    },
+    {
+      "code": "05",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp mã số thuế — người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "07",
+      "label": "Địa chỉ — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp địa chỉ — người nộp thuế?"
+    },
+    {
+      "code": "08",
+      "label": "Xã/Phường/Đặc khu — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — người nộp thuế?"
+    },
+    {
+      "code": "09",
+      "label": "Tỉnh/thành phố — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp tỉnh/thành phố — người nộp thuế?"
+    },
+    {
+      "code": "10",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp điện thoại — người nộp thuế?"
+    },
+    {
+      "code": "11",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp email — người nộp thuế?"
+    },
+    {
+      "code": "12",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "13",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "14",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày?"
+    },
+    {
+      "code": "15",
+      "label": "Tổng số người lao động: — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Cả năm đơn vị có tổng cộng bao nhiêu người lao động?"
+    },
+    {
+      "code": "16",
+      "label": "Trong đó: Cá nhân cư trú có hợp đồng lao động — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BN]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Trong đó có bao nhiêu người cư trú có hợp đồng lao động?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng số cá nhân đã khấu trừ thuế [17]=[18]+[19] — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "cong_thuc",
+      "formula": "[18]+[19]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Số cá nhân cư trú đã khấu trừ thuế — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BO]+[P52.BK1.AY]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Có bao nhiêu người cư trú đã bị khấu trừ thuế trong năm?"
+    },
+    {
+      "code": "19",
+      "label": "Số cá nhân không cư trú đã khấu trừ thuế — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P52.BK1.AZ]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Có bao nhiêu người không cư trú đã bị khấu trừ thuế trong năm?"
+    },
+    {
+      "code": "20",
+      "label": "Tổng số cá nhân thuộc diện được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BP]+[P52.BK1.BA]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Có bao nhiêu cá nhân được miễn hoặc giảm theo hiệp định tránh đánh thuế hai lần?"
+    },
+    {
+      "code": "21",
+      "label": "Tổng số cá nhân giảm trừ gia cảnh — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.15]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Tổng số người phụ thuộc dùng giảm trừ gia cảnh trong bảng quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Tổng thu nhập chịu thuế trả cho cá nhân [22]=[23]+[24] — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "cong_thuc",
+      "formula": "[23]+[24]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "23",
+      "label": "Thu nhập chịu thuế trả cho cá nhân cư trú — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.12]-[P51.BK2.44]+[P52.BK1.BB]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Tổng thu nhập chịu thuế đã trả cho người cư trú là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Thu nhập chịu thuế trả cho cá nhân không cư trú — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P52.BK1.BC]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Tổng thu nhập chịu thuế đã trả cho người không cư trú là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Trong đó: Tổng thu nhập chịu thuế từ tiền phí mua bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác của doanh nghiệp bảo hiểm không thành lập tại Việt Nam cho người lao động — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P52.BK1.12]",
+      "section": "Chi tiết theo từng người",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Trong thu nhập đã trả, phần phí bảo hiểm mua ở doanh nghiệp không thành lập tại Việt Nam là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Tổng thu nhập được miễn trong kỳ [26]= [27]+[28]+[29] — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "cong_thuc",
+      "formula": "[27]+[28]+[29]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "27",
+      "label": "Theo quy định của Hợp đồng dầu khí — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.14]-[P51.BK2.46]+[P52.BK1.17]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Thu nhập được miễn theo hợp đồng dầu khí là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK3.55]+[P52.BK1.18]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Thu nhập được miễn từ nhiệm vụ khoa học công nghệ và đổi mới sáng tạo là bao nhiêu?"
+    },
+    {
+      "code": "29",
+      "label": "Thu nhập của chuyên gia hỗ trợ khởi nghiệp sáng tạo — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK3.56]+[P52.BK1.19]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Thu nhập được miễn của chuyên gia hỗ trợ khởi nghiệp sáng tạo là bao nhiêu?"
+    },
+    {
+      "code": "30",
+      "label": "Tổng thu nhập chịu thuế trả cho cá nhân thuộc diện phải khấu trừ thuế [30]=[31]+[32] — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "cong_thuc",
+      "formula": "[31]+[32]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "31",
+      "label": "Thu nhập chịu thuế thuộc diện khấu trừ — cá nhân cư trú — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Thu nhập chịu thuế của người cư trú thuộc diện khấu trừ là bao nhiêu?"
+    },
+    {
+      "code": "32",
+      "label": "Thu nhập chịu thuế thuộc diện khấu trừ — cá nhân không cư trú — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P52.BK1.BE]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Thu nhập chịu thuế của người không cư trú thuộc diện khấu trừ là bao nhiêu?"
+    },
+    {
+      "code": "33",
+      "label": "Tổng số thuế thu nhập cá nhân đã khấu trừ [33]=[34]+[35] — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "cong_thuc",
+      "formula": "[34]+[35]",
+      "cot": "Số người/ Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "34",
+      "label": "Thuế đã khấu trừ — cá nhân cư trú — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.21]-[P51.BK2.50]+[P52.BK1.BF]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Cả năm đơn vị đã khấu trừ bao nhiêu thuế của người cư trú?"
+    },
+    {
+      "code": "35",
+      "label": "Thuế đã khấu trừ — cá nhân không cư trú — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P52.BK1.BG]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Cả năm đơn vị đã khấu trừ bao nhiêu thuế của người không cư trú?"
+    },
+    {
+      "code": "36",
+      "label": "Trong đó: Tổng số thuế thu nhập cá nhân đã khấu trừ trên tiền phí mua bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác của doanh nghiệp bảo hiểm không thành lập tại Việt Nam cho người lao động — Số người/ Số tiền — Nghĩa vụ khấu trừ của tổ chức trả thu nhập",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P52.BK1.21]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Trong thuế khấu trừ, phần thuế trên phí bảo hiểm nước ngoài là bao nhiêu?"
+    },
+    {
+      "code": "37",
+      "label": "Tổng số cá nhân uỷ quyền cho tổ chức, cá nhân trả thu nhập quyết toán thay — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BR]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Có bao nhiêu người đã ủy quyền cho đơn vị quyết toán thay?"
+    },
+    {
+      "code": "38",
+      "label": "Tổng số thuế thu nhập cá nhân đã khấu trừ — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BS]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Tổng thuế đã khấu trừ của riêng nhóm ủy quyền quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "39",
+      "label": "Trong đó: Số thuế thu nhập cá nhân đã khấu trừ tại tổ chức trước khi điều chuyển (trường hợp có đánh dấu vào chỉ tiêu [04]) — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK2.50]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Trong đó, bao nhiêu thuế đã khấu trừ tại tổ chức cũ trước điều chuyển?"
+    },
+    {
+      "code": "40",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.22]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Theo bảng tính từng người, tổng thuế cả năm phải nộp của nhóm ủy quyền là bao nhiêu?"
+    },
+    {
+      "code": "41",
+      "label": "Tổng số thuế thu nhập cá nhân được miễn do cá nhân có số thuế còn phải nộp sau ủy quyền quyết toán từ 50.000 đồng trở xuống — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BT]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Nhóm ủy quyền có tổng bao nhiêu thuế được miễn do số còn phải nộp từ 50.000 đồng trở xuống?"
+    },
+    {
+      "code": "42",
+      "label": "Tổng số thuế thu nhập cá nhân được miễn của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BU]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Số thuế được miễn cho nhân lực công nghiệp công nghệ số chất lượng cao thuộc nhóm ủy quyền là bao nhiêu?"
+    },
+    {
+      "code": "43",
+      "label": "Tổng số thuế thu nhập cá nhân được miễn của cá nhân là nhân lực công nghệ cao — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "so",
+      "cot": "Số người/ Số tiền",
+      "formula_pl": "[P51.BK1.BV]",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương cả năm, chứng từ khấu trừ, danh sách ủy quyền quyết toán, hồ sơ người phụ thuộc và các bảng kê 05-1/05-2/05-3.",
+      "hoi": "Số thuế được miễn cho nhân lực công nghệ cao thuộc nhóm ủy quyền là bao nhiêu?"
+    },
+    {
+      "code": "44",
+      "label": "Tổng số thuế thu nhập cá nhân còn phải nộp [44] = ([40] - [38] - [41]-[42]-[43]) >0 — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "cong_thuc",
+      "cot": "Số người/ Số tiền",
+      "formula": "MAX([40]-[38]-[41]-[42]-[43],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "45",
+      "label": "Tổng số thuế thu nhập cá nhân đã nộp thừa [45] = ([40] - [38] - [41]-[42]-[43]) <0 — Số người/ Số tiền — Quyết toán thay cho cá nhân",
+      "kind": "cong_thuc",
+      "cot": "Số người/ Số tiền",
+      "formula": "MAX([38]+[41]+[42]+[43]-[40],0)",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [
+    {
+      "expr": "[16]=([P51.BK1.BN])",
+      "text": "[16] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BN]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[18]=([P51.BK1.BO]+[P52.BK1.AY])",
+      "text": "[18] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BO]+[P52.BK1.AY]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[19]=([P52.BK1.AZ])",
+      "text": "[19] phải bằng số tổng hợp từ phụ lục theo [P52.BK1.AZ]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[20]=([P51.BK1.BP]+[P52.BK1.BA])",
+      "text": "[20] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BP]+[P52.BK1.BA]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[21]=([P51.BK1.15])",
+      "text": "[21] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.15]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[23]=([P51.BK1.12]-[P51.BK2.44]+[P52.BK1.BB])",
+      "text": "[23] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.12]-[P51.BK2.44]+[P52.BK1.BB]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[24]=([P52.BK1.BC])",
+      "text": "[24] phải bằng số tổng hợp từ phụ lục theo [P52.BK1.BC]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[25]=([P52.BK1.12])",
+      "text": "[25] phải bằng số tổng hợp từ phụ lục theo [P52.BK1.12]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[27]=([P51.BK1.14]-[P51.BK2.46]+[P52.BK1.17])",
+      "text": "[27] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.14]-[P51.BK2.46]+[P52.BK1.17]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[28]=([P51.BK3.55]+[P52.BK1.18])",
+      "text": "[28] phải bằng số tổng hợp từ phụ lục theo [P51.BK3.55]+[P52.BK1.18]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[29]=([P51.BK3.56]+[P52.BK1.19])",
+      "text": "[29] phải bằng số tổng hợp từ phụ lục theo [P51.BK3.56]+[P52.BK1.19]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[32]=([P52.BK1.BE])",
+      "text": "[32] phải bằng số tổng hợp từ phụ lục theo [P52.BK1.BE]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[34]=([P51.BK1.21]-[P51.BK2.50]+[P52.BK1.BF])",
+      "text": "[34] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.21]-[P51.BK2.50]+[P52.BK1.BF]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[35]=([P52.BK1.BG])",
+      "text": "[35] phải bằng số tổng hợp từ phụ lục theo [P52.BK1.BG]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[36]=([P52.BK1.21])",
+      "text": "[36] phải bằng số tổng hợp từ phụ lục theo [P52.BK1.21]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[37]=([P51.BK1.BR])",
+      "text": "[37] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BR]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[38]=([P51.BK1.BS])",
+      "text": "[38] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BS]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[39]=([P51.BK2.50])",
+      "text": "[39] phải bằng số tổng hợp từ phụ lục theo [P51.BK2.50]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[40]=([P51.BK1.22])",
+      "text": "[40] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.22]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[41]=([P51.BK1.BT])",
+      "text": "[41] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BT]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[42]=([P51.BK1.BU])",
+      "text": "[42] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BU]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[43]=([P51.BK1.BV])",
+      "text": "[43] phải bằng số tổng hợp từ phụ lục theo [P51.BK1.BV]; đối chiếu sheet HTKK '05'.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[16]<=[15]",
+      "text": "[16] (cá nhân cư trú có hợp đồng lao động) phải <= [15] (tổng số người lao động), luật HTKK dòng 40.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[20]<=[17]",
+      "text": "[20] (số cá nhân miễn, giảm theo Hiệp định) phải <= [17] (số cá nhân đã khấu trừ), luật HTKK dòng 41.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[25]<=[22]",
+      "text": "[25] (TNCT từ phí bảo hiểm) phải <= [22] (tổng TNCT), luật HTKK dòng 42.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[31]<=[P51.BK1.BQ]+[P52.BK1.BD]",
+      "text": "[31] phải <= tổng [12] các dòng [21]>0 trên 05-1 cộng tổng [11] các dòng cư trú và [20]>0 trên 05-2, luật HTKK dòng 43.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[36]=[25]*0.1",
+      "text": "[36] (thuế khấu trừ trên phí bảo hiểm) phải bằng [25] x 10%, luật HTKK dòng 44.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[36]<=[33]",
+      "text": "[36] phải <= [33] (tổng thuế đã khấu trừ), luật HTKK dòng 45.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[39]<=[38]",
+      "text": "[39] (thuế đã khấu trừ tại tổ chức trước điều chuyển) phải <= [38] (thuế đã khấu trừ khi quyết toán thay), luật HTKK dòng 46.",
+      "muc": "loi"
+    }
+  ],
+  "phu_luc": [
+    {
+      "id": "TT89-05-1-BK-QTT-TNCN",
+      "label": "Bạn hãy lập bảng người tính thuế theo biểu lũy tiến."
+    },
+    {
+      "id": "TT89-05-2-BK-QTT-TNCN",
+      "label": "Bạn hãy lập bảng người tính thuế theo tỷ lệ, gồm người không cư trú."
+    },
+    {
+      "id": "TT89-05-3-BK-QTT-TNCN",
+      "label": "Bạn hãy lập danh sách người phụ thuộc dùng giảm trừ."
+    }
+  ],
+  "phu_luc_kem": [
+    {
+      "alias": "P51",
+      "id": "TT89-05-1-BK-QTT-TNCN"
+    },
+    {
+      "alias": "P52",
+      "id": "TT89-05-2-BK-QTT-TNCN"
+    },
+    {
+      "alias": "P53",
+      "id": "TT89-05-3-BK-QTT-TNCN"
+    }
+  ]
+}

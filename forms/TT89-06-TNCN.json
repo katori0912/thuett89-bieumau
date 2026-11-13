@@ -1,0 +1,769 @@
+{
+  "id": "TT89-06-TNCN",
+  "mau_so": "06/TNCN",
+  "title": "Tờ khai thuế (Áp dụng đối với tổ chức, cá nhân trả thu nhập khấu trừ thuế đối với thu nhập của cá nhân cư trú và cá nhân không cư trú bao gồm: từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ nhận cổ phiếu thưởng của người lao động và cổ phiếu ESOP, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng, từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”, từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, từ chuyển nhượng tài sản số; thu nhập từ kinh doanh của cá nhân không cư trú; tổ chức, cá nhân nhận chuyển nhượng vốn của cá nhân không cư trú) — 06/TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: ☐ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp mã số thuế — người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Địa chỉ — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp địa chỉ — người nộp thuế?"
+    },
+    {
+      "code": "07",
+      "label": "Xã/Phường/Đặc khu — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — người nộp thuế?"
+    },
+    {
+      "code": "08",
+      "label": "Tỉnh/thành phố — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp tỉnh/thành phố — người nộp thuế?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp điện thoại — người nộp thuế?"
+    },
+    {
+      "code": "10",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp email — người nộp thuế?"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức khai thay (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp tên tổ chức khai thay (nếu có)?",
+      "role": "ten_kt"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp mã số thuế — tổ chức/cá nhân khai thay?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "13",
+      "label": "Địa chỉ — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp địa chỉ — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "14",
+      "label": "Xã/Phường/Đặc khu — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "15",
+      "label": "Tỉnh/Thành phố — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp tỉnh/Thành phố — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "16",
+      "label": "Điện thoại — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp điện thoại — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "17",
+      "label": "Email — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp email — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "18",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "19",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "20",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày?"
+    },
+    {
+      "code": "21",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "đầu tư vốn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho đầu tư vốn?"
+    },
+    {
+      "code": "21@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "đầu tư vốn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho đầu tư vốn?"
+    },
+    {
+      "code": "22",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "đầu tư vốn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho đầu tư vốn?"
+    },
+    {
+      "code": "22@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "đầu tư vốn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho đầu tư vốn?"
+    },
+    {
+      "code": "23",
+      "label": "Tổng số thuế thu nhập cá nhân (TNCN) đã khấu trừ — Số phát sinh — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "đầu tư vốn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho đầu tư vốn?"
+    },
+    {
+      "code": "23@LK",
+      "label": "Tổng số thuế thu nhập cá nhân (TNCN) đã khấu trừ — Số phát sinh — Thu nhập từ đầu tư vốn",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "đầu tư vốn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho đầu tư vốn?"
+    },
+    {
+      "code": "24",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng chứng khoán",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng chứng khoán?"
+    },
+    {
+      "code": "24@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng chứng khoán",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng chứng khoán?"
+    },
+    {
+      "code": "25",
+      "label": "Tổng giá trị chuyển nhượng chứng khoán — Số phát sinh — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng chứng khoán",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng giá trị chuyển nhượng là bao nhiêu cho chuyển nhượng chứng khoán?"
+    },
+    {
+      "code": "25@LK",
+      "label": "Tổng giá trị chuyển nhượng chứng khoán — Số phát sinh — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng chứng khoán",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng giá trị chuyển nhượng là bao nhiêu cho chuyển nhượng chứng khoán?"
+    },
+    {
+      "code": "26",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng chứng khoán",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng chứng khoán?"
+    },
+    {
+      "code": "26@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng chứng khoán",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng chứng khoán",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng chứng khoán?"
+    },
+    {
+      "code": "27",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ nhận cổ phiếu thưởng và cổ phiếu ESOP",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "cổ phiếu thưởng hoặc cổ phiếu ESOP",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho cổ phiếu thưởng hoặc cổ phiếu ESOP?"
+    },
+    {
+      "code": "27@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ nhận cổ phiếu thưởng và cổ phiếu ESOP",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "cổ phiếu thưởng hoặc cổ phiếu ESOP",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho cổ phiếu thưởng hoặc cổ phiếu ESOP?"
+    },
+    {
+      "code": "28",
+      "label": "Tổng thu nhập chịu thuế TNCN — Số phát sinh — Thu nhập từ nhận cổ phiếu thưởng và cổ phiếu ESOP",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "cổ phiếu thưởng hoặc cổ phiếu ESOP",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập chịu thuế là bao nhiêu cho cổ phiếu thưởng hoặc cổ phiếu ESOP?"
+    },
+    {
+      "code": "28@LK",
+      "label": "Tổng thu nhập chịu thuế TNCN — Số phát sinh — Thu nhập từ nhận cổ phiếu thưởng và cổ phiếu ESOP",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "cổ phiếu thưởng hoặc cổ phiếu ESOP",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập chịu thuế là bao nhiêu cho cổ phiếu thưởng hoặc cổ phiếu ESOP?"
+    },
+    {
+      "code": "29",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ nhận cổ phiếu thưởng và cổ phiếu ESOP",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "cổ phiếu thưởng hoặc cổ phiếu ESOP",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho cổ phiếu thưởng hoặc cổ phiếu ESOP?"
+    },
+    {
+      "code": "29@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ nhận cổ phiếu thưởng và cổ phiếu ESOP",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "cổ phiếu thưởng hoặc cổ phiếu ESOP",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho cổ phiếu thưởng hoặc cổ phiếu ESOP?"
+    },
+    {
+      "code": "30",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "bản quyền hoặc nhượng quyền thương mại",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho bản quyền hoặc nhượng quyền thương mại?"
+    },
+    {
+      "code": "30@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "bản quyền hoặc nhượng quyền thương mại",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho bản quyền hoặc nhượng quyền thương mại?"
+    },
+    {
+      "code": "31",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "bản quyền hoặc nhượng quyền thương mại",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho bản quyền hoặc nhượng quyền thương mại?"
+    },
+    {
+      "code": "31@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "bản quyền hoặc nhượng quyền thương mại",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho bản quyền hoặc nhượng quyền thương mại?"
+    },
+    {
+      "code": "32",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "bản quyền hoặc nhượng quyền thương mại",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho bản quyền hoặc nhượng quyền thương mại?"
+    },
+    {
+      "code": "32@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ bản quyền, nhượng quyền thương mại",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "bản quyền hoặc nhượng quyền thương mại",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho bản quyền hoặc nhượng quyền thương mại?"
+    },
+    {
+      "code": "33",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "trúng thưởng",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho trúng thưởng?"
+    },
+    {
+      "code": "33@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "trúng thưởng",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho trúng thưởng?"
+    },
+    {
+      "code": "34",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "trúng thưởng",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho trúng thưởng?"
+    },
+    {
+      "code": "34@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "trúng thưởng",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho trúng thưởng?"
+    },
+    {
+      "code": "35",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "trúng thưởng",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho trúng thưởng?"
+    },
+    {
+      "code": "35@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ trúng thưởng",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "trúng thưởng",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho trúng thưởng?"
+    },
+    {
+      "code": "36",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "36@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "37",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "37@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "38",
+      "label": "Tổng doanh thu tính thuế GTGT — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tiền thuế GTGT là bao nhiêu cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "38@LK",
+      "label": "Tổng doanh thu tính thuế GTGT — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tiền thuế GTGT là bao nhiêu cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "39",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "39@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "40",
+      "label": "Tổng số thuế GTGT — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tiền thuế GTGT là bao nhiêu cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "40@LK",
+      "label": "Tổng số thuế GTGT — Số phát sinh — Doanh thu từ kinh doanh của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "kinh doanh của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tiền thuế GTGT là bao nhiêu cho kinh doanh của người không cư trú?"
+    },
+    {
+      "code": "41",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng vốn của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng vốn của người không cư trú?"
+    },
+    {
+      "code": "41@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng vốn của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng vốn của người không cư trú?"
+    },
+    {
+      "code": "42",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng vốn của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng vốn của người không cư trú?"
+    },
+    {
+      "code": "42@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng vốn của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng vốn của người không cư trú?"
+    },
+    {
+      "code": "43",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng vốn của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng vốn của người không cư trú?"
+    },
+    {
+      "code": "43@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng vốn của người không cư trú",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng vốn của người không cư trú?"
+    },
+    {
+      "code": "44",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng tên miền .vn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng tên miền .vn?"
+    },
+    {
+      "code": "44@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng tên miền .vn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng tên miền .vn?"
+    },
+    {
+      "code": "45",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng tên miền .vn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng tên miền .vn?"
+    },
+    {
+      "code": "45@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng tên miền .vn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng tên miền .vn?"
+    },
+    {
+      "code": "46",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng tên miền .vn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng tên miền .vn?"
+    },
+    {
+      "code": "46@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng tên miền .vn",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng tên miền .vn?"
+    },
+    {
+      "code": "47",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon?"
+    },
+    {
+      "code": "47@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon?"
+    },
+    {
+      "code": "48",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon?"
+    },
+    {
+      "code": "48@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon?"
+    },
+    {
+      "code": "49",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon?"
+    },
+    {
+      "code": "49@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng kết quả giảm phát thải hoặc tín chỉ các bon?"
+    },
+    {
+      "code": "50",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng tài sản số",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng tài sản số?"
+    },
+    {
+      "code": "50@LK",
+      "label": "Tổng số cá nhân có thu nhập — Số phát sinh — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng tài sản số",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, có bao nhiêu người nhận thu nhập cho chuyển nhượng tài sản số?"
+    },
+    {
+      "code": "51",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng tài sản số",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng tài sản số?"
+    },
+    {
+      "code": "51@LK",
+      "label": "Tổng thu nhập tính thuế TNCN — Số phát sinh — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng tài sản số",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập dùng tính thuế là bao nhiêu cho chuyển nhượng tài sản số?"
+    },
+    {
+      "code": "52",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số phát sinh",
+      "section": "chuyển nhượng tài sản số",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Riêng kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng tài sản số?"
+    },
+    {
+      "code": "52@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh — Thu nhập từ chuyển nhượng tài sản số",
+      "kind": "so",
+      "cot": "Số luỹ kế",
+      "section": "chuyển nhượng tài sản số",
+      "lay_o_dau": "Sổ chi trả theo từng loại thu nhập, danh sách cá nhân nhận tiền và chứng từ khấu trừ; báo cáo lũy kế cùng năm.",
+      "hoi": "Tính lũy kế từ đầu năm đến hết kỳ này, đã khấu trừ bao nhiêu tiền thuế TNCN cho chuyển nhượng tài sản số?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-06-1-BK-TNCN",
+      "label": "Bạn có cần kê chi tiết thu nhập và thuế đã khấu trừ của từng cá nhân không?"
+    },
+    {
+      "id": "TT89-06-2-BK-TNCN",
+      "label": "Trong năm có cá nhân nhận cổ phiếu thưởng hoặc cổ phiếu ESOP cần kê chi tiết không?"
+    },
+    {
+      "id": "TT89-05-1-PBT-KK-TNCN",
+      "label": "Có tiền thuế trúng thưởng xổ số điện toán cần phân bổ theo địa phương không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,288 @@
+{
+  "id": "TT89-06-TNDN",
+  "mau_so": "06/TNDN",
+  "title": "Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với hoạt động bán toàn bộ doanh nghiệp dưới hình thức chuyển nhượng vốn có gắn với bất động sản) — 06/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từng lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Đây là lần khai đầu tiên của kỳ này phải không?"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp mã số thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức/cá nhân nhận chuyển nhượng",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Tên bên nhận chuyển nhượng là gì?"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế/số định danh cá nhân/giấy tờ định danh của cá nhân",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Mã số thuế hoặc số giấy tờ định danh của bên nhận là gì?"
+    },
+    {
+      "code": "08",
+      "label": "Địa chỉ bên nhận chuyển nhượng (số nhà, đường phố)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp địa chỉ bên nhận chuyển nhượng (số nhà, đường phố)?"
+    },
+    {
+      "code": "09",
+      "label": "Địa chỉ bất động sản được chuyển nhượng",
+      "kind": "tieu_de",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "09a",
+      "label": "Số nhà, đường phố",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bất động sản đi kèm có số nhà và đường phố nào?"
+    },
+    {
+      "code": "09b",
+      "label": "Xã/Phường/Đặc khu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bất động sản thuộc xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "09c",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bất động sản thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "10",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "11",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "12",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "13",
+      "label": "Doanh thu của hoạt động bán toàn bộ doanh nghiệp có gắn với chuyển nhượng bất động sản",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Tổng doanh thu bán toàn bộ doanh nghiệp kèm bất động sản là bao nhiêu?"
+    },
+    {
+      "code": "14",
+      "label": "Chi phí của hoạt động bán toàn bộ doanh nghiệp có gắn với chuyển nhượng bất động sản",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[15]+[16]+[17]+[18]+[19]+[20]",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "15",
+      "label": "- Giá vốn của đất chuyển nhượng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Giá vốn của đất chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "- Chi phí đền bù thiệt hại về đất",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Chi phí đền bù thiệt hại về đất là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "- Chi phí đền bù thiệt hại về hoa màu",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Chi phí đền bù thiệt hại về hoa màu là bao nhiêu?"
+    },
+    {
+      "code": "18",
+      "label": "- Chi phí cải tạo san lấp mặt bằng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Chi phí cải tạo san lấp mặt bằng là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "- Chi phí đầu tư xây dựng kết cấu hạ tầng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Chi phí đầu tư xây dựng kết cấu hạ tầng là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "- Chi phí khác (bao gồm cả giá mua của phần vốn chuyển nhượng)",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Các chi phí khác, gồm cả giá mua phần vốn chuyển nhượng, là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "label": "Thu nhập từ hoạt động bán toàn bộ doanh nghiệp có gắn với chuyển nhượng bất động sản ([21]=[13]-[14])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[13]-[14]",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "22",
+      "label": "Số lỗ từ hoạt động chuyển nhượng bất động sản được chuyển kỳ này",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Số lỗ bất động sản từ kỳ trước được chuyển vào lần tính thuế này là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Thu nhập tính thuế TNDN từ hoạt động bán toàn bộ doanh nghiệp có gắn với chuyển nhượng bất động sản ([23]=[21]-[22])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[21]-[22]",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "24",
+      "label": "Thuế suất thuế TNDN (%) (nhập 20 cho 20%)",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Thuế suất thuế TNDN (%) (nhập 20 cho 20%) là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Thuế TNDN phải nộp ([25]=[23] x [24])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX(ROUND([23]*[24]/100,0),0)",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "08_XA",
+      "label": "Xã/phường bên nhận chuyển nhượng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp xã/phường bên nhận chuyển nhượng?"
+    },
+    {
+      "code": "08_TINH",
+      "label": "Tỉnh/TP bên nhận chuyển nhượng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp tỉnh/TP bên nhận chuyển nhượng?"
+    },
+    {
+      "code": "SO_HD",
+      "label": "Số hợp đồng chuyển nhượng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp số hợp đồng chuyển nhượng?"
+    },
+    {
+      "code": "NGAY_HD",
+      "label": "Ngày hợp đồng chuyển nhượng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp ngày hợp đồng chuyển nhượng?"
+    },
+    {
+      "code": "NGAY_CC",
+      "label": "Ngày công chứng chứng thực",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng bán toàn bộ doanh nghiệp kèm bất động sản, hồ sơ bên mua, bảng giá vốn/chi phí và bảng chuyển lỗ bất động sản.",
+      "hoi": "Bạn ghi giúp ngày công chứng chứng thực?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

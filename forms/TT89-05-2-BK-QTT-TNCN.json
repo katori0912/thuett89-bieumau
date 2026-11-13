@@ -1,0 +1,387 @@
+{
+  "id": "TT89-05-2-BK-QTT-TNCN",
+  "mau_so": "05-2/BK-QTT-TNCN",
+  "title": "Phụ lục bảng kê chi tiết cá nhân thuộc diện tính thuế theo thuế suất toàn phần — 05-2/BK-QTT-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "22",
+      "label": "Tổng — Thu nhập chịu thuế (TNCT) — Tổng số",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập chịu thuế (TNCT) — Tổng số",
+      "note": "T16: = tổng cột [11] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "23",
+      "label": "Tổng — Thu nhập chịu thuế (TNCT) — Trong đó: TNCT từ phí mua BH nhân thọ, BH không bắt buộc khác của DN BH không thành lập tại Việt Nam cho người lao động",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập chịu thuế (TNCT) — Trong đó: TNCT từ phí mua BH nhân thọ, BH không bắt buộc khác của DN BH không thành lập tại Việt Nam cho người lao động",
+      "note": "T16: = tổng cột [12] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "24",
+      "label": "Tổng — Số thuế TNCN được miễn trong kỳ — Cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN được miễn trong kỳ — Cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao",
+      "note": "T16: = tổng cột [13] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "25",
+      "label": "Tổng — Số thuế TNCN được miễn trong kỳ — Cá nhân là nhân lực công nghệ cao",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN được miễn trong kỳ — Cá nhân là nhân lực công nghệ cao",
+      "note": "T16: = tổng cột [14] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.14]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "26",
+      "label": "Tổng — Các khoản bảo hiểm được trừ",
+      "kind": "cong_thuc",
+      "cot": "Các khoản bảo hiểm được trừ",
+      "note": "T16: = tổng cột [15] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.15]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "27",
+      "label": "Tổng — Thu nhập miễn thuế — Theo Hiệp định",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập miễn thuế — Theo Hiệp định",
+      "note": "T16: = tổng cột [16] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.16]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "28",
+      "label": "Tổng — Thu nhập miễn thuế — Theo quy định của Hợp đồng dầu khí",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập miễn thuế — Theo quy định của Hợp đồng dầu khí",
+      "note": "T16: = tổng cột [17] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.17]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "29",
+      "label": "Tổng — Thu nhập miễn thuế — Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo.",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập miễn thuế — Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo.",
+      "note": "T16: = tổng cột [18] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.18]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "30",
+      "label": "Tổng — Thu nhập miễn thuế — Thu nhập của cá nhân là chuyên gia hỗ trợ khởi nghiệp sáng tạo theo quy định",
+      "kind": "cong_thuc",
+      "cot": "Thu nhập miễn thuế — Thu nhập của cá nhân là chuyên gia hỗ trợ khởi nghiệp sáng tạo theo quy định",
+      "note": "T16: = tổng cột [19] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.19]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "31",
+      "label": "Tổng — Số thuế TNCN đã khấu trừ — Tổng số",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ — Tổng số",
+      "note": "T16: = tổng cột [20] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.20]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "32",
+      "label": "Tổng — Số thuế TNCN đã khấu trừ — Trong đó: Số thuế từ phí mua BH nhân thọ, BH không bắt buộc khác của DN BH không thành lập tại Việt Nam cho người lao độ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ — Trong đó: Số thuế từ phí mua BH nhân thọ, BH không bắt buộc khác của DN BH không thành lập tại Việt Nam cho người lao độ",
+      "note": "T16: = tổng cột [21] BK1, tự tính khi nhập bảng kê.",
+      "formula": "[BK1.21]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê cá nhân thuế suất toàn phần",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ và tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Cá nhân không cư trú",
+          "c": 4,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "11",
+          "ten": "TNCT tổng số",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "TNCT từ phí bảo hiểm",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Miễn thuế nhân lực công nghệ số",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([11]=0,0,ROUND(([11]*0.1)*([12a]/[11]),0))"
+        },
+        {
+          "ma": "14",
+          "ten": "Miễn thuế nhân lực công nghệ cao",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([11]=0,0,ROUND(([11]*0.1)*([12b]/[11]),0))"
+        },
+        {
+          "ma": "15",
+          "ten": "Bảo hiểm được trừ",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "TN miễn theo Hiệp định",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "TN miễn hợp đồng dầu khí",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "18",
+          "ten": "TN miễn nhiệm vụ khoa học/công nghệ",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "19",
+          "ten": "TN miễn chuyên gia khởi nghiệp",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "20",
+          "ten": "Thuế đã khấu trừ tổng số",
+          "c": 14,
+          "kieu": "so"
+        },
+        {
+          "ma": "21",
+          "ten": "Thuế từ phí bảo hiểm",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "08a",
+          "ten": "Người nước ngoài hoặc người Việt Nam sống ở nước ngoài không có mã định danh",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "09a",
+          "ten": "Loại giấy tờ (Số ĐDCN/Hộ chiếu)",
+          "c": -1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "DC",
+          "ten": "Có điều chỉnh số liệu (HTKK)",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "12a",
+          "ten": "TNCT của nhân lực công nghiệp công nghệ số chất lượng cao (HTKK)",
+          "c": -1,
+          "kieu": "so"
+        },
+        {
+          "ma": "12b",
+          "ten": "TNCT của nhân lực công nghệ cao (HTKK)",
+          "c": -1,
+          "kieu": "so"
+        },
+        {
+          "ma": "KCT",
+          "ten": "Cờ không cư trú = có đánh dấu [10]",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([10]>0,1,0)"
+        },
+        {
+          "ma": "BH",
+          "ten": "Thuế phí bảo hiểm theo công thức phụ HTKK BH34 (tham khảo cho [21])",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[12]*0.1"
+        },
+        {
+          "ma": "AY",
+          "ten": "Số cá nhân cư trú có khấu trừ (HTKK AY34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([20]>0,IF([KCT]=0,1,0),0)"
+        },
+        {
+          "ma": "AZ",
+          "ten": "Số cá nhân không cư trú có khấu trừ (HTKK AZ34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([20]>0,IF([KCT]=1,1,0),0)"
+        },
+        {
+          "ma": "BA",
+          "ten": "Số cá nhân miễn Hiệp định (HTKK BA34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([16]>0,1,0)"
+        },
+        {
+          "ma": "BB",
+          "ten": "TNCT cá nhân cư trú (HTKK BB34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([KCT]=0,[11],0)"
+        },
+        {
+          "ma": "BC",
+          "ten": "TNCT cá nhân không cư trú (HTKK BC34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([KCT]=1,[11],0)"
+        },
+        {
+          "ma": "BD",
+          "ten": "TNCT cá nhân cư trú có khấu trừ (HTKK BD34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([KCT]=0,IF([20]>0,[11],0),0)"
+        },
+        {
+          "ma": "BE",
+          "ten": "TNCT cá nhân không cư trú có khấu trừ (HTKK BE34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([KCT]=1,IF([20]>0,[11],0),0)"
+        },
+        {
+          "ma": "BF",
+          "ten": "Thuế khấu trừ cá nhân cư trú (HTKK BF34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([KCT]=0,[20],0)"
+        },
+        {
+          "ma": "BG",
+          "ten": "Thuế khấu trừ cá nhân không cư trú (HTKK BG34)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([KCT]=1,[20],0)"
+        }
+      ],
+      "tong": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "AY",
+        "AZ",
+        "BA",
+        "BB",
+        "BC",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "12a",
+        "12b",
+        "21"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "expr": "[32]<=[31]",
+      "text": "[21] <= [20] theo từng người; kiểm cấp phụ lục: tổng [32] (thuế phí bảo hiểm) phải <= tổng [31] (thuế đã khấu trừ), theo luật 05/QTT dòng 48.",
+      "muc": "loi"
+    }
+  ],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

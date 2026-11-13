@@ -1,0 +1,761 @@
+{
+  "id": "TT89-03-TNDN",
+  "mau_so": "03/TNDN",
+  "title": "Quyết toán thuế thu nhập doanh nghiệp — 03/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm Từ / / đến / /",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Kỳ tính thuế kết thúc ngày nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là tờ khai lần đầu cho kỳ này?"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Ngành nghề có tỷ lệ doanh thu cao nhất",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngành nghề mang lại doanh thu cao nhất là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Tỷ lệ doanh thu ngành nghề cao nhất (%) (nhập 20 cho 20%)",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng tổng hợp doanh thu theo ngành nghề của kỳ quyết toán.",
+      "hoi": "Ngành đó chiếm bao nhiêu phần trăm tổng doanh thu?"
+    },
+    {
+      "code": "06",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên doanh nghiệp hoặc người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của doanh nghiệp?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "08",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị dịch vụ thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "09",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "10",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký hợp đồng dịch vụ thuế?"
+    },
+    {
+      "code": "A",
+      "label": "Kết quả kinh doanh ghi nhận theo báo cáo tài chính",
+      "cot": "",
+      "kind": "tieu_de",
+      "section": "Kết quả kinh doanh ghi nhận theo báo cáo tài chính"
+    },
+    {
+      "code": "A1",
+      "label": "Tổng lợi nhuận kế toán trước thuế thu nhập doanh nghiệp",
+      "cot": "",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "giai_thich": "Chọn Lỗ ở câu trước để bot ghi số âm. Câu này chỉ nhập độ lớn, không gõ dấu trừ.",
+      "lay_o_dau": "Báo cáo kết quả hoạt động kinh doanh, chỉ tiêu Tổng lợi nhuận kế toán trước thuế.",
+      "hoi": "Số tiền lợi nhuận hoặc lỗ trước thuế đó là bao nhiêu (gõ số dương)?"
+    },
+    {
+      "code": "B",
+      "label": "Xác định thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp",
+      "cot": "",
+      "kind": "tieu_de",
+      "section": "Xác định thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp"
+    },
+    {
+      "code": "B1",
+      "label": "Điều chỉnh tăng tổng lợi nhuận trước thuế thu nhập doanh nghiệp (B1= B2+B3+B4+B5+B6+B7)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[B2]+[B3]+[B4]+[B5]+[B6]+[B7]",
+      "section": "Xác định thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp"
+    },
+    {
+      "code": "B2",
+      "label": "Các khoản điều chỉnh tăng doanh thu",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh tăng",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh tăng tương ứng.",
+      "hoi": "Doanh thu phải cộng thêm khi tính thuế là bao nhiêu?"
+    },
+    {
+      "code": "B3",
+      "label": "Chi phí của phần doanh thu điều chỉnh giảm",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh tăng",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh tăng tương ứng.",
+      "hoi": "Chi phí của phần doanh thu điều chỉnh giảm là bao nhiêu?"
+    },
+    {
+      "code": "B4",
+      "label": "Các khoản chi không được trừ khi xác định thu nhập chịu thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh tăng",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh tăng tương ứng.",
+      "hoi": "Chi phí đã ghi sổ nhưng không được trừ khi tính thuế là bao nhiêu?"
+    },
+    {
+      "code": "B5",
+      "label": "Thuế thu nhập đã nộp cho phần thu nhập nhận được ở nước ngoài",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh tăng",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh tăng tương ứng.",
+      "hoi": "Thuế đã nộp cho thu nhập nước ngoài cần cộng trở lại là bao nhiêu?"
+    },
+    {
+      "code": "B6",
+      "label": "Điều chỉnh tăng lợi nhuận do xác định giá thị trường đối với giao dịch liên kết",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh tăng",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh tăng tương ứng.",
+      "hoi": "Phần lợi nhuận phải cộng thêm do xác định giá giao dịch liên kết là bao nhiêu?"
+    },
+    {
+      "code": "B7",
+      "label": "Các khoản điều chỉnh làm tăng lợi nhuận trước thuế khác",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh tăng",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh tăng tương ứng.",
+      "hoi": "Các khoản khác làm tăng lợi nhuận để tính thuế là bao nhiêu?"
+    },
+    {
+      "code": "B8",
+      "label": "Điều chỉnh giảm tổng lợi nhuận trước thuế thu nhập doanh nghiệp (B8=B9+B10+B11+B12)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[B9]+[B10]+[B11]+[B12]",
+      "section": "Xác định thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp"
+    },
+    {
+      "code": "B9",
+      "label": "Giảm trừ các khoản doanh thu đã tính thuế năm trước",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh giảm",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh giảm; chi phí nghiên cứu là phần trong khoản giảm khác.",
+      "hoi": "Doanh thu đã tính thuế năm trước được giảm trừ năm nay là bao nhiêu?"
+    },
+    {
+      "code": "B10",
+      "label": "Chi phí của phần doanh thu điều chỉnh tăng",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh giảm",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh giảm; chi phí nghiên cứu là phần trong khoản giảm khác.",
+      "hoi": "Chi phí của phần doanh thu điều chỉnh tăng là bao nhiêu?"
+    },
+    {
+      "code": "B11",
+      "label": "Chi phí lãi vay không được trừ kỳ trước được chuyển sang kỳ này của doanh nghiệp có giao dịch liên kết",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh giảm",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh giảm; chi phí nghiên cứu là phần trong khoản giảm khác.",
+      "hoi": "Chi phí lãi vay không được trừ kỳ trước được chuyển sang kỳ này là bao nhiêu?"
+    },
+    {
+      "code": "B12",
+      "label": "Các khoản điều chỉnh làm giảm lợi nhuận trước thuế khác",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh giảm",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh giảm; chi phí nghiên cứu là phần trong khoản giảm khác.",
+      "hoi": "Các khoản điều chỉnh giảm lợi nhuận khác là bao nhiêu?"
+    },
+    {
+      "code": "B12a",
+      "label": "Trong đó: Chi phí được trừ bổ sung của hoạt động nghiên cứu và phát triển",
+      "cot": "",
+      "kind": "so",
+      "section": "Điều chỉnh giảm",
+      "lay_o_dau": "Bảng đối chiếu lợi nhuận kế toán với thu nhập chịu thuế, phần điều chỉnh giảm; chi phí nghiên cứu là phần trong khoản giảm khác.",
+      "hoi": "Trong khoản giảm khác đó, chi phí nghiên cứu và phát triển được trừ bổ sung là bao nhiêu?"
+    },
+    {
+      "code": "B13",
+      "label": "Tổng thu nhập chịu thuế (B13=A1+B1-B8)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[A1]+[B1]-[B8]",
+      "section": "Xác định thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp"
+    },
+    {
+      "code": "B14",
+      "label": "Thu nhập chịu thuế từ hoạt động sản xuất kinh doanh",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế hoạt động sản xuất kinh doanh",
+      "giai_thich": "Chọn Lỗ ở câu trước để bot ghi số âm. Câu này chỉ nhập độ lớn, không gõ dấu trừ.",
+      "lay_o_dau": "Bảng xác định thu nhập chịu thuế theo từng hoạt động, sau điều chỉnh tăng và giảm.",
+      "hoi": "Số tiền thu nhập hoặc lỗ đó là bao nhiêu (gõ số dương)?"
+    },
+    {
+      "code": "B15",
+      "label": "Thu nhập chịu thuế từ hoạt động chuyển nhượng BĐS",
+      "cot": "",
+      "kind": "so",
+      "section": "Bất động sản",
+      "giai_thich": "Chọn Lỗ ở câu trước để bot ghi số âm. Câu này chỉ nhập độ lớn, không gõ dấu trừ.",
+      "lay_o_dau": "Bảng tính thu nhập chịu thuế riêng của hoạt động chuyển nhượng bất động sản.",
+      "hoi": "Số tiền thu nhập hoặc lỗ đó là bao nhiêu (gõ số dương)?"
+    },
+    {
+      "code": "C",
+      "label": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh",
+      "cot": "",
+      "kind": "tieu_de",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C1",
+      "label": "Thu nhập chịu thuế (C1 = B14)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[B14]",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C2",
+      "label": "Thu nhập miễn thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế hoạt động sản xuất kinh doanh",
+      "lay_o_dau": "Bảng xác định thu nhập miễn thuế và hồ sơ khoản miễn.",
+      "hoi": "Thu nhập được miễn thuế của phần sản xuất kinh doanh là bao nhiêu?"
+    },
+    {
+      "code": "C3",
+      "label": "Chuyển lỗ và bù trừ lãi, lỗ (C3=C3a+C3b)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([C1]-[C2]<=0,0,[C3a]+[C3b])",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C3a",
+      "label": "+ Lỗ từ hoạt động SXKD được chuyển trong kỳ",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng theo dõi chuyển lỗ, bảng bù trừ lãi lỗ của kỳ quyết toán.",
+      "hoi": "Số lỗ sản xuất kinh doanh được chuyển vào kỳ này?"
+    },
+    {
+      "code": "C3b",
+      "label": "+ Lỗ từ chuyển nhượng BĐS được bù trừ với lãi của hoạt động SXKD",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng theo dõi chuyển lỗ, bảng bù trừ lãi lỗ của kỳ quyết toán.",
+      "hoi": "Số lỗ bất động sản được bù vào lãi sản xuất kinh doanh?"
+    },
+    {
+      "code": "C4",
+      "label": "Thu nhập tính thuế (TNTT) (C4=C1-C2-C3)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([C1]-[C2]<=0,0,[C1]-[C2]-[C3])",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C5",
+      "label": "Trích lập quỹ khoa học công nghệ (nếu có)",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng trích lập quỹ khoa học công nghệ, phần thu nhập sản xuất kinh doanh.",
+      "hoi": "Số tiền trích quỹ khoa học công nghệ của phần sản xuất kinh doanh?"
+    },
+    {
+      "code": "C6",
+      "label": "TNTT sau khi đã trích lập quỹ khoa học công nghệ (C6=C4-C5=C7+C8)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([C1]-[C2]<=0,0,[C4]-[C5])",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C7",
+      "label": "+ Thu nhập tính thuế áp dụng thuế suất phổ thông",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính thuế TNDN theo mức thuế suất, phần sau trích quỹ.",
+      "hoi": "Phần thu nhập tính thuế áp dụng thuế suất phổ thông là bao nhiêu?"
+    },
+    {
+      "code": "C7a",
+      "label": "Thuế suất phổ thông (%) (nhập 20 cho 20%)",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng xác định thuế suất áp dụng của doanh nghiệp.",
+      "hoi": "Thuế suất phổ thông áp dụng cho phần đó là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "C8",
+      "label": "+ Thu nhập tính thuế tính theo thuế suất không ưu đãi khác",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính thuế TNDN theo mức thuế suất.",
+      "hoi": "Phần thu nhập áp dụng thuế suất không ưu đãi khác là bao nhiêu?"
+    },
+    {
+      "code": "C8a",
+      "label": "Thuế suất không ưu đãi khác (%) (nhập 20 cho 20%)",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng xác định mức thuế suất không ưu đãi khác áp dụng cho phần thu nhập này.",
+      "hoi": "Thuế suất không ưu đãi khác đó là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "C9",
+      "label": "Thuế TNDN từ hoạt động SXKD tính theo thuế suất không ưu đãi (C9 =(C7 x C7a) + (C8 x C8a))",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "ROUND([C7]*[C7a]/100,0)+ROUND([C8]*[C8a]/100,0)",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C10",
+      "label": "Thuế TNDN được ưu đãi theo Luật thuế TNDN (C10 = C11 + C12 + C13)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[C11]+[C12]+[C13]",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "C11",
+      "label": "+ Thuế TNDN chênh lệch do áp dụng mức thuế suất ưu đãi",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính ưu đãi, miễn giảm hoặc bảng thuế nước ngoài được trừ và hồ sơ tương ứng; nhập số đã xác định cho từng loại.",
+      "hoi": "Tiền thuế được giảm do áp dụng mức thuế suất ưu đãi là bao nhiêu?"
+    },
+    {
+      "code": "C12",
+      "label": "+ Thuế TNDN được miễn trong kỳ",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính ưu đãi, miễn giảm hoặc bảng thuế nước ngoài được trừ và hồ sơ tương ứng; nhập số đã xác định cho từng loại.",
+      "hoi": "Số thuế được miễn trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "C13",
+      "label": "+ Thuế TNDN được giảm trong kỳ",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính ưu đãi, miễn giảm hoặc bảng thuế nước ngoài được trừ và hồ sơ tương ứng; nhập số đã xác định cho từng loại.",
+      "hoi": "Số thuế được giảm trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "C14",
+      "label": "Thuế TNDN được miễn, giảm theo Hiệp định thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính ưu đãi, miễn giảm hoặc bảng thuế nước ngoài được trừ và hồ sơ tương ứng; nhập số đã xác định cho từng loại.",
+      "hoi": "Số thuế được miễn, giảm theo hiệp định thuế là bao nhiêu?"
+    },
+    {
+      "code": "C15",
+      "label": "Thuế TNDN được miễn, giảm theo từng thời kỳ",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính ưu đãi, miễn giảm hoặc bảng thuế nước ngoài được trừ và hồ sơ tương ứng; nhập số đã xác định cho từng loại.",
+      "hoi": "Số thuế được miễn, giảm theo chính sách từng thời kỳ là bao nhiêu?"
+    },
+    {
+      "code": "C16",
+      "label": "Thuế TNDN đã nộp đối với thu nhập ở nước ngoài được trừ trong kỳ tính thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Chi tiết quyết toán",
+      "lay_o_dau": "Bảng tính ưu đãi, miễn giảm hoặc bảng thuế nước ngoài được trừ và hồ sơ tương ứng; nhập số đã xác định cho từng loại.",
+      "hoi": "Thuế đã nộp ở nước ngoài được trừ vào thuế kỳ này là bao nhiêu?"
+    },
+    {
+      "code": "C17",
+      "label": "Thuế TNDN phải nộp của hoạt động sản xuất kinh doanh (C17=C9-C10-C14-C15-C16)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([C9]-[C10]-[C14]-[C15]-[C16],0)",
+      "section": "Thuế thu nhập doanh nghiệp (TNDN) phải nộp từ hoạt động sản xuất kinh doanh"
+    },
+    {
+      "code": "D",
+      "label": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS",
+      "cot": "",
+      "kind": "tieu_de",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "D1",
+      "label": "Thu nhập chịu thuế (D1 = B15)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[B15]",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "D2",
+      "label": "Chuyển lỗ và bù trừ lãi, lỗ (D2=D2a+D2b)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[D2a]+[D2b]",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "D2a",
+      "label": "Lỗ từ hoạt động chuyển nhượng BĐS được chuyển trong kỳ",
+      "cot": "",
+      "kind": "so",
+      "section": "Bất động sản",
+      "lay_o_dau": "Bảng chuyển lỗ và bù trừ lãi lỗ của hoạt động bất động sản.",
+      "hoi": "Lỗ bất động sản được chuyển vào kỳ này là bao nhiêu?"
+    },
+    {
+      "code": "D2b",
+      "label": "Lỗ từ hoạt động SXKD được bù trừ với lãi từ chuyển nhượng BĐS",
+      "cot": "",
+      "kind": "so",
+      "section": "Bất động sản",
+      "lay_o_dau": "Bảng chuyển lỗ và bù trừ lãi lỗ của hoạt động bất động sản.",
+      "hoi": "Lỗ sản xuất kinh doanh được bù vào lãi bất động sản là bao nhiêu?"
+    },
+    {
+      "code": "D3",
+      "label": "Thu nhập tính thuế (D3=D1-D2)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([D1]<=0,0,[D1]-[D2])",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "D4",
+      "label": "Trích lập quỹ khoa học công nghệ (nếu có)",
+      "cot": "",
+      "kind": "so",
+      "section": "Bất động sản",
+      "lay_o_dau": "Bảng trích lập quỹ khoa học công nghệ, phần chuyển nhượng bất động sản.",
+      "hoi": "Số tiền trích quỹ từ phần thu nhập bất động sản?"
+    },
+    {
+      "code": "D5",
+      "label": "TNTT sau khi đã trích lập quỹ khoa học công nghệ (D5=D3-D4)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([D1]<=0,0,[D3]-[D4])",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "D6",
+      "label": "Thuế TNDN phải nộp của hoạt động chuyển nhượng BĐS trong kỳ",
+      "cot": "",
+      "kind": "so",
+      "section": "Bất động sản",
+      "lay_o_dau": "Bảng tính thuế bất động sản và bảng ưu đãi dự án nhà ở xã hội nếu có; dùng số đã xác định, không tự suy ra mức thuế.",
+      "hoi": "Số thuế TNDN phải nộp của hoạt động bất động sản trước ưu đãi nhà ở xã hội?"
+    },
+    {
+      "code": "D7",
+      "label": "Thuế TNDN chênh lệch do áp dụng mức thuế suất ưu đãi đối với thu nhập từ thực hiện dự án đầu tư - kinh doanh nhà ở xã hội để bán, cho thuê, cho thuê mua",
+      "cot": "",
+      "kind": "so",
+      "section": "Bất động sản",
+      "lay_o_dau": "Bảng tính thuế bất động sản và bảng ưu đãi dự án nhà ở xã hội nếu có; dùng số đã xác định, không tự suy ra mức thuế.",
+      "hoi": "Tiền thuế chênh lệch được ưu đãi của dự án nhà ở xã hội là bao nhiêu?"
+    },
+    {
+      "code": "D8",
+      "label": "Thuế TNDN của hoạt động chuyển nhượng BĐS còn phải nộp kỳ này (D8=D6-D7)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[D6]-[D7]",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "E",
+      "label": "Số thuế TNDN phải nộp quyết toán trong kỳ (E=E1+E2+E5)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[E1]+[E2]+[E5]",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "E1",
+      "label": "Thuế TNDN của hoạt động sản xuất kinh doanh",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đưa vào quyết toán",
+      "lay_o_dau": "Bảng tổng hợp thuế đưa vào quyết toán; không gồm hoạt động ưu đãi khác tỉnh đã kê khai riêng theo Ghi chú 5. Hạ tầng, nhà theo tiến độ lấy phần bàn giao kỳ này theo Ghi chú 6.",
+      "hoi": "Số thuế của hoạt động sản xuất kinh doanh đưa vào quyết toán kỳ này?"
+    },
+    {
+      "code": "E2",
+      "label": "Thuế TNDN từ hoạt động chuyển nhượng BĐS (E2=E3+E4)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[E3]+[E4]",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "E3",
+      "label": "Thuế TNDN từ hoạt động chuyển nhượng BĐS",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đưa vào quyết toán",
+      "lay_o_dau": "Bảng tổng hợp thuế đưa vào quyết toán; không gồm hoạt động ưu đãi khác tỉnh đã kê khai riêng theo Ghi chú 5. Hạ tầng, nhà theo tiến độ lấy phần bàn giao kỳ này theo Ghi chú 6.",
+      "hoi": "Số thuế chuyển nhượng bất động sản đưa vào quyết toán kỳ này?"
+    },
+    {
+      "code": "E4",
+      "label": "Thuế TNDN từ hoạt động chuyển nhượng cơ sở hạ tầng, nhà có thu tiền theo tiến độ",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đưa vào quyết toán",
+      "lay_o_dau": "Bảng tổng hợp thuế đưa vào quyết toán; không gồm hoạt động ưu đãi khác tỉnh đã kê khai riêng theo Ghi chú 5. Hạ tầng, nhà theo tiến độ lấy phần bàn giao kỳ này theo Ghi chú 6.",
+      "hoi": "Số thuế của hạ tầng, nhà có thu tiền theo tiến độ, bàn giao kỳ này?"
+    },
+    {
+      "code": "E5",
+      "label": "Thuế TNDN phải nộp khác (nếu có)",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đưa vào quyết toán",
+      "lay_o_dau": "Bảng tổng hợp thuế đưa vào quyết toán; không gồm hoạt động ưu đãi khác tỉnh đã kê khai riêng theo Ghi chú 5. Hạ tầng, nhà theo tiến độ lấy phần bàn giao kỳ này theo Ghi chú 6.",
+      "hoi": "Các khoản thuế TNDN phải nộp khác là bao nhiêu?"
+    },
+    {
+      "code": "E6",
+      "label": "Trong đó thuế TNDN từ xử lý Quỹ phát triển khoa học công nghệ",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đưa vào quyết toán",
+      "lay_o_dau": "Bảng tổng hợp thuế đưa vào quyết toán; không gồm hoạt động ưu đãi khác tỉnh đã kê khai riêng theo Ghi chú 5. Hạ tầng, nhà theo tiến độ lấy phần bàn giao kỳ này theo Ghi chú 6.",
+      "hoi": "Trong thuế phải nộp khác, phần thuế từ xử lý quỹ khoa học công nghệ là bao nhiêu?"
+    },
+    {
+      "code": "G",
+      "label": "Số thuế TNDN đã tạm nộp (G=G1+G2+G3+G4+G5)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[G1]+[G2]+[G3]+[G4]+[G5]",
+      "section": "Thuế TNDN phải nộp từ hoạt động chuyển nhượng BĐS"
+    },
+    {
+      "code": "G1",
+      "label": "Thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Chứng từ nộp ngân sách và bảng đối chiếu thuế. Ghi chú 2: nộp thừa là số chuyển sang bù kỳ này. Ghi chú 3: tiền tạm nộp tính đến hạn nộp hồ sơ quyết toán. Ghi chú 5, 6: loại phần ưu đãi khác tỉnh đã khai riêng, lấy đúng phần hạ tầng, nhà bàn giao kỳ này.",
+      "hoi": "Thuế sản xuất kinh doanh nộp thừa kỳ trước được chuyển sang bù kỳ này?"
+    },
+    {
+      "code": "G2",
+      "label": "Thuế TNDN đã tạm nộp trong năm",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Chứng từ nộp ngân sách và bảng đối chiếu thuế. Ghi chú 2: nộp thừa là số chuyển sang bù kỳ này. Ghi chú 3: tiền tạm nộp tính đến hạn nộp hồ sơ quyết toán. Ghi chú 5, 6: loại phần ưu đãi khác tỉnh đã khai riêng, lấy đúng phần hạ tầng, nhà bàn giao kỳ này.",
+      "hoi": "Thuế sản xuất kinh doanh đã tạm nộp cho kỳ này tính đến hạn nộp quyết toán?"
+    },
+    {
+      "code": "G3",
+      "label": "Thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này của hoạt động chuyển nhượng BĐS",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Chứng từ nộp ngân sách và bảng đối chiếu thuế. Ghi chú 2: nộp thừa là số chuyển sang bù kỳ này. Ghi chú 3: tiền tạm nộp tính đến hạn nộp hồ sơ quyết toán. Ghi chú 5, 6: loại phần ưu đãi khác tỉnh đã khai riêng, lấy đúng phần hạ tầng, nhà bàn giao kỳ này.",
+      "hoi": "Thuế bất động sản nộp thừa kỳ trước được chuyển sang bù kỳ này?"
+    },
+    {
+      "code": "G4",
+      "label": "Thuế TNDN đã tạm nộp trong năm của hoạt động chuyển nhượng BĐS",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Chứng từ nộp ngân sách và bảng đối chiếu thuế. Ghi chú 2: nộp thừa là số chuyển sang bù kỳ này. Ghi chú 3: tiền tạm nộp tính đến hạn nộp hồ sơ quyết toán. Ghi chú 5, 6: loại phần ưu đãi khác tỉnh đã khai riêng, lấy đúng phần hạ tầng, nhà bàn giao kỳ này.",
+      "hoi": "Thuế bất động sản đã tạm nộp cho kỳ này tính đến hạn nộp quyết toán?"
+    },
+    {
+      "code": "G5",
+      "label": "Thuế TNDN đã tạm nộp các kỳ trước và trong năm quyết toán của hoạt động chuyển nhượng cơ sở hạ tầng, nhà có thu tiền theo tiến độ",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Chứng từ nộp ngân sách và bảng đối chiếu thuế. Ghi chú 2: nộp thừa là số chuyển sang bù kỳ này. Ghi chú 3: tiền tạm nộp tính đến hạn nộp hồ sơ quyết toán. Ghi chú 5, 6: loại phần ưu đãi khác tỉnh đã khai riêng, lấy đúng phần hạ tầng, nhà bàn giao kỳ này.",
+      "hoi": "Thuế đã tạm nộp của hạ tầng, nhà theo tiến độ được đưa vào quyết toán kỳ này?"
+    },
+    {
+      "code": "H",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp",
+      "cot": "",
+      "kind": "tieu_de",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    },
+    {
+      "code": "H1",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp trong năm của hoạt động sản xuất kinh doanh (H1=E1+E5-G2)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[E1]+[E5]-[G2]",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    },
+    {
+      "code": "H2",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp trong năm của hoạt động chuyển nhượng BĐS (H2=E3-G4)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[E3]-[G4]",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    },
+    {
+      "code": "H3",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp của hoạt động chuyển nhượng cơ sở hạ tầng, nhà có thu tiền theo tiến độ (H3=E4-G5)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[E4]-[G5]",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    },
+    {
+      "code": "I",
+      "label": "Số thuế TNDN còn phải nộp đến thời hạn nộp hồ sơ khai quyết toán thuế (I=E-G=I1+I2)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[E]-[G]",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    },
+    {
+      "code": "I1",
+      "label": "Thuế TNDN còn phải nộp của hoạt động sản xuất kinh doanh",
+      "kind": "cong_thuc",
+      "formula": "[E1]+[E5]-[G1]-[G2]",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    },
+    {
+      "code": "I2",
+      "label": "Thuế TNDN còn phải nộp của hoạt động chuyển nhượng BĐS",
+      "kind": "cong_thuc",
+      "formula": "[E2]-[G3]-[G4]-[G5]",
+      "section": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [
+    {
+      "expr": "[C6]=[C7]+[C8]",
+      "text": "C6=C4-C5=C7+C8)"
+    },
+    {
+      "expr": "[I]=[I1]+[I2]",
+      "text": "I=E-G=I1+I2"
+    }
+  ],
+  "phu_luc": [
+    {
+      "id": "TT89-03-2-TNDN",
+      "label": "Bạn có lỗ từ các năm trước được chuyển vào năm quyết toán này không?"
+    },
+    {
+      "id": "TT89-03-3A-TNDN",
+      "label": "Bạn có dự án đầu tư hoặc thu nhập của doanh nghiệp được ưu đãi thuế cần kê chi tiết không?"
+    },
+    {
+      "id": "TT89-03-3C-TNDN",
+      "label": "Doanh nghiệp có ưu đãi thuế do sử dụng lao động nữ hoặc lao động dân tộc thiểu số không?"
+    },
+    {
+      "id": "TT89-03-3D-TNDN",
+      "label": "Doanh nghiệp khoa học công nghệ hoặc chuyển giao công nghệ ưu tiên có thuế được ưu đãi không?"
+    },
+    {
+      "id": "TT89-03-4-TNDN",
+      "label": "Bạn có thuế đã nộp ở nước ngoài cần xác định phần được trừ không?"
+    },
+    {
+      "id": "TT89-03-5-TNDN",
+      "label": "Bạn có thuế TNDN từ chuyển nhượng bất động sản cần kê chi tiết không?"
+    },
+    {
+      "id": "TT89-03-6-TNDN",
+      "label": "Bạn có trích lập, điều chuyển hoặc sử dụng quỹ khoa học và công nghệ không?"
+    },
+    {
+      "id": "TT89-03-8-TNDN",
+      "label": "Bạn có cơ sở sản xuất khác địa phương cần phân bổ thuế TNDN không?"
+    },
+    {
+      "id": "TT89-03-8A-TNDN",
+      "label": "Bạn có hoạt động bất động sản cần phân bổ thuế cho các địa phương không?"
+    },
+    {
+      "id": "TT89-03-8B-TNDN",
+      "label": "Bạn có nhà máy thủy điện cần phân bổ thuế TNDN không?"
+    },
+    {
+      "id": "TT89-03-8C-TNDN",
+      "label": "Bạn có hoạt động xổ số điện toán cần phân bổ thuế TNDN không?"
+    },
+    {
+      "id": "TT89-03-9-TNDN",
+      "label": "Có tiền thuế tạm nộp của bất động sản thu tiền theo tiến độ chưa bàn giao trong năm cần theo dõi không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

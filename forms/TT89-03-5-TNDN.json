@@ -1,0 +1,121 @@
+{
+  "id": "TT89-03-5-TNDN",
+  "mau_so": "03-5/TNDN",
+  "title": "Phụ lục thu nhập đối với hoạt động chuyển nhượng bất động sản — 03-5/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "04",
+      "label": "Doanh thu từ hoạt động chuyển nhượng bất động sản",
+      "cot": "",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Tổng doanh thu của bất động sản đã bàn giao trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "05",
+      "label": "Chi phí từ hoạt động chuyển nhượng bất động sản",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Tổng chi phí tương ứng của các bất động sản đó là bao nhiêu?"
+    },
+    {
+      "code": "06",
+      "label": "- Giá vốn của đất chuyển nhượng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong tổng chi phí vừa nhập, giá vốn đất chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "07",
+      "label": "- Chi phí đền bù thiệt hại về đất",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong tổng chi phí, tiền đền bù thiệt hại về đất là bao nhiêu?"
+    },
+    {
+      "code": "08",
+      "label": "- Chi phí đền bù thiệt hại về hoa màu",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong tổng chi phí, tiền đền bù thiệt hại về hoa màu là bao nhiêu?"
+    },
+    {
+      "code": "09",
+      "label": "- Chi phí cải tạo san lấp mặt bằng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong tổng chi phí, tiền cải tạo và san lấp mặt bằng là bao nhiêu?"
+    },
+    {
+      "code": "10",
+      "label": "- Chi phí đầu tư xây dựng kết cấu hạ tầng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong tổng chi phí, tiền đầu tư xây dựng hạ tầng là bao nhiêu?"
+    },
+    {
+      "code": "11",
+      "label": "- Chi phí khác",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong tổng chi phí, các khoản chi phí khác là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "label": "Thu nhập từ hoạt động chuyển nhượng bất động sản đã bàn giao trong kỳ ([12]=[04]-[05])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[04]-[05]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13",
+      "label": "- Trong đó: thu nhập từ thực hiện dự án đầu tư - kinh doanh nhà ở xã hội để bán, cho thuê, cho thuê mua được hưởng ưu đãi",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, biên bản bàn giao, hóa đơn và bảng tính giá vốn, chi phí của bất động sản đã bàn giao trong kỳ.",
+      "hoi": "Trong phần thu nhập trên, thu nhập từ dự án nhà ở xã hội được ưu đãi là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

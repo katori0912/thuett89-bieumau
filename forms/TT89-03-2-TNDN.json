@@ -1,0 +1,141 @@
+{
+  "id": "TT89-03-2-TNDN",
+  "mau_so": "03-2/TNDN",
+  "title": "Phụ lục chuyển lỗ — 03-2/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "04",
+      "label": "Tổng lỗ hoạt động sản xuất kinh doanh được chuyển trong kỳ",
+      "kind": "cong_thuc",
+      "cot": "Số lỗ được chuyển trong kỳ tính thuế này",
+      "note": "= tổng cột (5) phần I của bảng kê Tổng hợp vào C3a và D2b tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.5]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "05",
+      "label": "Tổng lỗ chuyển nhượng bất động sản được chuyển trong kỳ",
+      "kind": "cong_thuc",
+      "cot": "Số lỗ được chuyển trong kỳ tính thuế này",
+      "note": "= tổng cột (5) phần II của bảng kê Tổng hợp vào D2a và C3b tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.5]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "I. Lỗ sản xuất kinh doanh",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Năm phát sinh lỗ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số lỗ phát sinh",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Lỗ đã chuyển các kỳ trước",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Lỗ chuyển kỳ này",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Lỗ còn chuyển kỳ sau",
+          "c": 5,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "5"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "II. Lỗ chuyển nhượng bất động sản",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Năm phát sinh lỗ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số lỗ phát sinh",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Lỗ đã chuyển các kỳ trước",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Lỗ chuyển kỳ này",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Lỗ còn chuyển kỳ sau",
+          "c": 5,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "5"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

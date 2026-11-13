@@ -1,0 +1,120 @@
+{
+  "id": "TT89-01-7-GTGT",
+  "mau_so": "01-7/GTGT",
+  "title": "Bảng phân bổ số thuế giá trị gia tăng đầu vào cho các đơn vị phụ thuộc — 01-7/GTGT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế: (Tên cơ sở kinh doanh dịch vụ viễn thông)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Chi nhánh và trụ sở chính kinh doanh viễn thông",
+      "cot": [
+        {
+          "ma": "09",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "10",
+          "ten": "Tên chi nhánh và trụ sở chính cơ sở kinh doanh dịch vụ viễn thông",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Mã số thuế chi nhánh và trụ sở chính cơ sở kinh doanh dịch vụ viễn thông",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Tổng doanh thu xác định tỷ lệ phân bổ (không bao gồm doanh thu không chịu thuế)",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Giá trị hàng hóa, dịch vụ mua vào phân bổ (chưa có thuế GTGT)",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế GTGT đầu vào phân bổ cho chi nhánh và trụ sở chính",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Ghi chú của dòng phân bổ",
+          "c": 6,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,415 @@
+{
+  "id": "TT89-01.NTNN-NCCNN",
+  "mau_so": "",
+  "title": "Tờ khai thuế nhà thầu nước ngoài; nhà cung cấp nước ngoài, cá nhân không cư trú có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác — ",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Bên Việt Nam/tổ chức kinh doanh áp dụng phương pháp khấu trừ GTGT, khấu trừ và nộp thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên bên Việt Nam hoặc tổ chức đứng ra khấu trừ và nộp thay là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế của bên Việt Nam/tổ chức khấu trừ và nộp thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "DOI_TUONG1",
+      "label": "Bên Việt Nam khấu trừ và nộp thuế thay cho nhà thầu nước ngoài",
+      "kind": "danh_dau",
+      "section": "Nhà thầu nước ngoài",
+      "hoi": "Bạn có khấu trừ và nộp thuế thay cho nhà thầu nước ngoài không?"
+    },
+    {
+      "code": "DOI_TUONG2",
+      "label": "Tổ chức khấu trừ và nộp thuế thay cho NCCNN/cá nhân theo phạm vi phần II của mẫu",
+      "kind": "danh_dau",
+      "section": "Kinh doanh trên nền tảng số",
+      "hoi": "Bạn có khấu trừ và nộp thay cho nhà cung cấp nước ngoài hoặc cá nhân không cư trú kinh doanh trên nền tảng số không?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "I. Nhà thầu nước ngoài",
+      "cot": [
+        {
+          "ma": "0",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "1",
+          "ten": "Nội dung, nhà thầu và ngành kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Mã số thuế tại Việt Nam (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số hợp đồng",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Ngày hợp đồng",
+          "c": 4,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "5",
+          "ten": "Số tiền thanh toán",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Ngày thanh toán",
+          "c": 6,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "7",
+          "ten": "Doanh thu tính thuế GTGT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Tỷ lệ GTGT (nhập 5 cho 5%)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế GTGT phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]/100"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế thu nhập",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tỷ lệ thuế thu nhập (nhập 5 cho 5%)",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế được miễn giảm theo Hiệp định",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế thu nhập phải nộp",
+          "c": 13,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[10]*[11]/100-[12]"
+        },
+        {
+          "ma": "14",
+          "ten": "Tổng thuế phải nộp NSNN",
+          "c": 14,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[9]+[13]"
+        }
+      ],
+      "tong": [
+        "5",
+        "7",
+        "9",
+        "10",
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "II.I. Nhà cung cấp nước ngoài",
+      "cot": [
+        {
+          "ma": "0",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "1",
+          "ten": "Nội dung, nhà thầu và ngành kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Mã số thuế tại Việt Nam (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số hợp đồng",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Ngày hợp đồng",
+          "c": 4,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "5",
+          "ten": "Số tiền thanh toán",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Ngày thanh toán",
+          "c": 6,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "7",
+          "ten": "Doanh thu tính thuế GTGT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Tỷ lệ GTGT (nhập 5 cho 5%)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế GTGT phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]/100"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế thu nhập",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tỷ lệ thuế thu nhập (nhập 5 cho 5%)",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế được miễn giảm theo Hiệp định",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế thu nhập phải nộp",
+          "c": 13,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[10]*[11]/100-[12]"
+        },
+        {
+          "ma": "14",
+          "ten": "Tổng thuế phải nộp NSNN",
+          "c": 14,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[9]+[13]"
+        }
+      ],
+      "tong": [
+        "5",
+        "7",
+        "9",
+        "10",
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "id": "BK3",
+      "ten": "II.II. Cá nhân không cư trú (thuế thu nhập là TNCN)",
+      "cot": [
+        {
+          "ma": "0",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "1",
+          "ten": "Nội dung, nhà thầu và ngành kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Mã số thuế tại Việt Nam (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số hợp đồng",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Ngày hợp đồng",
+          "c": 4,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "5",
+          "ten": "Số tiền thanh toán",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Ngày thanh toán",
+          "c": 6,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "7",
+          "ten": "Doanh thu tính thuế GTGT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Tỷ lệ GTGT (nhập 5 cho 5%)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế GTGT phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]/100"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế thu nhập",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tỷ lệ thuế thu nhập (nhập 5 cho 5%)",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế được miễn giảm theo Hiệp định",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế thu nhập phải nộp",
+          "c": 13,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[10]*[11]/100-[12]"
+        },
+        {
+          "ma": "14",
+          "ten": "Tổng thuế phải nộp NSNN",
+          "c": 14,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[9]+[13]"
+        }
+      ],
+      "tong": [
+        "5",
+        "7",
+        "9",
+        "10",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

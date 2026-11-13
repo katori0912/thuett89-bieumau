@@ -1,0 +1,574 @@
+{
+  "id": "TT89-01-BK-XSBHDCMG",
+  "mau_so": "01/BK-XSBHDCMG",
+  "title": "Phụ lục Bảng kê chi tiết cá nhân có phát sinh doanh thu (Kèm theo Tờ khai 01/ XSBHDCMG-CNKD kê khai vào hồ sơ khai thuế của kỳ tháng/quý cuối cùng trong năm tính thuế) — 01/BK-XSBHDCMG",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "09.1",
+      "label": "Tổng cộng — Doanh thu trong năm — Hoạt động đại lý xổ số",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trong năm",
+      "note": "= tổng cột [09] của bảng kê BK1",
+      "formula": "[BK1.09]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10.1",
+      "label": "Tổng cộng — Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V) — Hoạt động đại lý xổ số",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+      "note": "= tổng cột [10] của bảng kê BK1",
+      "formula": "[BK1.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11.1",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ trong năm — Hoạt động đại lý xổ số",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ trong năm",
+      "note": "= tổng cột [11] của bảng kê BK1",
+      "formula": "[BK1.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12.1",
+      "label": "Tổng cộng — Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động đại lý xổ số",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [12] của bảng kê BK1",
+      "formula": "[BK1.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13.1",
+      "label": "Tổng cộng — Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động đại lý xổ số",
+      "kind": "cong_thuc",
+      "cot": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [13] của bảng kê BK1",
+      "formula": "[BK1.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09.2",
+      "label": "Tổng cộng — Doanh thu trong năm — Hoạt động đại lý bảo hiểm",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trong năm",
+      "note": "= tổng cột [09] của bảng kê BK2",
+      "formula": "[BK2.09]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10.2",
+      "label": "Tổng cộng — Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V) — Hoạt động đại lý bảo hiểm",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+      "note": "= tổng cột [10] của bảng kê BK2",
+      "formula": "[BK2.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11.2",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ trong năm — Hoạt động đại lý bảo hiểm",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ trong năm",
+      "note": "= tổng cột [11] của bảng kê BK2",
+      "formula": "[BK2.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12.2",
+      "label": "Tổng cộng — Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động đại lý bảo hiểm",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [12] của bảng kê BK2",
+      "formula": "[BK2.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13.2",
+      "label": "Tổng cộng — Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động đại lý bảo hiểm",
+      "kind": "cong_thuc",
+      "cot": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [13] của bảng kê BK2",
+      "formula": "[BK2.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09.3",
+      "label": "Tổng doanh thu trong năm — Tiền phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trong năm",
+      "note": "= tổng cột [09] của bảng kê BK3",
+      "formula": "[BK3.09]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11.3",
+      "label": "Tổng thuế TNCN đã khấu trừ trong năm — Tiền phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ trong năm",
+      "note": "= tổng cột [11] của bảng kê BK3",
+      "formula": "[BK3.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09.4",
+      "label": "Tổng cộng — Doanh thu trong năm — Hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trong năm",
+      "note": "= tổng cột [09] của bảng kê BK4",
+      "formula": "[BK4.09]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10.4",
+      "label": "Tổng cộng — Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V) — Hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+      "note": "= tổng cột [10] của bảng kê BK4",
+      "formula": "[BK4.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11.4",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ trong năm — Hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ trong năm",
+      "note": "= tổng cột [11] của bảng kê BK4",
+      "formula": "[BK4.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12.4",
+      "label": "Tổng cộng — Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [12] của bảng kê BK4",
+      "formula": "[BK4.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13.4",
+      "label": "Tổng cộng — Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [13] của bảng kê BK4",
+      "formula": "[BK4.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09.5",
+      "label": "Tổng cộng — Doanh thu trong năm — Hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trong năm",
+      "note": "= tổng cột [09] của bảng kê BK5",
+      "formula": "[BK5.09]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10.5",
+      "label": "Tổng cộng — Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V) — Hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+      "note": "= tổng cột [10] của bảng kê BK5",
+      "formula": "[BK5.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11.5",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ trong năm — Hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ trong năm",
+      "note": "= tổng cột [11] của bảng kê BK5",
+      "formula": "[BK5.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12.5",
+      "label": "Tổng cộng — Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [12] của bảng kê BK5",
+      "formula": "[BK5.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13.5",
+      "label": "Tổng cộng — Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V) — Hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [13] của bảng kê BK5",
+      "formula": "[BK5.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "14",
+      "label": "TỔNG CỘNG — Doanh thu trong năm",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu trong năm",
+      "note": "= tổng cột [09] của bảng kê; phần TỔNG CỘNG; người dùng nhập tổng.",
+      "formula": "[BK1.09]+[BK2.09]+[BK3.09]+[BK4.09]+[BK5.09]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "15",
+      "label": "TỔNG CỘNG — Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+      "note": "= tổng cột [10] của bảng kê; phần TỔNG CỘNG; người dùng nhập tổng.",
+      "formula": "[BK1.10]+[BK2.10]+[BK4.10]+[BK5.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16",
+      "label": "TỔNG CỘNG — Số thuế TNCN đã khấu trừ trong năm",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ trong năm",
+      "note": "= tổng cột [11] của bảng kê; phần TỔNG CỘNG; người dùng nhập tổng.",
+      "formula": "[BK1.11]+[BK2.11]+[BK3.11]+[BK4.11]+[BK5.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "17",
+      "label": "TỔNG CỘNG — Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [12] của bảng kê; phần TỔNG CỘNG; người dùng nhập tổng.",
+      "formula": "[BK1.12]+[BK2.12]+[BK4.12]+[BK5.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "TỔNG CỘNG — Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+      "kind": "cong_thuc",
+      "cot": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+      "note": "= tổng cột [13] của bảng kê; phần TỔNG CỘNG; người dùng nhập tổng.",
+      "formula": "[BK1.13]+[BK2.13]+[BK4.13]+[BK5.13]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK5",
+      "ten": "Hoạt động môi giới",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên cá nhân",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Doanh thu trong năm",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Số thuế TNCN đã khấu trừ trong năm",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "BK4",
+      "ten": "Hoạt động bán hàng đa cấp",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên cá nhân",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Doanh thu trong năm",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Số thuế TNCN đã khấu trừ trong năm",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "BK3",
+      "ten": "Phí tích lũy bảo hiểm",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên cá nhân",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Doanh thu trong năm",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Số thuế TNCN đã khấu trừ trong năm",
+          "c": 5,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "09",
+        "11"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Hoạt động đại lý bảo hiểm",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên cá nhân",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Doanh thu trong năm",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Số thuế TNCN đã khấu trừ trong năm",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "BK1",
+      "ten": "Hoạt động đại lý xổ số",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên cá nhân",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế/Số định danh cá nhân",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Doanh thu trong năm",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Doanh thu tính thuế TNCN (chỉ áp dụng cho mục I, II, IV, V)",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Số thuế TNCN đã khấu trừ trong năm",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Doanh thu tính thuế GTGT (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế GTGT phải nộp trong năm (chỉ áp dụng cho mục I, II, IV,V)",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

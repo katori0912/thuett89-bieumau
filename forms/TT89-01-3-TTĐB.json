@@ -1,0 +1,222 @@
+{
+  "id": "TT89-01-3-TTĐB",
+  "mau_so": "01-3/TTĐB",
+  "title": "Bảng phân bổ số thuế tiêu thụ đặc biệt phải nộp đối với hoạt động kinh doanh xổ số điện toán — 01-3/TTĐB",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "08",
+      "label": "STT",
+      "kind": "cot_bang_ke",
+      "cot": "STT",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09",
+      "label": "Tên đơn vị phụ thuộc/địa điểm kinh doanh/nơi phát sinh doanh thu bán vé",
+      "kind": "cot_bang_ke",
+      "cot": "Tên đơn vị phụ thuộc/địa điểm kinh doanh/nơi phát sinh doanh thu bán vé",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10",
+      "label": "Mã số thuế/Mã địa điểm kinh doanh (nếu có)",
+      "kind": "cot_bang_ke",
+      "cot": "Mã số thuế/Mã địa điểm kinh doanh (nếu có)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11",
+      "label": "Xã nơi hoạt động",
+      "kind": "cot_bang_ke",
+      "note": "2. Chỉ tiêu [11], [12]: Kê khai địa bàn cấp xã, tỉnh nơi có đơn vị phụ thuộc, địa điểm kinh doanh hoặc hoạt động bán vé khác tỉnh với nơi người nộp thuế đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh hoặc hoạt động bán vé trên nhiều xã thuộc một cơ quan thuế quản lý địa bàn nhận phân bổ là Thuế tỉnh, thành phố thì chọn 1 đơn vị đại diện hoặc một xã để kê khai vào chỉ tiêu này. Trường hợp có đơn vị phụ thuộc, địa điểm kinh doanh hoặc hoạt động bán vé trên nhiều xã thuộc 1 cơ quan thuế quản lý địa bàn nhận phân bổ là Thuế cơ sở thì chọn 1 đơn vị đại diện hoặc 1 xã do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "cot": "Xã nơi hoạt động",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12",
+      "label": "Tỉnh nơi hoạt động",
+      "kind": "cot_bang_ke",
+      "note": "2. Chỉ tiêu [11], [12]: Kê khai địa bàn cấp xã, tỉnh nơi có đơn vị phụ thuộc, địa điểm kinh doanh hoặc hoạt động bán vé khác tỉnh với nơi người nộp thuế đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh hoặc hoạt động bán vé trên nhiều xã thuộc một cơ quan thuế quản lý địa bàn nhận phân bổ là Thuế tỉnh, thành phố thì chọn 1 đơn vị đại diện hoặc một xã để kê khai vào chỉ tiêu này. Trường hợp có đơn vị phụ thuộc, địa điểm kinh doanh hoặc hoạt động bán vé trên nhiều xã thuộc 1 cơ quan thuế quản lý địa bàn nhận phân bổ là Thuế cơ sở thì chọn 1 đơn vị đại diện hoặc 1 xã do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "cot": "Tỉnh nơi hoạt động",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13",
+      "label": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+      "kind": "cot_bang_ke",
+      "cot": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "14",
+      "label": "Doanh thu bán vé thực tế theo từng tỉnh",
+      "kind": "cot_bang_ke",
+      "cot": "Doanh thu bán vé thực tế theo từng tỉnh",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "15",
+      "label": "Tỷ lệ doanh thu bán vé thực tế theo từng tỉnh (nhập 20 cho 20%)",
+      "kind": "cot_bang_ke",
+      "cot": "Tỷ lệ doanh thu bán vé thực tế theo từng tỉnh (nhập 20 cho 20%)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "07",
+      "label": "Tổng doanh thu thực tế",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo doanh thu bán vé của tất cả tỉnh.",
+      "hoi": "Tổng doanh thu bán vé xổ số điện toán thực tế trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Số thuế TTĐB phải nộp cho từng tỉnh",
+      "kind": "cot_bang_ke",
+      "cot": "Số thuế TTĐB phải nộp cho từng tỉnh",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "06",
+      "label": "Tổng số thuế TTĐB phải nộp trên tờ khai 01/TTĐB",
+      "kind": "so",
+      "note": "Nguồn: tổng số thuế TTĐB phải nộp trên tờ khai 01/TTĐB; người dùng nhập theo mẫu.",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Tờ khai 01/TTĐB cùng kỳ, tổng số thuế phải nộp.",
+      "hoi": "Tổng thuế TTĐB phải nộp của xổ số điện toán trên tờ khai chính là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng số thuế TTĐB phải nộp theo từng tỉnh",
+      "cot": "",
+      "kind": "so",
+      "note": "= tổng cột [16] của bảng kê theo từng tỉnh",
+      "section": "Địa bàn khác tỉnh nơi đóng trụ sở chính",
+      "giai_thich": "Nhập subtotal của một tỉnh; đây không phải tổng tất cả tỉnh. Mẫu Word hiện chỉ có một dòng subtotal [17], cần rà khi kê nhiều tỉnh.",
+      "lay_o_dau": "Bảng phân bổ thuế theo tỉnh lập từ báo cáo bán vé.",
+      "hoi": "Thuế tại dòng cộng theo từng tỉnh trong bảng phân bổ đã lập là bao nhiêu?"
+    },
+    {
+      "code": "18",
+      "label": "Tổng số thuế TTĐB phân bổ cho các tỉnh khác nơi đóng trụ sở chính",
+      "kind": "cong_thuc",
+      "note": "= tổng các số cộng theo tỉnh [17] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.16]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "19",
+      "label": "Số thuế phải nộp cho nơi NNT đóng trụ sở chính ([19]= [06]-[18])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[06]-[18]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Địa bàn khác tỉnh nơi đóng trụ sở chính",
+      "cot": [
+        {
+          "ma": "08",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "09",
+          "ten": "Tên đơn vị phụ thuộc/địa điểm kinh doanh/nơi phát sinh doanh thu bán vé",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Xã nơi hoạt động",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Tỉnh nơi hoạt động",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "14",
+          "ten": "Doanh thu bán vé thực tế theo từng tỉnh",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Tỷ lệ doanh thu bán vé thực tế theo từng tỉnh (nhập 20 cho 20%)",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[14]/[07]*100"
+        },
+        {
+          "ma": "16",
+          "ten": "Số thuế TTĐB phải nộp cho từng tỉnh",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[06]*[15]/100"
+        }
+      ],
+      "tong": [
+        "14",
+        "16"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,210 @@
+{
+  "id": "TT89-01-8-GTGT",
+  "mau_so": "01-8/GTGT",
+  "title": "Phụ lục thông tin đề nghị hoàn thuế giá trị gia tăng — 01-8/GTGT",
+  "fields": [
+    {
+      "code": "01b",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "MAU_TK",
+      "label": "Mẫu tờ khai kèm theo: 01/GTGT hoặc 02/GTGT",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Phụ lục hoàn thuế này đi kèm tờ khai nào?"
+    },
+    {
+      "code": "HD_CT",
+      "label": "Thông tin hóa đơn, chứng từ mua vào đề nghị hoàn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "giai_thich": "Mẫu nêu cơ quan thuế hỗ trợ chọn từ dữ liệu sẵn có; ở đây bạn nhập nội dung theo hồ sơ, bot chưa kết nối cơ sở dữ liệu đó.",
+      "lay_o_dau": "Danh sách hóa đơn, chứng từ mua vào đề nghị hoàn.",
+      "hoi": "Thông tin hóa đơn, chứng từ mua vào bạn đưa vào hồ sơ hoàn là gì?"
+    },
+    {
+      "code": "THUE_DU_DK",
+      "label": "Thông tin xác định thuế GTGT đủ điều kiện hoàn đối với hàng hóa, dịch vụ xuất khẩu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng xác định thuế đủ điều kiện hoàn của hàng hóa, dịch vụ xuất khẩu.",
+      "hoi": "Bạn xác định số thuế đủ điều kiện hoàn cho phần xuất khẩu trong hồ sơ như thế nào?"
+    },
+    {
+      "code": "HT_HOAN",
+      "label": "Hình thức hoàn trả trực tiếp",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hồ sơ đề nghị hoàn, mục hình thức hoàn trả.",
+      "hoi": "Bạn đề nghị hoàn trực tiếp theo hình thức nào?"
+    },
+    {
+      "code": "CHU_TK",
+      "label": "Tên chủ tài khoản nhận hoàn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông tin tài khoản nhận hoàn.",
+      "hoi": "Tên chủ tài khoản nhận hoàn là gì?"
+    },
+    {
+      "code": "SO_TK",
+      "label": "Số tài khoản nhận hoàn",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông tin tài khoản nhận hoàn.",
+      "hoi": "Số tài khoản nhận hoàn là gì?"
+    },
+    {
+      "code": "NGAN_HANG",
+      "label": "Tên ngân hàng hoặc Kho bạc Nhà nước",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông tin tài khoản nhận hoàn.",
+      "hoi": "Tên ngân hàng hoặc Kho bạc Nhà nước nhận tiền hoàn là gì?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Thông tin đề nghị hoàn thuế",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Kỳ đề nghị hoàn: Từ kỳ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Kỳ đề nghị hoàn: Đến kỳ",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Trường hợp đề nghị hoàn thuế",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Số tiền đề nghị hoàn",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Ghi chú",
+          "c": 5,
+          "kieu": "chu"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK2",
+      "ten": "Bù trừ khoản phải nộp ngân sách nhà nước",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Mã số thuế",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã định danh khoản phải nộp (nếu có)",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Cơ quan quản lý thu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Tiểu mục",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Kỳ thuế",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Số tiền đề nghị bù trừ (VNĐ)",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Số tiền bù trừ với thuế phát sinh kỳ tiếp theo",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Ghi chú",
+          "c": 8,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

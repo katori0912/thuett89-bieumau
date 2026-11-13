@@ -1,0 +1,651 @@
+{
+  "id": "TT89-02-QTT-TNCN",
+  "mau_so": "02/QTT-TNCN",
+  "title": "Quyết toán thuế TNCN từ tiền lương, tiền công (cá nhân tự quyết toán — mẫu 02/QTT-TNCN)",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm (từ tháng / đến tháng / )",
+      "kind": "chu",
+      "section": "Thông tin của bạn",
+      "giai_thich": "Mẫu 02/QTT-TNCN theo Thông tư 89/2026 và cách tính mới (giảm trừ 15,5 triệu, biểu thuế 5 bậc) áp dụng từ kỳ tính thuế năm 2026 (khoản 2 Điều 29 Luật Thuế TNCN 109/2025/QH15). Năm 2025 trở về trước làm theo mẫu và mức cũ.",
+      "hoi": "Bạn quyết toán thuế cho năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin của bạn",
+      "hoi": "Họ và tên của bạn (ghi đúng như trên CCCD)?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Địa chỉ — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin của bạn",
+      "hoi": "Địa chỉ nơi ở (số nhà, đường, xã/phường)?"
+    },
+    {
+      "code": "07",
+      "label": "Xã/phường/đặc khu — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "08",
+      "label": "Tỉnh/thành phố — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin của bạn",
+      "hoi": "Bạn đang ở tỉnh/thành phố nào?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin của bạn",
+      "hoi": "Số điện thoại để cơ quan thuế liên hệ khi cần?"
+    },
+    {
+      "code": "10",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_dl"
+    },
+    {
+      "code": "13",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "14",
+      "label": "Tên tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thu nhập trong năm",
+      "hoi": "Tên công ty/đơn vị trả lương chính của bạn (nơi bạn đăng ký giảm trừ bản thân)?"
+    },
+    {
+      "code": "16",
+      "label": "Địa chỉ — tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "17",
+      "label": "Xã/phường/đặc khu — tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Tỉnh/thành phố — tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế/Số định danh cá nhân người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin của bạn",
+      "hoi": "Mã số thuế cá nhân của bạn? Hiện nay dùng luôn số CCCD 12 số làm mã số thuế.",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_dl"
+    },
+    {
+      "code": "15",
+      "label": "Mã số thuế tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thu nhập trong năm",
+      "hoi": "Mã số thuế của đơn vị đó (in trên chứng từ khấu trừ thuế)?"
+    },
+    {
+      "code": "19",
+      "label": "Tổng thu nhập chịu thuế (TNCT) trong kỳ [19]=[20]+[22] — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "formula": "[20]+[22]",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20",
+      "label": "Tổng TNCT phát sinh tại Việt Nam — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thu nhập trong năm",
+      "giai_thich": "Gồm lương, thưởng, phụ cấp, các khoản công ty trả thay (tiền nhà, xăng xe vượt mức...). Không gồm các khoản không tính thuế như phụ cấp theo quy định, tiền ăn giữa ca trong mức quy định, công tác phí — chứng từ khấu trừ đã tách sẵn.",
+      "lay_o_dau": "Chứng từ khấu trừ thuế TNCN mỗi nơi cấp, dòng “Tổng thu nhập chịu thuế đã trả”. Có nhiều nơi thì cộng lại.",
+      "hoi": "Tổng thu nhập chịu thuế cả năm từ TẤT CẢ các nơi trả lương là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "label": "Trong đó tổng TNCT phát sinh tại Việt Nam được miễn giảm theo Hiệp định (nếu có) — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "22",
+      "label": "Tổng TNCT phát sinh ngoài Việt Nam — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thu nhập trong năm",
+      "hoi": "Tổng thu nhập chịu thuế ở nước ngoài, quy ra đồng Việt Nam?"
+    },
+    {
+      "code": "23",
+      "label": "Thu nhập được miễn thuế TNCN — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "24",
+      "label": "Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "25",
+      "label": "Thu nhập của chuyên gia hỗ trợ khởi nghiệp sáng tạo theo quy định — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "26",
+      "label": "Thu nhập được miễn thuế khác theo quy định — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "27",
+      "label": "Số người phụ thuộc — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Các khoản được trừ",
+      "hoi": "Bạn có mấy người phụ thuộc?"
+    },
+    {
+      "code": "28",
+      "label": "Các khoản giảm trừ ([28]=[29]+ [30]+[31]+[32]+[33]+[34]+[35]]) — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "formula": "[29]+[30]+[31]+[32]+[33]+[34]+[35]",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TH",
+      "label": "Số tháng tính thuế/giảm trừ bản thân trong năm (để trống = 12)",
+      "kind": "so",
+      "note": "Không in trên mẫu; HTKK ô Z84.",
+      "section": "Các khoản được trừ",
+      "giai_thich": "Mỗi tháng được trừ 15,5 triệu đồng cho bản thân (186 triệu/năm) — khoản 1 Điều 10 Luật Thuế TNCN 109/2025/QH15, áp dụng từ năm 2026.",
+      "hoi": "Bạn được giảm trừ cho bản thân bao nhiêu tháng? Ở Việt Nam cả năm thì là 12 tháng."
+    },
+    {
+      "code": "29",
+      "label": "Khoản giảm trừ — Cho bản thân cá nhân — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Các khoản được trừ",
+      "giai_thich": "Mỗi tháng được trừ 15,5 triệu đồng cho bản thân (186 triệu/năm) — khoản 1 Điều 10 Luật Thuế TNCN 109/2025/QH15, áp dụng từ năm 2026.",
+      "hoi": "Bạn được giảm trừ cho bản thân bao nhiêu tháng? Ở Việt Nam cả năm thì là 12 tháng."
+    },
+    {
+      "code": "30",
+      "label": "Khoản giảm trừ — Cho những người phụ thuộc được giảm trừ — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Các khoản được trừ",
+      "hoi": "Cộng số tháng được giảm trừ của tất cả người phụ thuộc trong năm là bao nhiêu tháng?"
+    },
+    {
+      "code": "31",
+      "label": "Khoản giảm trừ — Từ thiện, nhân đạo, khuyến học — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Người phụ thuộc",
+      "giai_thich": "Chỉ tính khoản góp vào quỹ từ thiện/nhân đạo/khuyến học, cơ sở nuôi dưỡng trẻ em khó khăn, người khuyết tật, người già không nơi nương tựa… được cơ quan nhà nước cho phép; cần chứng từ thu của tổ chức hoặc chuyển khoản qua ngân hàng (khoản 1 Điều 49 Nghị định 253/2026/NĐ-CP). Ủng hộ trực tiếp cho cá nhân không được trừ.",
+      "hoi": "Bạn có đóng góp từ thiện, nhân đạo, khuyến học qua quỹ hoặc tổ chức được Nhà nước cho phép không? Tổng số tiền?"
+    },
+    {
+      "code": "32",
+      "label": "Khoản giảm trừ — Các khoản đóng góp bảo hiểm được trừ — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Người phụ thuộc",
+      "lay_o_dau": "Chứng từ khấu trừ thuế, dòng “Bảo hiểm được trừ” (cộng các nơi), hoặc bảng lương.",
+      "hoi": "Tiền bảo hiểm bắt buộc (BHXH, BHYT, bảo hiểm thất nghiệp) bị trừ vào lương cả năm là bao nhiêu?"
+    },
+    {
+      "code": "33",
+      "label": "Khoản giảm trừ — Các khoản đóng góp bảo hiểm hưu trí bổ sung, bảo hiểm hưu trí tự nguyện, bảo hiểm nhân thọ được trừ — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Người phụ thuộc",
+      "giai_thich": "Được trừ tổng tối đa 3 triệu/tháng (36 triệu/năm) cho cả ba loại, gồm cả phần công ty đóng (điểm a khoản 2 Điều 46 Nghị định 253/2026/NĐ-CP).",
+      "hoi": "Bạn (hoặc công ty cho bạn) có đóng bảo hiểm hưu trí bổ sung, hưu trí tự nguyện hoặc bảo hiểm nhân thọ không? Tổng số tiền đã đóng trong năm?"
+    },
+    {
+      "code": "34",
+      "label": "Khoản giảm trừ — Khoản chi khám bệnh, chữa bệnh tại cơ sở y tế trong nước — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Người phụ thuộc",
+      "giai_thich": "Mới từ năm 2026: được trừ tối đa 23 triệu/năm, cho khám chữa bệnh tại cơ sở y tế trong nước, thuộc danh mục bảo hiểm y tế chi trả, không được bảo hiểm hay ai khác trả; cần hóa đơn và bảng kê chi phí khám chữa bệnh (điểm a khoản 2, khoản 3 Điều 49 Nghị định 253/2026/NĐ-CP).",
+      "hoi": "Chi phí khám, chữa bệnh trong nước bạn tự trả cho bạn và người phụ thuộc trong năm (không được bảo hiểm chi trả)?"
+    },
+    {
+      "code": "35",
+      "label": "Khoản giảm trừ — Khoản chi cho giáo dục-đào tạo tại cơ sở giáo dục-đào tạo trong nước — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Người phụ thuộc",
+      "giai_thich": "Mới từ năm 2026: được trừ tối đa 24 triệu/năm, học phí tại cơ sở giáo dục trong nước, có hóa đơn/chứng từ ghi tên bạn hoặc người phụ thuộc, không được công ty hay ai khác trả thay (điểm b khoản 2, khoản 3 Điều 49 Nghị định 253/2026/NĐ-CP).",
+      "hoi": "Học phí trong nước bạn đã đóng cho bạn và người phụ thuộc (mầm non, phổ thông, học nghề, đại học...) trong năm?"
+    },
+    {
+      "code": "36",
+      "label": "Tổng thu nhập tính thuế — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "cot": "Số tiền/Số người",
+      "formula": "MAX([19]-[21]-[23]-[28],0)",
+      "note": "Claude 12/11/2026: HTKK M106 =[19]-[21]-[28] (>=0); TT89 thêm [23] thu nhập miễn thuế -> trừ thêm [23].",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Tổng số thuế thu nhập cá nhân (TNCN) phát sinh trong kỳ — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "cot": "Số tiền/Số người",
+      "formula": "ROUND(IF([TH]>0,[TH],12)*(MIN(([36]/IF([TH]>0,[TH],12)),10000000)*0.05+MAX(MIN(([36]/IF([TH]>0,[TH],12)),30000000)-10000000,0)*0.1+MAX(MIN(([36]/IF([TH]>0,[TH],12)),60000000)-30000000,0)*0.2+MAX(MIN(([36]/IF([TH]>0,[TH],12)),100000000)-60000000,0)*0.3+MAX(([36]/IF([TH]>0,[TH],12))-100000000,0)*0.35),0)",
+      "note": "Biểu lũy tiến 5 bậc (khoản 2 Điều 9 Luật 109/2025/QH15) trên thu nhập tính thuế bình quân tháng × số tháng, như HTKK M107=ROUND(AA106*Z84).",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "38",
+      "label": "Tổng số thuế đã nộp trong kỳ ([38]=[39]+[40]+[41]-[42]-[43]) Trong đó: — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "formula": "[39]+[40]+[41]-[42]-[43]",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "39",
+      "label": "Số thuế đã khấu trừ tại tổ chức trả thu nhập — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Chứng từ khấu trừ thuế TNCN, dòng “Số thuế thu nhập cá nhân đã khấu trừ”. Cộng các nơi.",
+      "hoi": "Tổng số thuế TNCN các nơi trả lương đã khấu trừ của bạn trong năm?"
+    },
+    {
+      "code": "40",
+      "label": "Số thuế đã nộp trong năm không qua tổ chức trả thu nhập — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thuế đã nộp",
+      "hoi": "Trong năm bạn có tự nộp thuế TNCN (không qua công ty) cho khoản lương này không? Số tiền?"
+    },
+    {
+      "code": "41",
+      "label": "Số thuế đã nộp ở nước ngoài được trừ (nếu có) — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thu nhập trong năm",
+      "hoi": "Số thuế thu nhập đã nộp ở nước ngoài cho khoản đó (có chứng từ), quy ra đồng?"
+    },
+    {
+      "code": "42",
+      "label": "Số thuế đã khấu trừ, đã nộp ở nước ngoài trùng do quyết toán vắt năm — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "43",
+      "label": "Số thuế đã nộp trong năm không qua tổ chức trả thu nhập trùng do quyết toán vắt năm — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "44",
+      "label": "Tổng số thuế TNCN được giảm trong kỳ [44]=[45]+[46]+[47] — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "formula": "[45]+[46]+[47]",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "45",
+      "label": "Số thuế phải nộp trùng do quyết toán vắt năm — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "46",
+      "label": "Tổng số thuế TNCN được giảm khác — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "47",
+      "label": "Số thuế TNCN được giảm do thiên tai, dịch bệnh, hỏa hoạn, tai nạn và bệnh hiểm nghèo theo Quyết định giảm thuế của cơ quan thuế — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "48",
+      "label": "Tổng số thuế TNCN được miễn trong kỳ — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "49",
+      "label": "Thu nhập của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao; công nghệ cao — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "50",
+      "label": "Số thuế được miễn đối với nhân lực công nghiệp công nghệ số chất lượng cao; công nghệ cao — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "51",
+      "label": "Tổng số thuế còn phải nộp trong kỳ [51]=([37]-[38]-[44]-[48])>0 — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "cot": "Số tiền/Số người",
+      "formula": "MAX([37]-[38]-[44]-[48],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "52",
+      "label": "Số thuế được miễn do cá nhân có số tiền thuế phải nộp sau quyết toán từ 50.000 đồng trở xuống (0<[51]<=50.000 đồng) — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "cot": "Số tiền/Số người",
+      "formula": "IF([51]<=50000,[51],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "53",
+      "label": "Tổng số thuế nộp thừa trong kỳ [53]=([39]-[40]-[46]-[50])<0 — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "cot": "Số tiền/Số người",
+      "note": "Đối xứng [51]: phần thuế đã nộp, được giảm, được miễn vượt số phải nộp; mẫu in ([39]-[40]-[46]-[50])<0 lệch dòng.",
+      "formula": "MAX(ROUND([38]+[44]+[48]-[37],0),0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "54",
+      "label": "Tổng số thuế đề nghị hoàn trả [54]=[55]+[56] — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "formula": "IF([53]=0,0,ROUND([55]+[56],0))",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "55",
+      "label": "Số thuế hoàn trả cho người nộp thuế — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Bạn đã nộp thừa thuế. Bạn muốn xử lý thế nào?"
+    },
+    {
+      "code": "56",
+      "label": "Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước khác — Số tiền/Số người",
+      "kind": "so",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "57",
+      "label": "Tổng số thuế bù trừ cho các phát sinh của kỳ sau [57]=[53]-[54] — Số tiền/Số người",
+      "kind": "cong_thuc",
+      "formula": "IF([53]=0,0,[53]-[54])",
+      "cot": "Số tiền/Số người",
+      "section": "Thông tin chung"
+    },
+    {
+      "label": "Điều kiện ghi thêm thông tin khi đề nghị hoàn vào tài khoản",
+      "code": "VB_HOAN_DK",
+      "kind": "tieu_de",
+      "section": "Điều kiện ghi thêm thông tin khi đề nghị hoàn vào tài khoản"
+    },
+    {
+      "label": "Số tiền hoàn trả bằng số",
+      "code": "VB_HOAN_SO",
+      "kind": "cong_thuc",
+      "formula": "[55]",
+      "section": "Điều kiện ghi thêm thông tin khi đề nghị hoàn vào tài khoản"
+    },
+    {
+      "label": "Thông tin hoàn trả",
+      "code": "VB_HOAN_TT",
+      "kind": "tieu_de",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "VB_HOAN_CK",
+      "label": "Hình thức hoàn trả: chuyển khoản",
+      "kind": "danh_dau",
+      "note": "HTKK D149 (chuyenKhoan); bắt buộc chọn khi đề nghị hoàn.",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Bạn đã nộp thừa thuế. Bạn muốn xử lý thế nào?"
+    },
+    {
+      "label": "Tên chủ tài khoản nhận hoàn trả",
+      "code": "VB_HOAN_TEN",
+      "kind": "chu",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Tên chủ tài khoản nhận tiền hoàn (thường là chính bạn)?"
+    },
+    {
+      "label": "Số tài khoản nhận hoàn",
+      "code": "VB_HOAN_TK",
+      "kind": "chu",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Số tài khoản ngân hàng?"
+    },
+    {
+      "label": "Điều kiện ghi thêm thông tin khi đề nghị bù trừ khoản phải nộp khác",
+      "code": "VB_BU_TRU_DK",
+      "kind": "tieu_de",
+      "section": "Điều kiện ghi thêm thông tin khi đề nghị bù trừ khoản phải nộp khác"
+    },
+    {
+      "label": "Thông tin khoản nợ, khoản thu phát sinh đề nghị bù trừ",
+      "code": "VB_BU_TRU_TT",
+      "kind": "tieu_de",
+      "section": "Thông tin khoản nợ, khoản thu phát sinh đề nghị bù trừ"
+    },
+    {
+      "label": "Đơn vị tiền của khoản bù trừ",
+      "code": "VB_BU_TRU_DV",
+      "kind": "chu",
+      "section": "Thông tin khoản nợ, khoản thu phát sinh đề nghị bù trừ"
+    },
+    {
+      "code": "VB_HOAN_NH",
+      "label": "Ngân hàng/KBNN nhận hoàn",
+      "kind": "chu",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Ngân hàng nhận tiền hoàn (gõ tên, có thể kèm chi nhánh)?"
+    },
+    {
+      "code": "VB_HOAN_MANH",
+      "label": "Mã ngân hàng nhận hoàn (danh mục HTKK)",
+      "kind": "chu",
+      "note": "HTKK Z151 maNganHang (đi kèm ô chọn tên ngân hàng O151).",
+      "section": "Xử lý số thuế nộp thừa",
+      "hoi": "Ngân hàng nhận tiền hoàn (gõ tên, có thể kèm chi nhánh)?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Khoản nợ phát sinh đề nghị bù trừ",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "MST NNT khác",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Tên NNT khác",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Nội dung khoản nợ",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "ID khoản phải nộp",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Chương",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Tiểu mục",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Cơ quan quản lý thu",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Địa bàn hành chính (TT89)",
+          "c": 9,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Hạn nộp",
+          "c": 10,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "11",
+          "ten": "Loại tiền (TT89)",
+          "c": 11,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Số đề nghị bù trừ",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "NO",
+          "ten": "Số còn phải nộp trước bù trừ (HTKK)",
+          "c": -1,
+          "kieu": "so"
+        },
+        {
+          "ma": "CON",
+          "ten": "Số sau bù trừ (HTKK)",
+          "c": -1,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX([NO]-[12],0)"
+        }
+      ],
+      "tong": [
+        "NO",
+        "12",
+        "CON"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "expr": "[33]<=36000000",
+      "text": "[33] bảo hiểm hưu trí bổ sung/tự nguyện/nhân thọ chỉ được trừ tối đa 36 triệu/năm (3 triệu/tháng — điểm a khoản 2 Điều 46 NĐ 253/2026/NĐ-CP)",
+      "muc": "canh_bao"
+    },
+    {
+      "expr": "[34]<=23000000",
+      "text": "[34] chi khám chữa bệnh trong nước chỉ được trừ tổng tối đa 23 triệu/năm (điểm a khoản 2 Điều 49 NĐ 253/2026/NĐ-CP)",
+      "muc": "canh_bao"
+    },
+    {
+      "expr": "[35]<=24000000",
+      "text": "[35] chi giáo dục - đào tạo trong nước chỉ được trừ tổng tối đa 24 triệu/năm (điểm b khoản 2 Điều 49 NĐ 253/2026/NĐ-CP)",
+      "muc": "canh_bao"
+    },
+    {
+      "expr": "[21]<=[20]",
+      "text": "[21] thu nhập miễn giảm theo Hiệp định không được lớn hơn [20]",
+      "muc": "loi"
+    }
+  ],
+  "phu_luc": [
+    {
+      "id": "TT89-02-1-BK-QTT-TNCN",
+      "label": "Bạn có cần kê danh sách người phụ thuộc để kèm hồ sơ quyết toán này không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

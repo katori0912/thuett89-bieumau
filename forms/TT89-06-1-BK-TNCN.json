@@ -1,0 +1,1005 @@
+{
+  "id": "TT89-06-1-BK-TNCN",
+  "mau_so": "06-1/BK-TNCN",
+  "title": "Phụ lục bảng kê chi tiết cá nhân có thu nhập trong năm tính thuế (Kèm theo Tờ khai mẫu số 06/TNCN kê khai vào hồ sơ khai thuế của tháng/quý cuối cùng trong năm tính thuế hoặc tháng/quý phát sinh việc chia, tách, hợp nhất, sáp nhập, giải thể, phá sản, chấm dứt hoạt động). — 06-1/BK-TNCN",
+  "fields": [
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "17",
+      "label": "Tổng cộng — Số lượng chứng khoán",
+      "kind": "cong_thuc",
+      "cot": "Số lượng chứng khoán",
+      "note": "= tổng cột [11] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Tổng cộng — Tổng giá trị chuyển nhượng",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị chuyển nhượng",
+      "note": "= tổng cột [12] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "19",
+      "label": "Tổng cộng — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [13] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20",
+      "label": "Tổng cộng — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [14] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.14]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Tổng cộng — Số thuế được miễn đối với chứng chỉ quỹ mở cá nhân nắm giữ từ 2 năm trở lên",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được miễn đối với chứng chỉ quỹ mở cá nhân nắm giữ từ 2 năm trở lên",
+      "note": "= tổng cột [15] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.15]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "22",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [16] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.16]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "32",
+      "label": "Tổng cộng — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [27] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.27]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "33",
+      "label": "Tổng cộng — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [28] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.28]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "34",
+      "label": "Tổng cộng — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [29] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.29]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "35",
+      "label": "Tổng cộng — Số thuế được giảm 50% đối với lợi tức của nhà đầu tư được chia từ quỹ đầu tư chứng khoán, quỹ đầu tư bất động sản",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm 50% đối với lợi tức của nhà đầu tư được chia từ quỹ đầu tư chứng khoán, quỹ đầu tư bất động sản",
+      "note": "= tổng cột [30] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.30]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "36",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [31] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.31]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "47",
+      "label": "Tổng cộng — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [41] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK3.41]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "48",
+      "label": "Tổng cộng — Số thuế TNCN phát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN phát sinh",
+      "note": "= tổng cột [42] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK3.42]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "49",
+      "label": "Tổng cộng — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [43] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK3.43]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "50",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [44] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK3.44]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "51",
+      "label": "Tổng cộng — Tổng doanh thu tính thuế GTGT",
+      "kind": "cong_thuc",
+      "cot": "Tổng doanh thu tính thuế GTGT",
+      "note": "= tổng cột [45] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK3.45]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "52",
+      "label": "Tổng cộng — Số thuế GTGT",
+      "kind": "cong_thuc",
+      "cot": "Số thuế GTGT",
+      "note": "= tổng cột [46] của bảng kê; T21: tự cộng từ bảng kê.",
+      "formula": "[BK3.46]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "61",
+      "label": "Thu nhập từ bản quyền, nhượng quyền thương mại — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [57] của bảng kê; phần Thu nhập từ bản quyền, nhượng quyền thương mại; T21: tự cộng từ bảng kê.",
+      "formula": "[BK4.57]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "62",
+      "label": "Thu nhập từ bản quyền, nhượng quyền thương mại — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [58] của bảng kê; phần Thu nhập từ bản quyền, nhượng quyền thương mại; T21: tự cộng từ bảng kê.",
+      "formula": "[BK4.58]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "63",
+      "label": "Thu nhập từ bản quyền, nhượng quyền thương mại — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [59] của bảng kê; phần Thu nhập từ bản quyền, nhượng quyền thương mại; T21: tự cộng từ bảng kê.",
+      "formula": "[BK4.59]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "64",
+      "label": "Thu nhập từ bản quyền, nhượng quyền thương mại — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [60] của bảng kê; phần Thu nhập từ bản quyền, nhượng quyền thương mại; T21: tự cộng từ bảng kê.",
+      "formula": "[BK4.60]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "65",
+      "label": "Thu nhập từ trúng thưởng — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [57] của bảng kê; phần Thu nhập từ trúng thưởng; T21: tự cộng từ bảng kê.",
+      "formula": "[BK5.57]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "66",
+      "label": "Thu nhập từ trúng thưởng — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [58] của bảng kê; phần Thu nhập từ trúng thưởng; T21: tự cộng từ bảng kê.",
+      "formula": "[BK5.58]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "67",
+      "label": "Thu nhập từ trúng thưởng — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [59] của bảng kê; phần Thu nhập từ trúng thưởng; T21: tự cộng từ bảng kê.",
+      "formula": "[BK5.59]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "68",
+      "label": "Thu nhập từ trúng thưởng — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [60] của bảng kê; phần Thu nhập từ trúng thưởng; T21: tự cộng từ bảng kê.",
+      "formula": "[BK5.60]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "69",
+      "label": "Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [57] của bảng kê; phần Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú; T21: tự cộng từ bảng kê.",
+      "formula": "[BK6.57]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "70",
+      "label": "Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [58] của bảng kê; phần Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú; T21: tự cộng từ bảng kê.",
+      "formula": "[BK6.58]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "71",
+      "label": "Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [59] của bảng kê; phần Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú; T21: tự cộng từ bảng kê.",
+      "formula": "[BK6.59]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "72",
+      "label": "Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [60] của bảng kê; phần Thu nhập từ chuyển nhượng vốn của cá nhân không cư trú; T21: tự cộng từ bảng kê.",
+      "formula": "[BK6.60]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "73",
+      "label": "Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn” — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [57] của bảng kê; phần Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”; T21: tự cộng từ bảng kê.",
+      "formula": "[BK7.57]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "74",
+      "label": "Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn” — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [58] của bảng kê; phần Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”; T21: tự cộng từ bảng kê.",
+      "formula": "[BK7.58]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "75",
+      "label": "Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn” — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [59] của bảng kê; phần Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”; T21: tự cộng từ bảng kê.",
+      "formula": "[BK7.59]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "76",
+      "label": "Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn” — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [60] của bảng kê; phần Thu nhập từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”; T21: tự cộng từ bảng kê.",
+      "formula": "[BK7.60]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "77",
+      "label": "Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [57] của bảng kê; phần Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon; T21: tự cộng từ bảng kê.",
+      "formula": "[BK8.57]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "78",
+      "label": "Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [58] của bảng kê; phần Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon; T21: tự cộng từ bảng kê.",
+      "formula": "[BK8.58]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "79",
+      "label": "Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [59] của bảng kê; phần Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon; T21: tự cộng từ bảng kê.",
+      "formula": "[BK8.59]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "80",
+      "label": "Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [60] của bảng kê; phần Thu nhập từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon; T21: tự cộng từ bảng kê.",
+      "formula": "[BK8.60]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "81",
+      "label": "Thu nhập từ chuyển nhượng tài sản số — Tổng thu nhập tính thuế TNCN",
+      "kind": "cong_thuc",
+      "cot": "Tổng thu nhập tính thuế TNCN",
+      "note": "= tổng cột [57] của bảng kê; phần Thu nhập từ chuyển nhượng tài sản số; T21: tự cộng từ bảng kê.",
+      "formula": "[BK9.57]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "82",
+      "label": "Thu nhập từ chuyển nhượng tài sản số — Số thuế TNCNphát sinh",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCNphát sinh",
+      "note": "= tổng cột [58] của bảng kê; phần Thu nhập từ chuyển nhượng tài sản số; T21: tự cộng từ bảng kê.",
+      "formula": "[BK9.58]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "83",
+      "label": "Thu nhập từ chuyển nhượng tài sản số — Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "kind": "cong_thuc",
+      "cot": "Số thuế được giảm theo hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [59] của bảng kê; phần Thu nhập từ chuyển nhượng tài sản số; T21: tự cộng từ bảng kê.",
+      "formula": "[BK9.59]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "84",
+      "label": "Thu nhập từ chuyển nhượng tài sản số — Số thuế TNCN đã khấu trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [60] của bảng kê; phần Thu nhập từ chuyển nhượng tài sản số; T21: tự cộng từ bảng kê.",
+      "formula": "[BK9.60]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "06",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã chứng khoán",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Số lượng",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Giá trị chuyển nhượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế phát sinh",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Miễn theo Hiệp định",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Miễn quỹ mở nắm giữ 2 năm",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Thuế đã khấu trừ",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[13]-[14]-[15]"
+        }
+      ],
+      "tong": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "23",
+      "cot": [
+        {
+          "ma": "23",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "24",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "25",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "26",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "27",
+          "ten": "Thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "28",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "29",
+          "ten": "Miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "30",
+          "ten": "Giảm 50% quỹ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "31",
+          "ten": "Thuế đã khấu trừ",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[28]-[29]-[30]"
+        }
+      ],
+      "tong": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ]
+    },
+    {
+      "id": "BK3",
+      "ten": "37",
+      "cot": [
+        {
+          "ma": "37",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "38",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "39",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "40",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "41",
+          "ten": "Thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "42",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "43",
+          "ten": "Miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "44",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "45",
+          "ten": "Doanh thu tính thuế GTGT",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "46",
+          "ten": "Thuế GTGT",
+          "c": 9,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    {
+      "id": "BK4",
+      "ten": "D.I. Bản quyền, nhượng quyền thương mại",
+      "cot": [
+        {
+          "ma": "53",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "54",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Tổng thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "Thuế miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[58]-[59]"
+        }
+      ],
+      "tong": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    },
+    {
+      "id": "BK5",
+      "ten": "D.II. Trúng thưởng",
+      "cot": [
+        {
+          "ma": "53",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "54",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Tổng thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "Thuế miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[58]-[59]"
+        }
+      ],
+      "tong": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    },
+    {
+      "id": "BK6",
+      "ten": "D.III. Chuyển nhượng vốn của cá nhân không cư trú",
+      "cot": [
+        {
+          "ma": "53",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "54",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Tổng thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "Thuế miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[58]-[59]"
+        }
+      ],
+      "tong": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    },
+    {
+      "id": "BK7",
+      "ten": "D.IV. Chuyển nhượng tên miền .vn",
+      "cot": [
+        {
+          "ma": "53",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "54",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Tổng thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "Thuế miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[58]-[59]"
+        }
+      ],
+      "tong": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    },
+    {
+      "id": "BK8",
+      "ten": "D.V. Kết quả giảm phát thải, tín chỉ các bon",
+      "cot": [
+        {
+          "ma": "53",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "54",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Tổng thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "Thuế miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[58]-[59]"
+        }
+      ],
+      "tong": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    },
+    {
+      "id": "BK9",
+      "ten": "D.VI. Chuyển nhượng tài sản số",
+      "cot": [
+        {
+          "ma": "53",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "54",
+          "ten": "Họ tên",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "MST",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Tổng thu nhập tính thuế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "58",
+          "ten": "Thuế phát sinh",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "59",
+          "ten": "Thuế miễn Hiệp định",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "60",
+          "ten": "Thuế đã khấu trừ",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[58]-[59]"
+        }
+      ],
+      "tong": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

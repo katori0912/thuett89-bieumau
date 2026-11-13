@@ -1,0 +1,285 @@
+{
+  "id": "TT89-02-TNDN",
+  "mau_so": "02/TNDN",
+  "title": "Tờ khai thuế TNDN (Áp dụng đối với hoạt động chuyển nhượng bất động sản, tài sản khác theo từng lần phát sinh) — 02/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từng lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Lần chuyển nhượng này phát sinh vào ngày nào (dd/mm/yyyy)?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Đây là lần khai đầu tiên cho giao dịch này phải không?"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bạn đang khai bổ sung lần thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên tổ chức chuyển nhượng",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Tên tổ chức chuyển nhượng là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế bên chuyển nhượng",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Mã số thuế của tổ chức chuyển nhượng là gì?"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức/cá nhân nhận chuyển nhượng",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Tên bên nhận chuyển nhượng là gì?"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế/số định danh cá nhân/giấy tờ định danh của cá nhân",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Mã số thuế hoặc số giấy tờ định danh của bên nhận là gì?"
+    },
+    {
+      "code": "08",
+      "label": "Địa chỉ: Xã/phường/đặc khu: Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Địa chỉ bên nhận chuyển nhượng là gì?"
+    },
+    {
+      "code": "09",
+      "label": "Địa chỉ bất động sản được chuyển nhượng",
+      "kind": "tieu_de",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "09a",
+      "label": "Số nhà, đường phố:.",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bất động sản chuyển nhượng có số nhà, đường phố nào?"
+    },
+    {
+      "code": "09b",
+      "label": "Xã/phường/đặc khu",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bất động sản ở xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "09c",
+      "label": "Tỉnh/thành phố",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bất động sản thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "10",
+      "label": "Tên cơ quan/tổ chức",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Tên cơ quan tổ chức bán hoặc bán đấu giá tài sản bảo đảm là gì?"
+    },
+    {
+      "code": "11",
+      "label": "Mã số thuế của cơ quan/tổ chức",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Mã số thuế của cơ quan bán hoặc đấu giá đó là gì?"
+    },
+    {
+      "code": "12",
+      "label": "Địa chỉ: Xã/phường/đặc khu: Tỉnh/thành phố",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Địa chỉ của cơ quan đó là gì?"
+    },
+    {
+      "code": "13",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "14",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bạn ghi giúp mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "15",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "16",
+      "label": "Doanh thu từ hoạt động chuyển nhượng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Doanh thu của lần chuyển nhượng này là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Chi phí từ hoạt động chuyển nhượng",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[18]+[19]+[20]+[21]+[22]+[23]",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "18",
+      "label": "- Giá vốn",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Giá vốn tài sản chuyển nhượng là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "- Chi phí đền bù thiệt hại về đất",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Chi phí đền bù thiệt hại về đất là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "- Chi phí đền bù thiệt hại về hoa màu",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Chi phí đền bù thiệt hại về hoa màu là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "label": "- Chi phí cải tạo san lấp mặt bằng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Chi phí cải tạo san lấp mặt bằng là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "- Chi phí đầu tư xây dựng kết cấu hạ tầng",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Chi phí đầu tư xây dựng kết cấu hạ tầng là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "- Chi phí khác",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Chi phí khác là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Thu nhập từ hoạt động chuyển nhượng ([24]=[16]-[17])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[16]-[17]",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    },
+    {
+      "code": "25",
+      "label": "Thuế suất thuế TNDN (%) (nhập 20 cho 20%)",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng chuyển nhượng, hồ sơ bên bán/bên mua, hóa đơn, bảng giá vốn chi phí và hồ sơ thuế suất áp dụng.",
+      "hoi": "Thuế suất thuế TNDN (%) (nhập 20 cho 20%) là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Thuế TNDN phải nộp ([26]=[24] x [25])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "ROUND(MAX([24],0)*[25]/100,0)",
+      "section": "Địa chỉ bất động sản được chuyển nhượng"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Hợp đồng chuyển nhượng bất động sản, tài sản khác (bảng chỉ có trên HTKK)",
+      "cot": [
+        {
+          "ma": "STT",
+          "ten": "STT",
+          "c": -1,
+          "kieu": "stt"
+        },
+        {
+          "ma": "SOHD",
+          "ten": "Số hợp đồng chuyển nhượng",
+          "c": -1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "NGAYHD",
+          "ten": "Ngày hợp đồng chuyển nhượng",
+          "c": -1,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "NGAYCC",
+          "ten": "Ngày UBND xã/phường/đặc khu hoặc văn phòng công chứng xác nhận",
+          "c": -1,
+          "kieu": "ngay"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

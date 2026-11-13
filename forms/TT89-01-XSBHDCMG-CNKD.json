@@ -1,0 +1,524 @@
+{
+  "id": "TT89-01-XSBHDCMG-CNKD",
+  "mau_so": "01/XSBHDCMG-CNKD",
+  "title": "Tờ khai thuế (Áp dụng đối với tổ chức khấu trừ thuế, khai thay, nộp thay thuế đối với hoạt động đại lý bán đúng giá bảo hiểm, xổ số, bán hàng đa cấp, hoạt động môi giới; doanh nghiệp bảo hiểm trả phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác) — 01/XSBHDCMG-CNKD",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: ☐ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế — người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn khai cho quý và năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn khai cho tháng và năm nào?"
+    },
+    {
+      "code": "01b",
+      "label": "Quý năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Bạn khai cho quý và năm nào?"
+    },
+    {
+      "code": "09",
+      "label": "Tổng doanh thu trả trong kỳ — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu trả trong kỳ cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "10",
+      "label": "Tổng doanh thu tính thuế TNCN — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế TNCN cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "11",
+      "label": "Tổng số thuế thu TNCN đã khấu trừ — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([10]*5/100-[GIAM11],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12",
+      "label": "Tổng doanh thu tính thuế GTGT — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế GTGT cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "13",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng số thuế giá trị gia tăng phải nộp cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "14",
+      "label": "Tổng doanh thu trả trong kỳ — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu trả trong kỳ cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "15",
+      "label": "Tổng doanh thu tính thuế TNCN — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế TNCN cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Tổng doanh thu tính thuế GTGT — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế GTGT cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([15]*5/100-[GIAM17],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số phát sinh trong kỳ — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng số thuế giá trị gia tăng phải nộp cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "Tổng thu nhập trả trong kỳ — Số phát sinh trong kỳ — Thu nhập từ tiền phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng thu nhập trả trong kỳ cho phí tích lũy bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh trong kỳ — Thu nhập từ tiền phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([19]*10/100,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Tổng doanh thu trả trong kỳ — Số phát sinh trong kỳ — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu trả trong kỳ cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Tổng doanh thu tính thuế TNCN — Số phát sinh trong kỳ — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế TNCN cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh trong kỳ — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([22]*5/100-[GIAM23],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "24",
+      "label": "Tổng doanh thu tính thuế GTGT — Số phát sinh trong kỳ — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế GTGT cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số phát sinh trong kỳ — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([24]*1/100,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "26",
+      "label": "Tổng doanh thu trả trong kỳ — Số phát sinh trong kỳ — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu trả trong kỳ cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Tổng doanh thu tính thuế TNCN — Số phát sinh trong kỳ — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế TNCN cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số phát sinh trong kỳ — Doanh thu từ hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([27]*2/100-[GIAM28],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "29",
+      "label": "Tổng doanh thu tính thuế GTGT — Số phát sinh trong kỳ — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số phát sinh trong kỳ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng kỳ này, tổng doanh thu tính thuế GTGT cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "30",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số phát sinh trong kỳ — Doanh thu từ hoạt động môi giới",
+      "kind": "cong_thuc",
+      "cot": "Số phát sinh trong kỳ",
+      "formula": "ROUND([29]*5/100,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09@LK",
+      "label": "Tổng doanh thu trả trong kỳ — Số lũy kế — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu trả trong kỳ cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "10@LK",
+      "label": "Tổng doanh thu tính thuế TNCN — Số lũy kế — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế TNCN cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "11@LK",
+      "label": "Tổng số thuế thu TNCN đã khấu trừ — Số lũy kế — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế thu TNCN đã khấu trừ cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "12@LK",
+      "label": "Tổng doanh thu tính thuế GTGT — Số lũy kế — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế GTGT cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "13@LK",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số lũy kế — Doanh thu từ hoạt động đại lý xổ số",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế giá trị gia tăng phải nộp cho đại lý xổ số là bao nhiêu?"
+    },
+    {
+      "code": "14@LK",
+      "label": "Tổng doanh thu trả trong kỳ — Số lũy kế — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu trả trong kỳ cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "15@LK",
+      "label": "Tổng doanh thu tính thuế TNCN — Số lũy kế — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế TNCN cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "16@LK",
+      "label": "Tổng doanh thu tính thuế GTGT — Số lũy kế — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế GTGT cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "17@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số lũy kế — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế TNCN đã khấu trừ cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "18@LK",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số lũy kế — Doanh thu từ hoạt động đại lý bảo hiểm",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế giá trị gia tăng phải nộp cho đại lý bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "19@LK",
+      "label": "Tổng thu nhập trả trong kỳ — Số lũy kế — Thu nhập từ tiền phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng thu nhập trả trong kỳ cho phí tích lũy bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "20@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số lũy kế — Thu nhập từ tiền phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế TNCN đã khấu trừ cho phí tích lũy bảo hiểm là bao nhiêu?"
+    },
+    {
+      "code": "21@LK",
+      "label": "Tổng doanh thu trả trong kỳ — Số lũy kế — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu trả trong kỳ cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "22@LK",
+      "label": "Tổng doanh thu tính thuế TNCN — Số lũy kế — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế TNCN cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "23@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số lũy kế — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế TNCN đã khấu trừ cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "24@LK",
+      "label": "Tổng doanh thu tính thuế GTGT — Số lũy kế — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế GTGT cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "25@LK",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số lũy kế — Doanh thu từ hoạt động bán hàng đa cấp",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế giá trị gia tăng phải nộp cho bán hàng đa cấp là bao nhiêu?"
+    },
+    {
+      "code": "26@LK",
+      "label": "Tổng doanh thu trả trong kỳ — Số lũy kế — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu trả trong kỳ cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "27@LK",
+      "label": "Tổng doanh thu tính thuế TNCN — Số lũy kế — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế TNCN cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "28@LK",
+      "label": "Tổng số thuế TNCN đã khấu trừ — Số lũy kế — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế TNCN đã khấu trừ cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "29@LK",
+      "label": "Tổng doanh thu tính thuế GTGT — Số lũy kế — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng doanh thu tính thuế GTGT cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "30@LK",
+      "label": "Tổng số thuế giá trị gia tăng phải nộp — Số lũy kế — Doanh thu từ hoạt động môi giới",
+      "kind": "so",
+      "cot": "Số lũy kế",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Lũy kế từ đầu năm đến hết kỳ này, tổng số thuế giá trị gia tăng phải nộp cho môi giới là bao nhiêu?"
+    },
+    {
+      "code": "GIAM11",
+      "label": "Số điều chỉnh giảm thuế 11 (ô phụ HTKK AE53)",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng đại lý xổ số, số điều chỉnh giảm thuế trong bảng tính của kỳ là bao nhiêu?"
+    },
+    {
+      "code": "GIAM17",
+      "label": "Số điều chỉnh giảm thuế 17 (ô phụ HTKK AE60)",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng đại lý bảo hiểm, số điều chỉnh giảm thuế trong bảng tính của kỳ là bao nhiêu?"
+    },
+    {
+      "code": "GIAM23",
+      "label": "Số điều chỉnh giảm thuế 23 (ô phụ HTKK AE68)",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng bán hàng đa cấp, số điều chỉnh giảm thuế trong bảng tính của kỳ là bao nhiêu?"
+    },
+    {
+      "code": "GIAM28",
+      "label": "Số điều chỉnh giảm thuế 28 (ô phụ HTKK AE74)",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thanh toán hoa hồng/thu nhập theo cá nhân, hồ sơ khấu trừ, sổ lũy kế trong năm và bảng điều chỉnh giảm thuế nếu có.",
+      "hoi": "Riêng môi giới, số điều chỉnh giảm thuế trong bảng tính của kỳ là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-01-BK-XSBHDCMG",
+      "label": "Bạn có danh sách cá nhân nhận thu nhập cần kê chi tiết theo từng hoạt động không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

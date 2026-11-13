@@ -1,0 +1,464 @@
+{
+  "id": "TT89-01-GTGT",
+  "mau_so": "01/GTGT",
+  "title": "Khai thuế giá trị gia tăng theo phương pháp khấu trừ — 01/GTGT",
+  "fields": [
+    {
+      "code": "01a",
+      "label": "Tên hoạt động sản xuất kinh doanh",
+      "kind": "chu",
+      "note": "1. Chỉ tiêu [01a]: Người nộp thuế lựa chọn một trong các hoạt động sau:\n- Hoạt động sản xuất kinh doanh thông thường\n- Hoạt động xổ số kiến thiết, xổ số điện toán\n- Hoạt động khai thác dầu khí\n- Dự án đầu tư cơ sở hạ tầng, nhà để chuyển nhượng khác địa bàn tỉnh nơi đóng trụ sở chính\n- Nhà máy sản xuất điện khác địa bàn tỉnh nơi đóng trụ sở chính.",
+      "section": "Thông tin chung",
+      "hoi": "Bạn đang khai cho hoạt động nào?"
+    },
+    {
+      "code": "01b",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Bạn khai cho quý mấy?",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên doanh nghiệp hoặc người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị dịch vụ thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký hợp đồng dịch vụ thuế?"
+    },
+    {
+      "code": "09",
+      "label": "Tên đơn vị phụ thuộc/địa điểm kinh doanh của hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính",
+      "kind": "chu",
+      "note": "2. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh đóng tại địa phương khác tỉnh nơi đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế tỉnh/thành phố quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị hoặc địa điểm kinh doanh khác tỉnh?"
+    },
+    {
+      "code": "10",
+      "label": "Mã số thuế đơn vị phụ thuộc/Mã số địa điểm kinh doanh",
+      "kind": "chu",
+      "note": "2. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh đóng tại địa phương khác tỉnh nơi đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế tỉnh/thành phố quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế hoặc mã địa điểm kinh doanh đó?"
+    },
+    {
+      "code": "11",
+      "label": "Địa chỉ nơi có hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính",
+      "kind": "chu",
+      "note": "2. Chỉ tiêu [09], [10], [11]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh đóng tại địa phương khác tỉnh nơi đóng trụ sở chính. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế tỉnh/thành phố quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều xã/phường/đặc khu do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Thông tin chung",
+      "hoi": "Địa chỉ nơi kinh doanh khác tỉnh?"
+    },
+    {
+      "code": "11a",
+      "label": "Xã/ phường/ đặc khu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xã, phường hoặc đặc khu nơi kinh doanh đó?"
+    },
+    {
+      "code": "11c",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tỉnh hoặc thành phố nơi kinh doanh đó?"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là tờ khai lần đầu cho kỳ này?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "21",
+      "label": "Không phát sinh hoạt động mua, bán trong kỳ (đánh dấu \"X\")",
+      "cot": "",
+      "kind": "danh_dau",
+      "section": "Mua vào và thuế được khấu trừ",
+      "hoi": "Trong kỳ có mua hoặc bán hàng hóa, dịch vụ không?"
+    },
+    {
+      "code": "22",
+      "label": "Thuế giá trị gia tăng còn được khấu trừ kỳ trước chuyển sang",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua vào và thuế được khấu trừ",
+      "lay_o_dau": "Tờ khai GTGT kỳ trước, dòng thuế còn được khấu trừ chuyển kỳ sau.",
+      "hoi": "Kỳ trước còn bao nhiêu tiền thuế GTGT được chuyển sang khấu trừ kỳ này?"
+    },
+    {
+      "code": "23",
+      "label": "Giá trị và thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Mua vào và thuế được khấu trừ",
+      "lay_o_dau": "Bảng kê hóa đơn mua vào, tổng giá trị chưa thuế, gồm cả nhập khẩu.",
+      "hoi": "Tổng tiền mua hàng hóa, dịch vụ trong kỳ, chưa có thuế GTGT?"
+    },
+    {
+      "code": "24",
+      "label": "Giá trị và thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Mua vào và thuế được khấu trừ",
+      "lay_o_dau": "Bảng kê hóa đơn mua vào, cột thuế GTGT; gồm thuế nhập khẩu đã tổng hợp.",
+      "hoi": "Tổng thuế GTGT trên các khoản mua vào đó?"
+    },
+    {
+      "code": "23a",
+      "label": "Trong đó: hàng hóa nhập khẩu",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Mua vào và thuế được khấu trừ",
+      "lay_o_dau": "Tờ khai hải quan và bảng kê mua vào; đây là phần đã nằm trong tổng tiền mua.",
+      "hoi": "Tiền mua hàng nhập khẩu chưa có thuế GTGT là bao nhiêu?"
+    },
+    {
+      "code": "24a",
+      "label": "Trong đó: hàng hóa nhập khẩu",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Mua vào và thuế được khấu trừ",
+      "lay_o_dau": "Chứng từ nộp thuế GTGT hàng nhập khẩu, phần đã nằm trong tổng thuế mua vào.",
+      "hoi": "Thuế GTGT của phần hàng nhập khẩu đó là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào được khấu trừ kỳ này",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua vào và thuế được khấu trừ",
+      "lay_o_dau": "Bảng kê hóa đơn mua vào đủ điều kiện khấu trừ và bảng phân bổ thuế đầu vào.",
+      "hoi": "Trong tổng thuế mua vào, bao nhiêu được khấu trừ trong kỳ này?"
+    },
+    {
+      "code": "26",
+      "label": "Hàng hóa, dịch vụ bán ra không chịu thuế giá trị gia tăng",
+      "cot": "",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Doanh thu bán hàng, dịch vụ không chịu thuế GTGT?"
+    },
+    {
+      "code": "27",
+      "label": "Hàng hóa, dịch vụ bán ra chịu thuế giá trị gia tăng ([27]=[29]+[30]+[32]+[32a]-[32b]; [28]=[31]+[33])",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "cong_thuc",
+      "formula": "[29]+[30]+[32]+[32a]-[32b]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "28",
+      "label": "Hàng hóa, dịch vụ bán ra chịu thuế giá trị gia tăng ([27]=[29]+[30]+[32]+[32a]-[32b]; [28]=[31]+[33])",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "cong_thuc",
+      "formula": "[31]+[33]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "29",
+      "label": "Hàng hoá, dịch vụ bán ra chịu thuế suất 0%",
+      "cot": "",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Doanh thu bán hàng, dịch vụ có thuế suất 0%?"
+    },
+    {
+      "code": "30",
+      "label": "Hàng hoá, dịch vụ bán ra chịu thuế suất 5%",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Doanh thu chưa thuế của hàng, dịch vụ có thuế suất 5%?"
+    },
+    {
+      "code": "31",
+      "label": "Hàng hoá, dịch vụ bán ra chịu thuế suất 5%",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột thuế GTGT thực tế trên hóa đơn.",
+      "hoi": "Tổng thuế GTGT trên hóa đơn bán ra của nhóm 5%?"
+    },
+    {
+      "code": "32",
+      "label": "Hàng hoá, dịch vụ bán ra chịu thuế suất 10%",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Doanh thu chưa thuế của nhóm hàng, dịch vụ ở dòng thuế suất 10%?"
+    },
+    {
+      "code": "33",
+      "label": "Hàng hoá, dịch vụ bán ra chịu thuế suất 10%",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "so",
+      "section": "Bán ra",
+      "giai_thich": "Nhập số thuế thực tế đã tổng hợp, kể cả phần được giảm thuế. Không tự nhân toàn bộ doanh thu với 10%.",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột thuế GTGT thực tế trên hóa đơn.",
+      "hoi": "Tổng thuế GTGT thực tế trên hóa đơn của nhóm ở dòng thuế suất 10%?"
+    },
+    {
+      "code": "32a",
+      "label": "Hàng hoá, dịch vụ bán ra không kê khai tính nộp thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Doanh thu thuộc nhóm không kê khai tính nộp thuế GTGT?"
+    },
+    {
+      "code": "32b",
+      "label": "Hàng hoá, dịch vụ bán ra không tính vào giá tính thuế giá trị gia tăng",
+      "cot": "",
+      "kind": "so",
+      "note": "3. Chỉ tiêu [32b]: Khai giá trị hàng hóa, dịch vụ thuộc trường hợp không tính vào giá tính thuế giá trị gia tăng theo quy định của pháp luật thuế giá trị gia tăng.",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Phần giá trị bán ra không tính vào giá tính thuế GTGT?"
+    },
+    {
+      "code": "34a",
+      "label": "Hàng hoá, dịch vụ bán ra không thuộc phạm vi điều chỉnh của pháp luật thuế giá trị gia tăng",
+      "cot": "",
+      "kind": "so",
+      "section": "Bán ra",
+      "lay_o_dau": "Bảng kê hóa đơn bán ra theo thuế suất và nhóm kê khai, cột doanh thu chưa có thuế GTGT.",
+      "hoi": "Doanh thu thuộc nhóm ngoài phạm vi điều chỉnh của thuế GTGT?"
+    },
+    {
+      "code": "34",
+      "label": "Tổng doanh thu và thuế giá trị gia tăng của hàng hóa, dịch vụ bán ra ([34]=[26]+[27]+[34a]; [35]=[28])",
+      "cot": "Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)",
+      "kind": "cong_thuc",
+      "formula": "[26]+[27]+[34a]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "35",
+      "label": "Tổng doanh thu và thuế giá trị gia tăng của hàng hóa, dịch vụ bán ra ([34]=[26]+[27]+[34a]; [35]=[28])",
+      "cot": "Thuế giá trị gia tăng",
+      "kind": "cong_thuc",
+      "formula": "[28]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "36",
+      "label": "Thuế giá trị gia tăng phát sinh trong kỳ ([36]=[35]-[25])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[35]-[25]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Điều chỉnh giảm thuế GTGT còn được khấu trừ của các kỳ trước",
+      "cot": "",
+      "kind": "so",
+      "note": "4. Chỉ tiêu [37] và [38]:\n- Trường hợp hàng hóa, dịch vụ mua trả chậm, trả góp có giá trị hàng hóa, dịch vụ mua từ 05 triệu đồng trở lên, cơ sở kinh doanh kê khai, điều chỉnh giảm số thuế giá trị gia tăng đầu vào được khấu trừ đối với phần giá trị hàng hóa, dịch vụ không có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [37] kỳ tính thuế phát sinh nghĩa vụ thanh toán theo hợp đồng, phụ lục hợp đồng (không phải khai bổ sung hồ sơ khai thuế). Trường hợp sau khi điều chỉnh, cơ sở kinh doanh có chứng từ thanh toán không dùng tiền mặt thì cơ sở kinh doanh được kê khai, khấu trừ số thuế giá trị gia tăng đầu vào đối với phần giá trị hàng hóa, dịch vụ có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [38] kỳ tính thuế có chứng từ thanh toán không dùng tiền mặt.\n- Trường hợp người nộp thuế phát hiện số thuế giá trị gia tăng đầu vào khi kê khai, khấu trừ bị sai, sót thực hiện khai vào chỉ tiêu [37] hoặc [38] tháng, quý phát hiện sai, sót nếu việc khai thuế được thực hiện vào tháng, quý phát sinh thuế giá trị gia tăng đầu vào bị sai, sót làm giảm số tiền thuế phải nộp hoặc chỉ làm tăng hoặc giảm số thuế giá trị gia tăng còn được khấu trừ chuyển kỳ sau (không phải khai bổ sung hồ sơ khai thuế).\n- Trường hợp người mua nhận được hóa đơn điều chỉnh, hóa đơn thay thế thuộc các trường hợp theo quy định tại khoản 5 Điều 10 Thông tư số 91/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính thì kê khai vào chỉ tiêu [37] hoặc [38] của kỳ tính thuế nhận được hóa đơn điều chỉnh, hóa đơn thay thế (không phải khai bổ sung hồ sơ khai thuế).\n- Trường hợp người nộp thuế chuyển đổi phương pháp tính thuế từ phương pháp khấu trừ thuế sang phương pháp trực tiếp trên doanh thu thì kê khai điều chỉnh giảm số thuế giá trị gia tăng chưa được khấu trừ hết vào chỉ tiêu [37] tại kỳ tính thuế cuối cùng trước khi chuyển đổi phương pháp tính thuế (không phải khai bổ sung hồ sơ khai thuế).\n- Các trường hợp khác thực hiện theo quy định tại Điều 12 Nghị định số 252/2026/NĐ-CP ngày 30/6/2026 của Chính phủ và Phụ lục II Thông tư này.",
+      "section": "Điều chỉnh và bàn giao",
+      "lay_o_dau": "Bảng tổng hợp điều chỉnh, hóa đơn điều chỉnh hoặc thay thế, chứng từ thanh toán theo Ghi chú 4 của mẫu.",
+      "hoi": "Số thuế khấu trừ của kỳ trước cần điều chỉnh giảm?"
+    },
+    {
+      "code": "38",
+      "label": "Điều chỉnh tăng thuế GTGT còn được khấu trừ của các kỳ trước",
+      "cot": "",
+      "kind": "so",
+      "note": "4. Chỉ tiêu [37] và [38]:\n- Trường hợp hàng hóa, dịch vụ mua trả chậm, trả góp có giá trị hàng hóa, dịch vụ mua từ 05 triệu đồng trở lên, cơ sở kinh doanh kê khai, điều chỉnh giảm số thuế giá trị gia tăng đầu vào được khấu trừ đối với phần giá trị hàng hóa, dịch vụ không có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [37] kỳ tính thuế phát sinh nghĩa vụ thanh toán theo hợp đồng, phụ lục hợp đồng (không phải khai bổ sung hồ sơ khai thuế). Trường hợp sau khi điều chỉnh, cơ sở kinh doanh có chứng từ thanh toán không dùng tiền mặt thì cơ sở kinh doanh được kê khai, khấu trừ số thuế giá trị gia tăng đầu vào đối với phần giá trị hàng hóa, dịch vụ có chứng từ thanh toán không dùng tiền mặt vào chỉ tiêu [38] kỳ tính thuế có chứng từ thanh toán không dùng tiền mặt.\n- Trường hợp người nộp thuế phát hiện số thuế giá trị gia tăng đầu vào khi kê khai, khấu trừ bị sai, sót thực hiện khai vào chỉ tiêu [37] hoặc [38] tháng, quý phát hiện sai, sót nếu việc khai thuế được thực hiện vào tháng, quý phát sinh thuế giá trị gia tăng đầu vào bị sai, sót làm giảm số tiền thuế phải nộp hoặc chỉ làm tăng hoặc giảm số thuế giá trị gia tăng còn được khấu trừ chuyển kỳ sau (không phải khai bổ sung hồ sơ khai thuế).\n- Trường hợp người mua nhận được hóa đơn điều chỉnh, hóa đơn thay thế thuộc các trường hợp theo quy định tại khoản 5 Điều 10 Thông tư số 91/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính thì kê khai vào chỉ tiêu [37] hoặc [38] của kỳ tính thuế nhận được hóa đơn điều chỉnh, hóa đơn thay thế (không phải khai bổ sung hồ sơ khai thuế).\n- Trường hợp người nộp thuế chuyển đổi phương pháp tính thuế từ phương pháp khấu trừ thuế sang phương pháp trực tiếp trên doanh thu thì kê khai điều chỉnh giảm số thuế giá trị gia tăng chưa được khấu trừ hết vào chỉ tiêu [37] tại kỳ tính thuế cuối cùng trước khi chuyển đổi phương pháp tính thuế (không phải khai bổ sung hồ sơ khai thuế).\n- Các trường hợp khác thực hiện theo quy định tại Điều 12 Nghị định số 252/2026/NĐ-CP ngày 30/6/2026 của Chính phủ và Phụ lục II Thông tư này.",
+      "section": "Điều chỉnh và bàn giao",
+      "lay_o_dau": "Bảng tổng hợp điều chỉnh và chứng từ liên quan theo Ghi chú 4 của mẫu.",
+      "hoi": "Số thuế khấu trừ của kỳ trước cần điều chỉnh tăng?"
+    },
+    {
+      "code": "39a",
+      "label": "Thuế giá trị gia tăng nhận bàn giao được khấu trừ trong kỳ",
+      "cot": "",
+      "kind": "so",
+      "note": "5. Chỉ tiêu [39a]: Khai số thuế giá trị gia tăng còn được khấu trừ chưa đề nghị hoàn của dự án đầu tư chuyển cho người nộp thuế là chủ đầu tư hoặc người nộp thuế khác do chủ đầu tư giao quản lý hoạt động kinh doanh tiếp tục khấu trừ (là số thuế giá trị gia tăng còn được khấu trừ, không đủ điều kiện hoàn, không hoàn mà người nộp thuế đã kê khai riêng tờ khai thuế dự án đầu tư) khi dự án đầu tư đi vào hoạt động hoặc số thuế giá trị gia tăng còn được khấu trừ của hoạt động sản xuất kinh doanh của đơn vị phụ thuộc khi chấm dứt hoạt động, hoặc số thuế giá trị gia tăng còn được khấu trừ của hoạt động sản xuất kinh doanh của người nộp thuế bị chia, tách, sáp nhập, hợp nhất.",
+      "section": "Điều chỉnh và bàn giao",
+      "lay_o_dau": "Biên bản bàn giao thuế còn được khấu trừ của dự án đầu tư, đơn vị chấm dứt hoạt động hoặc đơn vị chia, tách, sáp nhập theo Ghi chú 5.",
+      "hoi": "Số thuế nhận bàn giao được tiếp tục khấu trừ trong kỳ?"
+    },
+    {
+      "code": "40a",
+      "label": "Thuế giá trị gia tăng phải nộp của hoạt động sản xuất kinh doanh trong kỳ {[40a]=([36]-[22]+[37]-[38]-[39a]) ≥ 0}",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX(([36]-[22]+[37]-[38]-[39a]),0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "40b",
+      "label": "Thuế giá trị gia tăng mua vào của dự án đầu tư được bù trừ với thuế GTGT còn phải nộp của hoạt động sản xuất kinh doanh cùng kỳ tính thuế ([40b]≤[40a])",
+      "cot": "",
+      "kind": "so",
+      "note": "6. Chỉ tiêu [40b]: Khai tổng số thuế giá trị gia tăng đã khai tại chỉ tiêu [28a] và [28b] của Tờ khai thuế mẫu số 02/GTGT./.",
+      "section": "Bù trừ dự án đầu tư",
+      "lay_o_dau": "Tổng chỉ tiêu [28a] và [28b] của tờ khai 02/GTGT; không lớn hơn số thuế phải nộp trước bù trừ.",
+      "hoi": "Số thuế dự án đầu tư đã kê khai để bù trừ kỳ này?"
+    },
+    {
+      "code": "40",
+      "label": "Thuế giá trị gia tăng còn phải nộp trong kỳ ([40]=[40a]-[40b])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([40a]-[40b],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "41",
+      "label": "Thuế giá trị gia tăng chưa khấu trừ hết kỳ này {[41]=([36]-[22]+[37]-[38]-[39a]) ≤ 0}",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX(-(([36]-[22]+[37]-[38]-[39a])),0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "42",
+      "label": "Thuế giá trị gia tăng đề nghị hoàn ([42] ≤ [41])",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế còn được khấu trừ",
+      "giai_thich": "Thông báo kiểm tra của mẫu yêu cầu dùng tờ khai 01/GTGT gợi ý nếu đề nghị hoàn thuế.",
+      "lay_o_dau": "Hồ sơ đề nghị hoàn; không vượt số thuế chưa khấu trừ hết.",
+      "hoi": "Số tiền thuế GTGT bạn đề nghị hoàn?"
+    },
+    {
+      "code": "43",
+      "label": "Thuế giá trị gia tăng còn được khấu trừ chuyển kỳ sau ([43]=[41]-[42])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([41]-[42],0)",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [
+    {
+      "expr": "[40b]<=[40a]",
+      "text": "[40b]<=[40a])",
+      "muc": "loi"
+    },
+    {
+      "expr": "[42]<=[41]",
+      "text": "[42] <= [41])",
+      "muc": "loi"
+    },
+    {
+      "expr": "[23a]<=[23]",
+      "text": "[23a] (giá trị hàng nhập khẩu) phải <= [23] (giá trị mua vào), luật HTKK dòng 18.",
+      "muc": "loi"
+    },
+    {
+      "expr": "[24a]<=[23a]",
+      "text": "[24a] (thuế hàng nhập khẩu) phải <= [23a] (giá trị hàng nhập khẩu), luật HTKK dòng 19.",
+      "muc": "loi"
+    },
+    {
+      "expr": "ABS([24])<=ABS([23])",
+      "text": "Trị tuyệt đối [24] (thuế mua vào) phải <= trị tuyệt đối [23] (giá trị mua vào), luật HTKK dòng 42.",
+      "muc": "loi"
+    },
+    {
+      "expr": "IF([30]>=0,[31]<=[30],1)=1",
+      "text": "Khi [30]>=0, [31] không được lớn hơn [30], luật HTKK dòng 79.",
+      "muc": "loi"
+    },
+    {
+      "expr": "IF([32]>=0,[33]<=[32],1)=1",
+      "text": "Khi [32]>=0, [33] không được lớn hơn [32], luật HTKK dòng 80.",
+      "muc": "loi"
+    },
+    {
+      "expr": "ABS([31]-[30]*0.05)<=1",
+      "text": "[31] lệch quá 1 đồng so với [30] x 5%; kiểm tra thuế suất và phần giảm thuế nếu có (cảnh báo HTKK dòng 15/33/76).",
+      "muc": "canh_bao"
+    },
+    {
+      "expr": "ABS([33]-[32]*0.1)<=1",
+      "text": "[33] lệch quá 1 đồng so với [32] x 10%; kiểm tra thuế suất và phần giảm thuế nếu có (cảnh báo HTKK dòng 16/34/63/64/77/101/102/106).",
+      "muc": "canh_bao"
+    },
+    {
+      "expr": "[42]<=0",
+      "text": "Có đề nghị hoàn [42] > 0: HTKK (TT89) báo NNT không thuộc đối tượng kê khai mẫu này — kê khai đề nghị hoàn bằng tờ khai 01/GTGT gợi ý trên Cổng thuế điện tử",
+      "muc": "loi"
+    },
+    {
+      "expr": "ABS([25])<=ABS([24])",
+      "muc": "canh_bao",
+      "text": "Thuế GTGT được khấu trừ [25] lớn hơn thuế GTGT mua vào [24] — HTKK chặn trừ kỳ tháng 12/quý 4 (kỳ điều chỉnh)"
+    }
+  ],
+  "phu_luc": [
+    {
+      "id": "TT89-01-7-GTGT",
+      "label": "Bạn là cơ sở viễn thông có phân bổ thuế GTGT đầu vào cho chi nhánh và trụ sở chính không?"
+    },
+    {
+      "id": "TT89-01-2-GTGT",
+      "label": "Bạn có nhà máy thủy điện phải chia số thuế GTGT cho các địa phương không?"
+    },
+    {
+      "id": "TT89-01-3-GTGT",
+      "label": "Bạn có kinh doanh xổ số điện toán phải chia số thuế GTGT cho các địa phương không?"
+    },
+    {
+      "id": "TT89-01-6-GTGT",
+      "label": "Bạn có phân bổ thuế GTGT cho địa phương khác đối với hoạt động ngoài thủy điện và xổ số điện toán không?"
+    },
+    {
+      "id": "TT89-01-8-GTGT",
+      "label": "Bạn có thông tin đề nghị hoàn thuế GTGT cần kê chi tiết không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,165 @@
+{
+  "id": "TT89-01-VTNN",
+  "mau_so": "01/VTNN",
+  "title": "Tờ khai quyết toán thuế thu nhập doanh nghiệp đối với hãng vận tải nước ngoài — 01/VTNN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn quyết toán cho năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Bên Việt Nam khấu trừ và nộp thuế thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên bên Việt Nam khấu trừ và nộp thuế thay cho hãng vận tải là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế nộp thay của Bên Việt Nam",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_vn"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "kind": "chu",
+      "label": "Mã số thuế của tổ chức, cá nhân làm thủ tục về thuế",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "09",
+      "label": "Doanh thu tính thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế phải nộp",
+      "lay_o_dau": "Bảng tổng hợp doanh thu tính thuế, bảng kê vận tải quốc tế và bảng doanh thu lưu công-ten-nơ.",
+      "hoi": "Tổng doanh thu tính thuế của hãng vận tải trong năm là bao nhiêu?"
+    },
+    {
+      "code": "10",
+      "cot": "",
+      "kind": "so",
+      "label": "Tỷ lệ (%) thuế TNDN (nhập 20 cho 20%)",
+      "section": "Thuế phải nộp",
+      "giai_thich": "Nhập tỷ lệ từ hồ sơ tính thuế; bot không tự chọn mức thuế.",
+      "lay_o_dau": "Bảng tính thuế đã xác định tỷ lệ áp dụng cho hãng.",
+      "hoi": "Tỷ lệ thuế TNDN dùng cho doanh thu này là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "11",
+      "label": "Số thuế TNDN được miễn, giảm theo Hiệp định",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế phải nộp",
+      "lay_o_dau": "Hồ sơ áp dụng Hiệp định và bảng tính số miễn giảm.",
+      "hoi": "Số thuế TNDN được miễn hoặc giảm theo Hiệp định là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "label": "Số thuế TNDN phải nộp",
+      "cot": "",
+      "kind": "so",
+      "section": "Thuế phải nộp",
+      "giai_thich": "Mẫu không nêu công thức cho ô này; bot giữ số xác định từ hồ sơ thay vì tự suy ra.",
+      "lay_o_dau": "Bảng tính quyết toán TNDN của hãng, sau khi đối chiếu doanh thu, tỷ lệ và miễn giảm.",
+      "hoi": "Số thuế TNDN phải nộp theo bảng tính quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "13",
+      "label": "Số thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+      "cot": "",
+      "kind": "so",
+      "note": "1. Chỉ tiêu [13]: NNT kê khai số thuế TNDN nộp thừa kỳ trước chuyển sang bù trừ với số thuế TNDN phải nộp kỳ này.",
+      "section": "Thuế đã nộp",
+      "lay_o_dau": "Sổ nghĩa vụ thuế, hồ sơ quyết toán kỳ trước và bảng đối chiếu nộp thừa.",
+      "hoi": "Số thuế nộp thừa kỳ trước chuyển sang bù trừ là bao nhiêu?"
+    },
+    {
+      "code": "14",
+      "label": "Số thuế TNDN đã tạm nộp trong năm",
+      "cot": "",
+      "kind": "so",
+      "note": "2. Chỉ tiêu [14]: NNT kê khai số thuế TNDN đã tạm nộp vào NSNN tính đến thời hạn nộp hồ sơ khai quyết toán theo quy định pháp luật thuế TNDN.",
+      "section": "Thuế đã nộp",
+      "giai_thich": "Ghi chú 2: tính số đã tạm nộp đến thời hạn nộp hồ sơ khai quyết toán.",
+      "lay_o_dau": "Chứng từ nộp ngân sách và bảng đối chiếu nghĩa vụ thuế.",
+      "hoi": "Tổng thuế TNDN hãng đã tạm nộp cho năm này là bao nhiêu?"
+    },
+    {
+      "code": "15",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp trong năm [15]=[12] – [14]",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[12]-[14]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16",
+      "label": "Số thuế TNDN còn phải nộp [16] = [12] – [13] – [14]",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[12]-[13]-[14]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-01-1-VTNN",
+      "label": "Hãng có thu nhập vận tải quốc tế từ hoạt động khai thác tàu không?"
+    },
+    {
+      "id": "TT89-01-2-VTNN",
+      "label": "Hãng có thu nhập vận tải quốc tế theo hợp đồng hoán đổi hoặc chia chỗ không?"
+    },
+    {
+      "id": "TT89-01-3-VTNN",
+      "label": "Hãng có doanh thu lưu công-ten-nơ cần kê khai không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

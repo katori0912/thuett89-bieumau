@@ -1,0 +1,237 @@
+{
+  "id": "TT89-01-2-TTĐB",
+  "mau_so": "01-2/TTĐB",
+  "title": "Bảng xác định số thuế tiêu thụ đặc biệt (TTĐB) được khấu trừ của nguyên liệu mua vào, hàng hóa nhập khẩu — 01-2/TTĐB",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "I. Nguyên liệu mua vào, nhập khẩu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Ký hiệu chứng từ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số chứng từ",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Ngày phát hành",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Tên hàng hóa",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Số lượng nguyên vật liệu mua vào, nhập khẩu",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TTĐB đã nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Số lượng tiêu thụ trong kỳ",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Lượng nguyên liệu trên một đơn vị sản phẩm",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế TTĐB trên một đơn vị nguyên liệu",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế chưa khấu trừ kỳ trước",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế được khấu trừ trong kỳ",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MIN([9]*[10]*[11],[8]+[12])"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế chuyển kỳ sau",
+          "c": 13,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX([8]+[12]-[13],0)"
+        }
+      ],
+      "tong": [
+        "8",
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "II. Hàng hóa nhập khẩu đã nộp thuế TTĐB",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Ký hiệu chứng từ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số chứng từ",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Ngày phát hành",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Tên hàng hóa nhập khẩu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Số lượng nhập khẩu",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TTĐB nhập khẩu đã nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Số lượng tiêu thụ trong kỳ",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế đã nộp trên một đơn vị nhập khẩu",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([7]=0,0,[8]/[7])"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế chưa khấu trừ kỳ trước",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế được khấu trừ thực tế trong kỳ",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế chuyển kỳ sau",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "MAX([8]+[11]-[12],0)"
+        }
+      ],
+      "tong": [
+        "8",
+        "11",
+        "12",
+        "13"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

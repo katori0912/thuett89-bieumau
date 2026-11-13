@@ -1,0 +1,1564 @@
+{
+  "id": "TT18-01-CNKD",
+  "mau_so": "01/CNKD",
+  "title": "Khai thuế hộ, cá nhân kinh doanh theo TT18 — 01/CNKD",
+  "fields": [
+    {
+      "code": "04",
+      "label": "Người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên hộ kinh doanh hoặc người nộp thuế?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tổ chức/cá nhân khai, nộp thuế thay theo ủy quyền (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người hoặc tổ chức khai thay?"
+    },
+    {
+      "code": "06.1",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người hoặc tổ chức khai thay?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "06.2",
+      "label": "Văn bản ủy quyền (nếu có): Số ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký văn bản ủy quyền?"
+    },
+    {
+      "code": "07",
+      "label": "Tên đại lý thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị dịch vụ thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07.1",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày hoặc thông tin lần phát sinh cần cấp hóa đơn?",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Bạn khai cho tháng mấy?"
+    },
+    {
+      "code": "01b",
+      "label": "Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Bạn khai cho quý mấy?"
+    },
+    {
+      "code": "01c",
+      "label": "Lần phát sinh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày hoặc thông tin lần phát sinh cần cấp hóa đơn?",
+      "role": "ky_lps"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là tờ khai lần đầu cho kỳ này?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ: □",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "16",
+      "label": "Tổng cộng — Thuế GTGT — Doanh thu",
+      "kind": "cong_thuc",
+      "note": "= tổng cột [11] của bảng kê; phần Tổng cộng; người dùng nhập tổng.",
+      "cot": "Thuế GTGT — Doanh thu",
+      "formula": "[11@R5]+[11@R6]+[11@R7]+[11@R8]+[11@R9]+[11@R10]+[11@R16]+[11@R17]+[11@R18]+[11@R19]+[11@R20]+[11@R21]+[A1.11]+[A2.11]+[A3.11]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "17",
+      "label": "Số thuế được miễn — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "note": "= tổng cột [11] của bảng kê; phần Số thuế được miễn; người dùng nhập tổng.",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng tổng hợp miễn thuế/còn phải nộp đã lập, chọn đúng cột doanh thu; đây là số tiền doanh thu, không phải tiền thuế.",
+      "hoi": "Ở dòng miễn thuế, doanh thu GTGT ghi trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "18",
+      "label": "Số thuế còn phải nộp — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "note": "= tổng cột [11] của bảng kê; phần Số thuế còn phải nộp; người dùng nhập tổng.",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng tổng hợp miễn thuế/còn phải nộp đã lập, chọn đúng cột doanh thu; đây là số tiền doanh thu, không phải tiền thuế.",
+      "hoi": "Ở dòng còn phải nộp, doanh thu GTGT ghi trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "Thuế TTĐB — Tổng doanh thu tính thuế",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TTĐB",
+      "formula": "[TDB1.5]+[TDB2.5]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Số thuế TTĐB được miễn",
+      "kind": "so",
+      "cot": "Số thuế TTĐB",
+      "section": "Thuế, phí khác",
+      "lay_o_dau": "Bảng xác định số được miễn của thuế tiêu thụ đặc biệt; chi tiết hàng hóa, sản lượng và thuế cần bổ sung ở bảng kê riêng.",
+      "hoi": "Số thuế tiêu thụ đặc biệt được miễn là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Số thuế TTĐB còn phải nộp",
+      "kind": "so",
+      "cot": "Số thuế TTĐB",
+      "section": "Thuế, phí khác",
+      "lay_o_dau": "Bảng xác định số còn phải nộp của thuế tiêu thụ đặc biệt sau khi đối chiếu phần miễn.",
+      "hoi": "Số thuế tiêu thụ đặc biệt còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Tổng cộng — Số thuế/phí phải nộp — Khai thuế tài nguyên",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "= tổng cột (10) của phần 1 mục C; người dùng nhập tổng.",
+      "formula": "[TN.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "25",
+      "label": "Số thuế được miễn — Số thuế/phí phải nộp — Khai thuế tài nguyên",
+      "kind": "so",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng xác định số được miễn của thuế tài nguyên; chi tiết hàng hóa, sản lượng và thuế cần bổ sung ở bảng kê riêng.",
+      "hoi": "Số thuế tài nguyên được miễn là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Số thuế còn phải nộp — Số thuế/phí phải nộp — Khai thuế tài nguyên",
+      "kind": "so",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng xác định số còn phải nộp của thuế tài nguyên sau khi đối chiếu phần miễn.",
+      "hoi": "Số thuế tài nguyên còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Tổng cộng — Số thuế/phí phải nộp — Khai thuế bảo vệ môi trường",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "= tổng cột (10) của phần 2 mục C; người dùng nhập tổng.",
+      "formula": "[BVMT.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "29",
+      "label": "Số thuế được miễn — Số thuế/phí phải nộp — Khai thuế bảo vệ môi trường",
+      "kind": "so",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng xác định số được miễn của thuế bảo vệ môi trường; chi tiết hàng hóa, sản lượng và thuế cần bổ sung ở bảng kê riêng.",
+      "hoi": "Số thuế bảo vệ môi trường được miễn là bao nhiêu?"
+    },
+    {
+      "code": "30",
+      "label": "Số thuế còn phải nộp — Số thuế/phí phải nộp — Khai thuế bảo vệ môi trường",
+      "kind": "so",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng xác định số còn phải nộp của thuế bảo vệ môi trường sau khi đối chiếu phần miễn.",
+      "hoi": "Số thuế bảo vệ môi trường còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "32",
+      "label": "Tổng cộng — Số thuế/phí phải nộp — Khai phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "= tổng cột (10) của phần 3 mục C; người dùng nhập tổng.",
+      "formula": "[PHI.10]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "33",
+      "label": "Số phí được miễn — Số thuế/phí phải nộp — Khai phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "kind": "so",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng xác định số được miễn của phí bảo vệ môi trường khai thác khoáng sản; chi tiết hàng hóa, sản lượng và thuế cần bổ sung ở bảng kê riêng.",
+      "hoi": "Số phí bảo vệ môi trường khai thác khoáng sản được miễn là bao nhiêu?"
+    },
+    {
+      "code": "34",
+      "label": "Số phí còn phải nộp — Số thuế/phí phải nộp — Khai phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "kind": "so",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng xác định số còn phải nộp của phí bảo vệ môi trường khai thác khoáng sản sau khi đối chiếu phần miễn.",
+      "hoi": "Số phí bảo vệ môi trường khai thác khoáng sản còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "45",
+      "label": "Tổng số tiền hỗ trợ thông tin nộp thuế",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "note": "= tổng cột [38] của bảng kê NSNN",
+      "formula": "[NSNN.38]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11@R5",
+      "label": "Hoạt động có địa điểm cố định — Phân phối, cung cấp hàng hóa — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R5",
+      "label": "Hoạt động có địa điểm cố định — Phân phối, cung cấp hàng hóa — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh tại địa điểm cố định: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R5",
+      "label": "Hoạt động có địa điểm cố định — Phân phối, cung cấp hàng hóa — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R5",
+      "label": "Hoạt động có địa điểm cố định — Phân phối, cung cấp hàng hóa — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh tại địa điểm cố định: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R5",
+      "label": "Hoạt động có địa điểm cố định — Phân phối, cung cấp hàng hóa — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh tại địa điểm cố định: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R6",
+      "label": "Hoạt động có địa điểm cố định — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R6",
+      "label": "Hoạt động có địa điểm cố định — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R6",
+      "label": "Hoạt động có địa điểm cố định — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R6",
+      "label": "Hoạt động có địa điểm cố định — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R6",
+      "label": "Hoạt động có địa điểm cố định — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R7",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cho thuê tài sản trừ bất động sản — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R7",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cho thuê tài sản trừ bất động sản — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh tại địa điểm cố định: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R7",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cho thuê tài sản trừ bất động sản — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R7",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cho thuê tài sản trừ bất động sản — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh tại địa điểm cố định: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R7",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cho thuê tài sản trừ bất động sản — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh tại địa điểm cố định: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R8",
+      "label": "Hoạt động có địa điểm cố định — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R8",
+      "label": "Hoạt động có địa điểm cố định — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R8",
+      "label": "Hoạt động có địa điểm cố định — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R8",
+      "label": "Hoạt động có địa điểm cố định — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R8",
+      "label": "Hoạt động có địa điểm cố định — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh tại địa điểm cố định: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R9",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R9",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh tại địa điểm cố định: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R9",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R9",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh tại địa điểm cố định: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R9",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh tại địa điểm cố định: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R10",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động kinh doanh khác — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R10",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động kinh doanh khác — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh tại địa điểm cố định: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R10",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động kinh doanh khác — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh tại địa điểm cố định: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R10",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động kinh doanh khác — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh tại địa điểm cố định: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R10",
+      "label": "Hoạt động có địa điểm cố định — Hoạt động kinh doanh khác — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh tại địa điểm cố định: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R16",
+      "label": "Hoạt động TMĐT — Phân phối, cung cấp hàng hóa — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R16",
+      "label": "Hoạt động TMĐT — Phân phối, cung cấp hàng hóa — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R16",
+      "label": "Hoạt động TMĐT — Phân phối, cung cấp hàng hóa — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R16",
+      "label": "Hoạt động TMĐT — Phân phối, cung cấp hàng hóa — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R16",
+      "label": "Hoạt động TMĐT — Phân phối, cung cấp hàng hóa — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với phân phối, cung cấp hàng hóa trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R17",
+      "label": "Hoạt động TMĐT — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R17",
+      "label": "Hoạt động TMĐT — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R17",
+      "label": "Hoạt động TMĐT — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R17",
+      "label": "Hoạt động TMĐT — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R17",
+      "label": "Hoạt động TMĐT — Dịch vụ, xây dựng không bao thầu nguyên vật liệu — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với dịch vụ, xây dựng không bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R18",
+      "label": "Hoạt động TMĐT — Hoạt động cho thuê tài sản trừ bất động sản — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R18",
+      "label": "Hoạt động TMĐT — Hoạt động cho thuê tài sản trừ bất động sản — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R18",
+      "label": "Hoạt động TMĐT — Hoạt động cho thuê tài sản trừ bất động sản — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R18",
+      "label": "Hoạt động TMĐT — Hoạt động cho thuê tài sản trừ bất động sản — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R18",
+      "label": "Hoạt động TMĐT — Hoạt động cho thuê tài sản trừ bất động sản — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với cho thuê tài sản trừ bất động sản trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R19",
+      "label": "Hoạt động TMĐT — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R19",
+      "label": "Hoạt động TMĐT — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R19",
+      "label": "Hoạt động TMĐT — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R19",
+      "label": "Hoạt động TMĐT — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R19",
+      "label": "Hoạt động TMĐT — Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với sản xuất, vận tải, dịch vụ gắn với hàng hóa hoặc xây dựng có bao thầu nguyên vật liệu trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R20",
+      "label": "Hoạt động TMĐT — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R20",
+      "label": "Hoạt động TMĐT — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R20",
+      "label": "Hoạt động TMĐT — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R20",
+      "label": "Hoạt động TMĐT — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R20",
+      "label": "Hoạt động TMĐT — Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với sản phẩm nội dung thông tin số về giải trí, trò chơi, phim, ảnh, nhạc, quảng cáo số trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "11@R21",
+      "label": "Hoạt động TMĐT — Hoạt động kinh doanh khác — Thuế GTGT — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế GTGT.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "12@R21",
+      "label": "Hoạt động TMĐT — Hoạt động kinh doanh khác — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế GTGT của riêng ngành này, trước miễn; mẫu chưa có công thức tự tính theo ngành.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế gtgt phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "13@R21",
+      "label": "Hoạt động TMĐT — Hoạt động kinh doanh khác — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Sổ doanh thu theo ngành, phần doanh thu dùng cho thuế TNCN.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu dùng cho thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "14@R21",
+      "label": "Hoạt động TMĐT — Hoạt động kinh doanh khác — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "giai_thich": "Ghi chú TT18 cho phương pháp tính trên doanh thu: mức trừ 500 triệu đồng được phân bổ giữa ngành, địa điểm; chỉ nhập phần đã phân bổ cho dòng này.",
+      "lay_o_dau": "Bảng phân bổ doanh thu được trừ giữa ngành nghề, địa điểm theo ghi chú mẫu; không nhập trùng phần đã trừ ở nơi khác.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: doanh thu được trừ khi tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "15@R21",
+      "label": "Hoạt động TMĐT — Hoạt động kinh doanh khác — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Bảng tính thuế TNCN của riêng ngành này; lấy số đã xác định theo phương pháp áp dụng.",
+      "hoi": "Với hoạt động kinh doanh khác trong phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán: số thuế tncn phải nộp trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "16@C4",
+      "label": "Tổng cộng — Thuế GTGT — Số thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "formula": "[12@R5]+[12@R6]+[12@R7]+[12@R8]+[12@R9]+[12@R10]+[12@R16]+[12@R17]+[12@R18]+[12@R19]+[12@R20]+[12@R21]+[A1.12]+[A2.12]+[A3.12]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16@C5",
+      "label": "Tổng cộng — Thuế TNCN — Doanh thu",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNCN — Doanh thu",
+      "formula": "[13@R5]+[13@R6]+[13@R7]+[13@R8]+[13@R9]+[13@R10]+[13@R16]+[13@R17]+[13@R18]+[13@R19]+[13@R20]+[13@R21]+[A1.13]+[A2.13]+[A3.13]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16@C6",
+      "label": "Tổng cộng — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "formula": "[14@R5]+[14@R6]+[14@R7]+[14@R8]+[14@R9]+[14@R10]+[14@R16]+[14@R17]+[14@R18]+[14@R19]+[14@R20]+[14@R21]+[A1.14]+[A2.14]+[A3.14]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16@C7",
+      "label": "Tổng cộng — Thuế TNCN — Số thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "formula": "[15@R5]+[15@R6]+[15@R7]+[15@R8]+[15@R9]+[15@R10]+[15@R16]+[15@R17]+[15@R18]+[15@R19]+[15@R20]+[15@R21]+[A1.15]+[A2.15]+[A3.15]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "17@C4",
+      "label": "Số thuế được miễn — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng xác định số thuế GTGT được miễn; mẫu không in sẵn ngưỡng và công thức cho ô này.",
+      "hoi": "Số thuế GTGT được miễn là bao nhiêu?"
+    },
+    {
+      "code": "17@C5",
+      "label": "Số thuế được miễn — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng tổng hợp miễn thuế/còn phải nộp đã lập, chọn đúng cột doanh thu; đây là số tiền doanh thu, không phải tiền thuế.",
+      "hoi": "Ở dòng miễn thuế, doanh thu TNCN ghi trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "17@C6",
+      "label": "Số thuế được miễn — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng tổng hợp miễn thuế/còn phải nộp đã lập, chọn đúng cột doanh thu; đây là số tiền doanh thu, không phải tiền thuế.",
+      "hoi": "Ở dòng miễn thuế, doanh thu được trừ để tính thuế TNCN ghi trên bảng là bao nhiêu?"
+    },
+    {
+      "code": "17@C7",
+      "label": "Số thuế được miễn — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng xác định số thuế TNCN được miễn; dùng số đã xác định trong hồ sơ.",
+      "hoi": "Số thuế TNCN được miễn là bao nhiêu?"
+    },
+    {
+      "code": "18@C4",
+      "label": "Số thuế còn phải nộp — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng đối chiếu tổng thuế GTGT phát sinh với số được miễn, lấy số còn phải nộp đã xác định.",
+      "hoi": "Số thuế GTGT còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "18@C5",
+      "label": "Số thuế còn phải nộp — Thuế TNCN — Doanh thu",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng tổng hợp miễn thuế/còn phải nộp đã lập, chọn đúng cột doanh thu; đây là số tiền doanh thu, không phải tiền thuế.",
+      "hoi": "Ở dòng còn phải nộp, doanh thu TNCN ghi trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "18@C6",
+      "label": "Số thuế còn phải nộp — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng tổng hợp miễn thuế/còn phải nộp đã lập, chọn đúng cột doanh thu; đây là số tiền doanh thu, không phải tiền thuế.",
+      "hoi": "Ở dòng còn phải nộp, doanh thu được trừ để tính thuế TNCN ghi trên bảng là bao nhiêu?"
+    },
+    {
+      "code": "18@C7",
+      "label": "Số thuế còn phải nộp — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Miễn thuế và số còn phải nộp",
+      "lay_o_dau": "Bảng đối chiếu tổng thuế TNCN phát sinh với số được miễn, lấy số còn phải nộp đã xác định.",
+      "hoi": "Số thuế TNCN còn phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "TRUSO_A1",
+      "label": "Thông tin Trụ sở kinh doanh: (nhập cả tên, mã nếu có)",
+      "kind": "chu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "hoi": "Tên hoặc địa chỉ trụ sở cho phần kinh doanh tại địa điểm cố định?"
+    },
+    {
+      "code": "DD_A1",
+      "label": "Thông tin Mã địa điểm kinh doanh 1: Tên địa điểm kinh doanh 1: (nhập cả tên, mã nếu có)",
+      "kind": "chu",
+      "section": "Kinh doanh tại địa điểm cố định",
+      "lay_o_dau": "Danh sách địa điểm kinh doanh; số liệu từng địa điểm khác trụ sở cần nhập bảng kê riêng.",
+      "hoi": "Mã và tên địa điểm kinh doanh khác trụ sở?"
+    },
+    {
+      "code": "TRUSO_A2",
+      "label": "Thông tin Trụ sở kinh doanh: (nhập cả tên, mã nếu có)",
+      "kind": "chu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "hoi": "Tên hoặc địa chỉ trụ sở cho phần kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán?"
+    },
+    {
+      "code": "DD_A2",
+      "label": "Thông tin Mã địa điểm kinh doanh 1: Tên địa điểm kinh doanh 1: (nhập cả tên, mã nếu có)",
+      "kind": "chu",
+      "section": "Kinh doanh trên nền tảng không có đặt hàng trực tuyến và thanh toán",
+      "lay_o_dau": "Danh sách địa điểm kinh doanh; số liệu từng địa điểm khác trụ sở cần nhập bảng kê riêng.",
+      "hoi": "Mã và tên địa điểm kinh doanh khác trụ sở?"
+    },
+    {
+      "code": "20@C6",
+      "label": "Thuế TTĐB — Tổng số thuế phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[TDB1.7]+[TDB2.7]",
+      "cot": "Số thuế phải nộp",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "TRUSO_TDB",
+      "label": "Trụ sở kinh doanh khai thuế TTĐB",
+      "kind": "chu",
+      "section": "Thuế, phí khác",
+      "hoi": "Trụ sở kê khai thuế tiêu thụ đặc biệt?"
+    },
+    {
+      "code": "DIADIEM_TDB",
+      "label": "Mã và tên địa điểm kinh doanh khai thuế TTĐB (nhập cả mã và tên)",
+      "kind": "chu",
+      "section": "Thuế, phí khác",
+      "hoi": "Mã và tên địa điểm kinh doanh kê khai thuế tiêu thụ đặc biệt?"
+    },
+    {
+      "code": "CHON_3",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên doanh thu tính thuế",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông tin phương pháp khai thuế đã xác định của hộ, cá nhân kinh doanh.",
+      "hoi": "Bạn thuộc phương pháp nộp thuế TNCN nào trên hồ sơ đăng ký?"
+    },
+    {
+      "code": "CHON_4",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên thu nhập tính thuế",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông tin phương pháp khai thuế đã xác định của hộ, cá nhân kinh doanh.",
+      "hoi": "Bạn thuộc phương pháp nộp thuế TNCN nào trên hồ sơ đăng ký?"
+    },
+    {
+      "code": "CHON_5",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh chỉ có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác không có chức năng đặt hàng trực tuyến và chức năng thanh toán",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Bạn chỉ kinh doanh trên nền tảng không có chức năng đặt hàng trực tuyến và thanh toán không?"
+    },
+    {
+      "code": "CHON_6",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh khai các loại thuế khác (thuế TTĐB, thuế tài nguyên, thuế/phí bảo vệ môi trường)",
+      "kind": "danh_dau",
+      "section": "Thuế, phí khác",
+      "hoi": "Bạn có khai thuế tiêu thụ đặc biệt, tài nguyên hoặc thuế, phí môi trường không?"
+    },
+    {
+      "code": "CHON_7",
+      "label": "Trường hợp đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo lần phát sinh",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú mẫu: tháng dành cho doanh thu năm trên 50 tỷ; quý dành cho doanh thu năm trên 500 triệu đến 50 tỷ; từng lần dành cho khai, nộp trước khi được cấp hóa đơn điện tử có mã.",
+      "hoi": "Bạn khai theo tháng, quý hay từng lần để được cấp hóa đơn?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "NSNN",
+      "ten": "Hỗ trợ thông tin nộp thuế",
+      "cot": [
+        {
+          "ma": "35",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "36",
+          "ten": "Mã địa điểm kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "37",
+          "ten": "Nội dung các khoản nộp NSNN",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "38",
+          "ten": "Số tiền",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "39",
+          "ten": "Chương",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "40",
+          "ten": "Tiểu mục",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "41",
+          "ten": "Địa bàn hành chính",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "42",
+          "ten": "Cơ quan thu",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "43",
+          "ten": "Cơ quan thuế",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "44",
+          "ten": "Hạn nộp thuế",
+          "c": 9,
+          "kieu": "ngay"
+        }
+      ],
+      "tong": [
+        "38"
+      ]
+    },
+    {
+      "id": "PHI",
+      "ten": "Phí bảo vệ môi trường",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tài nguyên, hàng hóa, sản phẩm",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Trụ sở kinh doanh/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã chỉ tiêu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Sản lượng/ Số lượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Hệ số K tính phí BVMT (nhập hệ số trực tiếp, ví dụ 1.1)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế/phí phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]*[9]"
+        }
+      ],
+      "tong": [
+        "10"
+      ]
+    },
+    {
+      "id": "BVMT",
+      "ten": "Thuế bảo vệ môi trường",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tài nguyên, hàng hóa, sản phẩm",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Trụ sở kinh doanh/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã chỉ tiêu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Sản lượng/ Số lượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế/phí phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]"
+        }
+      ],
+      "tong": [
+        "10"
+      ]
+    },
+    {
+      "id": "TN",
+      "ten": "Thuế tài nguyên",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tài nguyên, hàng hóa, sản phẩm",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Trụ sở kinh doanh/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã chỉ tiêu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Sản lượng/ Số lượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế suất tài nguyên (nhập 20 cho 20%)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế/phí phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]*[9]/100"
+        }
+      ],
+      "tong": [
+        "10"
+      ]
+    },
+    {
+      "id": "TDB2",
+      "ten": "Thuế TTĐB — Địa điểm kinh doanh",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Hàng hóa, dịch vụ chịu thuế TTĐB",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Đơn vị tính",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu tính thuế TTĐB",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Số thuế phải nộp",
+          "c": 6,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[5]*[6]/100"
+        }
+      ],
+      "tong": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "TDB1",
+      "ten": "Thuế TTĐB — Trụ sở",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Hàng hóa, dịch vụ chịu thuế TTĐB",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Đơn vị tính",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu tính thuế TTĐB",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Số thuế phải nộp",
+          "c": 6,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[5]*[6]/100"
+        }
+      ],
+      "tong": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "A3",
+      "ten": "Hoạt động đã cấp hóa đơn theo từng lần phát sinh",
+      "cot": [
+        {
+          "ma": "08",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Nhóm ngành nghề",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã Chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế GTGT — Doanh thu",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế GTGT — Số thuế phải nộp",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế TNCN — Doanh thu",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Thuế TNCN — Số thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "A2",
+      "ten": "Hoạt động TMĐT tại địa điểm kinh doanh khác",
+      "cot": [
+        {
+          "ma": "08",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Nhóm ngành nghề",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã Chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế GTGT — Doanh thu",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế GTGT — Số thuế phải nộp",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế TNCN — Doanh thu",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Thuế TNCN — Số thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "A1",
+      "ten": "Hoạt động tại địa điểm kinh doanh cố định khác",
+      "cot": [
+        {
+          "ma": "08",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Nhóm ngành nghề",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã Chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế GTGT — Doanh thu",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Thuế GTGT — Số thuế phải nộp",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Thuế TNCN — Doanh thu",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Thuế TNCN — Số thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

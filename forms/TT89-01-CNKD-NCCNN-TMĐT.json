@@ -1,0 +1,423 @@
+{
+  "id": "TT89-01-CNKD-NCCNN-TMĐT",
+  "mau_so": "01/CNKD-NCCNN-TMĐT",
+  "title": "Tờ khai khấu trừ thuế đối với nhà cung cấp nước ngoài, hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử — 01/CNKD-NCCNN-TMĐT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Bạn khai khấu trừ cho tháng và năm nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: □ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên của tổ chức quản lý nền tảng thương mại điện tử",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Tên tổ chức quản lý nền tảng thương mại điện tử là gì?",
+      "role": "ten_nt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế khấu trừ, nộp thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Mã số thuế dùng khấu trừ và nộp thay của nền tảng là gì?",
+      "role": "mst_nt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân làm thủ tục về thuế, tổ chức được ủy quyền (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân làm thủ tục về thuế, tổ chức được ủy quyền (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "kind": "chu",
+      "label": "Mã số thuế của tổ chức, cá nhân làm thủ tục về thuế, tổ chức được ủy quyền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Bạn ghi giúp mã số thuế của tổ chức, cá nhân làm thủ tục về thuế, tổ chức được ủy quyền?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày?"
+    },
+    {
+      "code": "9",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Cung cấp hàng hóa/Goods — Doanh thu, nhà cung cấp nước ngoài",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của nhà cung cấp nước ngoài bán hàng hóa trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "9@GTGT",
+      "label": "Cung cấp hàng hóa/Goods — Nhà cung cấp nước ngoài — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của nhà cung cấp nước ngoài bán hàng hóa?"
+    },
+    {
+      "code": "9@TN",
+      "label": "Cung cấp hàng hóa/Goods — Nhà cung cấp nước ngoài — Thuế TNDN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNDN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNDN của nhà cung cấp nước ngoài bán hàng hóa?"
+    },
+    {
+      "code": "9@TONG",
+      "label": "Cung cấp hàng hóa/Goods — Nhà cung cấp nước ngoài — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[9@GTGT]+[9@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Cung cấp Dịch vụ/Services — Doanh thu, nhà cung cấp nước ngoài",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của nhà cung cấp nước ngoài cung cấp dịch vụ trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "10@GTGT",
+      "label": "Cung cấp Dịch vụ/Services — Nhà cung cấp nước ngoài — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của nhà cung cấp nước ngoài cung cấp dịch vụ?"
+    },
+    {
+      "code": "10@TN",
+      "label": "Cung cấp Dịch vụ/Services — Nhà cung cấp nước ngoài — Thuế TNDN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNDN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNDN của nhà cung cấp nước ngoài cung cấp dịch vụ?"
+    },
+    {
+      "code": "10@TONG",
+      "label": "Cung cấp Dịch vụ/Services — Nhà cung cấp nước ngoài — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[10@GTGT]+[10@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "11",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Dịch vụ có gắn với hàng hóa/Services are associated to goods — Doanh thu, nhà cung cấp nước ngoài",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của nhà cung cấp nước ngoài cung cấp dịch vụ gắn với hàng hóa trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "11@GTGT",
+      "label": "Dịch vụ có gắn với hàng hóa/Services are associated to goods — Nhà cung cấp nước ngoài — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của nhà cung cấp nước ngoài cung cấp dịch vụ gắn với hàng hóa?"
+    },
+    {
+      "code": "11@TN",
+      "label": "Dịch vụ có gắn với hàng hóa/Services are associated to goods — Nhà cung cấp nước ngoài — Thuế TNDN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNDN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNDN của nhà cung cấp nước ngoài cung cấp dịch vụ gắn với hàng hóa?"
+    },
+    {
+      "code": "11@TONG",
+      "label": "Dịch vụ có gắn với hàng hóa/Services are associated to goods — Nhà cung cấp nước ngoài — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[11@GTGT]+[11@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "12",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Doanh thu, nhà cung cấp nước ngoài",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của nhà cung cấp nước ngoài có giao dịch chưa tách được loại hàng hóa/dịch vụ trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "12@GTGT",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Nhà cung cấp nước ngoài — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của nhà cung cấp nước ngoài có giao dịch chưa tách được loại hàng hóa/dịch vụ?"
+    },
+    {
+      "code": "12@TN",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Nhà cung cấp nước ngoài — Thuế TNDN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNDN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNDN của nhà cung cấp nước ngoài có giao dịch chưa tách được loại hàng hóa/dịch vụ?"
+    },
+    {
+      "code": "12@TONG",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Nhà cung cấp nước ngoài — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[12@GTGT]+[12@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "13",
+      "kind": "cong_thuc",
+      "label": "Tổng số thuế đã khấu trừ GTGT — phần I",
+      "cot": "Số thuế đã khấu trừ — GTGT",
+      "formula": "[9@GTGT]+[10@GTGT]+[11@GTGT]+[12@GTGT]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "14",
+      "kind": "cong_thuc",
+      "label": "Tổng số thuế đã khấu trừ TNDN — phần I",
+      "cot": "Số thuế đã khấu trừ — TNDN",
+      "formula": "[9@TN]+[10@TN]+[11@TN]+[12@TN]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "15",
+      "kind": "cong_thuc",
+      "label": "Tổng số thuế đã khấu trừ tổng cộng — phần I",
+      "cot": "Số thuế đã khấu trừ — tổng cộng",
+      "formula": "[9@TONG]+[10@TONG]+[11@TONG]+[12@TONG]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "16",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Cung cấp Hàng hóa/Goods — Doanh thu, hộ, cá nhân",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của hộ hoặc cá nhân bán hàng hóa trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "16@GTGT",
+      "label": "Cung cấp Hàng hóa/Goods — Hộ, cá nhân — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của hộ hoặc cá nhân bán hàng hóa?"
+    },
+    {
+      "code": "16@TN",
+      "label": "Cung cấp Hàng hóa/Goods — Hộ, cá nhân — Thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNCN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNCN của hộ hoặc cá nhân bán hàng hóa?"
+    },
+    {
+      "code": "16@TONG",
+      "label": "Cung cấp Hàng hóa/Goods — Hộ, cá nhân — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[16@GTGT]+[16@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "17",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Cung cấp Dịch vụ/Services — Doanh thu, hộ, cá nhân",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của hộ hoặc cá nhân cung cấp dịch vụ trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "17@GTGT",
+      "label": "Cung cấp Dịch vụ/Services — Hộ, cá nhân — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của hộ hoặc cá nhân cung cấp dịch vụ?"
+    },
+    {
+      "code": "17@TN",
+      "label": "Cung cấp Dịch vụ/Services — Hộ, cá nhân — Thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNCN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNCN của hộ hoặc cá nhân cung cấp dịch vụ?"
+    },
+    {
+      "code": "17@TONG",
+      "label": "Cung cấp Dịch vụ/Services — Hộ, cá nhân — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[17@GTGT]+[17@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Sản xuất, dịch vụ có gắn với hàng hóa/Manufacturing and services are associated to goods — Doanh thu, hộ, cá nhân",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của hộ hoặc cá nhân sản xuất hoặc cung cấp dịch vụ gắn với hàng hóa trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "18@GTGT",
+      "label": "Sản xuất, dịch vụ có gắn với hàng hóa/Manufacturing and services are associated to goods — Hộ, cá nhân — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của hộ hoặc cá nhân sản xuất hoặc cung cấp dịch vụ gắn với hàng hóa?"
+    },
+    {
+      "code": "18@TN",
+      "label": "Sản xuất, dịch vụ có gắn với hàng hóa/Manufacturing and services are associated to goods — Hộ, cá nhân — Thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNCN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNCN của hộ hoặc cá nhân sản xuất hoặc cung cấp dịch vụ gắn với hàng hóa?"
+    },
+    {
+      "code": "18@TONG",
+      "label": "Sản xuất, dịch vụ có gắn với hàng hóa/Manufacturing and services are associated to goods — Hộ, cá nhân — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[18@GTGT]+[18@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "19",
+      "kind": "so",
+      "cot": "Doanh thu",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Doanh thu, hộ, cá nhân",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Doanh thu của hộ hoặc cá nhân có giao dịch chưa tách được loại hàng hóa/dịch vụ trong tháng là bao nhiêu?"
+    },
+    {
+      "code": "19@GTGT",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Hộ, cá nhân — Thuế GTGT đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế GTGT đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế GTGT của hộ hoặc cá nhân có giao dịch chưa tách được loại hàng hóa/dịch vụ?"
+    },
+    {
+      "code": "19@TN",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Hộ, cá nhân — Thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Thuế TNCN đã khấu trừ",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Đã khấu trừ bao nhiêu thuế TNCN của hộ hoặc cá nhân có giao dịch chưa tách được loại hàng hóa/dịch vụ?"
+    },
+    {
+      "code": "19@TONG",
+      "label": "Không xác định được hàng hóa hoặc dịch vụ hoặc loại dịch vụ/The transaction relates to goods or services, or the type of service which can not be separated — Hộ, cá nhân — Tổng thuế đã khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[19@GTGT]+[19@TN]",
+      "cot": "Tổng thuế đã khấu trừ",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20",
+      "kind": "cong_thuc",
+      "label": "Tổng số thuế đã khấu trừ GTGT — phần II",
+      "cot": "Số thuế đã khấu trừ — GTGT",
+      "formula": "[16@GTGT]+[17@GTGT]+[18@GTGT]+[19@GTGT]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "kind": "cong_thuc",
+      "label": "Tổng số thuế đã khấu trừ TNCN — phần II",
+      "cot": "Số thuế đã khấu trừ — TNCN",
+      "formula": "[16@TN]+[17@TN]+[18@TN]+[19@TN]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "22",
+      "kind": "cong_thuc",
+      "label": "Tổng số thuế đã khấu trừ tổng cộng — phần II",
+      "cot": "Số thuế đã khấu trừ — tổng cộng",
+      "formula": "[16@TONG]+[17@TONG]+[18@TONG]+[19@TONG]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "DON_VI_TIEN",
+      "label": "Đơn vị tiền",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Báo cáo giao dịch và thanh toán của nền tảng theo người bán, bảng khấu trừ thuế theo loại hoạt động và kỳ tháng.",
+      "hoi": "Bảng số liệu này được lập theo đơn vị tiền nào?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-01-1-BK-CNKD-NCCNN-TMĐT",
+      "label": "Bạn có danh sách nhà cung cấp nước ngoài, hộ hoặc cá nhân cần kê chi tiết số thuế đã khấu trừ không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

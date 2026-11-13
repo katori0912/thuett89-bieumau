@@ -1,0 +1,458 @@
+{
+  "id": "TT89-04-1-ĐTV-TNCN",
+  "mau_so": "04-1/ĐTV-TNCN",
+  "title": "Phụ lục bảng kê chi tiết (Kèm theo Tờ khai mẫu số 04/ĐTV-TNCN áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04-1/ĐTV-TNCN",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên tổ chức khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_kt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_kt"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky_lps"
+    },
+    {
+      "code": "01b",
+      "label": "Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky_tq"
+    },
+    {
+      "code": "18",
+      "label": "Cá nhân nhận cổ tức bằng cổ phiếu — Số lượng cổ phiếu",
+      "kind": "so",
+      "cot": "Số lượng cổ phiếu",
+      "note": "= tổng cột [13] của bảng kê BK1; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [13] của bảng kê BK1; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ tức bằng cổ phiếu, số lượng cổ phiếu là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "Cá nhân nhận cổ tức bằng cổ phiếu — Tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá)",
+      "kind": "so",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá)",
+      "note": "= tổng cột [14] của bảng kê BK1; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [14] của bảng kê BK1; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ tức bằng cổ phiếu, tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá) là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "Cá nhân nhận cổ tức bằng cổ phiếu — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "kind": "so",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [15] của bảng kê BK1; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [15] của bảng kê BK1; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ tức bằng cổ phiếu, tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường) là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "label": "Cá nhân nhận cổ tức bằng cổ phiếu — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Số thuế phải nộp",
+      "note": "= tổng cột [16] của bảng kê BK1; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [16] của bảng kê BK1; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ tức bằng cổ phiếu, số thuế phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Cá nhân nhận cổ tức bằng cổ phiếu — Cá nhân được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần",
+      "kind": "so",
+      "cot": "Cá nhân được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [17] của bảng kê BK1; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [17] của bảng kê BK1; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Ở nhóm cổ tức bằng cổ phiếu, số tổng tại cột miễn giảm theo hiệp định trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Cá nhân là cổ đông hiện hữu nhận cổ phiếu phát hành từ nguồn vốn chủ sở hữu — Số lượng cổ phiếu",
+      "kind": "so",
+      "cot": "Số lượng cổ phiếu",
+      "note": "= tổng cột [13] của bảng kê BK2; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [13] của bảng kê BK2; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ phiếu từ vốn chủ sở hữu cho cổ đông hiện hữu, số lượng cổ phiếu là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Cá nhân là cổ đông hiện hữu nhận cổ phiếu phát hành từ nguồn vốn chủ sở hữu — Tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá)",
+      "kind": "so",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá)",
+      "note": "= tổng cột [14] của bảng kê BK2; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [14] của bảng kê BK2; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ phiếu từ vốn chủ sở hữu cho cổ đông hiện hữu, tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá) là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Cá nhân là cổ đông hiện hữu nhận cổ phiếu phát hành từ nguồn vốn chủ sở hữu — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "kind": "so",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [15] của bảng kê BK2; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [15] của bảng kê BK2; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ phiếu từ vốn chủ sở hữu cho cổ đông hiện hữu, tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường) là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Cá nhân là cổ đông hiện hữu nhận cổ phiếu phát hành từ nguồn vốn chủ sở hữu — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Số thuế phải nộp",
+      "note": "= tổng cột [16] của bảng kê BK2; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [16] của bảng kê BK2; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng cổ phiếu từ vốn chủ sở hữu cho cổ đông hiện hữu, số thuế phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Cá nhân là cổ đông hiện hữu nhận cổ phiếu phát hành từ nguồn vốn chủ sở hữu — Cá nhân được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần",
+      "kind": "so",
+      "cot": "Cá nhân được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [17] của bảng kê BK2; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [17] của bảng kê BK2; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Ở nhóm cổ phiếu từ vốn chủ sở hữu, số tổng tại cột miễn giảm theo hiệp định trên bảng đã lập là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Cá nhân được ghi nhận phần vốn tăng thêm do lợi tức ghi tăng vốn — Tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá)",
+      "kind": "so",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá)",
+      "note": "= tổng cột [14] của bảng kê BK3; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [14] của bảng kê BK3; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng lợi tức ghi tăng vốn, tổng giá trị cổ tức (hoặc lợi tức được chia theo mệnh giá) là bao nhiêu?"
+    },
+    {
+      "code": "29",
+      "label": "Cá nhân được ghi nhận phần vốn tăng thêm do lợi tức ghi tăng vốn — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "kind": "so",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [15] của bảng kê BK3; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [15] của bảng kê BK3; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng lợi tức ghi tăng vốn, tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường) là bao nhiêu?"
+    },
+    {
+      "code": "30",
+      "label": "Cá nhân được ghi nhận phần vốn tăng thêm do lợi tức ghi tăng vốn — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Số thuế phải nộp",
+      "note": "= tổng cột [16] của bảng kê BK3; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [16] của bảng kê BK3; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Riêng lợi tức ghi tăng vốn, số thuế phải nộp là bao nhiêu?"
+    },
+    {
+      "code": "31",
+      "label": "Cá nhân được ghi nhận phần vốn tăng thêm do lợi tức ghi tăng vốn — Cá nhân được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần",
+      "kind": "so",
+      "cot": "Cá nhân được miễn, giảm thuế theo Hiệp định tránh đánh thuế hai lần",
+      "note": "= tổng cột [17] của bảng kê BK3; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [17] của bảng kê BK3; người dùng nhập tổng.",
+      "lay_o_dau": "Danh sách cá nhân được khai thay, thông báo chia cổ tức/lợi tức, hồ sơ phát hành, chuyển nhượng và bảng tính thuế.",
+      "hoi": "Ở nhóm lợi tức ghi tăng vốn, số tổng tại cột miễn giảm theo hiệp định trên bảng đã lập là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Cá nhân nhận cổ tức bằng cổ phiếu",
+      "cot": [
+        {
+          "ma": "6",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "7",
+          "ten": "Họ tên NNT",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Tổ chức phát hành",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Mã cổ phiếu",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Mệnh giá cổ phiếu",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số lượng cổ phiếu",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Tổng giá trị cổ tức theo mệnh giá",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Tổng giá trị theo sổ sách/thị trường",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Thuế phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Miễn giảm theo Hiệp định",
+          "c": 11,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Cổ đông hiện hữu nhận cổ phiếu từ vốn chủ sở hữu",
+      "cot": [
+        {
+          "ma": "6",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Họ tên NNT",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Tổ chức phát hành",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Mã cổ phiếu",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Mệnh giá cổ phiếu",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số lượng cổ phiếu",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Tổng giá trị cổ tức theo mệnh giá",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Tổng giá trị theo sổ sách/thị trường",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Thuế phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Miễn giảm theo Hiệp định",
+          "c": 11,
+          "kieu": "chu"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK3",
+      "ten": "Lợi tức ghi tăng vốn",
+      "cot": [
+        {
+          "ma": "6",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Họ tên NNT",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Mã số thuế",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "9",
+          "ten": "Số định danh/Hộ chiếu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Tổ chức phát hành",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Mã cổ phiếu",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Mệnh giá cổ phiếu",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số lượng cổ phiếu",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Tổng giá trị cổ tức theo mệnh giá",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Tổng giá trị theo sổ sách/thị trường",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Thuế phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Miễn giảm theo Hiệp định",
+          "c": 11,
+          "kieu": "chu"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

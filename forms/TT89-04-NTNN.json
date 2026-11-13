@@ -1,0 +1,369 @@
+{
+  "id": "TT89-04-NTNN",
+  "mau_so": "04/NTNN",
+  "title": "Tờ khai quyết toán thuế nhà thầu nước ngoài — 04/NTNN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từ ngày đến ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Kỳ quyết toán này bắt đầu ngày nào và kết thúc ngày nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: 🗆",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người nộp thuế trên hồ sơ đăng ký là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "09",
+      "label": "Hợp đồng nhà thầu: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng nhà thầu và phụ lục hợp đồng.",
+      "hoi": "Bạn quyết toán hợp đồng nhà thầu số nào, ký ngày nào?"
+    },
+    {
+      "code": "CT1",
+      "label": "Giá trị hợp đồng — Kê khai",
+      "kind": "so",
+      "cot": "Kê khai",
+      "section": "Số đã kê khai",
+      "lay_o_dau": "Hợp đồng, phụ lục và biên bản quyết toán.",
+      "hoi": "Giá trị hợp đồng đã ghi trong các tờ khai trước là bao nhiêu?"
+    },
+    {
+      "code": "CT1@QT",
+      "label": "Giá trị hợp đồng — Quyết toán",
+      "kind": "so",
+      "cot": "Quyết toán",
+      "section": "Số quyết toán",
+      "lay_o_dau": "Hợp đồng, phụ lục và biên bản quyết toán.",
+      "hoi": "Giá trị hợp đồng sau khi đối chiếu quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "CT1@CL",
+      "label": "Giá trị hợp đồng — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT1@QT]-[CT1]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT1@GC",
+      "label": "Giá trị hợp đồng — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Giá trị hợp đồng?"
+    },
+    {
+      "code": "CT2",
+      "label": "Doanh thu tính thuế — Kê khai",
+      "kind": "so",
+      "cot": "Kê khai",
+      "section": "Số đã kê khai",
+      "lay_o_dau": "Các tờ khai đã nộp và bảng doanh thu quyết toán.",
+      "hoi": "Doanh thu tính thuế trước khi trừ thầu phụ đã ghi trong các tờ khai trước là bao nhiêu?"
+    },
+    {
+      "code": "CT2@QT",
+      "label": "Doanh thu tính thuế — Quyết toán",
+      "kind": "so",
+      "cot": "Quyết toán",
+      "section": "Số quyết toán",
+      "lay_o_dau": "Các tờ khai đã nộp và bảng doanh thu quyết toán.",
+      "hoi": "Doanh thu tính thuế trước khi trừ thầu phụ sau khi đối chiếu quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "CT2@CL",
+      "label": "Doanh thu tính thuế — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT2@QT]-[CT2]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT2@GC",
+      "label": "Doanh thu tính thuế — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Doanh thu tính thuế?"
+    },
+    {
+      "code": "CT3",
+      "label": "Doanh thu phần việc nhà thầu phụ Việt Nam được trừ — Kê khai",
+      "kind": "so",
+      "cot": "Kê khai",
+      "section": "Số đã kê khai",
+      "lay_o_dau": "Hợp đồng thầu phụ, biên bản nghiệm thu và bảng phần việc được trừ.",
+      "hoi": "Doanh thu phần việc nhà thầu phụ Việt Nam được trừ đã ghi trong các tờ khai trước là bao nhiêu?"
+    },
+    {
+      "code": "CT3@QT",
+      "label": "Doanh thu phần việc nhà thầu phụ Việt Nam được trừ — Quyết toán",
+      "kind": "so",
+      "cot": "Quyết toán",
+      "section": "Số quyết toán",
+      "lay_o_dau": "Hợp đồng thầu phụ, biên bản nghiệm thu và bảng phần việc được trừ.",
+      "hoi": "Doanh thu phần việc nhà thầu phụ Việt Nam được trừ sau khi đối chiếu quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "CT3@CL",
+      "label": "Doanh thu phần việc nhà thầu phụ Việt Nam được trừ — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT3@QT]-[CT3]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT3@GC",
+      "label": "Doanh thu phần việc nhà thầu phụ Việt Nam được trừ — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Doanh thu phần việc nhà thầu phụ Việt Nam được trừ?"
+    },
+    {
+      "code": "CT4",
+      "label": "Doanh thu tính thuế nhà thầu nước ngoài — Kê khai",
+      "kind": "cong_thuc",
+      "formula": "[CT2]-[CT3]",
+      "cot": "Kê khai",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT4@QT",
+      "label": "Doanh thu tính thuế nhà thầu nước ngoài — Quyết toán",
+      "kind": "cong_thuc",
+      "formula": "[CT2@QT]-[CT3@QT]",
+      "cot": "Quyết toán",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT4@CL",
+      "label": "Doanh thu tính thuế nhà thầu nước ngoài — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT4@QT]-[CT4]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT4@GC",
+      "label": "Doanh thu tính thuế nhà thầu nước ngoài — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Doanh thu tính thuế nhà thầu nước ngoài?"
+    },
+    {
+      "code": "CT5",
+      "label": "Thuế TNDN phải nộp — Kê khai",
+      "kind": "so",
+      "cot": "Kê khai",
+      "section": "Số đã kê khai",
+      "lay_o_dau": "Tờ khai nhà thầu, bảng tính TNDN và hồ sơ quyết toán.",
+      "hoi": "Thuế TNDN phải nộp đã ghi trong các tờ khai trước là bao nhiêu?"
+    },
+    {
+      "code": "CT5@QT",
+      "label": "Thuế TNDN phải nộp — Quyết toán",
+      "kind": "so",
+      "cot": "Quyết toán",
+      "section": "Số quyết toán",
+      "lay_o_dau": "Tờ khai nhà thầu, bảng tính TNDN và hồ sơ quyết toán.",
+      "hoi": "Thuế TNDN phải nộp sau khi đối chiếu quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "CT5@CL",
+      "label": "Thuế TNDN phải nộp — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT5@QT]-[CT5]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT5@GC",
+      "label": "Thuế TNDN phải nộp — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Thuế TNDN phải nộp?"
+    },
+    {
+      "code": "CT6",
+      "label": "Thuế TNDN đã nộp — Kê khai",
+      "kind": "so",
+      "cot": "Kê khai",
+      "section": "Số đã kê khai",
+      "lay_o_dau": "Chứng từ nộp thuế và bảng đối chiếu nghĩa vụ thuế.",
+      "hoi": "Thuế TNDN đã nộp đã ghi trong các tờ khai trước là bao nhiêu?"
+    },
+    {
+      "code": "CT6@QT",
+      "label": "Thuế TNDN đã nộp — Quyết toán",
+      "kind": "so",
+      "cot": "Quyết toán",
+      "section": "Số quyết toán",
+      "lay_o_dau": "Chứng từ nộp thuế và bảng đối chiếu nghĩa vụ thuế.",
+      "hoi": "Thuế TNDN đã nộp sau khi đối chiếu quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "CT6@CL",
+      "label": "Thuế TNDN đã nộp — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT6@QT]-[CT6]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT6@GC",
+      "label": "Thuế TNDN đã nộp — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Thuế TNDN đã nộp?"
+    },
+    {
+      "code": "CT7",
+      "label": "Thuế TNDN còn phải nộp — Kê khai",
+      "kind": "cong_thuc",
+      "formula": "MAX([CT5]-[CT6],0)",
+      "cot": "Kê khai",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT7@QT",
+      "label": "Thuế TNDN còn phải nộp — Quyết toán",
+      "kind": "cong_thuc",
+      "formula": "MAX([CT5@QT]-[CT6@QT],0)",
+      "cot": "Quyết toán",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT7@CL",
+      "label": "Thuế TNDN còn phải nộp — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT7@QT]-[CT7]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT7@GC",
+      "label": "Thuế TNDN còn phải nộp — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Thuế TNDN còn phải nộp?"
+    },
+    {
+      "code": "CT8",
+      "label": "Thuế TNDN nộp thừa (số âm) — Kê khai",
+      "kind": "cong_thuc",
+      "formula": "MIN([CT5]-[CT6],0)",
+      "cot": "Kê khai",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT8@QT",
+      "label": "Thuế TNDN nộp thừa (số âm) — Quyết toán",
+      "kind": "cong_thuc",
+      "formula": "MIN([CT5@QT]-[CT6@QT],0)",
+      "cot": "Quyết toán",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT8@CL",
+      "label": "Thuế TNDN nộp thừa (số âm) — Chênh lệch",
+      "kind": "cong_thuc",
+      "formula": "[CT8@QT]-[CT8]",
+      "cot": "Chênh lệch",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "CT8@GC",
+      "label": "Thuế TNDN nộp thừa (số âm) — Ghi chú",
+      "kind": "chu",
+      "cot": "Ghi chú",
+      "section": "Ghi chú",
+      "lay_o_dau": "Biên bản đối chiếu và giải trình quyết toán.",
+      "hoi": "Bạn cần ghi chú gì cho dòng Thuế TNDN nộp thừa?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [
+    {
+      "expr": "[CT3]<=[CT2]",
+      "text": "Doanh thu không chịu thuế/giảm trừ (3) không lớn hơn doanh thu (2) — HTKK chặn [4] về 0, bot cảnh báo"
+    },
+    {
+      "expr": "[CT3@QT]<=[CT2@QT]",
+      "text": "Doanh thu không chịu thuế/giảm trừ (3@QT) không lớn hơn doanh thu (2@QT) — HTKK chặn [4] về 0, bot cảnh báo"
+    }
+  ],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

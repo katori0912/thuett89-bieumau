@@ -1,0 +1,187 @@
+{
+  "id": "TT89-03-9-TNDN",
+  "mau_so": "03-9/TNDN",
+  "title": "Phụ lục bảng kê chứng từ nộp tiền thuế thu nhập doanh nghiệp tạm nộp của hoạt động chuyển nhượng bất động sản thu tiền theo tiến độ chưa bàn giao trong năm — 03-9/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "04",
+      "label": "Thuế TNDN đã tạm nộp của hoạt động chuyển nhượng BĐS chưa quyết toán trong các kỳ trước",
+      "cot": "Số thuế TNDN đã tạm nộp",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Chứng từ tạm nộp thuế của dự án bất động sản thu tiền theo tiến độ, bảng theo dõi số chưa quyết toán các kỳ trước và số dùng bù trừ kỳ này.",
+      "hoi": "Thuế đã tạm nộp các kỳ trước cho bất động sản chưa quyết toán còn theo dõi là bao nhiêu?"
+    },
+    {
+      "code": "05",
+      "label": "Thuế TNDN đã tạm nộp của hoạt động chuyển nhượng BĐS chưa quyết toán trong các kỳ trước",
+      "cot": "Số thuế TNDN đã tạm nộp bù trừ với số thuế phải nộp theo quyết toán kỳ này",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Chứng từ tạm nộp thuế của dự án bất động sản thu tiền theo tiến độ, bảng theo dõi số chưa quyết toán các kỳ trước và số dùng bù trừ kỳ này.",
+      "hoi": "Trong số thuế của các kỳ trước đó, bao nhiêu được bù trừ vào quyết toán kỳ này?"
+    },
+    {
+      "code": "06",
+      "label": "Thuế đã tạm nộp các kỳ trước chưa quyết toán chuyển kỳ sau",
+      "kind": "cong_thuc",
+      "formula": "[04]-[05]",
+      "cot": "Số tiền thuế đã tạm nộp chưa quyết toán chuyển kỳ sau",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "07",
+      "label": "Thuế TNDN đã tạm nộp theo tiến độ trong kỳ này",
+      "cot": "Số thuế TNDN đã tạm nộp bù trừ với số thuế phải nộp theo quyết toán kỳ này",
+      "kind": "cong_thuc",
+      "formula": "[BK1.9]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "08",
+      "label": "Thuế đã tạm nộp trong kỳ chưa quyết toán chuyển kỳ sau",
+      "kind": "cong_thuc",
+      "cot": "Số tiền thuế đã tạm nộp chưa quyết toán chuyển kỳ sau",
+      "formula": "[06@TN]-[07]",
+      "note": "Tham chiếu [06] dòng kỳ này là r4/c8, biểu diễn [06@TN].",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09",
+      "label": "Tổng thuế TNDN đã tạm nộp bù trừ theo quyết toán kỳ này",
+      "kind": "cong_thuc",
+      "formula": "[05]+[07]",
+      "cot": "Số thuế TNDN đã tạm nộp bù trừ với số thuế phải nộp theo quyết toán kỳ này",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "10",
+      "label": "Tổng thuế TNDN chưa quyết toán chuyển các kỳ sau",
+      "kind": "cong_thuc",
+      "cot": "Số tiền thuế đã tạm nộp chưa quyết toán chuyển kỳ sau",
+      "formula": "[06]+[08]",
+      "note": "Tham chiếu [06] tổng chuyển kỳ sau là r3/c10, cộng [08] kỳ này.",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "06@TN",
+      "label": "Thuế TNDN đã tạm nộp theo tiến độ trong kỳ này",
+      "kind": "cong_thuc",
+      "formula": "[BK1.8]",
+      "cot": "Số thuế TNDN đã tạm nộp",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "THU_TIEN",
+      "label": "Tổng tiền thu theo tiến độ trong kỳ này",
+      "kind": "cong_thuc",
+      "formula": "[BK1.7]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Chứng từ tạm nộp theo tiến độ trong kỳ này",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên dự án bất động sản",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Số chứng từ",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3@NGAY",
+          "ten": "Ngày chứng từ",
+          "c": 3,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "4",
+          "ten": "Xã/phường/đặc khu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Tỉnh",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Tên cơ quan thu",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Số tiền thu theo tiến độ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TNDN đã tạm nộp",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế tạm nộp bù trừ theo quyết toán kỳ này",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế tạm nộp chưa quyết toán chuyển kỳ sau",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[8]-[9]"
+        }
+      ],
+      "tong": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

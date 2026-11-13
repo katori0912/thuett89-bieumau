@@ -1,0 +1,174 @@
+{
+  "id": "TT89-03-4-TNDN",
+  "mau_so": "03-4/TNDN",
+  "title": "Phụ lục thuế thu nhập doanh nghiệp đã nộp đối với thu nhập ở nước ngoài — 03-4/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "04",
+      "label": "Tổng thuế thu nhập đã nộp ở nước ngoài được trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế đã nộp ở nước ngoài được trừ",
+      "note": "= tổng cột (8) bảng A Cùng [05] tổng hợp vào C16 tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK1.8]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "05",
+      "label": "Tổng thuế bổ sung theo thuế tối thiểu toàn cầu đã nộp được trừ",
+      "kind": "cong_thuc",
+      "cot": "Số thuế đã nộp được trừ",
+      "note": "= tổng cột (8) bảng B Cùng [04] tổng hợp vào C16 tờ khai 03/TNDN.; T21: tự cộng từ bảng kê.",
+      "formula": "[BK2.8]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "A. Thuế thu nhập đã nộp ở nước ngoài",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên và địa chỉ người nộp thuế ở nước ngoài",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Thu nhập nhận ở nước ngoài",
+          "c": 2,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Thuế thu nhập đã nộp ở nước ngoài",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Thu nhập chịu thuế theo Luật thuế TNDN",
+          "c": 4,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[3]+[4]"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế suất TNDN (%)",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế theo Luật thuế TNDN",
+          "c": 6,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[5]*[6]/100"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế đã nộp ở nước ngoài được trừ",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "3",
+        "4",
+        "5",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "B. Thuế bổ sung theo thuế tối thiểu toàn cầu",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "MST đơn vị hợp thành chịu trách nhiệm kê khai",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Tên đơn vị hợp thành",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Kỳ phát sinh nghĩa vụ thuế tối thiểu toàn cầu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Thu nhập nhận ở nước ngoài",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế theo Luật thuế TNDN",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế bổ sung đã nộp được phân bổ",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế đã nộp được trừ",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,526 @@
+{
+  "id": "TT89-04-ĐTV-TNCN",
+  "mau_so": "04/ĐTV-TNCN",
+  "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân nhận cổ tức bằng cổ phiếu, lợi tức ghi tăng vốn, cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu khi chuyển nhượng và tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04/ĐTV-TNCN",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: ☐ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Số định danh cá nhân/Hộ chiếu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp số định danh cá nhân/Hộ chiếu?"
+    },
+    {
+      "code": "07",
+      "label": "Ngày, tháng, năm sinh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp ngày, tháng, năm sinh?"
+    },
+    {
+      "code": "08",
+      "label": "Quốc tịch",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp quốc tịch?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp điện thoại — người nộp thuế?"
+    },
+    {
+      "code": "10",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp email — người nộp thuế?"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức khai thay (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tên tổ chức khai thay (nếu có)?",
+      "role": "ten_kt"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — tổ chức/cá nhân khai thay?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "13",
+      "label": "Địa chỉ — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp địa chỉ — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "14",
+      "label": "Xã/Phường/Đặc khu — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "15",
+      "label": "Tỉnh/Thành phố — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tỉnh/Thành phố — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "16",
+      "label": "Điện thoại — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp điện thoại — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "17",
+      "label": "Email — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp email — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "18",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "19",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "20",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn khai cho tháng hoặc quý nào?",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Lần phát sinh: ngày tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Ngày phát sinh lần chuyển nhượng này là ngày nào (dd/mm/yyyy)?",
+      "role": "ky_lps"
+    },
+    {
+      "code": "01b",
+      "label": "Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn khai cho tháng hoặc quý nào?",
+      "role": "ky_tq"
+    },
+    {
+      "code": "29",
+      "label": "Cổ phiếu trả thay cổ tức — Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "note": "= tổng cột [26] của bảng kê; phần Cổ phiếu trả thay cổ tức; người dùng nhập tổng.",
+      "formula": "[BK1.26]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "30",
+      "label": "Cổ phiếu trả thay cổ tức — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [27] của bảng kê; phần Cổ phiếu trả thay cổ tức; người dùng nhập tổng.",
+      "formula": "[BK1.27]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "31",
+      "label": "Cổ phiếu trả thay cổ tức — Thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Thuế phải nộp",
+      "note": "= tổng cột [28] của bảng kê; phần Cổ phiếu trả thay cổ tức; người dùng nhập tổng.",
+      "formula": "[BK1.28]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "32",
+      "label": "Cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu — Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "note": "= tổng cột [26] của bảng kê; phần Cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu; người dùng nhập tổng.",
+      "formula": "[BK2.26]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "33",
+      "label": "Cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [27] của bảng kê; phần Cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu; người dùng nhập tổng.",
+      "formula": "[BK2.27]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "34",
+      "label": "Cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu — Thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Thuế phải nộp",
+      "note": "= tổng cột [28] của bảng kê; phần Cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu; người dùng nhập tổng.",
+      "formula": "[BK2.28]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "35",
+      "label": "Lợi tức ghi tăng vốn — Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "note": "= tổng cột [26] của bảng kê; phần Lợi tức ghi tăng vốn; người dùng nhập tổng.",
+      "formula": "[BK3.26]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "36",
+      "label": "Lợi tức ghi tăng vốn — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [27] của bảng kê; phần Lợi tức ghi tăng vốn; người dùng nhập tổng.",
+      "formula": "[BK3.27]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Lợi tức ghi tăng vốn — Thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Thuế phải nộp",
+      "note": "= tổng cột [28] của bảng kê; phần Lợi tức ghi tăng vốn; người dùng nhập tổng.",
+      "formula": "[BK3.28]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "38",
+      "label": "Tổng cộng — Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá — Lợi tức ghi tăng vốn",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị cổ tức (hoặc lợi tức) được chia theo mệnh giá",
+      "note": "= tổng cột [26] của bảng kê; phần Lợi tức ghi tăng vốn; người dùng nhập tổng.",
+      "formula": "[29]+[32]+[35]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "39",
+      "label": "Tổng cộng — Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường) — Lợi tức ghi tăng vốn",
+      "kind": "cong_thuc",
+      "cot": "Tổng giá trị theo giá sổ sách kế toán (hoặc theo giá thị trường)",
+      "note": "= tổng cột [27] của bảng kê; phần Lợi tức ghi tăng vốn; người dùng nhập tổng.",
+      "formula": "[30]+[33]+[36]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "40",
+      "label": "Tổng cộng — Thuế phải nộp — Lợi tức ghi tăng vốn",
+      "kind": "cong_thuc",
+      "cot": "Thuế phải nộp",
+      "note": "= tổng cột [28] của bảng kê; phần Lợi tức ghi tăng vốn; người dùng nhập tổng.",
+      "formula": "[31]+[34]+[37]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "HIEPDINH",
+      "label": "Miễn giảm theo hiệp định",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn có hồ sơ miễn giảm theo hiệp định tránh đánh thuế hai lần không?"
+    },
+    {
+      "code": "KHAITHAY",
+      "label": "Tổ chức khai thuế thay",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Thông báo chia cổ tức/cổ phiếu hoặc ghi tăng vốn, hồ sơ phát hành và chuyển nhượng, sổ kế toán và bảng tính thuế.",
+      "hoi": "Bạn có tổ chức khai thuế thay cho cá nhân không?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Cổ phiếu trả thay cổ tức",
+      "cot": [
+        {
+          "ma": "21",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "22",
+          "ten": "Tổ chức phát hành",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "23",
+          "ten": "Mã cổ phiếu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "24",
+          "ten": "Số lượng cổ phiếu",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "25",
+          "ten": "Mệnh giá cổ phiếu",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "26",
+          "ten": "Giá trị cổ tức theo mệnh giá",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "27",
+          "ten": "Giá trị sổ sách/thị trường",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "28",
+          "ten": "Thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "MSTTC",
+          "ten": "Mã số thuế tổ chức phát hành (chỉ HTKK)",
+          "c": -1,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "24",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Cổ phiếu từ nguồn vốn chủ sở hữu",
+      "cot": [
+        {
+          "ma": "21",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "22",
+          "ten": "Tổ chức phát hành",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "23",
+          "ten": "Mã cổ phiếu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "24",
+          "ten": "Số lượng cổ phiếu",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "25",
+          "ten": "Mệnh giá cổ phiếu",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "26",
+          "ten": "Giá trị cổ tức theo mệnh giá",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "27",
+          "ten": "Giá trị sổ sách/thị trường",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "28",
+          "ten": "Thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "MSTTC",
+          "ten": "Mã số thuế tổ chức phát hành (chỉ HTKK)",
+          "c": -1,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "24",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "id": "BK3",
+      "ten": "Lợi tức ghi tăng vốn",
+      "cot": [
+        {
+          "ma": "21",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "22",
+          "ten": "Tổ chức phát hành",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "23",
+          "ten": "Mã cổ phiếu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "24",
+          "ten": "Số lượng cổ phiếu",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "25",
+          "ten": "Mệnh giá cổ phiếu",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "26",
+          "ten": "Giá trị cổ tức theo mệnh giá",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "27",
+          "ten": "Giá trị sổ sách/thị trường",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "28",
+          "ten": "Thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "MSTTC",
+          "ten": "Mã số thuế tổ chức phát hành (chỉ HTKK)",
+          "c": -1,
+          "kieu": "chu"
+        }
+      ],
+      "tong": [
+        "24",
+        "26",
+        "27",
+        "28"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-04-1-ĐTV-TNCN",
+      "label": "Bạn có danh sách cá nhân nhận cổ tức, cổ phiếu hoặc lợi tức ghi tăng vốn cần kê khi khai thay không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

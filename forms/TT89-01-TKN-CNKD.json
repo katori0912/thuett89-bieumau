@@ -1,0 +1,1895 @@
+{
+  "id": "TT89-01-TKN-CNKD",
+  "mau_so": "01/TKN-CNKD",
+  "title": "Thông báo doanh thu và khai thuế năm hộ, cá nhân kinh doanh — 01/TKN-CNKD",
+  "fields": [
+    {
+      "code": "04",
+      "label": "Người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên hộ kinh doanh hoặc người nộp thuế?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tổ chức/cá nhân kê khai, nộp thuế thay theo ủy quyền (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người hoặc tổ chức khai thay?"
+    },
+    {
+      "code": "06.1",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người hoặc tổ chức khai thay?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "06.2",
+      "label": "Văn bản uỷ quyền (nếu có): Số ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký văn bản ủy quyền?"
+    },
+    {
+      "code": "07",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên đơn vị dịch vụ thuế?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07.1",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của đơn vị dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "07.2",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Ngày ký hợp đồng dịch vụ thuế?"
+    },
+    {
+      "code": "49",
+      "label": "Đề nghị hoàn trả",
+      "kind": "tieu_de",
+      "section": "Đề nghị hoàn trả"
+    },
+    {
+      "code": "49.1",
+      "label": "Số thuế GTGT — Đề nghị hoàn trả",
+      "kind": "so",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền thuế GTGT bạn đề nghị hoàn là bao nhiêu?"
+    },
+    {
+      "code": "49.2",
+      "label": "Số thuế TNCN từ hoạt động sản xuất kinh doanh (trừ hoạt động cho thuê nhà) — Đề nghị hoàn trả",
+      "kind": "so",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền thuế TNCN kinh doanh ngoài cho thuê bạn đề nghị hoàn là bao nhiêu?"
+    },
+    {
+      "code": "49.3",
+      "label": "Số thuế TNCN từ hoạt động cho thuê nhà — Đề nghị hoàn trả",
+      "kind": "so",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền thuế TNCN cho thuê nhà bạn đề nghị hoàn là bao nhiêu?"
+    },
+    {
+      "code": "49.4",
+      "label": "Tổng cộng — Đề nghị hoàn trả",
+      "kind": "so",
+      "note": "Tổng số tiền đề nghị hoàn trả; người dùng nhập tổng, mẫu không nêu công thức.",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền tổng cộng cả ba khoản trên bạn đề nghị hoàn là bao nhiêu?"
+    },
+    {
+      "code": "50",
+      "label": "Số bù trừ cho các phát sinh của kỳ sau",
+      "kind": "tieu_de",
+      "section": "Số bù trừ cho các phát sinh của kỳ sau"
+    },
+    {
+      "code": "50.1",
+      "label": "Số thuế GTGT — Bù trừ kỳ sau",
+      "kind": "so",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền thuế GTGT bạn để bù trừ phát sinh kỳ sau là bao nhiêu?"
+    },
+    {
+      "code": "50.2",
+      "label": "Số thuế TNCN từ hoạt động sản xuất kinh doanh (trừ hoạt động cho thuê nhà) — Bù trừ kỳ sau",
+      "kind": "so",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền thuế TNCN kinh doanh ngoài cho thuê bạn để bù trừ phát sinh kỳ sau là bao nhiêu?"
+    },
+    {
+      "code": "50.3",
+      "label": "Số thuế TNCN từ hoạt động cho thuê nhà — Bù trừ kỳ sau",
+      "kind": "so",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền thuế TNCN cho thuê nhà bạn để bù trừ phát sinh kỳ sau là bao nhiêu?"
+    },
+    {
+      "code": "50.4",
+      "label": "Tổng cộng — Bù trừ kỳ sau",
+      "kind": "so",
+      "note": "Tổng số tiền bù trừ cho kỳ sau; người dùng nhập tổng, mẫu không nêu công thức.",
+      "section": "Xử lý nộp thừa",
+      "lay_o_dau": "Bảng phân bổ xử lý khoản nộp thừa, đối chiếu theo từng loại thuế; tổng cộng lấy số đã kiểm tra trong bảng.",
+      "hoi": "Số tiền tổng cộng cả ba khoản trên bạn để bù trừ phát sinh kỳ sau là bao nhiêu?"
+    },
+    {
+      "code": "51",
+      "label": "Thông tin hoàn trả",
+      "kind": "tieu_de",
+      "section": "Thông tin hoàn trả"
+    },
+    {
+      "code": "51.1",
+      "label": "Tên chủ tài khoản",
+      "kind": "chu",
+      "section": "Xử lý nộp thừa",
+      "hoi": "Tên chủ tài khoản nhận tiền hoàn?"
+    },
+    {
+      "code": "51.2",
+      "label": "Tài khoản số",
+      "kind": "chu",
+      "section": "Xử lý nộp thừa",
+      "hoi": "Số tài khoản nhận tiền hoàn?"
+    },
+    {
+      "code": "51.3",
+      "label": "Tại Ngân hàng/KBNN",
+      "kind": "chu",
+      "section": "Xử lý nộp thừa",
+      "hoi": "Tên ngân hàng hoặc Kho bạc Nhà nước nơi mở tài khoản?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xác nhận kỳ khai 6 tháng cuối năm?",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xác nhận kỳ khai cả năm?"
+    },
+    {
+      "code": "01b",
+      "label": "6 tháng đầu năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xác nhận kỳ khai 6 tháng đầu năm?"
+    },
+    {
+      "code": "01c",
+      "label": "6 tháng cuối năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Xác nhận kỳ khai 6 tháng cuối năm?"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là tờ khai lần đầu cho kỳ này?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "08",
+      "label": "Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ có địa điểm kinh doanh cố định",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "note": "Ô hiện có là cột Nhóm ngành nghề; các cột số liệu của cùng hàng chưa có mã riêng trong schema.",
+      "section": "Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ có địa điểm kinh doanh cố định"
+    },
+    {
+      "code": "09",
+      "label": "Hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "note": "Ô hiện có là cột Nhóm ngành nghề; các cột số liệu của cùng hàng chưa có mã riêng trong schema.",
+      "section": "Hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác"
+    },
+    {
+      "code": "10",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "note": "Ô hiện có là cột Nhóm ngành nghề; các cột số liệu của cùng hàng chưa có mã riêng trong schema.",
+      "section": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp"
+    },
+    {
+      "code": "11",
+      "label": "Hoạt động môi giới",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "note": "Ô hiện có là cột Nhóm ngành nghề; các cột số liệu của cùng hàng chưa có mã riêng trong schema.",
+      "section": "Hoạt động môi giới"
+    },
+    {
+      "code": "12",
+      "label": "Hoạt động cá nhân hợp tác kinh doanh với tổ chức",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "note": "Ô hiện có là cột Nhóm ngành nghề; các cột số liệu của cùng hàng chưa có mã riêng trong schema.",
+      "section": "Hoạt động cá nhân hợp tác kinh doanh với tổ chức"
+    },
+    {
+      "code": "13",
+      "label": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.1",
+      "label": "Tổng cộng — Thuế GTGT — Tổng doanh thu — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Thuế GTGT — Tổng doanh thu",
+      "note": "= tổng cột (2) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.2]+[A09.2]+[A12.2]+[10@C4]+[11@C4]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.2",
+      "label": "Tổng cộng — Thuế GTGT — Trong đó: doanh thu không chịu thuế GTGT — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Thuế GTGT — Trong đó: doanh thu không chịu thuế GTGT",
+      "note": "= tổng cột (3) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.3]+[A09.3]+[A12.3]+[10@C5]+[11@C5]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.3",
+      "label": "Tổng cộng — Thuế GTGT — Trong đó: doanh thu chịu thuế suất 0% — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản) (nhập 20 cho 20%)",
+      "kind": "cong_thuc",
+      "cot": "Thuế GTGT — Trong đó: doanh thu chịu thuế suất 0%",
+      "note": "= tổng cột (4) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.4]+[A09.4]+[A12.4]+[10@C6]+[11@C6]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.4",
+      "label": "Tổng cộng — Thuế GTGT — Số thuế phải nộp — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "note": "= tổng cột (5) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.5]+[A09.5]+[A12.5]+[10@C7]+[11@C7]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.5",
+      "label": "Tổng cộng — Thuế TNCN — Doanh thu chịu thuế — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNCN — Doanh thu chịu thuế",
+      "note": "= tổng cột (6) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.6]+[A09.6]+[A12.6]+[10@C8]+[11@C8]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.6",
+      "label": "Tổng cộng — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "note": "= tổng cột (7) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.7]+[A09.7]+[A12.7]+[10@C9]+[11@C9]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.7",
+      "label": "Tổng cộng — Thuế TNCN — Số thuế phải nộp — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "note": "= tổng cột (8) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.8]+[A09.8]+[A12.8]+[10@C10]+[11@C10]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.8",
+      "label": "Tổng cộng — Số tiền người nộp thuế trực tiếp nộp vào NSNN — GTGT — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số tiền người nộp thuế trực tiếp nộp vào NSNN — GTGT",
+      "note": "= tổng cột (9) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.9]+[A09.9]+[A12.9]+[10@C11]+[11@C11]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.9",
+      "label": "Tổng cộng — Số tiền người nộp thuế trực tiếp nộp vào NSNN — TNCN — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số tiền người nộp thuế trực tiếp nộp vào NSNN — TNCN",
+      "note": "= tổng cột (10) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.10]+[A09.10]+[A12.10]+[10@C12]+[11@C12]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.10",
+      "label": "Tổng cộng — Số tiền do tổ chức khấu trừ, nộp thay — GTGT — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số tiền do tổ chức khấu trừ, nộp thay — GTGT",
+      "note": "= tổng cột (11) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.11]+[A09.11]+[A12.11]+[10@C13]+[11@C13]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.11",
+      "label": "Tổng cộng — Số tiền do tổ chức khấu trừ, nộp thay — TNCN — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số tiền do tổ chức khấu trừ, nộp thay — TNCN",
+      "note": "= tổng cột (12) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.12]+[A09.12]+[A12.12]+[10@C14]+[11@C14]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.12",
+      "label": "Tổng cộng — Số thuế phải nộp thêm — GTGT — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số thuế phải nộp thêm — GTGT",
+      "note": "= tổng cột (13) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.13]+[A09.13]+[A12.13]+[10@C15]+[11@C15]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.13",
+      "label": "Tổng cộng — Số thuế phải nộp thêm — TNCN — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số thuế phải nộp thêm — TNCN",
+      "note": "= tổng cột (14) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.14]+[A09.14]+[A12.14]+[10@C16]+[11@C16]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.14",
+      "label": "Tổng cộng — Số thuế nộp thừa — GTGT — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số thuế nộp thừa — GTGT",
+      "note": "= tổng cột (15) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.15]+[A09.15]+[A12.15]+[10@C17]+[11@C17]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "13.15",
+      "label": "Tổng cộng — Số thuế nộp thừa — TNCN — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "cong_thuc",
+      "cot": "Số thuế nộp thừa — TNCN",
+      "note": "= tổng cột (16) của bảng kê mục A (hoạt động sản xuất, kinh doanh trừ cho thuê bất động sản); người dùng nhập tổng.",
+      "formula": "[A08.16]+[A09.16]+[A12.16]+[10@C18]+[11@C18]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "14",
+      "label": "Số thuế TNCN từ hoạt động sản xuất, kinh doanh (trừ hoạt động cho thuê bất động sản) được giảm do thiên tai, dịch bệnh, hỏa hoạn, tai nạn và bệnh hiểm nghèo theo Quyết định giảm thuế của cơ quan thuế — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)",
+      "kind": "so",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Quyết định giảm thuế của cơ quan thuế, phần sản xuất kinh doanh trừ cho thuê bất động sản.",
+      "hoi": "Số thuế TNCN kinh doanh ngoài cho thuê được giảm theo quyết định?"
+    },
+    {
+      "code": "15",
+      "label": "Số thuế TNCN còn phải nộp",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([13.13]-[14],0)",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "16",
+      "label": "Số thuế TNCN được miễn từ 50.000 đồng trở xuống",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([15]<=50000,[15],0)",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "17",
+      "label": "Số thuế TNCN còn phải nộp sau miễn số thuế từ 50.000 đồng trở xuống",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[15]-[16]",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "18",
+      "label": "Số thuế TNCN nộp thừa",
+      "cot": "",
+      "kind": "cong_thuc",
+      "note": "Gộp hai nhánh in trên mẫu: số nộp thừa theo ngành [13.15] cộng phần thuế được giảm [14] vượt số phải nộp thêm [13.13].",
+      "formula": "[13.15]+MAX([14]-[13.13],0)",
+      "section": "Tổng cộng — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ (trừ hoạt động cho thuê bất động sản)"
+    },
+    {
+      "code": "19",
+      "label": "Hoạt động cho thuê bất động sản — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "kind": "tieu_de",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "section": "Hoạt động cho thuê bất động sản — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)"
+    },
+    {
+      "code": "19.1",
+      "label": "Hoạt động cho thuê bất động sản — Thuế GTGT — Tổng doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Tổng doanh thu",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: tổng doanh thu dùng cho phần thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "19.2",
+      "label": "Hoạt động cho thuê bất động sản — Thuế GTGT — Trong đó: doanh thu không chịu thuế GTGT",
+      "kind": "so",
+      "cot": "Thuế GTGT — Trong đó: doanh thu không chịu thuế GTGT",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: trong đó, doanh thu không chịu thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "19.3",
+      "label": "Hoạt động cho thuê bất động sản — Thuế GTGT — Doanh thu chịu thuế suất 0%",
+      "kind": "so",
+      "cot": "Thuế GTGT — Trong đó: doanh thu chịu thuế suất 0%",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: trong đó, doanh thu có thuế suất gtgt 0% là bao nhiêu?"
+    },
+    {
+      "code": "19.4",
+      "label": "Hoạt động cho thuê bất động sản — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: số thuế gtgt phải nộp đã xác định là bao nhiêu?"
+    },
+    {
+      "code": "19.5",
+      "label": "Hoạt động cho thuê bất động sản — Thuế TNCN — Doanh thu chịu thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu chịu thuế",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: doanh thu chịu thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "19.6",
+      "label": "Hoạt động cho thuê bất động sản — Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ để xác định doanh thu tính thuế",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: doanh thu được trừ để xác định doanh thu tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "19.7",
+      "label": "Hoạt động cho thuê bất động sản — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: số thuế tncn phải nộp đã xác định là bao nhiêu?"
+    },
+    {
+      "code": "19.8",
+      "label": "Hoạt động cho thuê bất động sản — Số tiền người nộp thuế trực tiếp nộp vào NSNN — GTGT",
+      "kind": "so",
+      "cot": "Số tiền người nộp thuế trực tiếp nộp vào NSNN — GTGT",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: bạn đã trực tiếp nộp bao nhiêu tiền thuế gtgt?"
+    },
+    {
+      "code": "19.9",
+      "label": "Hoạt động cho thuê bất động sản — Số tiền người nộp thuế trực tiếp nộp vào NSNN — TNCN",
+      "kind": "so",
+      "cot": "Số tiền người nộp thuế trực tiếp nộp vào NSNN — TNCN",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: bạn đã trực tiếp nộp bao nhiêu tiền thuế tncn?"
+    },
+    {
+      "code": "19.10",
+      "label": "Hoạt động cho thuê bất động sản — Số tiền do tổ chức khấu trừ, nộp thay — GTGT",
+      "kind": "so",
+      "cot": "Số tiền do tổ chức khấu trừ, nộp thay — GTGT",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: tổ chức đã khấu trừ hoặc nộp thay bao nhiêu tiền thuế gtgt?"
+    },
+    {
+      "code": "19.11",
+      "label": "Hoạt động cho thuê bất động sản — Số tiền do tổ chức khấu trừ, nộp thay — TNCN",
+      "kind": "so",
+      "cot": "Số tiền do tổ chức khấu trừ, nộp thay — TNCN",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: tổ chức đã khấu trừ hoặc nộp thay bao nhiêu tiền thuế tncn?"
+    },
+    {
+      "code": "19.12",
+      "label": "Hoạt động cho thuê bất động sản — Số thuế phải nộp thêm — GTGT",
+      "kind": "so",
+      "cot": "Số thuế phải nộp thêm — GTGT",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: sau đối chiếu, số thuế gtgt phải nộp thêm là bao nhiêu?"
+    },
+    {
+      "code": "19.13",
+      "label": "Hoạt động cho thuê bất động sản — Số thuế phải nộp thêm — TNCN",
+      "kind": "so",
+      "cot": "Số thuế phải nộp thêm — TNCN",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: sau đối chiếu, số thuế tncn phải nộp thêm là bao nhiêu?"
+    },
+    {
+      "code": "19.14",
+      "label": "Hoạt động cho thuê bất động sản — Số thuế nộp thừa — GTGT",
+      "kind": "so",
+      "cot": "Số thuế nộp thừa — GTGT",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: sau đối chiếu, số thuế gtgt nộp thừa là bao nhiêu?"
+    },
+    {
+      "code": "19.15",
+      "label": "Hoạt động cho thuê bất động sản — Số thuế nộp thừa — TNCN",
+      "kind": "so",
+      "cot": "Số thuế nộp thừa — TNCN",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động cho thuê bất động sản.",
+      "hoi": "Riêng cho thuê bất động sản: sau đối chiếu, số thuế tncn nộp thừa là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "Số thuế TNCN từ hoạt động cho thuê bất động sản được giảm do thiên tai, dịch bệnh, hỏa hoạn, tai nạn và bệnh hiểm nghèo theo Quyết định giảm thuế của cơ quan thuế — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5) — Hoạt động cho thuê bất động sản",
+      "kind": "so",
+      "cot": "Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)",
+      "section": "Cho thuê bất động sản",
+      "lay_o_dau": "Quyết định giảm thuế của cơ quan thuế, phần cho thuê bất động sản.",
+      "hoi": "Số thuế TNCN cho thuê bất động sản được giảm theo quyết định?"
+    },
+    {
+      "code": "21",
+      "label": "Số thuế TNCN nộp thừa",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[19.15]+[20]",
+      "section": "Hoạt động cho thuê bất động sản — Nhóm ngành nghề (chỉ áp dụng với mục 1, 2, 5)"
+    },
+    {
+      "code": "23",
+      "label": "Tổng cộng: — Đơn vị tính",
+      "kind": "tieu_de",
+      "cot": "Đơn vị tính",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "23.1",
+      "label": "Tổng doanh thu tính thuế TTĐB",
+      "kind": "cong_thuc",
+      "cot": "Doanh thu tính thuế TTĐB",
+      "note": "= tổng cột (5) Doanh thu tính thuế TTĐB của bảng kê mục B; người dùng nhập tổng.",
+      "formula": "[TDB1.5]+[TDB2.5]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "23.2",
+      "label": "Tổng cộng: — Số thuế phải nộp",
+      "kind": "cong_thuc",
+      "cot": "Số thuế phải nộp",
+      "note": "= tổng cột (7) Số thuế phải nộp của bảng kê mục B; người dùng nhập tổng.",
+      "formula": "[TDB1.7]+[TDB2.7]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "24",
+      "label": "Số thuế được miễn từ 50.000 đồng trở xuống",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "IF([23.2]<=50000,[23.2],0)",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "25",
+      "label": "Số thuế còn phải nộp",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[23.2]-[24]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "27",
+      "label": "Tổng cộng — Số thuế/phí phải nộp — Khai thuế tài nguyên",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "= tổng cột (10) Số thuế phải nộp của phần I mục C (thuế tài nguyên); người dùng nhập tổng.",
+      "formula": "[TN.10]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "28",
+      "label": "Số thuế được miễn từ 50.000 đồng trở xuống [28]=[27]<=50.000 — Số thuế/phí phải nộp — Khai thuế tài nguyên",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "formula": "IF([27]<=50000,[27],0)",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "29",
+      "label": "Số thuế còn phải nộp [29]=[27]-[28] — Số thuế/phí phải nộp — Khai thuế tài nguyên",
+      "kind": "cong_thuc",
+      "formula": "[27]-[28]",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "31",
+      "label": "Tổng cộng — Số thuế/phí phải nộp — Khai thuế bảo vệ môi trường",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "= tổng cột (10) Số thuế phải nộp của phần II mục C (thuế BVMT); người dùng nhập tổng.",
+      "formula": "[BVMT.10]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "32",
+      "label": "Số thuế BVMT được miễn từ 50.000 đồng trở xuống [32]=[31]<=50000",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "Mã ô là [32] nhưng nhãn in [30]=[29]<=50.000; nhập số đã xác nhận, chưa tự đổi vế.",
+      "formula": "IF([31]<=50000,[31],0)",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "33",
+      "label": "Số thuế còn phải nộp [33]=[31]-[32] — Số thuế/phí phải nộp — Khai thuế bảo vệ môi trường",
+      "kind": "cong_thuc",
+      "formula": "[31]-[32]",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "35",
+      "label": "Tổng cộng — Số thuế/phí phải nộp — Khai phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "note": "= tổng cột (10) Số phí phải nộp của phần III mục C (phí BVMT); người dùng nhập tổng.",
+      "formula": "[PHI.10]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "36",
+      "label": "Số phí được miễn từ 50.000 đồng trở xuống [36]=[35]<=50.000 — Số thuế/phí phải nộp — Khai phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "kind": "cong_thuc",
+      "cot": "Số thuế/phí phải nộp",
+      "formula": "IF([35]<=50000,[35],0)",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "37",
+      "label": "Số phí còn phải nộp [37]=[35]-[36] — Số thuế/phí phải nộp — Khai phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "kind": "cong_thuc",
+      "formula": "[35]-[36]",
+      "cot": "Số thuế/phí phải nộp",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "48",
+      "label": "Tổng số tiền hỗ trợ thông tin nộp thuế",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "note": "= tổng cột [41] của bảng kê NSNN",
+      "formula": "[NSNN.41]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "10@C4",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế GTGT — Tổng doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Tổng doanh thu",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: tổng doanh thu dùng cho phần thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "10@C5",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế GTGT — Doanh thu không chịu thuế",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu không chịu thuế",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: trong đó, doanh thu không chịu thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "10@C6",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế GTGT — Doanh thu chịu thuế suất 0%",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu chịu thuế suất 0%",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: trong đó, doanh thu có thuế suất gtgt 0% là bao nhiêu?"
+    },
+    {
+      "code": "10@C7",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: số thuế gtgt phải nộp đã xác định là bao nhiêu?"
+    },
+    {
+      "code": "10@C8",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế TNCN — Doanh thu chịu thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu chịu thuế",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: doanh thu chịu thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "10@C9",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế TNCN — Doanh thu được trừ",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: doanh thu được trừ để xác định doanh thu tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "10@C10",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: số thuế tncn phải nộp đã xác định là bao nhiêu?"
+    },
+    {
+      "code": "10@C11",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Người nộp thuế trực tiếp nộp NSNN — GTGT",
+      "kind": "so",
+      "cot": "Người nộp thuế trực tiếp nộp NSNN — GTGT",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: bạn đã trực tiếp nộp bao nhiêu tiền thuế gtgt?"
+    },
+    {
+      "code": "10@C12",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Người nộp thuế trực tiếp nộp NSNN — TNCN",
+      "kind": "so",
+      "cot": "Người nộp thuế trực tiếp nộp NSNN — TNCN",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: bạn đã trực tiếp nộp bao nhiêu tiền thuế tncn?"
+    },
+    {
+      "code": "10@C13",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Tổ chức khấu trừ, nộp thay — GTGT",
+      "kind": "so",
+      "cot": "Tổ chức khấu trừ, nộp thay — GTGT",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: tổ chức đã khấu trừ hoặc nộp thay bao nhiêu tiền thuế gtgt?"
+    },
+    {
+      "code": "10@C14",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Tổ chức khấu trừ, nộp thay — TNCN",
+      "kind": "so",
+      "cot": "Tổ chức khấu trừ, nộp thay — TNCN",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: tổ chức đã khấu trừ hoặc nộp thay bao nhiêu tiền thuế tncn?"
+    },
+    {
+      "code": "10@C15",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Số thuế phải nộp thêm — GTGT",
+      "kind": "so",
+      "cot": "Số thuế phải nộp thêm — GTGT",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: sau đối chiếu, số thuế gtgt phải nộp thêm là bao nhiêu?"
+    },
+    {
+      "code": "10@C16",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Số thuế phải nộp thêm — TNCN",
+      "kind": "so",
+      "cot": "Số thuế phải nộp thêm — TNCN",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: sau đối chiếu, số thuế tncn phải nộp thêm là bao nhiêu?"
+    },
+    {
+      "code": "10@C17",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Số thuế nộp thừa — GTGT",
+      "kind": "so",
+      "cot": "Số thuế nộp thừa — GTGT",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: sau đối chiếu, số thuế gtgt nộp thừa là bao nhiêu?"
+    },
+    {
+      "code": "10@C18",
+      "label": "Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp — Số thuế nộp thừa — TNCN",
+      "kind": "so",
+      "cot": "Số thuế nộp thừa — TNCN",
+      "section": "Đại lý xổ số, bảo hiểm, bán hàng đa cấp",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp.",
+      "hoi": "Riêng đại lý xổ số, bảo hiểm, bán hàng đa cấp: sau đối chiếu, số thuế tncn nộp thừa là bao nhiêu?"
+    },
+    {
+      "code": "11@C4",
+      "label": "Hoạt động môi giới — Thuế GTGT — Tổng doanh thu",
+      "kind": "so",
+      "cot": "Thuế GTGT — Tổng doanh thu",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: tổng doanh thu dùng cho phần thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "11@C5",
+      "label": "Hoạt động môi giới — Thuế GTGT — Doanh thu không chịu thuế",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu không chịu thuế",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: trong đó, doanh thu không chịu thuế gtgt là bao nhiêu?"
+    },
+    {
+      "code": "11@C6",
+      "label": "Hoạt động môi giới — Thuế GTGT — Doanh thu chịu thuế suất 0%",
+      "kind": "so",
+      "cot": "Thuế GTGT — Doanh thu chịu thuế suất 0%",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: trong đó, doanh thu có thuế suất gtgt 0% là bao nhiêu?"
+    },
+    {
+      "code": "11@C7",
+      "label": "Hoạt động môi giới — Thuế GTGT — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế GTGT — Số thuế phải nộp",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: số thuế gtgt phải nộp đã xác định là bao nhiêu?"
+    },
+    {
+      "code": "11@C8",
+      "label": "Hoạt động môi giới — Thuế TNCN — Doanh thu chịu thuế",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu chịu thuế",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: doanh thu chịu thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "11@C9",
+      "label": "Hoạt động môi giới — Thuế TNCN — Doanh thu được trừ",
+      "kind": "so",
+      "cot": "Thuế TNCN — Doanh thu được trừ",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: doanh thu được trừ để xác định doanh thu tính thuế tncn là bao nhiêu?"
+    },
+    {
+      "code": "11@C10",
+      "label": "Hoạt động môi giới — Thuế TNCN — Số thuế phải nộp",
+      "kind": "so",
+      "cot": "Thuế TNCN — Số thuế phải nộp",
+      "section": "Môi giới",
+      "lay_o_dau": "Sổ doanh thu, bảng xác định nghĩa vụ thuế riêng của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: số thuế tncn phải nộp đã xác định là bao nhiêu?"
+    },
+    {
+      "code": "11@C11",
+      "label": "Hoạt động môi giới — Người nộp thuế trực tiếp nộp NSNN — GTGT",
+      "kind": "so",
+      "cot": "Người nộp thuế trực tiếp nộp NSNN — GTGT",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: bạn đã trực tiếp nộp bao nhiêu tiền thuế gtgt?"
+    },
+    {
+      "code": "11@C12",
+      "label": "Hoạt động môi giới — Người nộp thuế trực tiếp nộp NSNN — TNCN",
+      "kind": "so",
+      "cot": "Người nộp thuế trực tiếp nộp NSNN — TNCN",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: bạn đã trực tiếp nộp bao nhiêu tiền thuế tncn?"
+    },
+    {
+      "code": "11@C13",
+      "label": "Hoạt động môi giới — Tổ chức khấu trừ, nộp thay — GTGT",
+      "kind": "so",
+      "cot": "Tổ chức khấu trừ, nộp thay — GTGT",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: tổ chức đã khấu trừ hoặc nộp thay bao nhiêu tiền thuế gtgt?"
+    },
+    {
+      "code": "11@C14",
+      "label": "Hoạt động môi giới — Tổ chức khấu trừ, nộp thay — TNCN",
+      "kind": "so",
+      "cot": "Tổ chức khấu trừ, nộp thay — TNCN",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: tổ chức đã khấu trừ hoặc nộp thay bao nhiêu tiền thuế tncn?"
+    },
+    {
+      "code": "11@C15",
+      "label": "Hoạt động môi giới — Số thuế phải nộp thêm — GTGT",
+      "kind": "so",
+      "cot": "Số thuế phải nộp thêm — GTGT",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: sau đối chiếu, số thuế gtgt phải nộp thêm là bao nhiêu?"
+    },
+    {
+      "code": "11@C16",
+      "label": "Hoạt động môi giới — Số thuế phải nộp thêm — TNCN",
+      "kind": "so",
+      "cot": "Số thuế phải nộp thêm — TNCN",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: sau đối chiếu, số thuế tncn phải nộp thêm là bao nhiêu?"
+    },
+    {
+      "code": "11@C17",
+      "label": "Hoạt động môi giới — Số thuế nộp thừa — GTGT",
+      "kind": "so",
+      "cot": "Số thuế nộp thừa — GTGT",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: sau đối chiếu, số thuế gtgt nộp thừa là bao nhiêu?"
+    },
+    {
+      "code": "11@C18",
+      "label": "Hoạt động môi giới — Số thuế nộp thừa — TNCN",
+      "kind": "so",
+      "cot": "Số thuế nộp thừa — TNCN",
+      "section": "Môi giới",
+      "lay_o_dau": "Bảng đối chiếu nghĩa vụ thuế với chứng từ tự nộp và xác nhận tổ chức khấu trừ, nộp thay của hoạt động môi giới.",
+      "hoi": "Riêng môi giới: sau đối chiếu, số thuế tncn nộp thừa là bao nhiêu?"
+    },
+    {
+      "code": "TRUSO_TDB",
+      "label": "Trụ sở kinh doanh khai thuế TTĐB",
+      "kind": "chu",
+      "section": "Thuế khác",
+      "hoi": "Địa chỉ trụ sở kinh doanh kê khai thuế tiêu thụ đặc biệt?"
+    },
+    {
+      "code": "DIADIEM_TDB",
+      "label": "Mã và tên địa điểm kinh doanh khai thuế TTĐB (nhập cả mã và tên)",
+      "kind": "chu",
+      "section": "Thuế khác",
+      "lay_o_dau": "Danh sách địa điểm kinh doanh; ghi cả mã và tên. Chi tiết hàng hóa và thuế cần nhập ở bảng kê riêng.",
+      "hoi": "Mã và tên địa điểm kinh doanh kê khai thuế tiêu thụ đặc biệt?"
+    },
+    {
+      "code": "CHON_7",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Bạn thuộc trường hợp doanh thu năm từ 1 tỷ đồng trở xuống, chỉ thông báo doanh thu không?"
+    },
+    {
+      "code": "CHON_8",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Bạn mới ra kinh doanh trong năm này không?"
+    },
+    {
+      "code": "CHON_9",
+      "label": "Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Bạn khai theo phương pháp thuế suất nhân doanh thu để đề nghị hoàn thuế không?"
+    },
+    {
+      "code": "CHON_10",
+      "label": "Cá nhân hợp tác kinh doanh với tổ chức; cá nhân làm đại lý bán đúng giá đối với hoạt động bảo hiểm, xổ số, bán hàng đa cấp; cá nhân thực hiện hoạt động môi giới thuộc trường hợp phải nộp thuế mà chưa được tổ chức khấu trừ thuế, khai thuế thay, nộp thuế thay trong năm",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Bạn có hợp tác kinh doanh, làm đại lý bán đúng giá hoặc môi giới mà chưa được tổ chức khấu trừ, khai thay, nộp thay trong năm không?"
+    },
+    {
+      "code": "CHON_11",
+      "label": "Cho phép điều chỉnh, bổ sung các tờ khai Mẫu số 01/CNKD đã kê khai theo Thông tư số 40/2021/TT-BTC, Thông tư số 18/2026/TT-BTC; tờ khai Mẫu số 02/CNKD-TMĐT đã kê khai theo Nghị định số 117/2025/NĐ-CP",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "giai_thich": "Ô lựa chọn trên mẫu nêu 01/CNKD theo Thông tư 40/2021, Thông tư 18/2026 và 02/CNKD-TMĐT theo Nghị định 117/2025.",
+      "hoi": "Bạn có cho phép điều chỉnh, bổ sung các tờ khai 01/CNKD hoặc 02/CNKD-TMĐT đã kê khai trước đây không?"
+    },
+    {
+      "code": "CHON_12",
+      "label": "Giảm thuế do thiên tai, dịch bệnh, hỏa hoạn, tai nạn và bệnh hiểm nghèo",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Bạn có quyết định giảm thuế do thiên tai, dịch bệnh, hỏa hoạn, tai nạn hoặc bệnh hiểm nghèo không?"
+    },
+    {
+      "code": "GTGT_DANOP",
+      "label": "Tổng GTGT trực tiếp nộp và tổ chức khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[13.8]+[13.10]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    },
+    {
+      "code": "TNCN_DANOP",
+      "label": "Tổng TNCN trực tiếp nộp và tổ chức khấu trừ",
+      "kind": "cong_thuc",
+      "formula": "[13.9]+[13.11]",
+      "section": "Tổng cộng: — Đơn vị tính"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BUTRU",
+      "ten": "Bù trừ khoản nộp thừa",
+      "cot": [
+        {
+          "ma": "52",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "53",
+          "ten": "Mã số thuế",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "54",
+          "ten": "Tên NNT",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "55",
+          "ten": "Mã định danh khoản phải nộp (ID) (nếu có)",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "56",
+          "ten": "Nội dung khoản nợ/phát sinh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "57",
+          "ten": "Chương",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "58",
+          "ten": "Tiểu mục",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "59",
+          "ten": "Cơ quan thu",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "60",
+          "ten": "Địa bàn hành chính",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "61",
+          "ten": "Hạn nộp",
+          "c": 9,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "62",
+          "ten": "Số tiền còn phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "63",
+          "ten": "Số tiền còn phải nộp đề nghị bù trừ với số tiền nộp thừa",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "64",
+          "ten": "Số tiền còn phải nộp sau bù trừ",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[62]-[63]"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "NSNN",
+      "ten": "Hỗ trợ thông tin nộp thuế",
+      "cot": [
+        {
+          "ma": "38",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "39",
+          "ten": "Mã địa điểm kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "40",
+          "ten": "Nội dung các khoản nộp NSNN",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "41",
+          "ten": "Số tiền",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "42",
+          "ten": "Chương",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "43",
+          "ten": "Tiểu mục",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "44",
+          "ten": "Địa bàn hành chính",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "45",
+          "ten": "Cơ quan thu",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "46",
+          "ten": "Cơ quan thuế",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "47",
+          "ten": "Hạn nộp thuế",
+          "c": 9,
+          "kieu": "ngay"
+        }
+      ],
+      "tong": [
+        "41"
+      ]
+    },
+    {
+      "id": "PHI",
+      "ten": "Phí bảo vệ môi trường",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tài nguyên, hàng hóa, sản phẩm",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Trụ sở kinh doanh/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã chỉ tiêu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Sản lượng/ Số lượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Hệ số K tính phí BVMT (nhập hệ số trực tiếp, ví dụ 1.1)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế/phí phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]*[9]"
+        }
+      ],
+      "tong": [
+        "10"
+      ]
+    },
+    {
+      "id": "BVMT",
+      "ten": "Thuế bảo vệ môi trường",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tài nguyên, hàng hóa, sản phẩm",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Trụ sở kinh doanh/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã chỉ tiêu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Sản lượng/ Số lượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế/phí phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]"
+        }
+      ],
+      "tong": [
+        "10"
+      ]
+    },
+    {
+      "id": "TN",
+      "ten": "Thuế tài nguyên",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tài nguyên, hàng hóa, sản phẩm",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Trụ sở kinh doanh/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Tên địa điểm kinh doanh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Mã chỉ tiêu",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Đơn vị tính",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Sản lượng/ Số lượng",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế suất tài nguyên (nhập 20 cho 20%)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Số thuế/phí phải nộp",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[7]*[8]*[9]/100"
+        }
+      ],
+      "tong": [
+        "10"
+      ]
+    },
+    {
+      "id": "TDB2",
+      "ten": "Thuế TTĐB — Địa điểm kinh doanh",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Hàng hóa, dịch vụ chịu thuế TTĐB",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Đơn vị tính",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu tính thuế TTĐB",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Số thuế phải nộp",
+          "c": 6,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[5]*[6]/100"
+        }
+      ],
+      "tong": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "TDB1",
+      "ten": "Thuế TTĐB — Trụ sở",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Hàng hóa, dịch vụ chịu thuế TTĐB",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Mã chỉ tiêu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Đơn vị tính",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Doanh thu tính thuế TTĐB",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế suất (nhập 20 cho 20%)",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Số thuế phải nộp",
+          "c": 6,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[5]*[6]/100"
+        }
+      ],
+      "tong": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": "A12",
+      "ten": "Hoạt động cá nhân hợp tác kinh doanh với tổ chức",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Nhóm ngành nghề",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Thuế GTGT — Tổng doanh thu",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "3",
+          "ten": "Thuế GTGT — Doanh thu không chịu thuế",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Thuế GTGT — Doanh thu chịu thuế suất 0%",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Thuế GTGT — Số thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế TNCN — Doanh thu chịu thuế",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế TNCN — Doanh thu được trừ",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TNCN — Số thuế phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Người nộp thuế trực tiếp nộp NSNN — GTGT",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Người nộp thuế trực tiếp nộp NSNN — TNCN",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tổ chức khấu trừ, nộp thay — GTGT",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Tổ chức khấu trừ, nộp thay — TNCN",
+          "c": 14,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế phải nộp thêm — GTGT",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Số thuế phải nộp thêm — TNCN",
+          "c": 16,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế nộp thừa — GTGT",
+          "c": 17,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Số thuế nộp thừa — TNCN",
+          "c": 18,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "A09",
+      "ten": "Hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Nhóm ngành nghề",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Thuế GTGT — Tổng doanh thu",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "3",
+          "ten": "Thuế GTGT — Doanh thu không chịu thuế",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Thuế GTGT — Doanh thu chịu thuế suất 0%",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Thuế GTGT — Số thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế TNCN — Doanh thu chịu thuế",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế TNCN — Doanh thu được trừ",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TNCN — Số thuế phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Người nộp thuế trực tiếp nộp NSNN — GTGT",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Người nộp thuế trực tiếp nộp NSNN — TNCN",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tổ chức khấu trừ, nộp thay — GTGT",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Tổ chức khấu trừ, nộp thay — TNCN",
+          "c": 14,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế phải nộp thêm — GTGT",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Số thuế phải nộp thêm — TNCN",
+          "c": 16,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế nộp thừa — GTGT",
+          "c": 17,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Số thuế nộp thừa — TNCN",
+          "c": 18,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "A08",
+      "ten": "Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ có địa điểm kinh doanh cố định",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Nhóm ngành nghề",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Thuế GTGT — Tổng doanh thu",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "3",
+          "ten": "Thuế GTGT — Doanh thu không chịu thuế",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "4",
+          "ten": "Thuế GTGT — Doanh thu chịu thuế suất 0%",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Thuế GTGT — Số thuế phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Thuế TNCN — Doanh thu chịu thuế",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế TNCN — Doanh thu được trừ",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TNCN — Số thuế phải nộp",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Người nộp thuế trực tiếp nộp NSNN — GTGT",
+          "c": 11,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Người nộp thuế trực tiếp nộp NSNN — TNCN",
+          "c": 12,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tổ chức khấu trừ, nộp thay — GTGT",
+          "c": 13,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Tổ chức khấu trừ, nộp thay — TNCN",
+          "c": 14,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế phải nộp thêm — GTGT",
+          "c": 15,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Số thuế phải nộp thêm — TNCN",
+          "c": 16,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế nộp thừa — GTGT",
+          "c": 17,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Số thuế nộp thừa — TNCN",
+          "c": 18,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

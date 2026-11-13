@@ -1,0 +1,292 @@
+{
+  "id": "TT89-01-6-GTGT",
+  "mau_so": "01-6/GTGT",
+  "title": "Phụ lục bảng phân bổ số thuế giá trị gia tăng phải nộp (Trừ hoạt động sản xuất thủy điện, hoạt động kinh doanh xổ số điện toán) — 01-6/GTGT",
+  "fields": [
+    {
+      "code": "01a",
+      "label": "Hoạt động phân bổ: cơ sở sản xuất (kể cả điện mặt trời mái nhà) hoặc dịch vụ viễn thông cước trả sau",
+      "kind": "danh_dau",
+      "note": "1. Chỉ tiêu [01a]: Người nộp thuế lựa chọn một trong hai hoạt động phân bổ sau:\n- Đơn vị phụ thuộc, địa điểm kinh doanh là cơ sở sản xuất và cơ sở sản xuất điện mặt trời mái nhà.\n- Đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau. .",
+      "section": "Thông tin chung",
+      "giai_thich": "Chọn Có cho cơ sở sản xuất; Không cho viễn thông cước trả sau. Schema hiện chỉ có một ô đánh dấu cho hai lựa chọn.",
+      "hoi": "Bạn phân bổ cho cơ sở sản xuất, kể cả điện mặt trời mái nhà, phải không?"
+    },
+    {
+      "code": "01b",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "06",
+      "label": "Số thuế phải nộp của cơ sở sản xuất/dịch vụ viễn thông cước trả sau",
+      "cot": "",
+      "kind": "so",
+      "note": "2. Chỉ tiêu [06], [07]:\n- Trường hợp lựa chọn phân bổ cho cơ sở sản xuất: Người nộp thuế tự xác định số thuế phải nộp và doanh thu chưa có thuế GTGT của cơ sở sản xuất nhưng không được lớn hơn số thuế phải nộp và tổng doanh thu chưa có thuế giá trị gia tăng trên tờ khai thuế giá trị gia tăng mẫu số 01/GTGT.\n- Trường hợp lựa chọn phân bổ cho kinh doanh dịch vụ viễn thông cước trả sau: Người nộp thuế tự xác định số thuế phải nộp của dịch vụ viễn thông cước trả sau tại chỉ tiêu [06] nhưng không được lớn hơn số thuế phải nộp trên tờ khai thuế giá trị gia tăng mẫu số 01/GTGT, chỉ tiêu [07] để trống.",
+      "section": "Thông tin chung",
+      "giai_thich": "Ghi chú 2: không lớn hơn số thuế phải nộp trên tờ khai chính.",
+      "lay_o_dau": "Bảng tính thuế theo hoạt động và tờ khai 01/GTGT.",
+      "hoi": "Số thuế của phần sản xuất hoặc viễn thông cước trả sau cần phân bổ là bao nhiêu?"
+    },
+    {
+      "code": "07",
+      "label": "Tổng doanh thu chưa có thuế giá trị gia tăng của sản phẩm sản xuất ra",
+      "cot": "",
+      "kind": "so",
+      "note": "2. Chỉ tiêu [06], [07]:\n- Trường hợp lựa chọn phân bổ cho cơ sở sản xuất: Người nộp thuế tự xác định số thuế phải nộp và doanh thu chưa có thuế GTGT của cơ sở sản xuất nhưng không được lớn hơn số thuế phải nộp và tổng doanh thu chưa có thuế giá trị gia tăng trên tờ khai thuế giá trị gia tăng mẫu số 01/GTGT.\n- Trường hợp lựa chọn phân bổ cho kinh doanh dịch vụ viễn thông cước trả sau: Người nộp thuế tự xác định số thuế phải nộp của dịch vụ viễn thông cước trả sau tại chỉ tiêu [06] nhưng không được lớn hơn số thuế phải nộp trên tờ khai thuế giá trị gia tăng mẫu số 01/GTGT, chỉ tiêu [07] để trống.",
+      "section": "Thông tin chung",
+      "giai_thich": "Viễn thông cước trả sau để trống. Doanh thu không vượt tổng doanh thu chưa thuế trên tờ khai chính.",
+      "lay_o_dau": "Báo cáo doanh thu sản xuất và tờ khai 01/GTGT cùng kỳ.",
+      "hoi": "Tổng doanh thu sản phẩm sản xuất ra, chưa có thuế GTGT, là bao nhiêu?"
+    },
+    {
+      "code": "18",
+      "label": "Tổng thuế theo từng tỉnh theo cột [17]",
+      "cot": "Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất/đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau",
+      "kind": "so",
+      "note": "= tổng cột [17] của bảng kê theo từng tỉnh",
+      "section": "Thông tin chung",
+      "giai_thich": "Schema chưa tự cộng theo nhóm tỉnh; đối chiếu dòng cộng nhóm.",
+      "lay_o_dau": "Bảng phân bổ, dòng cộng nhóm tỉnh của cột thuế theo tỷ lệ.",
+      "hoi": "Thuế tại dòng cộng theo từng tỉnh theo phương án tỷ lệ 1% và 2% là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Tổng thuế theo từng tỉnh theo cột [21]",
+      "cot": "Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất trong trường hợp [06])<([19]+[20])",
+      "kind": "so",
+      "note": "= tổng cột [21] của bảng kê theo từng tỉnh",
+      "section": "Thông tin chung",
+      "giai_thich": "Chỉ có số khi thuế cần phân bổ nhỏ hơn tổng thuế tính theo tỷ lệ; không phát sinh thì chọn Không có.",
+      "lay_o_dau": "Bảng phân bổ, dòng cộng nhóm tỉnh của cột thuế theo tỷ trọng doanh thu.",
+      "hoi": "Thuế tại dòng cộng theo từng tỉnh theo phương án chia theo doanh thu là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "Cộng các tỉnh — thuế phân bổ theo tỷ lệ 1%/2% (cột [17])",
+      "kind": "cong_thuc",
+      "formula": "[BK1.17]+[BK2.17]",
+      "note": "Dòng 'Cộng các tỉnh' in trống mã; mã [19] lấy theo công thức [20]=[06]-[19] ở dòng trụ sở chính.",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "23",
+      "label": "Cộng các tỉnh — thuế phân bổ theo tỷ trọng doanh thu (cột [21])",
+      "kind": "cong_thuc",
+      "formula": "[BK1.21]+[BK2.21]",
+      "note": "Mã [23] lấy theo công thức [24]=[06]-[23].",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20",
+      "label": "Số thuế phải nộp cho nơi đóng trụ sở chính theo phương án [20]",
+      "cot": "Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất/đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau",
+      "kind": "cong_thuc",
+      "note": "[20]=[06]-[19], dùng khi số thuế phải nộp [06] không nhỏ hơn tổng phân bổ theo tỷ lệ [19].",
+      "formula": "IF([06]>=[19],[06]-[19],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "24",
+      "label": "Số thuế phải nộp cho nơi đóng trụ sở chính theo phương án [24]",
+      "cot": "Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất trong trường hợp [06])<([19]+[20])",
+      "kind": "cong_thuc",
+      "note": "[24]=[06]-[23], dùng khi [06] < [19] (điểm d.2 khoản 3 Điều 19 TT89: phân bổ theo tỷ trọng doanh thu).",
+      "formula": "IF([06]<[19],[06]-[23],0)",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK2",
+      "ten": "Địa điểm kinh doanh",
+      "cot": [
+        {
+          "ma": "08",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "09",
+          "ten": "Tên đơn vị phụ thuộc/địa điểm kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Xã/phường/đặc khu nơi hoạt động",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Tỉnh/thành phố nơi hoạt động",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "14",
+          "ten": "Doanh thu chưa có thuế GTGT của hàng hóa chịu thuế suất 5%",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Doanh thu chưa có thuế GTGT của hàng hóa chịu thuế suất 10%",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Tổng doanh thu chưa có thuế GTGT",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[14]+[15]"
+        },
+        {
+          "ma": "17",
+          "ten": "Số thuế phải nộp cho từng tỉnh theo tỷ lệ 1% và 2%",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "0.01*[14]+0.02*[15]"
+        },
+        {
+          "ma": "21",
+          "ten": "Số thuế phân bổ theo tỷ trọng doanh thu = [06]×[16]/[07], chỉ khi [06] < [19]",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([06]<[BK1.17]+[BK2.17],IF([07]=0,0,[06]*[16]/[07]),0)"
+        }
+      ],
+      "tong": [
+        "17",
+        "21"
+      ]
+    },
+    {
+      "id": "BK1",
+      "ten": "Đơn vị phụ thuộc",
+      "cot": [
+        {
+          "ma": "08",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "09",
+          "ten": "Tên đơn vị phụ thuộc/địa điểm kinh doanh",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Xã/phường/đặc khu nơi hoạt động",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Tỉnh/thành phố nơi hoạt động",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "14",
+          "ten": "Doanh thu chưa có thuế GTGT của hàng hóa chịu thuế suất 5%",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Doanh thu chưa có thuế GTGT của hàng hóa chịu thuế suất 10%",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Tổng doanh thu chưa có thuế GTGT",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[14]+[15]"
+        },
+        {
+          "ma": "17",
+          "ten": "Số thuế phải nộp cho từng tỉnh theo tỷ lệ 1% và 2%",
+          "c": 9,
+          "kieu": "cong_thuc",
+          "cong_thuc": "0.01*[14]+0.02*[15]"
+        },
+        {
+          "ma": "21",
+          "ten": "Số thuế phân bổ theo tỷ trọng doanh thu = [06]×[16]/[07], chỉ khi [06] < [19]",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([06]<[BK1.17]+[BK2.17],IF([07]=0,0,[06]*[16]/[07]),0)"
+        }
+      ],
+      "tong": [
+        "17",
+        "21"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

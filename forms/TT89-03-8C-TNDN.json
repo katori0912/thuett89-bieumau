@@ -1,0 +1,277 @@
+{
+  "id": "TT89-03-8C-TNDN",
+  "mau_so": "03-8C/TNDN",
+  "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với hoạt động kinh doanh xổ số điện toán — 03-8C/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Tổng doanh thu bán vé thực tế",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Doanh thu bán vé thực tế của toàn bộ hoạt động là bao nhiêu?"
+    },
+    {
+      "code": "04",
+      "label": "Tổng số thuế TNDN phải nộp được phân bổ",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Tổng thuế TNDN phải nộp cần phân bổ là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "Cộng theo từng tỉnh — Thuế phải nộp cả năm",
+      "kind": "so",
+      "cot": "Thuế phải nộp cả năm",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Sau khi cộng theo từng tỉnh, tổng thuế phải nộp cả năm ghi ở dòng cộng là bao nhiêu?"
+    },
+    {
+      "code": "19@NT",
+      "label": "Cộng theo từng tỉnh — Thuế nộp thừa chuyển sang",
+      "kind": "so",
+      "cot": "Thuế nộp thừa chuyển sang",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Dòng cộng theo từng tỉnh có bao nhiêu thuế nộp thừa được chuyển sang?"
+    },
+    {
+      "code": "19@TN",
+      "label": "Cộng theo từng tỉnh — Thuế đã tạm nộp",
+      "kind": "so",
+      "cot": "Thuế đã tạm nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Dòng cộng theo từng tỉnh có bao nhiêu thuế đã tạm nộp?"
+    },
+    {
+      "code": "19@CL",
+      "label": "Cộng theo từng tỉnh — Chênh lệch thuế",
+      "kind": "so",
+      "cot": "Chênh lệch thuế",
+      "section": "Bảng chi tiết",
+      "giai_thich": " Nhập độ lớn bằng số dương; bot dùng lựa chọn dấu ở câu trước.",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Chênh lệch thuế tại dòng cộng theo từng tỉnh có độ lớn bao nhiêu?"
+    },
+    {
+      "code": "19@CP",
+      "label": "Cộng theo từng tỉnh — Thuế còn phải nộp",
+      "kind": "so",
+      "cot": "Thuế còn phải nộp",
+      "section": "Bảng chi tiết",
+      "giai_thich": " Nhập độ lớn bằng số dương; bot dùng lựa chọn dấu ở câu trước.",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Số thuế còn phải nộp tại dòng cộng theo từng tỉnh có độ lớn bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "Cộng các tỉnh ngoài trụ sở chính — Thuế phải nộp cả năm",
+      "kind": "cong_thuc",
+      "formula": "[BK1.14]",
+      "cot": "Thuế phải nộp cả năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20@NT",
+      "label": "Cộng các tỉnh ngoài trụ sở chính — Thuế nộp thừa chuyển sang",
+      "kind": "cong_thuc",
+      "formula": "[BK1.15]",
+      "cot": "Thuế nộp thừa chuyển sang",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20@TN",
+      "label": "Cộng các tỉnh ngoài trụ sở chính — Thuế đã tạm nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.16]",
+      "cot": "Thuế đã tạm nộp",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20@CL",
+      "label": "Cộng các tỉnh ngoài trụ sở chính — Chênh lệch thuế",
+      "kind": "cong_thuc",
+      "formula": "[BK1.17]",
+      "cot": "Chênh lệch thuế",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "20@CP",
+      "label": "Cộng các tỉnh ngoài trụ sở chính — Thuế còn phải nộp",
+      "kind": "cong_thuc",
+      "formula": "[BK1.18]",
+      "cot": "Thuế còn phải nộp",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21",
+      "label": "Còn lại phân bổ cho tỉnh trụ sở chính — Thuế phải nộp cả năm",
+      "kind": "cong_thuc",
+      "formula": "[04]-[20]",
+      "cot": "Thuế phải nộp cả năm",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "21@NT",
+      "label": "Còn lại phân bổ cho tỉnh trụ sở chính — Thuế nộp thừa chuyển sang",
+      "kind": "so",
+      "cot": "Thuế nộp thừa chuyển sang",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Riêng tỉnh trụ sở chính, thuế nộp thừa được chuyển sang là bao nhiêu?"
+    },
+    {
+      "code": "21@TN",
+      "label": "Còn lại phân bổ cho tỉnh trụ sở chính — Thuế đã tạm nộp",
+      "kind": "so",
+      "cot": "Thuế đã tạm nộp",
+      "section": "Bảng chi tiết",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Riêng tỉnh trụ sở chính, thuế đã tạm nộp là bao nhiêu?"
+    },
+    {
+      "code": "21@CL",
+      "label": "Còn lại phân bổ cho tỉnh trụ sở chính — Chênh lệch thuế",
+      "kind": "so",
+      "cot": "Chênh lệch thuế",
+      "section": "Bảng chi tiết",
+      "giai_thich": " Nhập độ lớn bằng số dương; bot dùng lựa chọn dấu ở câu trước.",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Riêng tỉnh trụ sở chính, chênh lệch thuế có độ lớn bao nhiêu?"
+    },
+    {
+      "code": "21@CP",
+      "label": "Còn lại phân bổ cho tỉnh trụ sở chính — Thuế còn phải nộp",
+      "kind": "so",
+      "cot": "Thuế còn phải nộp",
+      "section": "Bảng chi tiết",
+      "giai_thich": " Nhập độ lớn bằng số dương; bot dùng lựa chọn dấu ở câu trước.",
+      "lay_o_dau": "Bảng doanh thu bán vé thực tế theo địa bàn, bảng phân bổ thuế và chứng từ nộp thuế xổ số điện toán.",
+      "hoi": "Riêng tỉnh trụ sở chính, thuế còn phải nộp có độ lớn bao nhiêu?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Phân bổ thuế TNDN xổ số điện toán ngoài tỉnh trụ sở",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Tên đơn vị phụ thuộc, địa điểm kinh doanh hoặc địa bàn bán vé",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Xã/phường/đặc khu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Tỉnh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Doanh thu bán vé thực tế trên địa bàn",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Tỷ lệ phân bổ (%) = [12]/[05]",
+          "c": 7,
+          "kieu": "cong_thuc",
+          "cong_thuc": "IF([05]=0,0,[12]/[05]*100)"
+        },
+        {
+          "ma": "14",
+          "ten": "Số thuế TNDN phải nộp cả năm theo quyết toán cho từng tỉnh; nhập tỷ lệ [13] nhân tổng thuế [04]/100",
+          "c": 8,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[13]/100*[04]"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "16",
+          "ten": "Số thuế TNDN đã tạm nộp cho từng tỉnh",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "17",
+          "ten": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp = [14]−[16]",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[14]-[16]"
+        },
+        {
+          "ma": "18",
+          "ten": "Số thuế TNDN còn phải nộp cho từng tỉnh",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[14]-[15]-[16]"
+        }
+      ],
+      "tong": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

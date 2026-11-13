@@ -1,0 +1,244 @@
+{
+  "id": "TT89-01-1-BK-CNKD-NCCNN-TMĐT",
+  "mau_so": "01-1/BK-CNKD-NCCNN-TMĐT",
+  "title": "Bảng kê chi tiết số thuế đã khấu trừ của nhà cung cấp nước ngoài, hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử — 01-1/BK-CNKD-NCCNN-TMĐT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Ngày lập: / /",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch/khấu trừ sau hủy hoặc trả hàng, danh sách người bán và thông tin hồ sơ tờ khai kèm theo.",
+      "hoi": "Bạn lập bảng kê này vào ngày nào (dd/mm/yyyy)?"
+    },
+    {
+      "code": "02",
+      "label": "Lần gửi thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch/khấu trừ sau hủy hoặc trả hàng, danh sách người bán và thông tin hồ sơ tờ khai kèm theo.",
+      "hoi": "Đây là lần gửi bảng kê thứ mấy?"
+    },
+    {
+      "code": "03",
+      "label": "Tên của tổ chức quản lý nền tảng thương mại điện tử",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nt"
+    },
+    {
+      "code": "04",
+      "label": "Mã số thuế khấu trừ, nộp thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nt"
+    },
+    {
+      "code": "05",
+      "label": "Số tờ khai/Số quyết định/Số thông báo/Mã định danh hồ sơ (ID)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch/khấu trừ sau hủy hoặc trả hàng, danh sách người bán và thông tin hồ sơ tờ khai kèm theo.",
+      "hoi": "Số tờ khai hoặc mã định danh hồ sơ mà bảng kê này đi kèm là gì?"
+    },
+    {
+      "code": "06",
+      "label": "Kỳ thuế/Ngày quyết định/Ngày thông báo",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "07",
+      "label": "Tên tổ chức, cá nhân làm thủ tục về thuế, tổ chức được ủy quyền (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_dl"
+    },
+    {
+      "code": "08",
+      "label": "Mã số thuế của tổ chức, cá nhân làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_dl"
+    },
+    {
+      "code": "09",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: Ngày",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "DON_VI_TIEN",
+      "label": "Đơn vị tiền",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Báo cáo giao dịch/khấu trừ sau hủy hoặc trả hàng, danh sách người bán và thông tin hồ sơ tờ khai kèm theo.",
+      "hoi": "Đơn vị tiền ghi trên bảng kê này là gì?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "I. Tổ chức nước ngoài",
+      "cot": [
+        {
+          "ma": "01",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "02",
+          "ten": "Tên nền tảng thương mại điện tử",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "03",
+          "ten": "Mã quản lý người bán trên nền tảng",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04",
+          "ten": "Tên gian hàng/tài khoản",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "05",
+          "ten": "Tên tổ chức nước ngoài",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "06",
+          "ten": "Mã số thuế tổ chức nước ngoài (nếu có)",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Nhóm ngành nghề",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Doanh thu sau hủy/trả lại",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "09",
+          "ten": "Thuế GTGT đã khấu trừ sau hủy/trả lại",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TNDN đã khấu trừ sau hủy/trả lại",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Tổng thuế đã khấu trừ",
+          "c": 10,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[09]+[10]"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK2",
+      "ten": "II. Hộ, cá nhân kinh doanh",
+      "cot": [
+        {
+          "ma": "01",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "02",
+          "ten": "Tên nền tảng thương mại điện tử",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "03",
+          "ten": "Mã quản lý người bán trên nền tảng",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "04",
+          "ten": "Tên gian hàng/tài khoản",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "05",
+          "ten": "Tên hộ/họ tên cá nhân",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "06",
+          "ten": "Mã số thuế/số định danh/hộ chiếu",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Cá nhân không cư trú (nhập X nếu có, để trống nếu không)",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Nhóm ngành nghề",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Doanh thu sau hủy/trả lại",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế GTGT đã khấu trừ sau hủy/trả lại",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "Thuế TNCN đã khấu trừ sau hủy/trả lại",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Tổng thuế đã khấu trừ",
+          "c": 11,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[10]+[11]"
+        }
+      ],
+      "tong": [
+        "09",
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

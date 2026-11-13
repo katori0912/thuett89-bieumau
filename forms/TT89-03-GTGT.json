@@ -1,0 +1,157 @@
+{
+  "id": "TT89-03-GTGT",
+  "mau_so": "03/GTGT",
+  "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với hoạt động mua bán, chế tác vàng bạc, đá quý tính thuế theo phương pháp trực tiếp trên giá trị gia tăng) — 03/GTGT",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Kỳ ghi trên bảng tổng hợp số liệu và hồ sơ khai thuế.",
+      "hoi": "Bạn khai cho kỳ tính thuế nào?",
+      "role": "ky"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Tên người nộp thuế trên hồ sơ đăng ký là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Tên đơn vị dịch vụ thuế là gì?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Mã số thuế đơn vị dịch vụ thuế là gì?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng dịch vụ làm thủ tục thuế và thông tin của đơn vị dịch vụ.",
+      "hoi": "Số và ngày ký hợp đồng dịch vụ thuế là gì?"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần đầu bạn nộp tờ khai cho kỳ này phải không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "21",
+      "label": "Giá trị gia tăng âm được kết chuyển kỳ trước",
+      "cot": "",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "giai_thich": "Nhập độ lớn bằng số dương của khoản âm kết chuyển; bot trừ khoản này khi tính giá trị gia tăng.",
+      "lay_o_dau": "Tờ khai 03/GTGT kỳ trước và bảng theo dõi kết chuyển.",
+      "hoi": "Giá trị gia tăng âm từ kỳ trước được chuyển sang là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Giá thanh toán của vàng, bạc, đá quý bán ra",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua bán trong kỳ",
+      "lay_o_dau": "Hóa đơn bán ra, bảng kê bán vàng bạc đá quý trong kỳ.",
+      "hoi": "Tổng giá thanh toán vàng, bạc, đá quý bán ra là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Giá thanh toán của vàng, bạc, đá quý mua vào",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua bán trong kỳ",
+      "lay_o_dau": "Hóa đơn mua vào, bảng kê mua vàng bạc đá quý trong kỳ.",
+      "hoi": "Tổng giá thanh toán vàng, bạc, đá quý mua vào là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Điều chỉnh tăng giá trị gia tăng âm của các kỳ trước",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua bán trong kỳ",
+      "lay_o_dau": "Bảng đối chiếu điều chỉnh giá trị gia tăng âm.",
+      "hoi": "Phần giá trị gia tăng âm cần điều chỉnh tăng là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Điều chỉnh giảm giá trị gia tăng âm của các kỳ trước",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua bán trong kỳ",
+      "lay_o_dau": "Bảng đối chiếu điều chỉnh giá trị gia tăng âm.",
+      "hoi": "Phần giá trị gia tăng âm cần điều chỉnh giảm là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Giá trị gia tăng chịu thuế trong kỳ ([26]=[22]-[23]-[21]-[24]+[25])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[22]-[23]-[21]-[24]+[25]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "26a",
+      "label": "Giá trị gia tăng chịu thuế trong kỳ đối với trường hợp xuất khẩu",
+      "cot": "",
+      "kind": "so",
+      "section": "Mua bán trong kỳ",
+      "lay_o_dau": "Bảng xác định giá trị gia tăng riêng cho xuất khẩu, hóa đơn và tờ khai hải quan.",
+      "hoi": "Giá trị gia tăng chịu thuế của phần xuất khẩu là bao nhiêu?"
+    },
+    {
+      "code": "26b",
+      "label": "Giá trị gia tăng chịu thuế trong kỳ đối với trường hợp tiêu thụ nội địa ([26b]=[26]-[26a])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[26]-[26a]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "27",
+      "label": "Thuế giá trị gia tăng phải nộp ([27]=[26b] x 10%)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([26b]*0.1,0)",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

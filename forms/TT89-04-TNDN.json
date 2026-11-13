@@ -1,0 +1,215 @@
+{
+  "id": "TT89-04-TNDN",
+  "mau_so": "04/TNDN",
+  "title": "Tờ khai thuế TNDN (Áp dụng đối với phương pháp tỷ lệ trên doanh thu) — 04/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm /Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Đây là lần khai đầu tiên của kỳ này phải không?"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Mã số thuế của người nộp thuế là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Bạn ghi giúp mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "11",
+      "label": "Doanh thu tính thuế thu nhập doanh nghiệp",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Tổng doanh thu dùng tính thuế của kỳ này là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "label": "Số thuế TNDN phải nộp",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Theo bảng tính thuế của từng hoạt động, tổng thuế trước miễn giảm là bao nhiêu?"
+    },
+    {
+      "code": "13",
+      "label": "Số thuế TNDN được miễn, giảm",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Tổng số thuế được miễn hoặc giảm theo hồ sơ là bao nhiêu?"
+    },
+    {
+      "code": "14",
+      "label": "Số thuế TNDN phải nộp sau miễn, giảm ([14]=[12]-[13])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MAX([12]-[13],0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "15",
+      "label": "Số thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này (nếu có)",
+      "cot": "",
+      "kind": "so",
+      "note": "2. Chỉ tiêu [15]: NNT kê khai số thuế TNDN nộp thừa kỳ trước chuyển sang bù trừ với số thuế TNDN phải nộp kỳ này;",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "2. Chỉ tiêu [15]: NNT kê khai số thuế TNDN nộp thừa kỳ trước chuyển sang bù trừ với số thuế TNDN phải nộp kỳ này;",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Số thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này (nếu có) là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Số thuế TNDN đã tạm nộp trong năm đến thời điểm quyết toán",
+      "cot": "",
+      "kind": "so",
+      "note": "3. Chỉ tiêu [16]: NNT kê khai số thuế TNDN đã tạm nộp trong năm tính đến thời hạn nộp hồ sơ khai quyết toán. Ví dụ: NNT có kỳ tính thuế từ 01/01/2026 đến 31/12/2026 thì số thuế TNDN đã tạm nộp trong năm là số thuế TNDN đã nộp tính đến hết ngày 31/3/2027",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "3. Chỉ tiêu [16]: NNT kê khai số thuế TNDN đã tạm nộp trong năm tính đến thời hạn nộp hồ sơ khai quyết toán. Ví dụ: NNT có kỳ tính thuế từ 01/01/2026 đến 31/12/2026 thì số thuế TNDN đã tạm nộp trong năm là số thuế TNDN đã nộp tính đến hết ngày 31/3/2027",
+      "lay_o_dau": "Sổ doanh thu theo hoạt động, bảng tính thuế theo tỷ lệ, hồ sơ miễn giảm và chứng từ nộp thuế.",
+      "hoi": "Số thuế TNDN đã tạm nộp trong năm đến thời điểm quyết toán là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp trong năm ([17]=[14]-[16])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[14]-[16]",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "18",
+      "label": "Số thuế TNDN còn phải nộp sau quyết toán ([18]=[14]-[15]-[16])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[14]-[15]-[16]",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Chi tiết doanh thu từ hoạt động",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "STT hoạt động",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "2",
+          "ten": "Tên hoạt động",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Doanh thu từ hoạt động",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "TYLE",
+          "ten": "Tỷ lệ tính thuế TNDN dạng hệ số HTKK (nhập 0.003 cho 0.3%)",
+          "c": -1,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "4"
+      ]
+    },
+    {
+      "id": "BK2",
+      "ten": "Chi tiết số thuế TNDN được miễn, giảm (chỉ có trên HTKK)",
+      "cot": [
+        {
+          "ma": "STT",
+          "ten": "STT khoản miễn, giảm",
+          "c": -1,
+          "kieu": "stt"
+        },
+        {
+          "ma": "CHITIEU",
+          "ten": "Tên chỉ tiêu miễn, giảm",
+          "c": -1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "SOTIEN",
+          "ten": "Số thuế TNDN được miễn, giảm",
+          "c": -1,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "SOTIEN"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

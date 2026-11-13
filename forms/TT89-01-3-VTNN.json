@@ -1,0 +1,132 @@
+{
+  "id": "TT89-01-3-VTNN",
+  "mau_so": "01-3/VTNN",
+  "title": "Bảng kê doanh thu lưu công-ten-nơ — 01-3/VTNN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên hãng vận tải nước ngoài",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hồ sơ hãng và hợp đồng vận tải.",
+      "hoi": "Tên hãng vận tải nước ngoài có doanh thu lưu công-ten-nơ là gì?",
+      "role": "ten_hang"
+    },
+    {
+      "code": "05",
+      "label": "Nước cư trú",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Giấy chứng nhận cư trú hoặc hồ sơ hãng.",
+      "hoi": "Hãng vận tải cư trú tại nước nào?"
+    },
+    {
+      "code": "06",
+      "label": "Tên/hô hiệu phương tiện vận tải",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Vận đơn và hồ sơ phương tiện.",
+      "hoi": "Tên hoặc hô hiệu phương tiện vận tải là gì?"
+    },
+    {
+      "code": "07",
+      "label": "Bên Việt Nam khấu trừ và nộp thuế thay",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "08",
+      "label": "Mã số thuế nộp thay của Bên Việt Nam",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_vn"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê doanh thu lưu công-ten-nơ",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Số chứng từ vận chuyển",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Số hóa đơn",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Ngày phát hành hóa đơn",
+          "c": 2,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "4",
+          "ten": "Cảng đến",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Tên khách hàng",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Mã số thuế khách hàng",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Doanh thu lưu công-ten-nơ",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TNDN phải nộp",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế TNDN miễn, giảm theo Hiệp định",
+          "c": 8,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

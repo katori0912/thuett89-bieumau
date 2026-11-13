@@ -1,0 +1,132 @@
+{
+  "id": "TT89-05-3-BK-QTT-TNCN",
+  "mau_so": "05-3/BK-QTT-TNCN",
+  "title": "Phụ lục bảng kê chi tiết người phụ thuộc giảm trừ gia cảnh — 05-3/BK-QTT-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Bảng kê người phụ thuộc",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "stt"
+        },
+        {
+          "ma": "07",
+          "ten": "Họ tên NNT",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "MST NNT",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Họ tên NPT",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "Ngày sinh",
+          "c": 4,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "11",
+          "ten": "MST NPT",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "12",
+          "ten": "Loại giấy tờ",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "13",
+          "ten": "Số giấy tờ",
+          "c": 7,
+          "kieu": "chu"
+        },
+        {
+          "ma": "14",
+          "ten": "Quan hệ",
+          "c": 8,
+          "kieu": "chu"
+        },
+        {
+          "ma": "15",
+          "ten": "Từ tháng",
+          "c": 9,
+          "kieu": "chu"
+        },
+        {
+          "ma": "16",
+          "ten": "Đến tháng",
+          "c": 10,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08a",
+          "ten": "Người nước ngoài hoặc người Việt Nam sống ở nước ngoài không có mã định danh",
+          "c": -1,
+          "kieu": "danh_dau"
+        },
+        {
+          "ma": "DC",
+          "ten": "Có điều chỉnh số liệu (HTKK)",
+          "c": -1,
+          "kieu": "danh_dau"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,203 @@
+{
+  "id": "TT89-03-8B-TNDN",
+  "mau_so": "03-8B/TNDN",
+  "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với hoạt động sản xuất thủy điện — 03-8B/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "03",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "10a",
+      "label": "Số thuế TNDN phải nộp của nhà máy thứ nhất",
+      "cot": "",
+      "kind": "so",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng thuế của từng nhà máy, hồ sơ giá trị đầu tư theo địa bàn và chứng từ nộp thuế theo tỉnh.",
+      "hoi": "Nhà máy thủy điện thứ nhất phải nộp bao nhiêu thuế TNDN?"
+    },
+    {
+      "code": "10b",
+      "label": "Số thuế TNDN phải nộp của nhà máy thứ hai",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng thuế của từng nhà máy, hồ sơ giá trị đầu tư theo địa bàn và chứng từ nộp thuế theo tỉnh.",
+      "hoi": "Nhà máy thủy điện thứ hai phải nộp bao nhiêu thuế TNDN?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK2",
+      "ten": "Địa bàn nhà máy thứ hai [10b]",
+      "cot": [
+        {
+          "ma": "04",
+          "ten": "STT phân cấp địa bàn (ví dụ 1.1, 1.2)",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "05",
+          "ten": "Tên nhà máy hoặc địa bàn phân bổ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "06",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Xã/phường/đặc khu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Tỉnh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Tỷ lệ phân bổ (%) (nhập 20 cho 20%)",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Số thuế TNDN phải nộp cho từng tỉnh (nhập thuế nhà máy cha nhân tỷ lệ/100)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Số thuế TNDN đã tạm nộp cho từng tỉnh đến thời điểm khai quyết toán",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế TNDN còn phải nộp cho từng tỉnh",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[12]-[13]-[14]"
+        }
+      ],
+      "tong": [
+        "12"
+      ]
+    },
+    {
+      "id": "BK1",
+      "ten": "Địa bàn nhà máy thứ nhất [10a]",
+      "cot": [
+        {
+          "ma": "04",
+          "ten": "STT phân cấp địa bàn (ví dụ 1.1, 1.2)",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "05",
+          "ten": "Tên nhà máy hoặc địa bàn phân bổ",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "06",
+          "ten": "Mã số thuế/Mã địa điểm kinh doanh",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Xã/phường/đặc khu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "Tỉnh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Cơ quan thuế quản lý địa bàn nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "11",
+          "ten": "Tỷ lệ phân bổ (%) (nhập 20 cho 20%)",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Số thuế TNDN phải nộp cho từng tỉnh (nhập thuế nhà máy cha nhân tỷ lệ/100)",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Số thuế TNDN đã tạm nộp cho từng tỉnh đến thời điểm khai quyết toán",
+          "c": 10,
+          "kieu": "so"
+        },
+        {
+          "ma": "15",
+          "ten": "Số thuế TNDN còn phải nộp cho từng tỉnh",
+          "c": 12,
+          "kieu": "cong_thuc",
+          "cong_thuc": "[12]-[13]-[14]"
+        }
+      ],
+      "tong": [
+        "12"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

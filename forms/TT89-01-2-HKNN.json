@@ -1,0 +1,129 @@
+{
+  "id": "TT89-01-2-HKNN",
+  "mau_so": "01-2/HKNN",
+  "title": "Bảng kê thu nhập vận tải quốc tế trường hợp hoán đổi, chia chỗ — 01-2/HKNN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từ đến",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Tên Hãng hàng không nước ngoài",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_hang"
+    },
+    {
+      "code": "03",
+      "label": "Nước cư trú",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "04",
+      "label": "Tên/hô hiệu phương tiện vận tải",
+      "kind": "chu",
+      "section": "Thu nhập vận tải quốc tế",
+      "lay_o_dau": "Thỏa thuận hoán đổi/chia chỗ và hồ sơ phương tiện.",
+      "hoi": "Tên hoặc hô hiệu phương tiện vận tải dùng trong hoán đổi hoặc chia chỗ là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Tên văn phòng/đại lý bán vé tại Việt Nam",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_vp"
+    },
+    {
+      "code": "07",
+      "label": "Tên đại lý thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_dl"
+    },
+    {
+      "code": "06",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_vp"
+    },
+    {
+      "code": "08",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_dl"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Thu nhập vận tải quốc tế",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Kỳ vận chuyển",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Cảng đi",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Cảng đến",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "4",
+          "ten": "Số chỗ hoán đổi/chia theo thỏa thuận",
+          "c": 3,
+          "kieu": "so"
+        },
+        {
+          "ma": "5",
+          "ten": "Số chỗ hoán đổi thực tế",
+          "c": 4,
+          "kieu": "so"
+        },
+        {
+          "ma": "6",
+          "ten": "Doanh thu quy đổi",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "7",
+          "ten": "Thuế TNDN phải nộp",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "8",
+          "ten": "Thuế TNDN đề nghị miễn, giảm",
+          "c": 7,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

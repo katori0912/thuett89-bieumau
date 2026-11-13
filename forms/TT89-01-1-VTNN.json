@@ -1,0 +1,142 @@
+{
+  "id": "TT89-01-1-VTNN",
+  "mau_so": "01-1/VTNN",
+  "title": "Phụ lục bảng kê thu nhập vận tải quốc tế (Áp dụng đối với doanh nghiệp khai thác tàu) — 01-1/VTNN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên hãng vận tải nước ngoài",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hồ sơ hãng vận tải và hợp đồng đại lý.",
+      "hoi": "Tên hãng vận tải nước ngoài khai thác tàu là gì?",
+      "role": "ten_hang"
+    },
+    {
+      "code": "05",
+      "label": "Nước cư trú",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Giấy chứng nhận cư trú hoặc hồ sơ của hãng.",
+      "hoi": "Hãng vận tải cư trú tại nước nào?"
+    },
+    {
+      "code": "06",
+      "label": "Tên/hô hiệu phương tiện vận tải",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Vận đơn và hồ sơ phương tiện.",
+      "hoi": "Tên hoặc hô hiệu phương tiện vận tải là gì?"
+    },
+    {
+      "code": "07",
+      "label": "Bên Việt Nam khấu trừ và nộp thuế thay",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "08",
+      "label": "Mã số thuế nộp thay của Bên Việt Nam",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_vn"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Phụ lục bảng kê thu nhập vận tải quốc tế (Áp dụng đối với doanh nghiệp khai thác tàu)",
+      "cot": [
+        {
+          "ma": "1",
+          "ten": "Chứng từ vận chuyển",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "2",
+          "ten": "Số hóa đơn",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "3",
+          "ten": "Ngày phát hành hóa đơn",
+          "c": 2,
+          "kieu": "ngay"
+        },
+        {
+          "ma": "4",
+          "ten": "Cảng đi",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "5",
+          "ten": "Cảng đến",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "6",
+          "ten": "Tên khách hàng",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "7",
+          "ten": "Mã số thuế khách hàng",
+          "c": 6,
+          "kieu": "chu"
+        },
+        {
+          "ma": "8",
+          "ten": "Tổng doanh thu vận chuyển thực tế",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "9",
+          "ten": "Thuế TNDN phải nộp",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "10",
+          "ten": "Thuế TNDN miễn, giảm theo Hiệp định",
+          "c": 9,
+          "kieu": "so"
+        }
+      ],
+      "tong": [
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

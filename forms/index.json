@@ -1,0 +1,377 @@
+[
+  {
+    "id": "TT18-01-CNKD",
+    "title": "Khai thuế hộ, cá nhân kinh doanh theo TT18 — 01/CNKD",
+    "mau_so": "01/CNKD"
+  },
+  {
+    "id": "TT89-01-1-BK-CNKD-NCCNN-TMĐT",
+    "title": "Bảng kê chi tiết số thuế đã khấu trừ của nhà cung cấp nước ngoài, hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử — 01-1/BK-CNKD-NCCNN-TMĐT",
+    "mau_so": "01-1/BK-CNKD-NCCNN-TMĐT"
+  },
+  {
+    "id": "TT89-01-1-HKNN",
+    "title": "Bảng kê thu nhập vận tải quốc tế trường hợp bán vé tại Việt Nam — 01-1/HKNN",
+    "mau_so": "01-1/HKNN"
+  },
+  {
+    "id": "TT89-01-1-TBH",
+    "title": "Phụ lục hợp đồng tái bảo hiểm, chứng từ tái bảo hiểm theo tổ chức tái bảo hiểm nước ngoài — 01-1/TBH",
+    "mau_so": "01-1/TBH"
+  },
+  {
+    "id": "TT89-01-1-VTNN",
+    "title": "Phụ lục bảng kê thu nhập vận tải quốc tế (Áp dụng đối với doanh nghiệp khai thác tàu) — 01-1/VTNN",
+    "mau_so": "01-1/VTNN"
+  },
+  {
+    "id": "TT89-01-2-GTGT",
+    "title": "Phụ lục bảng phân bổ số thuế giá trị gia tăng phải nộp đối với hoạt động sản xuất thủy điện — 01-2/GTGT",
+    "mau_so": "01-2/GTGT"
+  },
+  {
+    "id": "TT89-01-2-HKNN",
+    "title": "Bảng kê thu nhập vận tải quốc tế trường hợp hoán đổi, chia chỗ — 01-2/HKNN",
+    "mau_so": "01-2/HKNN"
+  },
+  {
+    "id": "TT89-01-2-TTĐB",
+    "title": "Bảng xác định số thuế tiêu thụ đặc biệt (TTĐB) được khấu trừ của nguyên liệu mua vào, hàng hóa nhập khẩu — 01-2/TTĐB",
+    "mau_so": "01-2/TTĐB"
+  },
+  {
+    "id": "TT89-01-2-VTNN",
+    "title": "Phụ lục bảng kê bảng kê thu nhập vận tải quốc tế (Áp dụng đối với trường hợp hoán đổi/chia chỗ) — 01-2/VTNN",
+    "mau_so": "01-2/VTNN"
+  },
+  {
+    "id": "TT89-01-3-GTGT",
+    "title": "Phụ lục bảng phân bổ số thuế giá trị gia tăng phải nộp đối với hoạt động kinh doanh xổ số điện toán — 01-3/GTGT",
+    "mau_so": "01-3/GTGT"
+  },
+  {
+    "id": "TT89-01-3-TTĐB",
+    "title": "Bảng phân bổ số thuế tiêu thụ đặc biệt phải nộp đối với hoạt động kinh doanh xổ số điện toán — 01-3/TTĐB",
+    "mau_so": "01-3/TTĐB"
+  },
+  {
+    "id": "TT89-01-3-VTNN",
+    "title": "Bảng kê doanh thu lưu công-ten-nơ — 01-3/VTNN",
+    "mau_so": "01-3/VTNN"
+  },
+  {
+    "id": "TT89-01-4-TTĐB",
+    "title": "Phụ lục thông tin đề nghị hoàn thuế tiêu thụ đặc biệt đối với xăng sinh học — 01-4/TTĐB",
+    "mau_so": "01-4/TTĐB"
+  },
+  {
+    "id": "TT89-01-6-GTGT",
+    "title": "Phụ lục bảng phân bổ số thuế giá trị gia tăng phải nộp (Trừ hoạt động sản xuất thủy điện, hoạt động kinh doanh xổ số điện toán) — 01-6/GTGT",
+    "mau_so": "01-6/GTGT"
+  },
+  {
+    "id": "TT89-01-7-GTGT",
+    "title": "Bảng phân bổ số thuế giá trị gia tăng đầu vào cho các đơn vị phụ thuộc — 01-7/GTGT",
+    "mau_so": "01-7/GTGT"
+  },
+  {
+    "id": "TT89-01-8-GTGT",
+    "title": "Phụ lục thông tin đề nghị hoàn thuế giá trị gia tăng — 01-8/GTGT",
+    "mau_so": "01-8/GTGT"
+  },
+  {
+    "id": "TT89-01-BK-KTHTKD",
+    "title": "Phụ lục Bảng kê chi tiết hộ kinh doanh, cá nhân kinh doanh (Kèm theo Tờ khai 01/TCKT áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân hợp tác kinh doanh với tổ chức) — 01/BK-KTHTKD",
+    "mau_so": "01/BK-KTHTKD"
+  },
+  {
+    "id": "TT89-01-BK-XSBHDCMG",
+    "title": "Phụ lục Bảng kê chi tiết cá nhân có phát sinh doanh thu (Kèm theo Tờ khai 01/ XSBHDCMG-CNKD kê khai vào hồ sơ khai thuế của kỳ tháng/quý cuối cùng trong năm tính thuế) — 01/BK-XSBHDCMG",
+    "mau_so": "01/BK-XSBHDCMG"
+  },
+  {
+    "id": "TT89-01-CNKD-NCCNN-TMĐT",
+    "title": "Tờ khai khấu trừ thuế đối với nhà cung cấp nước ngoài, hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử — 01/CNKD-NCCNN-TMĐT",
+    "mau_so": "01/CNKD-NCCNN-TMĐT"
+  },
+  {
+    "id": "TT89-01-GTGT",
+    "title": "Khai thuế giá trị gia tăng theo phương pháp khấu trừ — 01/GTGT",
+    "mau_so": "01/GTGT"
+  },
+  {
+    "id": "TT89-01-HKNN",
+    "title": "Tờ khai thuế thu nhập doanh nghiệp đối với hãng hàng không nước ngoài — 01/HKNN",
+    "mau_so": "01/HKNN"
+  },
+  {
+    "id": "TT89-01-TBH",
+    "title": "Tờ khai thuế thu nhập doanh nghiệp đối với tổ chức tái bảo hiểm nước ngoài — 01/TBH",
+    "mau_so": "01/TBH"
+  },
+  {
+    "id": "TT89-01-TCKT",
+    "title": "Tờ khai thuế của tổ chức khai thay (Áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cá nhân hợp tác kinh doanh với tổ chức; tổ chức khai thuế thay, nộp thuế thay cho cá nhân cho thuê bất động sản) — 01/TCKT",
+    "mau_so": "01/TCKT"
+  },
+  {
+    "id": "TT89-01-TKN-CNKD",
+    "title": "Thông báo doanh thu và khai thuế năm hộ, cá nhân kinh doanh — 01/TKN-CNKD",
+    "mau_so": "01/TKN-CNKD"
+  },
+  {
+    "id": "TT89-01-TTĐB",
+    "title": "Tờ khai thuế tiêu thụ đặc biệt — 01/TTĐB",
+    "mau_so": "01/TTĐB"
+  },
+  {
+    "id": "TT89-01-VTNN",
+    "title": "Tờ khai quyết toán thuế thu nhập doanh nghiệp đối với hãng vận tải nước ngoài — 01/VTNN",
+    "mau_so": "01/VTNN"
+  },
+  {
+    "id": "TT89-01-XSBHDCMG-CNKD",
+    "title": "Tờ khai thuế (Áp dụng đối với tổ chức khấu trừ thuế, khai thay, nộp thay thuế đối với hoạt động đại lý bán đúng giá bảo hiểm, xổ số, bán hàng đa cấp, hoạt động môi giới; doanh nghiệp bảo hiểm trả phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác) — 01/XSBHDCMG-CNKD",
+    "mau_so": "01/XSBHDCMG-CNKD"
+  },
+  {
+    "id": "TT89-01.NTNN-NCCNN",
+    "title": "Tờ khai thuế nhà thầu nước ngoài; nhà cung cấp nước ngoài, cá nhân không cư trú có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác — ",
+    "mau_so": ""
+  },
+  {
+    "id": "TT89-02-1-BK-QTT-TNCN",
+    "title": "Phụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc — 02-1/BK-QTT-TNCN",
+    "mau_so": "02-1/BK-QTT-TNCN"
+  },
+  {
+    "id": "TT89-02-1-NTNN",
+    "title": "Phụ lục Bảng kê các nhà thầu nước ngoài — 02-1/NTNN",
+    "mau_so": "02-1/NTNN"
+  },
+  {
+    "id": "TT89-02-2-NTNN",
+    "title": "Phụ lục Bảng kê các nhà thầu phụ tham gia hợp đồng nhà thầu — 02-2/NTNN",
+    "mau_so": "02-2/NTNN"
+  },
+  {
+    "id": "TT89-02-CNKD-TNCN-QTT",
+    "title": "Quyết toán thuế TNCN kinh doanh theo thu nhập — 02/CNKD-TNCN-QTT",
+    "mau_so": "02/CNKD-TNCN-QTT"
+  },
+  {
+    "id": "TT89-02-GTGT",
+    "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với người nộp thuế tính thuế theo phương pháp khấu trừ có dự án đầu tư thuộc diện được hoàn thuế) — 02/GTGT",
+    "mau_so": "02/GTGT"
+  },
+  {
+    "id": "TT89-02-KK-TNCN",
+    "title": "Tờ khai thuế TNCN (Áp dụng đối với cá nhân cư trú và cá nhân không cư trú có thu nhập từ tiền lương, tiền công khai thuế trực tiếp với cơ quan thuế) — 02/KK-TNCN",
+    "mau_so": "02/KK-TNCN"
+  },
+  {
+    "id": "TT89-02-NTNN",
+    "title": "Tờ khai quyết toán thuế nhà thầu nước ngoài (áp dụng đối với bên Việt Nam khấu trừ và nộp thuế thay cho nhà thầu nước ngoài) — 02/NTNN",
+    "mau_so": "02/NTNN"
+  },
+  {
+    "id": "TT89-02-QTT-TNCN",
+    "title": "Quyết toán thuế TNCN từ tiền lương, tiền công (cá nhân tự quyết toán — mẫu 02/QTT-TNCN)",
+    "mau_so": "02/QTT-TNCN"
+  },
+  {
+    "id": "TT89-02-TNDN",
+    "title": "Tờ khai thuế TNDN (Áp dụng đối với hoạt động chuyển nhượng bất động sản, tài sản khác theo từng lần phát sinh) — 02/TNDN",
+    "mau_so": "02/TNDN"
+  },
+  {
+    "id": "TT89-03-2-TNDN",
+    "title": "Phụ lục chuyển lỗ — 03-2/TNDN",
+    "mau_so": "03-2/TNDN"
+  },
+  {
+    "id": "TT89-03-3A-TNDN",
+    "title": "Phụ lục thuế thu nhập doanh nghiệp được ưu đãi đối với thu nhập từ dự án đầu tư, thu nhập của doanh nghiệp được hưởng ưu đãi thuế thu nhập doanh nghiệp — 03-3A/TNDN",
+    "mau_so": "03-3A/TNDN"
+  },
+  {
+    "id": "TT89-03-3C-TNDN",
+    "title": "Phụ lục thuế thu nhập doanh nghiệp được ưu đãi (Áp dụng đối với doanh nghiệp sử dụng lao động là người dân tộc thiểu số hoặc doanh nghiệp hoạt động sản xuất, xây dựng, vận tải sử dụng nhiều lao động nữ) — 03-3C/TNDN",
+    "mau_so": "03-3C/TNDN"
+  },
+  {
+    "id": "TT89-03-3D-TNDN",
+    "title": "Phụ lục thuế thu nhập doanh nghiệp được ưu đãi (Áp dụng đối với doanh nghiệp khoa học công nghệ, doanh nghiệp thực hiện chuyển giao công nghệ thuộc lĩnh vực ưu tiên chuyển giao) — 03-3D/TNDN",
+    "mau_so": "03-3D/TNDN"
+  },
+  {
+    "id": "TT89-03-4-TNDN",
+    "title": "Phụ lục thuế thu nhập doanh nghiệp đã nộp đối với thu nhập ở nước ngoài — 03-4/TNDN",
+    "mau_so": "03-4/TNDN"
+  },
+  {
+    "id": "TT89-03-5-TNDN",
+    "title": "Phụ lục thu nhập đối với hoạt động chuyển nhượng bất động sản — 03-5/TNDN",
+    "mau_so": "03-5/TNDN"
+  },
+  {
+    "id": "TT89-03-6-TNDN",
+    "title": "Phụ lục báo cáo trích lập, sử dụng quỹ khoa học và công nghệ — 03-6/TNDN",
+    "mau_so": "03-6/TNDN"
+  },
+  {
+    "id": "TT89-03-8-TNDN",
+    "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với cơ sở sản xuất — 03-8/TNDN",
+    "mau_so": "03-8/TNDN"
+  },
+  {
+    "id": "TT89-03-8A-TNDN",
+    "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với hoạt động chuyển nhượng bất động sản — 03-8A/TNDN",
+    "mau_so": "03-8A/TNDN"
+  },
+  {
+    "id": "TT89-03-8B-TNDN",
+    "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với hoạt động sản xuất thủy điện — 03-8B/TNDN",
+    "mau_so": "03-8B/TNDN"
+  },
+  {
+    "id": "TT89-03-8C-TNDN",
+    "title": "Phụ lục bảng phân bổ số thuế thu nhập doanh nghiệp phải nộp đối với hoạt động kinh doanh xổ số điện toán — 03-8C/TNDN",
+    "mau_so": "03-8C/TNDN"
+  },
+  {
+    "id": "TT89-03-9-TNDN",
+    "title": "Phụ lục bảng kê chứng từ nộp tiền thuế thu nhập doanh nghiệp tạm nộp của hoạt động chuyển nhượng bất động sản thu tiền theo tiến độ chưa bàn giao trong năm — 03-9/TNDN",
+    "mau_so": "03-9/TNDN"
+  },
+  {
+    "id": "TT89-03-BĐS-TNCN",
+    "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân có thu nhập từ chuyển nhượng bất động sản; thu nhập từ nhận thừa kế và nhận quà tặng là bất động sản) — 03/BĐS-TNCN",
+    "mau_so": "03/BĐS-TNCN"
+  },
+  {
+    "id": "TT89-03-GTGT",
+    "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với hoạt động mua bán, chế tác vàng bạc, đá quý tính thuế theo phương pháp trực tiếp trên giá trị gia tăng) — 03/GTGT",
+    "mau_so": "03/GTGT"
+  },
+  {
+    "id": "TT89-03-NTNN",
+    "title": "Tờ khai thuế nhà thầu nước ngoài — 03/NTNN",
+    "mau_so": "03/NTNN"
+  },
+  {
+    "id": "TT89-03-TNDN",
+    "title": "Quyết toán thuế thu nhập doanh nghiệp — 03/TNDN",
+    "mau_so": "03/TNDN"
+  },
+  {
+    "id": "TT89-04-1-CNV-TNCN",
+    "title": "Phụ lục bảng kê chi tiết cá nhân chuyển nhượng vốn (Kèm theo tờ khai 04/CNV-TNCN áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04-1/CNV-TNCN",
+    "mau_so": "04-1/CNV-TNCN"
+  },
+  {
+    "id": "TT89-04-1-ĐTV-TNCN",
+    "title": "Phụ lục bảng kê chi tiết (Kèm theo Tờ khai mẫu số 04/ĐTV-TNCN áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04-1/ĐTV-TNCN",
+    "mau_so": "04-1/ĐTV-TNCN"
+  },
+  {
+    "id": "TT89-04-CNV-TNCN",
+    "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân có thu nhập từ chuyển nhượng vốn góp, cá nhân chuyển nhượng chứng khoán khai trực tiếp với cơ quan thuế và tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04/CNV-TNCN",
+    "mau_so": "04/CNV-TNCN"
+  },
+  {
+    "id": "TT89-04-GTGT",
+    "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với người nộp thuế tính thuế theo phương pháp trực tiếp trên doanh thu) — 04/GTGT",
+    "mau_so": "04/GTGT"
+  },
+  {
+    "id": "TT89-04-NNG-TNCN",
+    "title": "Tờ khai thuế (Áp dụng đối với cá nhân trực tiếp khai thuế đối với thu nhập từ: kinh doanh của cá nhân không cư trú, đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng, chuyển nhượng tên miền quốc gia Việt Nam “.vn”, chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, chuyển nhượng tài sản số) — 04/NNG-TNCN",
+    "mau_so": "04/NNG-TNCN"
+  },
+  {
+    "id": "TT89-04-NTNN",
+    "title": "Tờ khai quyết toán thuế nhà thầu nước ngoài — 04/NTNN",
+    "mau_so": "04/NTNN"
+  },
+  {
+    "id": "TT89-04-TKQT-TNCN",
+    "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân nhận thừa kế, quà tặng không phải là bất động sản; Tổ chức, cá nhân nhận chuyển nhượng biển số xe trúng đấu giá; Cá nhân chuyển nhượng biển số xe trực tiếp khai thuế với cơ quan thuế) — 04/TKQT-TNCN",
+    "mau_so": "04/TKQT-TNCN"
+  },
+  {
+    "id": "TT89-04-TNDN",
+    "title": "Tờ khai thuế TNDN (Áp dụng đối với phương pháp tỷ lệ trên doanh thu) — 04/TNDN",
+    "mau_so": "04/TNDN"
+  },
+  {
+    "id": "TT89-04-ĐTV-TNCN",
+    "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân nhận cổ tức bằng cổ phiếu, lợi tức ghi tăng vốn, cổ phiếu phát hành từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu khi chuyển nhượng và tổ chức khai thuế thay, nộp thuế thay cho cá nhân) — 04/ĐTV-TNCN",
+    "mau_so": "04/ĐTV-TNCN"
+  },
+  {
+    "id": "TT89-05-1-BK-QTT-TNCN",
+    "title": "Phụ lục bảng kê chi tiết cá nhân thuộc diện tính thuế theo biểu lũy tiến từng phần — 05-1/BK-QTT-TNCN",
+    "mau_so": "05-1/BK-QTT-TNCN"
+  },
+  {
+    "id": "TT89-05-1-PBT-KK-TNCN",
+    "title": "Phụ lục Bảng xác định số thuế thu nhập cá nhân phải nộp đối với thu nhập từ tiền lương, tiền công và trúng thưởng (trường hợp khai tập trung số thuế đã khấu trừ) — 05-1/PBT-KK-TNCN",
+    "mau_so": "05-1/PBT-KK-TNCN"
+  },
+  {
+    "id": "TT89-05-2-BK-QTT-TNCN",
+    "title": "Phụ lục bảng kê chi tiết cá nhân thuộc diện tính thuế theo thuế suất toàn phần — 05-2/BK-QTT-TNCN",
+    "mau_so": "05-2/BK-QTT-TNCN"
+  },
+  {
+    "id": "TT89-05-3-BK-QTT-TNCN",
+    "title": "Phụ lục bảng kê chi tiết người phụ thuộc giảm trừ gia cảnh — 05-3/BK-QTT-TNCN",
+    "mau_so": "05-3/BK-QTT-TNCN"
+  },
+  {
+    "id": "TT89-05-GTGT",
+    "title": "Tờ khai thuế giá trị gia tăng (Áp dụng đối với khai thuế đối với hoạt động xây dựng, hoạt động chuyển nhượng bất động sản ngoại tỉnh theo từng lần phát sinh hoặc theo tháng/quý theo kỳ tính thuế của người nộp thuế đang áp dụng). — 05/GTGT",
+    "mau_so": "05/GTGT"
+  },
+  {
+    "id": "TT89-05-KK-TNCN",
+    "title": "Khai thuế TNCN của đơn vị trả lương — 05/KK-TNCN",
+    "mau_so": "05/KK-TNCN"
+  },
+  {
+    "id": "TT89-05-QTT-TNCN",
+    "title": "Tờ khai quyết toán thuế TNCN (Áp dụng đối với tổ chức, cá nhân trả thu nhập chịu thuế từ tiền lương, tiền công) — 05/QTT-TNCN",
+    "mau_so": "05/QTT-TNCN"
+  },
+  {
+    "id": "TT89-05-TNDN",
+    "title": "Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với hoạt động chuyển nhượng vốn của doanh nghiệp nước ngoài) — 05/TNDN",
+    "mau_so": "05/TNDN"
+  },
+  {
+    "id": "TT89-06-1-BK-TNCN",
+    "title": "Phụ lục bảng kê chi tiết cá nhân có thu nhập trong năm tính thuế (Kèm theo Tờ khai mẫu số 06/TNCN kê khai vào hồ sơ khai thuế của tháng/quý cuối cùng trong năm tính thuế hoặc tháng/quý phát sinh việc chia, tách, hợp nhất, sáp nhập, giải thể, phá sản, chấm dứt hoạt động). — 06-1/BK-TNCN",
+    "mau_so": "06-1/BK-TNCN"
+  },
+  {
+    "id": "TT89-06-2-BK-TNCN",
+    "title": "Phụ lục bảng kê chi tiết cá nhân có thu nhập từ cổ phiếu thưởng, cổ phiếu ESOP trong năm tính thuế (Kèm theo Tờ khai mẫu số 06/TNCN kê khai vào hồ sơ khai thuế của tháng/quý cuối cùng trong năm tính thuế hoặc tháng/quý phát sinh việc chia, tách, hợp nhất, sáp nhập, giải thể, phá sản, chấm dứt hoạt động). — 06-2/BK-TNCN",
+    "mau_so": "06-2/BK-TNCN"
+  },
+  {
+    "id": "TT89-06-TNCN",
+    "title": "Tờ khai thuế (Áp dụng đối với tổ chức, cá nhân trả thu nhập khấu trừ thuế đối với thu nhập của cá nhân cư trú và cá nhân không cư trú bao gồm: từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ nhận cổ phiếu thưởng của người lao động và cổ phiếu ESOP, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng, từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”, từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, từ chuyển nhượng tài sản số; thu nhập từ kinh doanh của cá nhân không cư trú; tổ chức, cá nhân nhận chuyển nhượng vốn của cá nhân không cư trú) — 06/TNCN",
+    "mau_so": "06/TNCN"
+  },
+  {
+    "id": "TT89-06-TNDN",
+    "title": "Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với hoạt động bán toàn bộ doanh nghiệp dưới hình thức chuyển nhượng vốn có gắn với bất động sản) — 06/TNDN",
+    "mau_so": "06/TNDN"
+  },
+  {
+    "id": "TT89-07-TNDN",
+    "title": "Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với hoạt động chia lợi tức cho tổ chức đầu tư của Quỹ đầu tư chứng khoán) — 07/TNDN",
+    "mau_so": "07/TNDN"
+  }
+]

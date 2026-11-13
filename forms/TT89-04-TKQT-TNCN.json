@@ -1,0 +1,290 @@
+{
+  "id": "TT89-04-TKQT-TNCN",
+  "mau_so": "04/TKQT-TNCN",
+  "title": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân nhận thừa kế, quà tặng không phải là bất động sản; Tổ chức, cá nhân nhận chuyển nhượng biển số xe trúng đấu giá; Cá nhân chuyển nhượng biển số xe trực tiếp khai thuế với cơ quan thuế) — 04/TKQT-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Lần phát sinh ngày tháng năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: ☐ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp bổ sung lần thứ?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên tổ chức, cá nhân",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Tên người hoặc tổ chức thuộc phần người nộp thuế là gì?"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp mã số thuế?"
+    },
+    {
+      "code": "06",
+      "label": "Số định danh cá nhân/Hộ chiếu",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp số định danh cá nhân/Hộ chiếu?"
+    },
+    {
+      "code": "07",
+      "label": "Ngày, tháng, năm sinh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp ngày, tháng, năm sinh?"
+    },
+    {
+      "code": "08",
+      "label": "Quốc tịch",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp quốc tịch?"
+    },
+    {
+      "code": "09",
+      "label": "Điện thoại",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp điện thoại?"
+    },
+    {
+      "code": "10",
+      "label": "Email",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp email?"
+    },
+    {
+      "code": "11",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "12",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp mã số thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "13",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số ngày?"
+    },
+    {
+      "code": "14",
+      "label": "Làm tại: ngày tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Văn bản giao nhận thừa kế hoặc quà tặng được lập ở đâu, ngày nào?"
+    },
+    {
+      "code": "15",
+      "label": "Họ và tên",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Họ tên người cho thừa kế/quà tặng hoặc bên chuyển nhượng biển số là gì?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "16",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Mã số thuế của người đó là gì?",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "17",
+      "label": "Số định danh cá nhân/Hộ chiếu",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Số giấy tờ định danh của người đó là gì?"
+    },
+    {
+      "code": "18",
+      "label": "Quốc tịch",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Quốc tịch người đó là gì?"
+    },
+    {
+      "code": "19",
+      "label": "Điện thoại",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Số điện thoại người đó là gì?"
+    },
+    {
+      "code": "20",
+      "label": "Email",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Email người đó là gì?"
+    },
+    {
+      "code": "25",
+      "label": "GIẤY CHỨNG NHẬN QUYỀN SỬ DỤNG HOẶC SỞ HỮU TÀI SẢN SỐ: Do cơ quan",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Số giấy chứng nhận quyền sở hữu/sử dụng tài sản và cơ quan cấp là gì?"
+    },
+    {
+      "code": "26",
+      "label": "Tên tổ chức",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Tên tổ chức phát hành chứng khoán hoặc doanh nghiệp có phần vốn là gì?"
+    },
+    {
+      "code": "27",
+      "label": "Mã số thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Mã số thuế của tổ chức phát hành hoặc doanh nghiệp đó là gì?"
+    },
+    {
+      "code": "28",
+      "label": "Địa chỉ",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp địa chỉ?"
+    },
+    {
+      "code": "29",
+      "label": "Xã/Phường/Đặc khu",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu?"
+    },
+    {
+      "code": "30",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp tỉnh/Thành phố?"
+    },
+    {
+      "code": "31",
+      "label": "Điện thoại",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp điện thoại?"
+    },
+    {
+      "code": "32",
+      "label": "Email",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn ghi giúp email?"
+    },
+    {
+      "code": "33",
+      "label": "Số tiền: đồng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Giá trị thu nhập từ thừa kế/quà tặng hoặc giá chuyển nhượng xe kèm biển số là bao nhiêu đồng?"
+    },
+    {
+      "code": "34",
+      "label": "Số tiền: đồng",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Phần thu nhập được miễn giảm theo hiệp định là bao nhiêu đồng?"
+    },
+    {
+      "code": "21",
+      "label": "Chứng khoán",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Tài sản bạn kê có chứng khoán không?"
+    },
+    {
+      "code": "22",
+      "label": "Vốn góp",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Tài sản bạn kê có phần vốn góp không?"
+    },
+    {
+      "code": "23",
+      "label": "Tài sản phải đăng ký sở hữu hoặc sử dụng",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Tài sản bạn kê có loại phải đăng ký quyền sở hữu hoặc sử dụng không?"
+    },
+    {
+      "code": "24",
+      "label": "Biển số xe trúng đấu giá",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng, văn bản giao nhận thừa kế/quà tặng, giấy tờ tài sản, hợp đồng biển số xe nếu có, hồ sơ tổ chức phát hành và miễn giảm theo hiệp định.",
+      "hoi": "Bạn có kê chuyển nhượng biển số xe trúng đấu giá không?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

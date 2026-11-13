@@ -1,0 +1,246 @@
+{
+  "id": "TT89-05-1-PBT-KK-TNCN",
+  "mau_so": "05-1/PBT-KK-TNCN",
+  "title": "Phụ lục Bảng xác định số thuế thu nhập cá nhân phải nộp đối với thu nhập từ tiền lương, tiền công và trúng thưởng (trường hợp khai tập trung số thuế đã khấu trừ) — 05-1/PBT-KK-TNCN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Tháng Năm /Quý năm",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: ☐",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "15",
+      "label": "Tổng cộng — Thu nhập chịu thuế trả cho cá nhân",
+      "kind": "so",
+      "cot": "Thu nhập chịu thuế trả cho cá nhân",
+      "note": "= tổng cột [10] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [10] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Tổng thu nhập chịu thuế trả cho người nhận lương ở các đơn vị cần phân bổ là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Tổng cộng — Thu nhập chịu thuế thuộc diện khấu trừ",
+      "kind": "so",
+      "cot": "Thu nhập chịu thuế thuộc diện khấu trừ",
+      "note": "= tổng cột [11] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [11] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Trong đó, thu nhập thuộc diện khấu trừ là bao nhiêu?"
+    },
+    {
+      "code": "17",
+      "label": "Tổng cộng — Số lượng cá nhân nhận thu nhập",
+      "kind": "so",
+      "cot": "Số lượng cá nhân nhận thu nhập",
+      "note": "= tổng cột [12] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [12] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Có tổng cộng bao nhiêu cá nhân nhận lương trong bảng phân bổ?"
+    },
+    {
+      "code": "18",
+      "label": "Tổng cộng — Số lượng cá nhân phát sinh khấu trừ thuế",
+      "kind": "so",
+      "cot": "Số lượng cá nhân phát sinh khấu trừ thuế",
+      "note": "= tổng cột [13] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [13] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Có bao nhiêu cá nhân đã bị khấu trừ thuế trong bảng phân bổ?"
+    },
+    {
+      "code": "19",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [14] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [14] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Tổng thuế TNCN đã khấu trừ đối với tiền lương cần phân bổ là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Tổng cộng — Thu nhập tính thuế cho cá nhân",
+      "kind": "so",
+      "cot": "Thu nhập tính thuế cho cá nhân",
+      "note": "= tổng cột [23] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [23] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Tổng thu nhập dùng tính thuế của người trúng thưởng xổ số điện toán là bao nhiêu?"
+    },
+    {
+      "code": "26",
+      "label": "Tổng cộng — Số thuế TNCN đã khấu trừ",
+      "kind": "so",
+      "cot": "Số thuế TNCN đã khấu trừ",
+      "note": "= tổng cột [24] của bảng kê; người dùng nhập tổng.",
+      "section": "Bảng chi tiết",
+      "giai_thich": "= tổng cột [24] của bảng kê; người dùng nhập tổng.",
+      "lay_o_dau": "Bảng lương và thuế đã khấu trừ theo đơn vị phụ thuộc; bảng trả thưởng xổ số điện toán theo tỉnh nếu có.",
+      "hoi": "Tổng thuế đã khấu trừ từ tiền trúng thưởng cần phân bổ là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [
+    {
+      "id": "BK1",
+      "ten": "Phân bổ tiền lương, tiền công",
+      "cot": [
+        {
+          "ma": "06",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "07",
+          "ten": "Đơn vị",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08",
+          "ten": "MST/Mã địa điểm",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08a",
+          "ten": "Xã/Phường/Đặc khu",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "08b",
+          "ten": "Tỉnh",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "09",
+          "ten": "Cơ quan thuế nhận phân bổ",
+          "c": 5,
+          "kieu": "chu"
+        },
+        {
+          "ma": "10",
+          "ten": "TNCT trả cho cá nhân",
+          "c": 6,
+          "kieu": "so"
+        },
+        {
+          "ma": "11",
+          "ten": "TNCT thuộc diện khấu trừ",
+          "c": 7,
+          "kieu": "so"
+        },
+        {
+          "ma": "12",
+          "ten": "Số cá nhân nhận thu nhập",
+          "c": 8,
+          "kieu": "so"
+        },
+        {
+          "ma": "13",
+          "ten": "Số cá nhân phát sinh khấu trừ",
+          "c": 9,
+          "kieu": "so"
+        },
+        {
+          "ma": "14",
+          "ten": "Thuế đã khấu trừ",
+          "c": 10,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    },
+    {
+      "id": "BK2",
+      "ten": "Phân bổ tiền trúng thưởng xổ số điện toán",
+      "cot": [
+        {
+          "ma": "20",
+          "ten": "STT",
+          "c": 0,
+          "kieu": "chu"
+        },
+        {
+          "ma": "21",
+          "ten": "Chỉ tiêu / tên đơn vị",
+          "c": 1,
+          "kieu": "chu"
+        },
+        {
+          "ma": "21a",
+          "ten": "Xã/Phường/Đặc khu",
+          "c": 2,
+          "kieu": "chu"
+        },
+        {
+          "ma": "21b",
+          "ten": "Tỉnh",
+          "c": 3,
+          "kieu": "chu"
+        },
+        {
+          "ma": "22",
+          "ten": "Cơ quan thuế nhận phân bổ",
+          "c": 4,
+          "kieu": "chu"
+        },
+        {
+          "ma": "23",
+          "ten": "Thu nhập tính thuế",
+          "c": 5,
+          "kieu": "so"
+        },
+        {
+          "ma": "24",
+          "ten": "Thuế đã khấu trừ",
+          "c": 6,
+          "kieu": "so"
+        }
+      ],
+      "tong": []
+    }
+  ],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

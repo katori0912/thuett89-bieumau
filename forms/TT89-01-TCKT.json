@@ -1,0 +1,195 @@
+{
+  "id": "TT89-01-TCKT",
+  "mau_so": "01/TCKT",
+  "title": "Tờ khai thuế của tổ chức khai thay (Áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cá nhân hợp tác kinh doanh với tổ chức; tổ chức khai thuế thay, nộp thuế thay cho cá nhân cho thuê bất động sản) — 01/TCKT",
+  "fields": [
+    {
+      "code": "04",
+      "label": "Tổ chức khai thuế thay, nộp thuế thay theo pháp luật quản lý thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Tên tổ chức đứng ra khai và nộp thuế thay là gì?"
+    },
+    {
+      "code": "04.1",
+      "label": "Mã số thuế — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Mã số thuế của tổ chức khai thay là gì?",
+      "role": "mst_kt"
+    },
+    {
+      "code": "04.2",
+      "label": "Điện thoại — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn ghi giúp điện thoại — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "04.3",
+      "label": "Email — tổ chức/cá nhân khai thay",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn ghi giúp email — tổ chức/cá nhân khai thay?"
+    },
+    {
+      "code": "05",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "05.1",
+      "label": "Mã số thuế — đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn ghi giúp mã số thuế — đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "05.2",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Ngày phát sinh lần khai này là ngày nào (dd/mm/yyyy)?",
+      "role": "ky"
+    },
+    {
+      "code": "01a",
+      "label": "Tháng năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn khai cho tháng và năm nào?"
+    },
+    {
+      "code": "01b",
+      "label": "Quý năm",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn khai cho quý và năm nào?"
+    },
+    {
+      "code": "01c",
+      "label": "Lần phát sinh",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Ngày phát sinh lần khai này là ngày nào (dd/mm/yyyy)?",
+      "role": "ky_lps"
+    },
+    {
+      "code": "02",
+      "label": "Lần đầu: □",
+      "kind": "danh_dau",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: □ không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ: □",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "06",
+      "label": "Khai thuế thay cá nhân hợp tác kinh doanh — Số tiền",
+      "kind": "tieu_de",
+      "cot": "Số tiền",
+      "section": "Khai thuế thay cá nhân hợp tác kinh doanh — Số tiền"
+    },
+    {
+      "code": "07",
+      "label": "Tổng doanh thu phát sinh trong kỳ — Số tiền — Khai thuế thay cá nhân hợp tác kinh doanh",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Hợp tác kinh doanh",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Tổng doanh thu phát sinh của các cá nhân hợp tác kinh doanh là bao nhiêu?"
+    },
+    {
+      "code": "08",
+      "label": "Tổng doanh thu tính thuế TNCN trong kỳ — Số tiền — Khai thuế thay cá nhân hợp tác kinh doanh",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Hợp tác kinh doanh",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Trong đó, tổng doanh thu dùng tính thuế TNCN là bao nhiêu?"
+    },
+    {
+      "code": "09",
+      "label": "Tổng số thuế TNCN phải nộp — Số tiền — Khai thuế thay cá nhân hợp tác kinh doanh",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Hợp tác kinh doanh",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Tổng thuế TNCN phải nộp thay cho các cá nhân hợp tác là bao nhiêu?"
+    },
+    {
+      "code": "10",
+      "label": "Khai thuế thay cá nhân cho thuê bất động sản — Số tiền",
+      "kind": "tieu_de",
+      "cot": "Số tiền",
+      "section": "Khai thuế thay cá nhân cho thuê bất động sản — Số tiền"
+    },
+    {
+      "code": "11",
+      "label": "Tổng doanh thu phát sinh trong kỳ — Số tiền — Khai thuế thay cá nhân cho thuê bất động sản",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Tổng doanh thu cho thuê bất động sản được khai thay trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "label": "Tổng số thuế GTGT phải nộp — Số tiền — Khai thuế thay cá nhân cho thuê bất động sản",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Thuế GTGT phải nộp thay cho phần cho thuê bất động sản là bao nhiêu?"
+    },
+    {
+      "code": "13",
+      "label": "Tổng số thuế TNCN phải nộp — Số tiền — Khai thuế thay cá nhân cho thuê bất động sản",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Hợp đồng hợp tác kinh doanh hoặc thuê bất động sản, bảng thanh toán doanh thu và hồ sơ tính thuế của từng cá nhân.",
+      "hoi": "Thuế TNCN phải nộp thay cho phần cho thuê bất động sản là bao nhiêu?"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [
+    {
+      "id": "TT89-01-BK-KTHTKD",
+      "label": "Bạn có danh sách cá nhân hợp tác kinh doanh cần kê chi tiết không?"
+    }
+  ],
+  "phu_luc_kem": []
+}

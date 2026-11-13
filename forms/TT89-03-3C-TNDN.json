@@ -1,0 +1,232 @@
+{
+  "id": "TT89-03-3C-TNDN",
+  "mau_so": "03-3C/TNDN",
+  "title": "Phụ lục thuế thu nhập doanh nghiệp được ưu đãi (Áp dụng đối với doanh nghiệp sử dụng lao động là người dân tộc thiểu số hoặc doanh nghiệp hoạt động sản xuất, xây dựng, vận tải sử dụng nhiều lao động nữ) — 03-3C/TNDN",
+  "fields": [
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế: Từ / / đến / /",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ky"
+    },
+    {
+      "code": "02",
+      "label": "Khai lần đầu (đánh dấu)",
+      "kind": "danh_dau",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_nnt"
+    },
+    {
+      "code": "06",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "ten_dl"
+    },
+    {
+      "code": "07",
+      "label": "Mã số thuế tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "role": "mst_dl"
+    },
+    {
+      "code": "08",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số ngày",
+      "kind": "chu",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "09",
+      "label": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính",
+      "kind": "tieu_de",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "09a",
+      "label": "Xã/phường/đặc khu",
+      "kind": "chu",
+      "note": "5. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "5. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Đơn vị được ưu đãi ở xã, phường hoặc đặc khu nào?"
+    },
+    {
+      "code": "09b",
+      "label": "Tỉnh/Thành phố",
+      "kind": "chu",
+      "note": "5. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "5. Chỉ tiêu [09a], [09b]: Khai thông tin của đơn vị phụ thuộc, địa điểm kinh doanh khác tỉnh có thu nhập được hưởng ưu đãi. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh đóng trên nhiều địa bàn cấp xã/phường/đặc khu do Thuế tỉnh quản lý thì chọn 1 đơn vị đại diện để kê khai vào chỉ tiêu này. Trường hợp có nhiều đơn vị phụ thuộc, địa điểm kinh doanh do Thuế cơ sở quản lý thì chọn 1 đơn vị đại diện cho địa bàn cấp xã/phường/đặc khu do Thuế cơ sở quản lý để kê khai vào chỉ tiêu này.",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Đơn vị đó thuộc tỉnh hoặc thành phố nào?"
+    },
+    {
+      "code": "10",
+      "label": "Doanh thu tính thuế thu nhập doanh nghiệp",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Doanh thu dùng tính thuế cho hoạt động này là bao nhiêu?"
+    },
+    {
+      "code": "11",
+      "label": "Chi phí tính thuế thu nhập doanh nghiệp",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Chi phí được trừ của hoạt động này là bao nhiêu?"
+    },
+    {
+      "code": "12",
+      "label": "Thu nhập miễn thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Hoạt động này có bao nhiêu thu nhập được miễn thuế?"
+    },
+    {
+      "code": "13",
+      "label": "Chuyển lỗ và bù trừ lãi, lỗ",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Số lỗ được chuyển hoặc bù vào lãi của hoạt động này là bao nhiêu?"
+    },
+    {
+      "code": "14",
+      "label": "Thu nhập tính thuế",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Sau các khoản được trừ, thu nhập dùng tính thuế của hoạt động này là bao nhiêu?"
+    },
+    {
+      "code": "15",
+      "label": "Thuế thu nhập doanh nghiệp phải nộp",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Tiền thuế của hoạt động này trước khi giảm cho lao động là bao nhiêu?"
+    },
+    {
+      "code": "16",
+      "label": "Xác định số thuế thu nhập doanh nghiệp được giảm trong kỳ tính thuế ([16] = [18] + [20]) (Không quá số thuế thu nhập doanh nghiệp phải nộp)",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "MIN([18]+[20],[15])",
+      "note": "t0/r8/c1 đầy đủ: tổng giảm [18]+[20] không quá thuế TNDN phải nộp [15].",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "17",
+      "label": "Tổng các khoản chi cho lao động nữ",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Tổng các khoản chi cho lao động nữ được kê vào hồ sơ ưu đãi là bao nhiêu?"
+    },
+    {
+      "code": "18",
+      "label": "Thuế TNDN được giảm tương ứng mức chi cho lao động nữ",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Theo hồ sơ đã xác định, tiền thuế được giảm tương ứng khoản chi cho lao động nữ là bao nhiêu?"
+    },
+    {
+      "code": "19",
+      "label": "Tổng các khoản chi cho lao động là người dân tộc thiểu số",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Tổng các khoản chi cho lao động dân tộc thiểu số được kê vào hồ sơ ưu đãi là bao nhiêu?"
+    },
+    {
+      "code": "20",
+      "label": "Thuế TNDN được giảm tương ứng mức chi cho lao động là người dân tộc thiểu số",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Theo hồ sơ đã xác định, tiền thuế được giảm cho khoản chi lao động dân tộc thiểu số là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "label": "Thuế TNDN phải nộp của hoạt động được hưởng ưu đãi thuế TNDN ([21]=[15]-[16])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[15]-[16]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "22",
+      "label": "Thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Thuế TNDN nộp thừa kỳ trước chuyển sang kỳ này là bao nhiêu?"
+    },
+    {
+      "code": "23",
+      "label": "Thuế TNDN đã tạm nộp trong năm",
+      "cot": "",
+      "kind": "so",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng xác định ưu đãi thuế, sổ chi cho lao động nữ và lao động dân tộc thiểu số; chứng từ nộp thuế.",
+      "hoi": "Thuế TNDN đã tạm nộp trong năm là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Chênh lệch giữa số thuế phải nộp và số thuế đã tạm nộp trong năm ([24]=[21]-[23])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[21]-[23]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    },
+    {
+      "code": "25",
+      "label": "Thuế TNDN còn phải nộp ([25]=[21]-[22]-[23])",
+      "cot": "",
+      "kind": "cong_thuc",
+      "formula": "[21]-[22]-[23]",
+      "section": "Địa phương nơi có đơn vị phụ thuộc/địa điểm kinh doanh có thu nhập được hưởng ưu đãi khác tỉnh nơi đóng trụ sở chính"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}

@@ -1,0 +1,410 @@
+{
+  "id": "TT89-02-KK-TNCN",
+  "mau_so": "02/KK-TNCN",
+  "title": "Tờ khai thuế TNCN (Áp dụng đối với cá nhân cư trú và cá nhân không cư trú có thu nhập từ tiền lương, tiền công khai thuế trực tiếp với cơ quan thuế) — 02/KK-TNCN",
+  "fields": [
+    {
+      "code": "02",
+      "label": "Lần đầu: 🗆",
+      "kind": "danh_dau",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn có thuộc trường hợp lần đầu: 🗆 không?",
+      "role": "lan_dau"
+    },
+    {
+      "code": "03",
+      "label": "Bổ sung lần thứ",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Đây là lần khai bổ sung thứ mấy?",
+      "role": "lan"
+    },
+    {
+      "code": "04",
+      "label": "Tên người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tên người nộp thuế?",
+      "role": "ten_nnt"
+    },
+    {
+      "code": "05",
+      "label": "Mã số thuế/Số định danh cá nhân",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế/Số định danh cá nhân?"
+    },
+    {
+      "code": "06",
+      "label": "Ngày tháng năm sinh",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp ngày tháng năm sinh?"
+    },
+    {
+      "code": "07",
+      "label": "Địa chỉ — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp địa chỉ — người nộp thuế?"
+    },
+    {
+      "code": "08",
+      "label": "Xã/Phường/Đặc khu — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — người nộp thuế?"
+    },
+    {
+      "code": "09",
+      "label": "Tỉnh/thành phố — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tỉnh/thành phố — người nộp thuế?"
+    },
+    {
+      "code": "10",
+      "label": "Điện thoại — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp điện thoại — người nộp thuế?"
+    },
+    {
+      "code": "11",
+      "label": "Email — người nộp thuế",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp email — người nộp thuế?"
+    },
+    {
+      "code": "12",
+      "label": "Tên tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tên đơn vị trả khoản lương, tiền công này là gì?"
+    },
+    {
+      "code": "13",
+      "label": "Mã số thuế tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế tổ chức trả thu nhập?"
+    },
+    {
+      "code": "14",
+      "label": "Địa chỉ — tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp địa chỉ — tổ chức trả thu nhập?"
+    },
+    {
+      "code": "15",
+      "label": "Xã/Phường/Đặc khu — tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp xã/Phường/Đặc khu — tổ chức trả thu nhập?"
+    },
+    {
+      "code": "16",
+      "label": "Tỉnh/thành phố — tổ chức trả thu nhập",
+      "kind": "chu",
+      "section": "Thông tin chung",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tỉnh/thành phố — tổ chức trả thu nhập?"
+    },
+    {
+      "code": "17",
+      "label": "Tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp tên tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế (nếu có)?",
+      "role": "ten_dl"
+    },
+    {
+      "code": "18",
+      "label": "Mã số thuế đơn vị cung cấp dịch vụ thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp mã số thuế đơn vị cung cấp dịch vụ thuế?",
+      "role": "mst_dl"
+    },
+    {
+      "code": "19",
+      "label": "Hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn ghi giúp hợp đồng dịch vụ làm thủ tục về thuế: Số: ngày?"
+    },
+    {
+      "code": "01",
+      "label": "Kỳ tính thuế",
+      "kind": "chu",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Bạn khai cho kỳ nào?",
+      "role": "ky"
+    },
+    {
+      "code": "20",
+      "label": "Tổng thu nhập chịu thuế phát sinh trong kỳ — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Tình trạng cư trú",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tổng thu nhập chịu thuế phát sinh trong kỳ của bạn là bao nhiêu?"
+    },
+    {
+      "code": "21",
+      "label": "Trong đó, thu nhập chịu thuế được miễn giảm theo Hiệp định — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Trong số đó, phần được miễn giảm theo hiệp định là bao nhiêu?"
+    },
+    {
+      "code": "22",
+      "label": "Thu nhập được miễn thuế [22]= [23] + [24] — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "cong_thuc",
+      "formula": "[23]+[24]",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "23",
+      "label": "Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Thu nhập được miễn từ nhiệm vụ khoa học công nghệ là bao nhiêu?"
+    },
+    {
+      "code": "24",
+      "label": "Thu nhập của chuyên gia hỗ trợ khởi nghiệp sáng tạo theo quy định — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Thu nhập được miễn từ công việc chuyên gia hỗ trợ khởi nghiệp là bao nhiêu?"
+    },
+    {
+      "code": "25",
+      "label": "Tổng các khoản giảm trừ ([25]=[26]+[27]+[28]+[29]+[30]) — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "cong_thuc",
+      "formula": "[26]+[27]+[28]+[29]+[30]",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "26",
+      "label": "Khoản giảm trừ — Cho bản thân — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tiền giảm trừ cho bản thân trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "27",
+      "label": "Khoản giảm trừ — Cho người phụ thuộc — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tiền giảm trừ cho người phụ thuộc trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "28",
+      "label": "Khoản giảm trừ — Cho từ thiện, nhân đạo, khuyến học — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tiền đóng góp từ thiện, nhân đạo, khuyến học được trừ là bao nhiêu?"
+    },
+    {
+      "code": "29",
+      "label": "Khoản giảm trừ — Các khoản đóng góp bảo hiểm — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tiền bảo hiểm được trừ trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "30",
+      "label": "Khoản giảm trừ — Các khoản đóng góp bảo hiểm hưu trí bổ sung, bảo hiểm hưu trí tự nguyện, bảo hiểm nhân thọ được trừ — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tiền đóng bảo hiểm hưu trí bổ sung, tự nguyện hoặc nhân thọ được trừ là bao nhiêu?"
+    },
+    {
+      "code": "31",
+      "label": "Tổng thu nhập tính thuế — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Sau các khoản miễn và giảm trừ, thu nhập dùng tính thuế là bao nhiêu?"
+    },
+    {
+      "code": "32",
+      "label": "Tổng số thuế thu nhập cá nhân phát sinh trong kỳ — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Theo bảng tính thuế của kỳ, tổng tiền thuế trước miễn là bao nhiêu?"
+    },
+    {
+      "code": "33",
+      "label": "Số thuế được miễn trong kỳ — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tổng tiền thuế được miễn của kỳ là bao nhiêu?"
+    },
+    {
+      "code": "34",
+      "label": "Thu nhập của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao; công nghệ cao — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Trong thu nhập của bạn, phần thuộc nhân lực công nghệ được miễn là bao nhiêu?"
+    },
+    {
+      "code": "35",
+      "label": "Số thuế được miễn đối với nhân lực công nghiệp công nghệ số chất lượng cao; công nghệ cao — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "note": "3. Chỉ tiêu [35], [45]: Số thuế được miễn đối với nhân lực công nghiệp, công nghệ số chất lượng cao; công nghệ cao trong thời hạn 05 năm được xác định theo quy định tại Điều 41, Điều 42 Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ.",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "3. Chỉ tiêu [35], [45]: Số thuế được miễn đối với nhân lực công nghiệp, công nghệ số chất lượng cao; công nghệ cao trong thời hạn 05 năm được xác định theo quy định tại Điều 41, Điều 42 Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ.",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Số tiền thuế được miễn tương ứng phần nhân lực công nghệ đó là bao nhiêu?"
+    },
+    {
+      "code": "36",
+      "label": "Số thuế thu nhập cá nhân phải nộp [36] = [32] – [33] — Số tiền — Cá nhân cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "cong_thuc",
+      "formula": "MAX([32]-[33],0)",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "37",
+      "label": "Tổng thu nhập tính thuế — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Thu nhập dùng tính thuế của bạn trong kỳ, với tư cách không cư trú, là bao nhiêu?"
+    },
+    {
+      "code": "38",
+      "label": "Thu nhập được miễn thuế [38] = [39]+[40] — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "cong_thuc",
+      "formula": "[39]+[40]",
+      "cot": "Số tiền",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "39",
+      "label": "Từ thực hiện nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo. — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Thu nhập được miễn từ nhiệm vụ khoa học công nghệ là bao nhiêu?"
+    },
+    {
+      "code": "40",
+      "label": "Thu nhập của chuyên gia hỗ trợ khởi nghiệp sáng tạo theo quy định — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Thu nhập được miễn của chuyên gia hỗ trợ khởi nghiệp là bao nhiêu?"
+    },
+    {
+      "code": "41",
+      "label": "Mức thuế suất — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công: (nhập 20 cho 20%)",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Thuế suất áp dụng cho tiền lương của bạn là bao nhiêu phần trăm?"
+    },
+    {
+      "code": "42",
+      "label": "Tổng số thuế thu nhập cá nhân phải nộp [42]= [37] x[41] — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "ROUND([37]*[41]/100,0)",
+      "section": "Thông tin chung"
+    },
+    {
+      "code": "43",
+      "label": "Số thuế được miễn trong kỳ — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tổng tiền thuế được miễn trong kỳ là bao nhiêu?"
+    },
+    {
+      "code": "44",
+      "label": "Thu nhập của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao; công nghệ cao — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Trong thu nhập của bạn, phần thuộc nhân lực công nghệ được miễn là bao nhiêu?"
+    },
+    {
+      "code": "45",
+      "label": "Số thuế được miễn đối với nhân lực công nghiệp công nghệ số chất lượng cao; công nghệ cao — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "so",
+      "note": "3. Chỉ tiêu [35], [45]: Số thuế được miễn đối với nhân lực công nghiệp, công nghệ số chất lượng cao; công nghệ cao trong thời hạn 05 năm được xác định theo quy định tại Điều 41, Điều 42 Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ.",
+      "cot": "Số tiền",
+      "section": "Số liệu chi tiết",
+      "giai_thich": "3. Chỉ tiêu [35], [45]: Số thuế được miễn đối với nhân lực công nghiệp, công nghệ số chất lượng cao; công nghệ cao trong thời hạn 05 năm được xác định theo quy định tại Điều 41, Điều 42 Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ.",
+      "lay_o_dau": "Bảng lương/chứng từ thu nhập, hồ sơ cư trú, chứng từ bảo hiểm và giảm trừ, bảng tính thuế của kỳ; hồ sơ miễn thuế nếu có.",
+      "hoi": "Tiền thuế được miễn cho phần thu nhập nhân lực công nghệ đó là bao nhiêu?"
+    },
+    {
+      "code": "46",
+      "label": "Số thuế thu nhập cá nhân phải nộp ([46]= [42]-[43]>0) — Số tiền — Cá nhân không cư trú có thu nhập từ tiền lương, tiền công:",
+      "kind": "cong_thuc",
+      "cot": "Số tiền",
+      "formula": "MAX([42]-[43],0)",
+      "section": "Thông tin chung"
+    }
+  ],
+  "bang_ke": [],
+  "constraints": [],
+  "phu_luc": [],
+  "phu_luc_kem": []
+}
